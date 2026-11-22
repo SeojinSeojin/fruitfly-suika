@@ -777,6 +777,1194 @@
       "actual_score": 0
     },
     {
+      "capture": "demo-aim-stop",
+      "drop": 1,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 2,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 3,
+      "predicted_score": 1,
+      "actual_score": 1
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 4,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 5,
+      "predicted_score": 3,
+      "actual_score": 3
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 6,
+      "predicted_score": 15,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 7,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 8,
+      "predicted_score": 36,
+      "actual_score": 36
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 9,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 10,
+      "predicted_score": 10,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 11,
+      "predicted_score": 15,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 12,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 13,
+      "predicted_score": 36,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 14,
+      "predicted_score": 27,
+      "actual_score": 55
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 15,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 16,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 17,
+      "predicted_score": 3,
+      "actual_score": 3
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 18,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 19,
+      "predicted_score": 25,
+      "actual_score": 25
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 20,
+      "predicted_score": 6,
+      "actual_score": 6
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 21,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 22,
+      "predicted_score": 3,
+      "actual_score": 19
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 23,
+      "predicted_score": 10,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 24,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 25,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 26,
+      "predicted_score": 3,
+      "actual_score": 3
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 27,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 28,
+      "predicted_score": 46,
+      "actual_score": 36
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 29,
+      "predicted_score": 10,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 30,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 31,
+      "predicted_score": 15,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 32,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 33,
+      "predicted_score": 26,
+      "actual_score": 26
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 34,
+      "predicted_score": 9,
+      "actual_score": 9
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 35,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 36,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 37,
+      "predicted_score": 74,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 38,
+      "predicted_score": 110,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 39,
+      "predicted_score": 125,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 40,
+      "predicted_score": 119,
+      "actual_score": 119
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 41,
+      "predicted_score": 10,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 42,
+      "predicted_score": 15,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 43,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 44,
+      "predicted_score": 1,
+      "actual_score": 1
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 45,
+      "predicted_score": 1,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 46,
+      "predicted_score": 26,
+      "actual_score": 16
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 47,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 48,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 49,
+      "predicted_score": 3,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 50,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 51,
+      "predicted_score": 6,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 52,
+      "predicted_score": 90,
+      "actual_score": 55
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 53,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 54,
+      "predicted_score": 10,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 55,
+      "predicted_score": 31,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 56,
+      "predicted_score": 15,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 57,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 58,
+      "predicted_score": 1,
+      "actual_score": 1
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 59,
+      "predicted_score": 10,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 60,
+      "predicted_score": 9,
+      "actual_score": 9
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 61,
+      "predicted_score": 56,
+      "actual_score": 36
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 62,
+      "predicted_score": 25,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 63,
+      "predicted_score": 31,
+      "actual_score": 6
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 64,
+      "predicted_score": 25,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 65,
+      "predicted_score": 28,
+      "actual_score": 28
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 66,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 67,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 68,
+      "predicted_score": 0,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 69,
+      "predicted_score": 49,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 70,
+      "predicted_score": 59,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 71,
+      "predicted_score": 16,
+      "actual_score": 16
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 72,
+      "predicted_score": 59,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 73,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 74,
+      "predicted_score": 80,
+      "actual_score": 16
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 75,
+      "predicted_score": 67,
+      "actual_score": 3
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 76,
+      "predicted_score": 64,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 77,
+      "predicted_score": 29,
+      "actual_score": 9
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 78,
+      "predicted_score": 74,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 79,
+      "predicted_score": 36,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 80,
+      "predicted_score": 16,
+      "actual_score": 64
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 81,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 82,
+      "predicted_score": 1,
+      "actual_score": 1
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 83,
+      "predicted_score": 8,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 84,
+      "predicted_score": 6,
+      "actual_score": 6
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 85,
+      "predicted_score": 3,
+      "actual_score": 3
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 86,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 87,
+      "predicted_score": 62,
+      "actual_score": 6
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 88,
+      "predicted_score": 5,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 89,
+      "predicted_score": 25,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 90,
+      "predicted_score": 50,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 91,
+      "predicted_score": 28,
+      "actual_score": 19
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 92,
+      "predicted_score": 61,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 93,
+      "predicted_score": 61,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 94,
+      "predicted_score": 101,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 95,
+      "predicted_score": 185,
+      "actual_score": 145
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 96,
+      "predicted_score": 55,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 97,
+      "predicted_score": 92,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 98,
+      "predicted_score": 92,
+      "actual_score": 16
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 99,
+      "predicted_score": 6,
+      "actual_score": 6
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 100,
+      "predicted_score": 40,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 101,
+      "predicted_score": 3,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 102,
+      "predicted_score": 3,
+      "actual_score": 4
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 103,
+      "predicted_score": 3,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 104,
+      "predicted_score": 50,
+      "actual_score": 49
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 105,
+      "predicted_score": 1,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 106,
+      "predicted_score": 11,
+      "actual_score": 46
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 107,
+      "predicted_score": 35,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 108,
+      "predicted_score": 45,
+      "actual_score": 29
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 109,
+      "predicted_score": 16,
+      "actual_score": 16
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 110,
+      "predicted_score": 15,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 111,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 112,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 113,
+      "predicted_score": 19,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 114,
+      "predicted_score": 3,
+      "actual_score": 3
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 115,
+      "predicted_score": 46,
+      "actual_score": 46
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 116,
+      "predicted_score": 6,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 117,
+      "predicted_score": 16,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 118,
+      "predicted_score": 16,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 119,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 120,
+      "predicted_score": 10,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 121,
+      "predicted_score": 4,
+      "actual_score": 1
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 122,
+      "predicted_score": 3,
+      "actual_score": 3
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 123,
+      "predicted_score": 1,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 124,
+      "predicted_score": 1,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 125,
+      "predicted_score": 1,
+      "actual_score": 1
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 126,
+      "predicted_score": 6,
+      "actual_score": 6
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 127,
+      "predicted_score": 51,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 128,
+      "predicted_score": 16,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 129,
+      "predicted_score": 1,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 130,
+      "predicted_score": 7,
+      "actual_score": 6
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 131,
+      "predicted_score": 26,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 132,
+      "predicted_score": 75,
+      "actual_score": 74
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 133,
+      "predicted_score": 16,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 134,
+      "predicted_score": 55,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 135,
+      "predicted_score": 31,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 136,
+      "predicted_score": 44,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 137,
+      "predicted_score": 34,
+      "actual_score": 44
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 138,
+      "predicted_score": 9,
+      "actual_score": 3
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 139,
+      "predicted_score": 15,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 140,
+      "predicted_score": 6,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 141,
+      "predicted_score": 16,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 142,
+      "predicted_score": 31,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 143,
+      "predicted_score": 16,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 144,
+      "predicted_score": 16,
+      "actual_score": 20
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 145,
+      "predicted_score": 52,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 146,
+      "predicted_score": 52,
+      "actual_score": 6
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 147,
+      "predicted_score": 10,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 148,
+      "predicted_score": 10,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 149,
+      "predicted_score": 49,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 150,
+      "predicted_score": 46,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 151,
+      "predicted_score": 30,
+      "actual_score": 1
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 152,
+      "predicted_score": 44,
+      "actual_score": 36
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 153,
+      "predicted_score": 24,
+      "actual_score": 3
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 154,
+      "predicted_score": 21,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 155,
+      "predicted_score": 23,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 156,
+      "predicted_score": 114,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 157,
+      "predicted_score": 110,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 158,
+      "predicted_score": 0,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 159,
+      "predicted_score": 6,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 160,
+      "predicted_score": 46,
+      "actual_score": 25
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 161,
+      "predicted_score": 21,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 162,
+      "predicted_score": 42,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 163,
+      "predicted_score": 46,
+      "actual_score": 1
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 164,
+      "predicted_score": 106,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 165,
+      "predicted_score": 127,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 166,
+      "predicted_score": 152,
+      "actual_score": 136
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 167,
+      "predicted_score": 21,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 168,
+      "predicted_score": 42,
+      "actual_score": 16
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 169,
+      "predicted_score": 27,
+      "actual_score": 16
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 170,
+      "predicted_score": 32,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 171,
+      "predicted_score": 21,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 172,
+      "predicted_score": 32,
+      "actual_score": 27
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 173,
+      "predicted_score": 5,
+      "actual_score": 4
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 174,
+      "predicted_score": 5,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 175,
+      "predicted_score": 36,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 176,
+      "predicted_score": 20,
+      "actual_score": 6
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 177,
+      "predicted_score": 8,
+      "actual_score": 3
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 178,
+      "predicted_score": 15,
+      "actual_score": 1
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 179,
+      "predicted_score": 26,
+      "actual_score": 6
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 180,
+      "predicted_score": 35,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 181,
+      "predicted_score": 36,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 182,
+      "predicted_score": 39,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 183,
+      "predicted_score": 39,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 184,
+      "predicted_score": 39,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 185,
+      "predicted_score": 103,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 186,
+      "predicted_score": 103,
+      "actual_score": 25
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 187,
+      "predicted_score": 51,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 188,
+      "predicted_score": 103,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 189,
+      "predicted_score": 193,
+      "actual_score": 10
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 190,
+      "predicted_score": 247,
+      "actual_score": 15
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 191,
+      "predicted_score": 238,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 192,
+      "predicted_score": 248,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 193,
+      "predicted_score": 220,
+      "actual_score": 34
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 194,
+      "predicted_score": 122,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 195,
+      "predicted_score": 206,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 196,
+      "predicted_score": 250,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 197,
+      "predicted_score": 253,
+      "actual_score": 0
+    },
+    {
+      "capture": "demo-aim-stop",
+      "drop": 198,
+      "predicted_score": 253,
+      "actual_score": 0
+    },
+    {
       "capture": "demo-settling-stop",
       "drop": 1,
       "predicted_score": 0,
