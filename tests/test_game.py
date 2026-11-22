@@ -50,6 +50,20 @@ class GameTest(unittest.TestCase):
         varied.reset(seed=17)
         self.assertEqual(varied.physics, first)
 
+    def test_vision_noise_is_seeded_and_does_not_change_physics(self):
+        clean, noisy, repeat = (Orchard(rules='transfer', vision_noise=level) for level in (0., 1., 1.))
+        for env in (clean, noisy, repeat):
+            env.reset(seed=889)
+        changed = False
+        for action in (2, 10, 12, 0, 8, 6, 4, 11, 1, 13, 5):
+            a, b, c = [env.step(action) for env in (clean, noisy, repeat)]
+            self.assertEqual(a[1:], b[1:])
+            np.testing.assert_array_equal(clean.body, noisy.body)
+            np.testing.assert_array_equal(b[0], c[0])
+            self.assertTrue(noisy.observation_space.contains(b[0]))
+            changed |= not np.array_equal(a[0], b[0])
+        self.assertTrue(changed)
+
     def test_overflow(self):
         env = Orchard()
         env.reset(seed=1)

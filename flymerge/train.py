@@ -11,8 +11,8 @@ from .game import Orchard
 from torch.distributions import Categorical
 
 
-def worker(pipe, seed, rules, randomize_physics):
-    env = Orchard(missing=.12, rules=rules, randomize_physics=randomize_physics)
+def worker(pipe, seed, rules, randomize_physics, vision_noise):
+    env = Orchard(missing=.12, rules=rules, randomize_physics=randomize_physics, vision_noise=vision_noise)
     pipe.send(env.reset(seed=seed)[0])
     while (action := pipe.recv()) is not None:
         start = time.perf_counter()
@@ -38,7 +38,7 @@ def train(args):
     pipes, workers = [], []
     for i in range(args.workers):
         host, guest = mp.Pipe()
-        process = mp.Process(target=worker, args=(guest, args.seed * 1000 + i, args.rules, args.randomize_physics), daemon=True)
+        process = mp.Process(target=worker, args=(guest, args.seed * 1000 + i, args.rules, args.randomize_physics, args.vision_noise), daemon=True)
         process.start()
         guest.close()
         pipes.append(host)
@@ -67,7 +67,7 @@ def train(args):
             extra.update(initial_checkpoint=str(args.initialize), initial_drops=prior['drops'],
                          initial_updates=prior['updates'], spatial_head=hasattr(policy, 'spatial_head'))
         torch.save(dict(**extra, kind=args.kind, seed=args.seed, drops=total, updates=updates,
-                        requested=marks[label], rules=args.rules, randomize_physics=args.randomize_physics, state=policy.state_dict()), path)
+                        requested=marks[label], rules=args.rules, randomize_physics=args.randomize_physics, vision_noise=args.vision_noise, state=policy.state_dict()), path)
         snapshots[label] = dict(file=path.name, requested=marks[label], drops=total, updates=updates)
         timings['checkpoint'] += time.perf_counter() - start
 
@@ -156,7 +156,7 @@ def train(args):
     for process in workers:
         process.join()
     summary = dict(kind=args.kind, seed=args.seed, budget=total, workers=args.workers, sparse=args.sparse,
-                   rules=args.rules, randomize_physics=args.randomize_physics, updates=updates, seconds=seconds, runtime=time.perf_counter() - started,
+                   rules=args.rules, randomize_physics=args.randomize_physics, vision_noise=args.vision_noise, updates=updates, seconds=seconds, runtime=time.perf_counter() - started,
                    drops_per_second=total / seconds, learner_peak_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
                    worker_peak_kib=peaks, parameters=sum(p.numel() for p in policy.parameters()),
                    timings=timings, snapshots=snapshots)
@@ -166,6 +166,7 @@ def train(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--vision-noise', type=float, default=0.)
     parser.add_argument('--randomize-physics', action='store_true')
     parser.add_argument('--initialize', type=Path)
     parser.add_argument('--rules', choices=['original','transfer'], default='original')
@@ -178,6 +179,8 @@ if __name__ == '__main__':
     parser.add_argument('--rollout', type=int, default=1024)
     parser.add_argument('--sparse', action='store_true')
     args = parser.parse_args()
+    if not 0 <= args.vision_noise <= 2:
+        parser.error('--vision-noise must be between 0 and 2')
     if args.workers < 1 or args.budget <= 0 or args.rollout <= 0 or args.budget % args.workers or args.rollout % args.workers:
         parser.error('Positive budget and rollout must be divisible by the worker count')
     train(args)

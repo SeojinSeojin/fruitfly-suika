@@ -81,13 +81,14 @@ class Orchard(gym.Env):
     action_space = spaces.Discrete(15)
     observation_space = spaces.Box(-1, 1, (SLOTS * 3 + 2,), np.float32)
 
-    def __init__(self, missing=0., capture=False, rules="original", randomize_physics=False):
+    def __init__(self, missing=0., capture=False, rules="original", randomize_physics=False, vision_noise=0.):
         self.missing = missing
         self.capture = capture
         if rules not in ('original', 'transfer'):
             raise ValueError(f'Unknown physics profile: {rules}')
         self.rules = rules
         self.randomize_physics = randomize_physics
+        self.vision_noise = vision_noise
         self.width = TRANSFER_WIDTH if rules == 'transfer' else WIDTH
         self.radii = TRANSFER_RADII if rules == 'transfer' else RADII
         self.release_y = -25 if rules == 'transfer' else 28
@@ -97,6 +98,7 @@ class Orchard(gym.Env):
         super().reset(seed=seed)
         mask_seed = self.np_random.integers(2**32)
         self.mask_rng = np.random.default_rng(mask_seed)
+        self.vision_rng = np.random.default_rng(int(mask_seed) ^ 48157)
         dynamics = np.random.default_rng(int(mask_seed) ^ 71419)
         self.physics = (.46, .97, .19, .55)
         if self.randomize_physics:
@@ -110,9 +112,26 @@ class Orchard(gym.Env):
 
     def observation(self):
         mask = self.mask_rng.random(2) < self.missing
-        return observe([(x / self.width, np.clip(y / HEIGHT, 0, 1), int(t))
-                        for x, y, _, _, t in self.body[:self.n]],
-                       -1 if mask[0] else self.current, -1 if mask[1] else self.upcoming)
+        board = self.body[:self.n, [0, 1, 4]].copy()
+        board[:, :2] /= self.width, HEIGHT
+        upcoming = -1 if mask[1] else self.upcoming
+        if self.vision_noise:
+            rng = self.vision_rng
+            strength = self.vision_noise
+            board = board[rng.random(len(board)) >= .06*strength]
+            board[:, :2] += rng.normal(0, .012*strength, (len(board), 2))
+            errors = rng.random(len(board)) < .045*strength
+            board[errors, 2] = np.clip(board[errors, 2] + rng.choice([-1, 1], errors.sum()), 0, 10)
+            large = board[board[:, 2] >= 5]
+            if len(large) and rng.random() < .18*strength:
+                phantom = large[rng.integers(len(large))].copy()
+                phantom[:2] += rng.normal(0, .035*strength, 2)
+                phantom[2] = rng.integers(0, 3)
+                board = np.vstack((board, phantom))
+            if rng.random() < .07*strength:
+                upcoming = -1
+        np.clip(board[:, :2], 0, 1, out=board[:, :2])
+        return observe(board, -1 if mask[0] else self.current, upcoming)
 
     def info(self):
         return dict(score=self.score, highest=self.highest, length=self.drops)
