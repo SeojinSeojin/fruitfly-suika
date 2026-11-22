@@ -22,3 +22,8 @@ input{accent-color:#f7cc82;max-width:120px}
 #node,#coverage,#status,li{font-size:.88rem;color:#b7cbc3}
 #regions{padding-left:22px}
 @media(max-width:850px){.panels{grid-template-columns:1fr}main{padding:16px}}
+
+#regionFocus{font-size:.85rem;color:#b7cbc3}
+#regions{max-height:250px;overflow:auto;margin-bottom:0}
+#regions li{margin:5px 0}
+.region{width:100%;text-align:left;background:linear-gradient(90deg,#386d65 var(--magnitude),#223939 var(--magnitude));font-size:.84rem}

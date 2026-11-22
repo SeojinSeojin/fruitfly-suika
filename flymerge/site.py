@@ -5,6 +5,7 @@ import json
 import time
 from pathlib import Path
 from urllib.request import urlretrieve
+from urllib.parse import urlsplit
 
 from .policy import np, restore
 from .game import AIMS, observe
@@ -15,6 +16,16 @@ from playwright.sync_api import sync_playwright
 
 URL = 'https://playsuikagame.com/ko'
 cv2.setNumThreads(1)
+AD_HOSTS = ('doubleclick.net', 'googlesyndication.com', 'googleadservices.com',
+            'adtrafficquality.google', 'adnxs.com', 'adsrvr.org')
+
+
+def filter_ad_requests(route):
+    host = urlsplit(route.request.url).hostname or ''
+    if any(host == domain or host.endswith('.' + domain) for domain in AD_HOSTS):
+        route.abort()
+    else:
+        route.continue_()
 
 
 class Vision:
@@ -79,7 +90,6 @@ class Vision:
         return retained
 
     def board(self, pixels, background):
-        original = pixels.shape
         pixels = cv2.resize(pixels, None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA)
         background = cv2.resize(background, None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA)
         changed = np.max(cv2.absdiff(pixels, background), axis=2) > 43
@@ -88,8 +98,15 @@ class Vision:
         ys, xs = np.where(changed)
         x0, y0 = max(0, xs.min()-92), max(0, ys.min()-92)
         x1, y1 = min(pixels.shape[1], xs.max()+93), min(pixels.shape[0], ys.max()+93)
-        detected = self.match(pixels[y0:y1, x0:x1], range(11), (.337, .365),
-                              range(0,360,30), .074, True, changed[y0:y1, x0:x1])
+        pad = 80
+        search = cv2.copyMakeBorder(pixels, pad, pad, pad, pad, cv2.BORDER_REPLICATE)
+        candidates = np.pad(changed, pad)
+        left, top = x0 + (pad if x0 else 0), y0 + (pad if y0 else 0)
+        right = x1 + (pad if x1 < pixels.shape[1] else 2*pad)
+        bottom = y1 + (pad if y1 < pixels.shape[0] else 2*pad)
+        detected = self.match(search[top:bottom, left:right], range(11), (.337, .365),
+                              range(0,360,30), .074, True, candidates[top:bottom, left:right])
+        x0, y0 = left-pad, top-pad
         covered = np.zeros(changed.shape, np.uint8)
         result = []
         for quality, x, y, tier, radius in detected:
@@ -117,7 +134,7 @@ def ready(page, detect, box, deadline):
         pixels = screenshot(page)
         x0, y0, x1, y1 = box
         board = pixels[y0:y1, x0:x1]
-        hand = pixels[y0-83:y0+5, x0-5:x1+5]
+        hand = pixels[y0-104:y0+5, x0-5:x1+5]
         last_find = detect.match(hand, range(5), (.64, .68, .72), (0,), .047)
         if previous is not None and last_find and np.mean(cv2.absdiff(board, previous) > 25) < .0015:
             return pixels, last_find, None
@@ -134,16 +151,26 @@ def activity_panel(page, graph, decision):
         coords = np.stack([np.cos(theta), np.sin(theta), theta*0], axis=1)
     coords = (coords - coords.min(0)) / np.maximum(1, coords.max(0) - coords.min(0))
     activity = decision['steps'][-1]['delta']
-    page.evaluate("""({points,activity,drop,action}) => {
+    regional = {}
+    for source, _, _, annotations in graph['edges']:
+        for name, count in annotations.items():
+            if name == 'UNASGD':
+                continue
+            total, weight = regional.get(name, (0., 0))
+            regional[name] = total + abs(activity[source]) * count, weight + count
+    top = sorted(((name, total / weight) for name, (total, weight) in regional.items()),
+                 key=lambda pair: -pair[1])[:3]
+    page.evaluate("""({points,activity,drop,action,top}) => {
       let panel = document.getElementById('orchard-circuit');
       if (!panel) {
         panel = document.createElement('aside');
         panel.id = 'orchard-circuit';
         panel.style.cssText = 'position:fixed;right:22px;bottom:18px;width:274px;padding:12px;background:#14292b;color:#eef1da;border:2px solid #809e91;border-radius:12px;z-index:2147483647;font:14px system-ui;pointer-events:none';
-        panel.innerHTML='<div></div><canvas width="246" height="152" style="display:block;width:246px;height:152px"></canvas>';
+        panel.innerHTML='<div></div><small style="color:#a8c7b7"></small><canvas width="246" height="152" style="display:block;width:246px;height:152px"></canvas>';
         document.body.appendChild(panel);
       }
       panel.firstChild.textContent = `Simulated circuit activity · Drop ${drop} · Aim ${action+1}/15`;
+      panel.children[1].textContent = 'Step 6 · ' + top.map(([name, value]) => name + ' ' + value.toFixed(3)).join(' / ');
       const ctx = panel.lastChild.getContext('2d');
       ctx.clearRect(0,0,246,152);
       points.forEach(([x,y],i) => {
@@ -151,7 +178,7 @@ def activity_panel(page, graph, decision):
         ctx.fillStyle = 'rgb('+color.map((c,j)=>Math.round([38,52,56][j]*(1-v)+c*v)).join(',')+')';
         ctx.beginPath();ctx.arc(10+x*226,8+y*136,2,0,2*Math.PI);ctx.fill();
       });
-    }""", dict(points=coords.tolist(), activity=activity, **{k: decision[k] for k in ('drop','action')}))
+    }""", dict(points=coords.tolist(), activity=activity, top=top, **{k: decision[k] for k in ('drop','action')}))
 
 
 def annotate(pixels, box, detected, target, current, next_tier, decision, path):
@@ -182,12 +209,13 @@ def run(args):
     images.mkdir(exist_ok=True)
     result = dict(url=URL, checkpoint=str(args.checkpoint), training_drops=ckpt['drops'],
                   updates=ckpt['updates'], seed=ckpt['seed'], action_seed=args.action_seed,
-                  final_score=None, completed_drops=0, browser='headed Chromium', outcome='launch interrupted')
+                  final_score=None, completed_drops=0, browser='headed Chromium', ad_filter=True, outcome='launch interrupted')
     decisions = []
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(channel='chromium', headless=False, args=['--disable-gpu'])
-            page = browser.new_page(viewport={'width':1280,'height':900})
+            page = browser.new_page(service_workers='block', viewport={'width':1280,'height':900})
+            page.route('**/*', filter_ad_requests)
             started = time.monotonic()
             deadline = started + 600
             page.goto(URL, wait_until='domcontentloaded', timeout=30000)
@@ -223,7 +251,7 @@ def run(args):
                 page.mouse.move(target,y0-39)
                 page.wait_for_timeout(120)
                 aimed = screenshot(page)
-                check = vision.match(aimed[y0-83:y0+5,x0-5:x1+5], [current], (.64,.68,.72), (0,), .047)
+                check = vision.match(aimed[y0-104:y0+5,x0-5:x1+5], [current], (.64,.68,.72), (0,), .047)
                 error_px = abs(x0-5+check[1]-target) if check else None
                 if error_px is None or error_px > 13:
                     result['outcome'] = f'paused before clicking: aim verification failed ({error_px} px)'
@@ -267,7 +295,7 @@ def run(args):
                 break
         json_file(args.out/'manifest.json', dict(**result, drops=[
             {k:v for k,v in d.items() if k not in ('direct','steps','observation')} for d in decisions]))
-        pack_script(args.out/'website.js','website',dict(meta=result,decisions=decisions))
+        pack_script(args.out/'website.js', args.replay_key, dict(meta=result, decisions=decisions))
         print(json.dumps(result, indent=2))
 
 
@@ -277,6 +305,7 @@ if __name__ == '__main__':
     parser.add_argument('--checkpoint', type=Path, default=Path('runs/flywire-11/final.pt'))
     parser.add_argument('--cache', type=Path, default=Path('data/site'))
     parser.add_argument('--out', type=Path, default=Path('artifacts/demo'))
-    parser.add_argument('--max-drops', type=int, choices=range(1,101), default=100)
+    parser.add_argument('--replay-key', default='website')
+    parser.add_argument('--max-drops', type=int, choices=range(1,201), default=200)
     parser.add_argument('--action-seed', type=int, default=32833)
     run(parser.parse_args())

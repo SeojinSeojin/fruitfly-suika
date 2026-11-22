@@ -4,6 +4,7 @@ import base64
 import gzip
 import hashlib
 import json
+import os
 import subprocess
 import time
 from pathlib import Path
@@ -12,7 +13,7 @@ from imageio_ffmpeg import get_ffmpeg_exe
 from PIL import Image, ImageDraw, ImageFont
 
 from .policy import np, restore, torch
-from .game import HEIGHT, RADII, WIDTH, Orchard
+from .game import HEIGHT, WIDTH, TRANSFER_WIDTH, Orchard
 
 COLORS = ('#ec786e', '#eb9a59', '#e5c356', '#8dbf77', '#61babc', '#7b9cdd',
           '#ad8ade', '#db88b2', '#ef9375', '#d7c881', '#a9ca71')
@@ -39,35 +40,37 @@ def fruit(draw, x, y, r, tier):
     draw.text((x, y), str(tier + 1), anchor='mm', fill='#192829')
 
 
-def paint(body, score, aim, current, upcoming, drop, metadata, terminal=False):
-    image = Image.new('RGB', (584, 512), '#162628')
+def paint(body, score, aim, current, upcoming, drop, metadata, env, terminal=False):
+    shift = env.width - WIDTH
+    side = env.width + 43
+    image = Image.new('RGB', (584 + shift, 512), '#162628')
     draw = ImageDraw.Draw(image)
-    draw.rounded_rectangle((20, 52, 340, 492), radius=13, fill='#253e3d', outline='#83a29b', width=2)
-    draw.line((21, 100, 339, 100), fill='#b98975', width=1)
+    draw.rounded_rectangle((20, 52, 20 + env.width, 52 + HEIGHT), radius=13, fill='#253e3d', outline='#83a29b', width=2)
+    draw.line((21, 52 + env.overflow_y, 19 + env.width, 52 + env.overflow_y), fill='#b98975', width=1)
     draw.line((aim + 20, 57, aim + 20, 490), fill='#759990', width=1)
     draw.polygon([(aim+20, 65), (aim+14, 54), (aim+26, 54)], fill='#f7cc82')
     for x, y, tier in body:
-        fruit(draw, x + 20, y + 52, RADII[int(tier)], int(tier))
+        fruit(draw, x + 20, y + 52, env.radii[int(tier)], int(tier))
     draw.font = ImageFont.load_default(size=16)
     draw.text((20, 16), f'Orchard Drop  /  FlyWire FAFB v783', fill='#e7f0de')
-    draw.text((363, 60), f'Drop {drop:03d}   Score {score}', fill='#f7cc82')
-    draw.text((363, 110), 'Current        Next', fill='#e7f0de')
-    fruit(draw, 391, 162, 23, current)
-    fruit(draw, 482, 162, 23, upcoming)
-    draw.text((363, 227), f'Training drops {metadata["drops"]:,}', fill='#e7f0de')
-    draw.text((363, 259), f'PPO updates {metadata["updates"]}', fill='#e7f0de')
+    draw.text((side, 60), f'Drop {drop:03d}   Score {score}', fill='#f7cc82')
+    draw.text((side, 110), 'Current        Next', fill='#e7f0de')
+    fruit(draw, side+28, 162, 23, current)
+    fruit(draw, side+119, 162, 23, upcoming)
+    draw.text((side, 227), f'Training drops {metadata["drops"]:,}', fill='#e7f0de')
+    draw.text((side, 259), f'PPO updates {metadata["updates"]}', fill='#e7f0de')
     if not metadata['updates']:
-        draw.text((363, 290), 'Pre-update policy', fill='#f7cc82')
+        draw.text((side, 290), 'Pre-update policy', fill='#f7cc82')
     if terminal:
-        draw.rounded_rectangle((45, 223, 315, 303), radius=10, fill='#122323')
-        draw.text((180, 250), 'Episode complete', anchor='mm', fill='#f7cc82')
-        draw.text((180, 279), f'Final score {score}', anchor='mm', fill='#e7f0de')
+        draw.rounded_rectangle((env.width/2-115, 223, env.width/2+155, 303), radius=10, fill='#122323')
+        draw.text((20+env.width/2, 250), 'Episode complete', anchor='mm', fill='#f7cc82')
+        draw.text((20+env.width/2, 279), f'Final score {score}', anchor='mm', fill='#e7f0de')
     return image
 
 
-def episode(policy, seed, offset, capture=None, metadata=None):
+def episode(policy, seed, offset, capture=None, metadata=None, rules="original"):
     rng = np.random.default_rng(seed + offset)
-    env = Orchard(capture=bool(capture))
+    env = Orchard(capture=bool(capture), rules=rules)
     observation, _ = env.reset(seed=seed)
     decisions = []
     while True:
@@ -86,12 +89,12 @@ def episode(policy, seed, offset, capture=None, metadata=None):
                                   observation=observation.tolist(), action=action,
                                   score_before=pre_score, score=env.score, **trace))
             for board, score in env.frames:
-                image = paint(board, score, env.aim, current, upcoming, env.drops, metadata)
+                image = paint(board, score, env.aim, current, upcoming, env.drops, metadata, env)
                 capture.write(image.tobytes())
         observation = observation_after
         if terminal or truncation:
             if capture:
-                image = paint(board, score, env.aim, current, upcoming, env.drops, metadata, True)
+                image = paint(board, score, env.aim, current, upcoming, env.drops, metadata, env, True)
                 for _ in range(60):
                     capture.write(image.tobytes())
             return info, decisions
@@ -99,11 +102,18 @@ def episode(policy, seed, offset, capture=None, metadata=None):
 
 def render(args, graph, protocol):
     started = time.perf_counter()
-    pack_script(ROOT / 'replays/graph.js', 'graph', graph)
+    pack_script(args.output / 'replays/graph.js', 'graph', graph)
+    if args.output.resolve() != ROOT.resolve():
+        template = (ROOT/'replays/index.html').read_text()
+        viewer = os.path.relpath(ROOT/'replays', args.output/'replays')
+        template = template.replace('href="viewer.css"', f'href="{viewer}/viewer.css"')
+        template = template.replace('src="viewer.js"', f'src="{viewer}/viewer.js"')
+        template = template.replace('../demo/website.js', '../demo-ad-filtered/website.js')
+        (args.output/'replays/index.html').write_text(template)
     seed = protocol['video_training_seed']
     fruit_seed = protocol['video_fruit_seed']
     run = args.runs / f'flywire-{seed}'
-    manifest_path = ROOT / 'videos/manifest.json'
+    manifest_path = args.output / 'videos/manifest.json'
     manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
     for label in args.labels:
         checkpoint_path = run / f'{label}.pt'
@@ -111,41 +121,44 @@ def render(args, graph, protocol):
         with checkpoint_path.open('rb') as source:
             checkpoint_digest = hashlib.file_digest(source, 'sha256').hexdigest()
         meta = {k: checkpoint[k] for k in ('kind', 'seed', 'requested', 'drops', 'updates')}
+        rules = checkpoint.get('rules', 'original')
+        width = 584 + (TRANSFER_WIDTH-WIDTH if rules == 'transfer' else 0)
         policy_digest = hashlib.sha256(b''.join(
             value.numpy().tobytes() for value in checkpoint['state'].values())).hexdigest()
         previous = next((entry for entry in manifest.values()
                          if (entry['drops'], entry['updates'], entry['seed'], entry['fruit_seed'])
                          == (meta['drops'], meta['updates'], seed, fruit_seed)
+                         and entry.get('rules', 'original') == rules
                          and entry.get('policy_sha256') == policy_digest
-                         and (ROOT / 'videos' / entry['video']).is_file()
-                         and (ROOT / 'replays' / f"{entry['trace']}.js").is_file()), None)
+                         and (args.output / 'videos' / entry['video']).is_file()
+                         and (args.output / 'replays' / f"{entry['trace']}.js").is_file()), None)
         if previous:
             manifest[label] = {**previous, **meta, 'checkpoint': str(checkpoint_path),
                                'checkpoint_sha256': checkpoint_digest}
             continue
-        path = ROOT / 'videos' / f'{label}.mp4'
+        path = args.output / 'videos' / f'{label}.mp4'
         path.parent.mkdir(parents=True, exist_ok=True)
         cmd = [get_ffmpeg_exe(), '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24',
-               '-s', '584x512', '-r', str(FPS), '-i', '-', '-an', '-c:v', 'libx264',
+               '-s', f'{width}x512', '-r', str(FPS), '-i', '-', '-an', '-c:v', 'libx264',
                '-threads', '1', '-crf', '25', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', str(path)]
         with subprocess.Popen(cmd, stdin=subprocess.PIPE) as ffmpeg:
             info, decisions = episode(policy, fruit_seed, protocol['evaluation_action_seed_offset'],
-                                      ffmpeg.stdin, meta)
+                                      ffmpeg.stdin, meta, rules)
             ffmpeg.stdin.close()
             if ffmpeg.wait():
                 raise RuntimeError(f'Encoding {path} failed')
         subprocess.run([get_ffmpeg_exe(), '-v', 'error', '-i', str(path), '-f', 'null', '-'], check=True)
-        entry = dict(**meta, checkpoint=str(checkpoint_path), checkpoint_sha256=checkpoint_digest,
+        entry = dict(**meta, rules=rules, checkpoint=str(checkpoint_path), checkpoint_sha256=checkpoint_digest,
                      policy_sha256=policy_digest, fruit_seed=fruit_seed,
                      action_rng_seed=fruit_seed + protocol['evaluation_action_seed_offset'],
                      pre_update=not bool(meta['updates']), video=path.name, trace=label,
                      bytes=path.stat().st_size, episode=info, render_and_decode_seconds=time.perf_counter()-started,
                      fps=FPS, frames_per_drop=FRAMES)
         manifest[label] = entry
-        pack_script(ROOT / 'replays' / f'{label}.js', label, dict(meta=entry, decisions=decisions))
+        pack_script(args.output / 'replays' / f'{label}.js', label, dict(meta=entry, decisions=decisions))
         started = time.perf_counter()
     json_file(manifest_path, manifest)
-    (ROOT / 'replays/manifest.js').write_text('window.localManifest=' + json.dumps(manifest) + ';\n')
+    (args.output / 'replays/manifest.js').write_text('window.localManifest=' + json.dumps(manifest) + ';\n')
 
 
 def evaluate(args, graph, protocol):
@@ -159,7 +172,8 @@ def evaluate(args, graph, protocol):
             for label in ('init', *LABELS):
                 policy, ckpt = restore(run / f'{label}.pt', graph)
                 for fruit_seed in protocol['held_out_fruit_seeds']:
-                    info, _ = episode(policy, fruit_seed, protocol['evaluation_action_seed_offset'])
+                    info, _ = episode(policy, fruit_seed, protocol['evaluation_action_seed_offset'],
+                                      rules=ckpt.get('rules', 'original'))
                     rows.append(dict(kind=kind, seed=seed, milestone=label, fruit_seed=fruit_seed,
                                      drops=ckpt['drops'], updates=ckpt['updates'], **info))
     index = {(r['kind'], r['seed'], r['milestone'], r['fruit_seed']): r['score'] for r in rows}
@@ -170,7 +184,7 @@ def evaluate(args, graph, protocol):
                                for f in protocol['held_out_fruit_seeds']]
                 paired.append(dict(comparison=f'flywire minus {kind}', seed=seed, milestone=label,
                                    mean=float(np.mean(differences)), differences=differences))
-    output = ROOT / 'results'
+    output = args.output / 'results'
     json_file(output / 'evaluation.json', rows)
     json_file(output / 'paired.json', paired)
     json_file(output / 'training.json', summaries)
@@ -185,6 +199,7 @@ def evaluate(args, graph, protocol):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=['evaluate', 'render'])
+    parser.add_argument('--output', type=Path, default=ROOT)
     parser.add_argument('--runs', type=Path, default=Path('runs'))
     parser.add_argument('--labels', choices=LABELS, nargs='+', default=LABELS)
     args = parser.parse_args()

@@ -11,8 +11,8 @@ from .game import Orchard
 from torch.distributions import Categorical
 
 
-def worker(pipe, seed):
-    env = Orchard(missing=.12)
+def worker(pipe, seed, rules):
+    env = Orchard(missing=.12, rules=rules)
     pipe.send(env.reset(seed=seed)[0])
     while (action := pipe.recv()) is not None:
         start = time.perf_counter()
@@ -32,14 +32,13 @@ def train(args):
     args.out.mkdir(exist_ok=True, parents=True)
     timings = dict(inference=0., environment_wall=0., worker_physics_sum=0.,
                    communication_and_wait=0., ppo=0., checkpoint=0.)
-    Orchard().reset(seed=0)
-    warm = Orchard()
+    warm = Orchard(rules=args.rules)
     warm.reset(seed=0)
     warm.step(0)
     pipes, workers = [], []
     for i in range(args.workers):
         host, guest = mp.Pipe()
-        process = mp.Process(target=worker, args=(guest, args.seed * 1000 + i), daemon=True)
+        process = mp.Process(target=worker, args=(guest, args.seed * 1000 + i, args.rules), daemon=True)
         process.start()
         guest.close()
         pipes.append(host)
@@ -57,7 +56,7 @@ def train(args):
         start = time.perf_counter()
         path = args.out / f'{label}.pt'
         torch.save(dict(kind=args.kind, seed=args.seed, drops=total, updates=updates,
-                        requested=marks[label], state=policy.state_dict()), path)
+                        requested=marks[label], rules=args.rules, state=policy.state_dict()), path)
         snapshots[label] = dict(file=path.name, requested=marks[label], drops=total, updates=updates)
         timings['checkpoint'] += time.perf_counter() - start
 
@@ -143,7 +142,7 @@ def train(args):
     for process in workers:
         process.join()
     summary = dict(kind=args.kind, seed=args.seed, budget=total, workers=args.workers, sparse=args.sparse,
-                   updates=updates, seconds=seconds, runtime=time.perf_counter() - started,
+                   rules=args.rules, updates=updates, seconds=seconds, runtime=time.perf_counter() - started,
                    drops_per_second=total / seconds, learner_peak_kib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
                    worker_peak_kib=peaks, parameters=sum(p.numel() for p in policy.parameters()),
                    timings=timings, snapshots=snapshots)
@@ -153,6 +152,7 @@ def train(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--rules', choices=['original','transfer'], default='original')
     parser.add_argument('--kind', choices=['flywire', 'rewired', 'mlp'], required=True)
     parser.add_argument('--graph', type=Path, default=Path('artifacts/graph.json'))
     parser.add_argument('--out', type=Path, required=True)

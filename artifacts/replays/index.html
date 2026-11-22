@@ -30,8 +30,9 @@
 <label>Rotate <input id="rotate" type="range" min="-180" max="180" value="22"></label></div>
 <div class="legend"><span>−1</span><i></i><span>+1 Δ activation</span><span>◇ Direct drive</span></div>
 <p id="node">Select a neuron to inspect its inputs and activity.</p>
-<h3>Neuropil activity proxy</h3>
+<h3 id="regionTitle">Neuropil activity by recurrent step</h3>
 <p id="coverage"></p>
+<p id="regionFocus" role="status"></p>
 <ol id="regions"></ol>
 </section>
 </div>
@@ -41,6 +42,7 @@
 <script src="manifest.js"></script>
 <script src="drop5.js"></script><script src="drop1000.js"></script><script src="early.js"></script><script src="middle.js"></script><script src="final.js"></script>
 <script src="../demo/website.js"></script>
+
 <script src="viewer.js"></script>
 </body>
 </html>

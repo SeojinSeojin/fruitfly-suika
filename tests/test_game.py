@@ -27,6 +27,17 @@ class GameTest(unittest.TestCase):
         count, score = tick(body, 2)
         self.assertEqual((count, score, int(body[0, 4])), (1, 1, 1))
 
+    def test_transfer_profile_releases_above_wider_board(self):
+        env = Orchard(rules='transfer', capture=True)
+        env.reset(seed=20261122)
+        radius = env.radii[env.current]
+        observation, _, terminated, truncated, _ = env.step(14)
+        self.assertEqual(env.width, 410)
+        self.assertEqual(env.aim, env.width - radius)
+        self.assertLess(env.frames[0][0][0, 1], 0)
+        self.assertGreater(observation[0], .9)
+        self.assertFalse(terminated or truncated)
+
     def test_overflow(self):
         env = Orchard()
         env.reset(seed=1)

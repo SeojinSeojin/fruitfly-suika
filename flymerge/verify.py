@@ -1,4 +1,5 @@
 """Verify frozen-policy alignment and decode every committed video."""
+import argparse
 import base64
 import gzip
 import hashlib
@@ -18,11 +19,11 @@ def unpack(path):
     return json.loads(gzip.decompress(base64.b64decode(json.loads(encoded))))
 
 
-def main():
+def main(root):
     graph = json.loads((ROOT/'graph.json').read_text())
-    manifest = json.loads((ROOT/'videos/manifest.json').read_text())
-    assert unpack(ROOT/'replays/graph.js') == graph
-    replay_manifest = (ROOT/'replays/manifest.js').read_text().split('=', 1)[1].strip().removesuffix(';')
+    manifest = json.loads((root/'videos/manifest.json').read_text())
+    assert unpack(root/'replays/graph.js') == graph
+    replay_manifest = (root/'replays/manifest.js').read_text().split('=', 1)[1].strip().removesuffix(';')
     assert json.loads(replay_manifest) == manifest
     assert set(manifest) == {'drop5','drop1000','early','middle','final'}
     for label, metadata in manifest.items():
@@ -31,12 +32,12 @@ def main():
             assert hashlib.file_digest(source, 'sha256').hexdigest() == metadata['checkpoint_sha256']
         policy, checkpoint = restore(checkpoint_path, graph)
         assert all(checkpoint[key] == metadata[key] for key in ('requested','drops','updates'))
-        video = ROOT/'videos'/metadata['video']
+        video = root/'videos'/metadata['video']
         assert metadata['bytes'] == video.stat().st_size
         subprocess.run([get_ffmpeg_exe(), '-v', 'error', '-i', str(video), '-f', 'null', '-'], check=True)
-        replay = unpack(ROOT/'replays'/f"{metadata['trace']}.js")
+        replay = unpack(root/'replays'/f"{metadata['trace']}.js")
         rng = np.random.default_rng(metadata['action_rng_seed'])
-        env = Orchard()
+        env = Orchard(rules=checkpoint.get("rules", "original"))
         observation, _ = env.reset(seed=metadata['fruit_seed'])
         decisions = replay['decisions']
         assert count_frames_and_secs(str(video))[0] == metadata['frames_per_drop'] * len(decisions) + 60
@@ -53,8 +54,7 @@ def main():
             assert (terminated or truncated) == (index == len(decisions)-1)
         assert info == metadata['episode']
         print(f'{label}: {len(decisions)} aligned drops, {metadata["bytes"]:,} bytes')
-    demo_path = ROOT/'demo/website.js'
-    if demo_path.exists():
+    for demo_path in root.glob('demo*/website.js'):
         demo = unpack(demo_path)
         records = json.loads((demo_path.parent/'manifest.json').read_text())
         policy, checkpoint = restore(Path(demo['meta']['checkpoint']), graph)
@@ -73,4 +73,6 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output", type=Path, default=ROOT)
+    main(parser.parse_args().output)
