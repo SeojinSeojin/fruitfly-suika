@@ -11,6 +11,8 @@ from .policy import np, restore, torch
 def train(args):
     graph = json.loads(Path('artifacts/graph.json').read_text())
     model, checkpoint = restore(args.source, graph)
+    if checkpoint['kind'] not in ('flywire', 'rewired') or checkpoint.get('rules') != 'transfer':
+        raise ValueError('Planner imitation requires a reservoir trained in transfer physics')
     rng = np.random.default_rng(53001)
     examples, estimates = [], []
     params = list(model.actor.parameters())
