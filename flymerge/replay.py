@@ -98,6 +98,7 @@ def episode(policy, seed, offset, capture=None, metadata=None):
 
 def render(args, graph, protocol):
     started = time.perf_counter()
+    pack_script(ROOT / 'replays/graph.js', 'graph', graph)
     seed = protocol['video_training_seed']
     fruit_seed = protocol['video_fruit_seed']
     run = args.runs / f'flywire-{seed}'
