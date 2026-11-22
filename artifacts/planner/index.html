@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orchard Drop planner comparison</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui;background:#102022;color:#e2f0e8}
+main{max-width:1020px;margin:auto;padding:18px}video{width:100%;border-radius:8px}
+.controls,.panels{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.panels section{flex:1 1 320px;background:#172b2d;padding:12px;border-radius:8px}
+canvas{width:100%;height:auto}button,input{accent-color:#f7cc82}
+</style>
+<main>
+<h1>Paired planner replay</h1>
+<p id="meta"></p>
+<video id="game" controls preload="metadata" src="comparison.mp4"></video>
+<div class="controls">
+<button id="previous">Previous drop</button><button id="next">Next drop</button>
+<label>Drop <input id="drop" type="range" min="1" value="1"></label>
+<label>Recurrent step <input id="step" type="range" min="1" max="6" value="6"></label>
+<output id="stepValue"></output>
+</div>
+<p>Simulated activation change from zero input. Blue and orange represent −1 and +1. Rings mark directly driven neurons.</p>
+<div class="panels">
+<section><h2>A · Legacy hybrid</h2><output id="scoreA"></output><canvas id="canvasA" width="460" height="233"></canvas></section>
+<section><h2>C · Perturbation-aware hybrid</h2><output id="scoreC"></output><canvas id="canvasC" width="460" height="233"></canvas></section>
+</div>
+</main>
+<script>window.replays={};</script>
+<script src="comparison.js"></script>
+<script>
+const id = name => document.getElementById(name);
+const game = id('game'), drop = id('drop'), step = id('step');
+async function start() {
+  const bytes = Uint8Array.from(atob(window.replays.comparison), c => c.charCodeAt(0));
+  const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+  const data = await new Response(stream).json();
+  const seconds = data.meta.frames_per_drop / data.meta.fps;
+  drop.max = Math.max(data.lanes.A.length,data.lanes.C.length);
+  id('meta').textContent = 'Fruit seed ' + data.meta.seed + ' · joint physics and vision perturbations · shared frozen checkpoint';
+  function draw() {
+    id('stepValue').value = step.value;
+    for (const lane of ['A','C']) {
+      const decisions = data.lanes[lane];
+      const decision = decisions[Math.min(Number(drop.value),decisions.length)-1];
+      const delta = decision.steps[Number(step.value)-1].delta;
+      id('score'+lane).value = 'Drop ' + decision.drop + ' · aim ' + (decision.action+1) + '/15 · score ' + decision.score;
+      const ctx = id('canvas'+lane).getContext('2d');
+      ctx.clearRect(0,0,460,233);
+      for (const [i,[x,y]] of data.points.entries()) {
+        const px = 20+x*420, py = 12+y*209, d = delta[i];
+        const target = d < 0 ? [84,169,233] : [235,164,97];
+        ctx.fillStyle = 'rgb('+target.map((n,j)=>Math.round([51,67,69][j]+(n-[51,67,69][j])*Math.abs(d))).join(',')+')';
+        ctx.beginPath(); ctx.arc(px,py,2.7,0,2*Math.PI); ctx.fill();
+        if (Math.abs(decision.direct[i])>1e-5) { ctx.strokeStyle='#9ebcb5'; ctx.stroke(); }
+      }
+    }
+  }
+  function seek(n) {
+    game.pause(); drop.value=Math.min(Number(drop.max), Math.max(1,n));
+    game.currentTime=(Number(drop.value)-1)*seconds+.001; draw();
+  }
+  game.ontimeupdate = () => { drop.value=Math.min(Number(drop.max),Math.floor(game.currentTime/seconds)+1); draw(); };
+  drop.oninput=()=>seek(Number(drop.value)); step.oninput=draw;
+  id('previous').onclick=()=>seek(Number(drop.value)-1);
+  id('next').onclick=()=>seek(Number(drop.value)+1);
+  draw();
+}
+start().catch(error=>{id('meta').textContent=error.message;});
+</script>
+</html>

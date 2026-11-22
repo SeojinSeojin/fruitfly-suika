@@ -1,0 +1,24 @@
+{
+  "seed": 20270201,
+  "profile": "joint",
+  "fps": 20,
+  "frames_per_drop": 6,
+  "checkpoint": "artifacts/transfer/checkpoints/flywire-seed11-final.pt",
+  "sha256": "b2316d67a4538d55f2270633497dfe521a1dfd29dfc3ba0406ab8733380e1e7f",
+  "video": "comparison.mp4",
+  "bytes": 3331175,
+  "episodes": {
+    "A": {
+      "score": 3252,
+      "highest": 10,
+      "length": 300,
+      "overflow": false
+    },
+    "C": {
+      "score": 3166,
+      "highest": 10,
+      "length": 300,
+      "overflow": false
+    }
+  }
+}
