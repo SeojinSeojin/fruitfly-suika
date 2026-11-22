@@ -224,3 +224,7 @@ The two-drop pilot replayed the next visible fruit at all 15 aims after each of 
 A subsequent uncapped capture reached 1,855 points after 198 drops. The current fruit extended outside the aim-validation crop at the far right edge, so release 199 was withheld. The wider crop identifies that fruit at x = 876 in the preserved image. The capture remains available with all 198 decisions and a separate pause frame. [1,855-point replay](artifacts/transfer/replays/index.html#websiteAimStop) · [Pause frame](artifacts/transfer/demo-aim-stop/paused.png)
 
 In the 198-drop capture, 94 of the 165 predicted scoring drops increased the site's visible score. That is an observation-level check using both the vision adapter and the local simulator. It includes no release after the aim-verification pause. [Per-drop ledger](artifacts/transfer/results/physics.json)
+
+### Completed uncapped episode
+
+The final retry reached the site's game-over screen after **188 drops**, with an observed final score of **1,725** in 20 minutes 23 seconds. Both caps were disabled. It used the original frozen 204,800-drop PPO policy with one-drop local physics planning and the widened aim crop. The uncapped capture that paused at 1,855 used a different live fruit sequence. [Completed replay](artifacts/transfer/replays/index.html#websiteGameOver) · [Game-over screen](artifacts/transfer/demo-game-over/end.png) · [Manifest](artifacts/transfer/demo-game-over/manifest.json)
