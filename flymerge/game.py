@@ -81,7 +81,7 @@ class Orchard(gym.Env):
     action_space = spaces.Discrete(15)
     observation_space = spaces.Box(-1, 1, (SLOTS * 3 + 2,), np.float32)
 
-    def __init__(self, missing=0., capture=False, rules="original", randomize_physics=False, vision_noise=0.):
+    def __init__(self, missing=0., capture=False, rules="original", randomize_physics=False, vision_noise=0., drop_limit=300):
         self.missing = missing
         self.capture = capture
         if rules not in ('original', 'transfer'):
@@ -89,6 +89,7 @@ class Orchard(gym.Env):
         self.rules = rules
         self.randomize_physics = randomize_physics
         self.vision_noise = vision_noise
+        self.drop_limit = drop_limit
         self.width = TRANSFER_WIDTH if rules == 'transfer' else WIDTH
         self.radii = TRANSFER_RADII if rules == 'transfer' else RADII
         self.release_y = -25 if rules == 'transfer' else 28
@@ -156,6 +157,6 @@ class Orchard(gym.Env):
         self.done = bool(self.n >= SLOTS or np.any(self.body[:self.n, 1] - self.radii[
             self.body[:self.n, 4].astype(int)] < self.overflow_y))
         self.current, self.upcoming = self.upcoming, int(self.np_random.integers(0, 5))
-        truncated = self.drops >= 300
+        truncated = self.drops >= self.drop_limit
         self.done |= truncated
         return self.observation(), float(gain), self.done and not truncated, truncated, self.info()

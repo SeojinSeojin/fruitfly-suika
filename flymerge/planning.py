@@ -6,16 +6,18 @@ from .game import AIMS, HEIGHT, SLOTS, TRANSFER_RADII, TRANSFER_WIDTH, tick
 
 
 @njit(cache=True)
-def settle(board, count, current, aim):
+def settle(board, count, current, aim, gravity=.46, impact=.55, aim_offset=0.):
     trial = board.copy()
     radius = TRANSFER_RADII[current]
     trial[count, 0] = radius + (TRANSFER_WIDTH-2*radius)*aim
+    if aim_offset:
+        trial[count, 0] = min(TRANSFER_WIDTH-radius, max(radius, trial[count, 0] + aim_offset))
     trial[count, 1] = -25
     trial[count, 2] = trial[count, 3] = 0.
     trial[count, 4] = current
     n, score = count+1, 0
     for _ in range(80):
-        n, gain = tick(trial, n, TRANSFER_WIDTH, TRANSFER_RADII)
+        n, gain = tick(trial, n, TRANSFER_WIDTH, TRANSFER_RADII, gravity, .97, .19, impact)
         score += gain
     return trial, n, score
 

@@ -402,6 +402,6 @@ if __name__ == '__main__':
     parser.add_argument('--replay-key', default='website')
     parser.add_argument('--max-drops', type=int, choices=range(1,201), default=200)
     parser.add_argument('--until-game-over', action='store_true')
-    parser.add_argument('--strategy', choices=['sample','planning','hybrid','lookahead'], default='sample')
+    parser.add_argument('--strategy', choices=['sample','planning','hybrid','lookahead','robust'], default='sample')
     parser.add_argument('--action-seed', type=int, default=32833)
     run(parser.parse_args())

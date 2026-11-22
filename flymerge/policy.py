@@ -91,6 +91,10 @@ class Policy(nn.Module):
             action = int(random.choice(15, p=probabilities / probabilities.sum()))
         elif strategy == 'greedy':
             action = int(probabilities.argmax())
+        elif strategy == 'robust':
+            from .robust_planner import choose
+
+            action, _ = choose(raw, np.log(probabilities.clip(1e-8)), random)
         elif strategy in ('planning', 'hybrid', 'lookahead'):
             from .planning import drop_values
 
