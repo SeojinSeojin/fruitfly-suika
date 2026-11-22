@@ -218,3 +218,5 @@ A matched 32,768-drop PPO continuation randomized gravity, horizontal damping, w
   --out runs/continue-random-physics
 .venv/bin/python -m flymerge.compare_physics runs/continue-random-physics/final.pt
 ```
+
+The two-drop pilot replayed the next visible fruit at all 15 aims after each of the four strongest first actions. It averaged 2,983.6 points on the same 12 local sequences, compared with 3,177.5 for the one-drop hybrid. The website run kept the one-drop method. On the paired local comparison, that method beat PPO sampling on 11 of 12 sequences by a mean of 447 points. [Planning comparison](artifacts/transfer/results/planning.json)
