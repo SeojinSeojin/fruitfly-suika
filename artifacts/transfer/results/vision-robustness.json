@@ -1,0 +1,7159 @@
+{
+  "runs": [
+    {
+      "path": "runs/vision-suite/fixed-51/final.pt",
+      "drops": 49152,
+      "updates": 48,
+      "training_seed": 51,
+      "condition": "fixed"
+    },
+    {
+      "path": "runs/vision-suite/physics-51/final.pt",
+      "drops": 49152,
+      "updates": 48,
+      "training_seed": 51,
+      "condition": "physics"
+    },
+    {
+      "path": "runs/vision-suite/both-51/final.pt",
+      "drops": 49152,
+      "updates": 48,
+      "training_seed": 51,
+      "condition": "both"
+    },
+    {
+      "path": "runs/vision-suite/fixed-52/final.pt",
+      "drops": 49152,
+      "updates": 48,
+      "training_seed": 52,
+      "condition": "fixed"
+    },
+    {
+      "path": "runs/vision-suite/physics-52/final.pt",
+      "drops": 49152,
+      "updates": 48,
+      "training_seed": 52,
+      "condition": "physics"
+    },
+    {
+      "path": "runs/vision-suite/both-52/final.pt",
+      "drops": 49152,
+      "updates": 48,
+      "training_seed": 52,
+      "condition": "both"
+    },
+    {
+      "path": "runs/vision-suite/fixed-53/final.pt",
+      "drops": 49152,
+      "updates": 48,
+      "training_seed": 53,
+      "condition": "fixed"
+    },
+    {
+      "path": "runs/vision-suite/physics-53/final.pt",
+      "drops": 49152,
+      "updates": 48,
+      "training_seed": 53,
+      "condition": "physics"
+    },
+    {
+      "path": "runs/vision-suite/both-53/final.pt",
+      "drops": 49152,
+      "updates": 48,
+      "training_seed": 53,
+      "condition": "both"
+    }
+  ],
+  "fruit_seeds": [
+    20261201,
+    20261202,
+    20261203,
+    20261204,
+    20261205,
+    20261206,
+    20261207,
+    20261208,
+    20261209,
+    20261210,
+    20261211,
+    20261212
+  ],
+  "rows": [
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2122,
+      "highest": 9,
+      "length": 233
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2735,
+      "highest": 10,
+      "length": 275
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2885,
+      "highest": 10,
+      "length": 284
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2077,
+      "highest": 9,
+      "length": 230
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2873,
+      "highest": 10,
+      "length": 288
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2192,
+      "highest": 9,
+      "length": 243
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2611,
+      "highest": 9,
+      "length": 279
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2811,
+      "highest": 10,
+      "length": 283
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2859,
+      "highest": 9,
+      "length": 279
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2662,
+      "highest": 10,
+      "length": 261
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 1652,
+      "highest": 9,
+      "length": 190
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2142,
+      "highest": 9,
+      "length": 228
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2575,
+      "highest": 9,
+      "length": 268
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2747,
+      "highest": 9,
+      "length": 288
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2327,
+      "highest": 9,
+      "length": 238
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3104,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2963,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2961,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2202,
+      "highest": 9,
+      "length": 226
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3102,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1813,
+      "highest": 9,
+      "length": 182
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3199,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3085,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2665,
+      "highest": 10,
+      "length": 264
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2900,
+      "highest": 10,
+      "length": 283
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2980,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2980,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2920,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 3078,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2553,
+      "highest": 9,
+      "length": 263
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2076,
+      "highest": 9,
+      "length": 226
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2205,
+      "highest": 9,
+      "length": 238
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2422,
+      "highest": 9,
+      "length": 238
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2485,
+      "highest": 9,
+      "length": 255
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 1374,
+      "highest": 8,
+      "length": 164
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2920,
+      "highest": 10,
+      "length": 297
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2968,
+      "highest": 10,
+      "length": 288
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "hybrid",
+      "score": 3138,
+      "highest": 10,
+      "length": 299
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2280,
+      "highest": 9,
+      "length": 247
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "hybrid",
+      "score": 3077,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3145,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "hybrid",
+      "score": 3177,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3059,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "hybrid",
+      "score": 2564,
+      "highest": 9,
+      "length": 275
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2954,
+      "highest": 9,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "hybrid",
+      "score": 3009,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 1864,
+      "highest": 9,
+      "length": 196
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "hybrid",
+      "score": 3182,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2350,
+      "highest": 9,
+      "length": 259
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "hybrid",
+      "score": 3159,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3028,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "hybrid",
+      "score": 2959,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2608,
+      "highest": 10,
+      "length": 263
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "hybrid",
+      "score": 2206,
+      "highest": 9,
+      "length": 226
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2269,
+      "highest": 9,
+      "length": 234
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "hybrid",
+      "score": 3093,
+      "highest": 10,
+      "length": 294
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2089,
+      "highest": 9,
+      "length": 224
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "hybrid",
+      "score": 3199,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 1913,
+      "highest": 9,
+      "length": 191
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "hybrid",
+      "score": 2545,
+      "highest": 10,
+      "length": 243
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3070,
+      "highest": 10,
+      "length": 289
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3093,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3183,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2424,
+      "highest": 10,
+      "length": 251
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2960,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2097,
+      "highest": 9,
+      "length": 234
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3103,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2238,
+      "highest": 9,
+      "length": 248
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2495,
+      "highest": 9,
+      "length": 245
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2494,
+      "highest": 10,
+      "length": 240
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2674,
+      "highest": 10,
+      "length": 252
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2155,
+      "highest": 9,
+      "length": 234
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 1846,
+      "highest": 9,
+      "length": 205
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2910,
+      "highest": 9,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3128,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2083,
+      "highest": 9,
+      "length": 234
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2975,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3026,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3136,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2382,
+      "highest": 9,
+      "length": 260
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 3102,
+      "highest": 10,
+      "length": 291
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2997,
+      "highest": 10,
+      "length": 289
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2760,
+      "highest": 10,
+      "length": 259
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2792,
+      "highest": 10,
+      "length": 274
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2327,
+      "highest": 9,
+      "length": 237
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3032,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3089,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2888,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2107,
+      "highest": 9,
+      "length": 231
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3060,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2094,
+      "highest": 9,
+      "length": 224
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2978,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2060,
+      "highest": 9,
+      "length": 208
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2308,
+      "highest": 9,
+      "length": 235
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2362,
+      "highest": 9,
+      "length": 243
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2891,
+      "highest": 9,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2294,
+      "highest": 9,
+      "length": 234
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2326,
+      "highest": 9,
+      "length": 244
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2852,
+      "highest": 10,
+      "length": 278
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 1984,
+      "highest": 9,
+      "length": 211
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2595,
+      "highest": 9,
+      "length": 272
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3172,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 1647,
+      "highest": 9,
+      "length": 181
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3164,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 3099,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3254,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2664,
+      "highest": 10,
+      "length": 255
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2123,
+      "highest": 9,
+      "length": 228
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 1750,
+      "highest": 9,
+      "length": 186
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "hybrid",
+      "score": 3201,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2646,
+      "highest": 9,
+      "length": 259
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "hybrid",
+      "score": 2163,
+      "highest": 9,
+      "length": 233
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3037,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "hybrid",
+      "score": 3272,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3095,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "hybrid",
+      "score": 3150,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2011,
+      "highest": 9,
+      "length": 226
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "hybrid",
+      "score": 3013,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2830,
+      "highest": 10,
+      "length": 290
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "hybrid",
+      "score": 3041,
+      "highest": 10,
+      "length": 287
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2202,
+      "highest": 9,
+      "length": 218
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "hybrid",
+      "score": 3125,
+      "highest": 10,
+      "length": 291
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 1927,
+      "highest": 9,
+      "length": 220
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "hybrid",
+      "score": 2798,
+      "highest": 10,
+      "length": 272
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2106,
+      "highest": 9,
+      "length": 212
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "hybrid",
+      "score": 3166,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2247,
+      "highest": 9,
+      "length": 230
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "hybrid",
+      "score": 3269,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2778,
+      "highest": 10,
+      "length": 258
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "hybrid",
+      "score": 3110,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2348,
+      "highest": 9,
+      "length": 255
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "hybrid",
+      "score": 1998,
+      "highest": 9,
+      "length": 211
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2932,
+      "highest": 10,
+      "length": 282
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2480,
+      "highest": 9,
+      "length": 260
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3148,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2644,
+      "highest": 10,
+      "length": 272
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2929,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2347,
+      "highest": 9,
+      "length": 257
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2156,
+      "highest": 9,
+      "length": 227
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3147,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 3277,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 1767,
+      "highest": 9,
+      "length": 175
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2132,
+      "highest": 9,
+      "length": 234
+    },
+    {
+      "condition": "physics",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3177,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3085,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3063,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 1986,
+      "highest": 9,
+      "length": 217
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 1710,
+      "highest": 9,
+      "length": 186
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2993,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2936,
+      "highest": 10,
+      "length": 296
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2515,
+      "highest": 9,
+      "length": 269
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3173,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2012,
+      "highest": 9,
+      "length": 209
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2003,
+      "highest": 9,
+      "length": 212
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3134,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "clean",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2385,
+      "highest": 9,
+      "length": 241
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3108,
+      "highest": 10,
+      "length": 292
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2122,
+      "highest": 9,
+      "length": 231
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3194,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2663,
+      "highest": 10,
+      "length": 264
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2321,
+      "highest": 9,
+      "length": 264
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3003,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 1970,
+      "highest": 9,
+      "length": 220
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2956,
+      "highest": 10,
+      "length": 289
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2724,
+      "highest": 10,
+      "length": 275
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3156,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2729,
+      "highest": 10,
+      "length": 265
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "physics",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2127,
+      "highest": 9,
+      "length": 219
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3072,
+      "highest": 10,
+      "length": 280
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3128,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2341,
+      "highest": 9,
+      "length": 249
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2001,
+      "highest": 9,
+      "length": 228
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 3058,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3082,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2230,
+      "highest": 9,
+      "length": 238
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2996,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2312,
+      "highest": 9,
+      "length": 219
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2369,
+      "highest": 9,
+      "length": 241
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2796,
+      "highest": 10,
+      "length": 256
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "vision",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3177,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3232,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "hybrid",
+      "score": 2809,
+      "highest": 10,
+      "length": 271
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3044,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "hybrid",
+      "score": 2653,
+      "highest": 9,
+      "length": 273
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3155,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "hybrid",
+      "score": 2899,
+      "highest": 10,
+      "length": 278
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 1970,
+      "highest": 9,
+      "length": 230
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "hybrid",
+      "score": 3055,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2939,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "hybrid",
+      "score": 3133,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2637,
+      "highest": 10,
+      "length": 255
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "hybrid",
+      "score": 3073,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2986,
+      "highest": 10,
+      "length": 299
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "hybrid",
+      "score": 3146,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2198,
+      "highest": 9,
+      "length": 239
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "hybrid",
+      "score": 1801,
+      "highest": 9,
+      "length": 183
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2782,
+      "highest": 10,
+      "length": 256
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "hybrid",
+      "score": 2864,
+      "highest": 10,
+      "length": 281
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2693,
+      "highest": 10,
+      "length": 258
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "hybrid",
+      "score": 1893,
+      "highest": 9,
+      "length": 194
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3010,
+      "highest": 10,
+      "length": 284
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "hybrid",
+      "score": 2931,
+      "highest": 10,
+      "length": 263
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3191,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "hybrid",
+      "score": 3019,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3179,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3046,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2345,
+      "highest": 9,
+      "length": 248
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2838,
+      "highest": 10,
+      "length": 297
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 3002,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2696,
+      "highest": 10,
+      "length": 267
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2715,
+      "highest": 10,
+      "length": 270
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2281,
+      "highest": 9,
+      "length": 256
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1741,
+      "highest": 9,
+      "length": 184
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2888,
+      "highest": 10,
+      "length": 281
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3280,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 51,
+      "profile": "stress",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3183,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3071,
+      "highest": 10,
+      "length": 291
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2973,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3108,
+      "highest": 10,
+      "length": 289
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2390,
+      "highest": 9,
+      "length": 260
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2153,
+      "highest": 9,
+      "length": 228
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3132,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2183,
+      "highest": 9,
+      "length": 229
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3171,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 3205,
+      "highest": 10,
+      "length": 290
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2966,
+      "highest": 10,
+      "length": 279
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3164,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2775,
+      "highest": 10,
+      "length": 281
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3073,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2810,
+      "highest": 10,
+      "length": 273
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2926,
+      "highest": 10,
+      "length": 291
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3134,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 1696,
+      "highest": 9,
+      "length": 196
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 1646,
+      "highest": 9,
+      "length": 180
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 1844,
+      "highest": 9,
+      "length": 193
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2818,
+      "highest": 10,
+      "length": 281
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2120,
+      "highest": 9,
+      "length": 208
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3104,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3264,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2528,
+      "highest": 10,
+      "length": 246
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2427,
+      "highest": 9,
+      "length": 242
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3017,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2842,
+      "highest": 10,
+      "length": 276
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2918,
+      "highest": 10,
+      "length": 290
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2996,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3144,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3160,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3173,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2422,
+      "highest": 10,
+      "length": 227
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2862,
+      "highest": 10,
+      "length": 283
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2223,
+      "highest": 9,
+      "length": 214
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3155,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 1981,
+      "highest": 9,
+      "length": 221
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "hybrid",
+      "score": 1885,
+      "highest": 9,
+      "length": 205
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2956,
+      "highest": 10,
+      "length": 277
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "hybrid",
+      "score": 2838,
+      "highest": 10,
+      "length": 282
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2062,
+      "highest": 9,
+      "length": 224
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "hybrid",
+      "score": 3069,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3072,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "hybrid",
+      "score": 3091,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2978,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "hybrid",
+      "score": 3134,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3125,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "hybrid",
+      "score": 2640,
+      "highest": 10,
+      "length": 256
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2039,
+      "highest": 9,
+      "length": 213
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "hybrid",
+      "score": 3141,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2449,
+      "highest": 9,
+      "length": 262
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "hybrid",
+      "score": 2584,
+      "highest": 9,
+      "length": 271
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2645,
+      "highest": 9,
+      "length": 269
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "hybrid",
+      "score": 3059,
+      "highest": 10,
+      "length": 281
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2245,
+      "highest": 9,
+      "length": 230
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "hybrid",
+      "score": 2921,
+      "highest": 10,
+      "length": 280
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2819,
+      "highest": 10,
+      "length": 269
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "hybrid",
+      "score": 3114,
+      "highest": 10,
+      "length": 287
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3138,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "hybrid",
+      "score": 2013,
+      "highest": 9,
+      "length": 201
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3267,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 1764,
+      "highest": 9,
+      "length": 206
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2329,
+      "highest": 9,
+      "length": 244
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3008,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2634,
+      "highest": 9,
+      "length": 289
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3063,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2332,
+      "highest": 9,
+      "length": 257
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2967,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1925,
+      "highest": 9,
+      "length": 198
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3189,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2684,
+      "highest": 10,
+      "length": 253
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2743,
+      "highest": 10,
+      "length": 272
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3226,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3105,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2331,
+      "highest": 9,
+      "length": 244
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 1998,
+      "highest": 9,
+      "length": 221
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2863,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3162,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3083,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2046,
+      "highest": 9,
+      "length": 225
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 3323,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3146,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2621,
+      "highest": 10,
+      "length": 250
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 1886,
+      "highest": 9,
+      "length": 201
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3022,
+      "highest": 10,
+      "length": 280
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2849,
+      "highest": 10,
+      "length": 297
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3039,
+      "highest": 10,
+      "length": 283
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2907,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 3036,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2799,
+      "highest": 10,
+      "length": 275
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 1883,
+      "highest": 9,
+      "length": 201
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 1617,
+      "highest": 9,
+      "length": 169
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2427,
+      "highest": 10,
+      "length": 218
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2329,
+      "highest": 9,
+      "length": 241
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2855,
+      "highest": 10,
+      "length": 267
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2044,
+      "highest": 9,
+      "length": 222
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3296,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2941,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2867,
+      "highest": 10,
+      "length": 279
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2915,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2251,
+      "highest": 9,
+      "length": 258
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2964,
+      "highest": 10,
+      "length": 287
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3145,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3114,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 3261,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3276,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3256,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 1917,
+      "highest": 9,
+      "length": 197
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2070,
+      "highest": 9,
+      "length": 225
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "hybrid",
+      "score": 2093,
+      "highest": 9,
+      "length": 226
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2311,
+      "highest": 9,
+      "length": 245
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "hybrid",
+      "score": 3079,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2852,
+      "highest": 10,
+      "length": 272
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "hybrid",
+      "score": 3107,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2778,
+      "highest": 10,
+      "length": 279
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "hybrid",
+      "score": 2668,
+      "highest": 10,
+      "length": 265
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 3013,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "hybrid",
+      "score": 2904,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3104,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "hybrid",
+      "score": 3037,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2910,
+      "highest": 10,
+      "length": 292
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "hybrid",
+      "score": 1910,
+      "highest": 9,
+      "length": 204
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2893,
+      "highest": 10,
+      "length": 279
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "hybrid",
+      "score": 3192,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2725,
+      "highest": 10,
+      "length": 254
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "hybrid",
+      "score": 3251,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2802,
+      "highest": 10,
+      "length": 269
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "hybrid",
+      "score": 2767,
+      "highest": 10,
+      "length": 262
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2833,
+      "highest": 10,
+      "length": 258
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "hybrid",
+      "score": 3309,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3146,
+      "highest": 10,
+      "length": 299
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "hybrid",
+      "score": 3223,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3317,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2264,
+      "highest": 9,
+      "length": 245
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 1548,
+      "highest": 9,
+      "length": 184
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3114,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2977,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3120,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3121,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2784,
+      "highest": 10,
+      "length": 273
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1955,
+      "highest": 9,
+      "length": 200
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2234,
+      "highest": 9,
+      "length": 226
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2297,
+      "highest": 9,
+      "length": 233
+    },
+    {
+      "condition": "physics",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3002,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2725,
+      "highest": 10,
+      "length": 266
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3085,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2682,
+      "highest": 10,
+      "length": 265
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2785,
+      "highest": 10,
+      "length": 285
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2984,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2749,
+      "highest": 10,
+      "length": 268
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3156,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2725,
+      "highest": 10,
+      "length": 262
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2265,
+      "highest": 9,
+      "length": 225
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 1885,
+      "highest": 9,
+      "length": 207
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3038,
+      "highest": 10,
+      "length": 283
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "clean",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2265,
+      "highest": 9,
+      "length": 239
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3299,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2558,
+      "highest": 10,
+      "length": 254
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2345,
+      "highest": 9,
+      "length": 241
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3085,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2844,
+      "highest": 10,
+      "length": 294
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2766,
+      "highest": 9,
+      "length": 288
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3067,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2939,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2853,
+      "highest": 10,
+      "length": 262
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2000,
+      "highest": 9,
+      "length": 208
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3174,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "physics",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3080,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2554,
+      "highest": 10,
+      "length": 247
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2908,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2707,
+      "highest": 10,
+      "length": 264
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3002,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2896,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2395,
+      "highest": 9,
+      "length": 250
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2999,
+      "highest": 10,
+      "length": 296
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2074,
+      "highest": 9,
+      "length": 223
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 3170,
+      "highest": 10,
+      "length": 296
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3141,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 1531,
+      "highest": 9,
+      "length": 164
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "vision",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3157,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2586,
+      "highest": 10,
+      "length": 250
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "hybrid",
+      "score": 3002,
+      "highest": 10,
+      "length": 289
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 1894,
+      "highest": 9,
+      "length": 209
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "hybrid",
+      "score": 2940,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2168,
+      "highest": 9,
+      "length": 238
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "hybrid",
+      "score": 3157,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3079,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "hybrid",
+      "score": 2973,
+      "highest": 10,
+      "length": 297
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 3018,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "hybrid",
+      "score": 3125,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2079,
+      "highest": 9,
+      "length": 229
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "hybrid",
+      "score": 3103,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2108,
+      "highest": 9,
+      "length": 227
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "hybrid",
+      "score": 3149,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3189,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "hybrid",
+      "score": 2020,
+      "highest": 9,
+      "length": 230
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2711,
+      "highest": 10,
+      "length": 263
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "hybrid",
+      "score": 2498,
+      "highest": 10,
+      "length": 235
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3192,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "hybrid",
+      "score": 3282,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2733,
+      "highest": 10,
+      "length": 256
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "hybrid",
+      "score": 3270,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2588,
+      "highest": 10,
+      "length": 252
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "hybrid",
+      "score": 3186,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2938,
+      "highest": 10,
+      "length": 282
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3096,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2300,
+      "highest": 9,
+      "length": 237
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2614,
+      "highest": 10,
+      "length": 258
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 3154,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 1906,
+      "highest": 9,
+      "length": 204
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3059,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3173,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2595,
+      "highest": 10,
+      "length": 249
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2422,
+      "highest": 9,
+      "length": 239
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2223,
+      "highest": 9,
+      "length": 236
+    },
+    {
+      "condition": "both",
+      "training_seed": 52,
+      "profile": "stress",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2028,
+      "highest": 9,
+      "length": 205
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3186,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3118,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3078,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2030,
+      "highest": 9,
+      "length": 226
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2994,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3129,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2742,
+      "highest": 10,
+      "length": 273
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3137,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1920,
+      "highest": 9,
+      "length": 197
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2741,
+      "highest": 10,
+      "length": 251
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3186,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2894,
+      "highest": 10,
+      "length": 282
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3181,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3016,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2817,
+      "highest": 10,
+      "length": 273
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3103,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 3083,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2974,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3145,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 1707,
+      "highest": 9,
+      "length": 192
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2985,
+      "highest": 10,
+      "length": 281
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2973,
+      "highest": 10,
+      "length": 290
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3232,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 1993,
+      "highest": 9,
+      "length": 209
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2791,
+      "highest": 10,
+      "length": 267
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3113,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3125,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2847,
+      "highest": 9,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2945,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2895,
+      "highest": 10,
+      "length": 287
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 1811,
+      "highest": 9,
+      "length": 193
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3112,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 3323,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3048,
+      "highest": 10,
+      "length": 286
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3101,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3103,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3059,
+      "highest": 10,
+      "length": 282
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "hybrid",
+      "score": 3004,
+      "highest": 10,
+      "length": 284
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 3011,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "hybrid",
+      "score": 2724,
+      "highest": 9,
+      "length": 282
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2474,
+      "highest": 9,
+      "length": 249
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "hybrid",
+      "score": 3161,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3076,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "hybrid",
+      "score": 2966,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2990,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "hybrid",
+      "score": 2979,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2301,
+      "highest": 9,
+      "length": 245
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "hybrid",
+      "score": 3160,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2707,
+      "highest": 10,
+      "length": 270
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "hybrid",
+      "score": 2890,
+      "highest": 10,
+      "length": 285
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3137,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "hybrid",
+      "score": 3121,
+      "highest": 10,
+      "length": 296
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 3317,
+      "highest": 10,
+      "length": 296
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "hybrid",
+      "score": 2666,
+      "highest": 10,
+      "length": 252
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2544,
+      "highest": 10,
+      "length": 240
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "hybrid",
+      "score": 1755,
+      "highest": 9,
+      "length": 186
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2017,
+      "highest": 9,
+      "length": 212
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "hybrid",
+      "score": 2008,
+      "highest": 9,
+      "length": 203
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3135,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "hybrid",
+      "score": 3178,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3309,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2985,
+      "highest": 10,
+      "length": 288
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3175,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3089,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2547,
+      "highest": 9,
+      "length": 278
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 1854,
+      "highest": 9,
+      "length": 194
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3153,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3219,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2479,
+      "highest": 9,
+      "length": 235
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3302,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2912,
+      "highest": 10,
+      "length": 269
+    },
+    {
+      "condition": "fixed",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3153,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3241,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2735,
+      "highest": 9,
+      "length": 299
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3205,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2971,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2049,
+      "highest": 9,
+      "length": 231
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2113,
+      "highest": 9,
+      "length": 224
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2873,
+      "highest": 10,
+      "length": 282
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3080,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2175,
+      "highest": 9,
+      "length": 223
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2614,
+      "highest": 9,
+      "length": 269
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2238,
+      "highest": 9,
+      "length": 232
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2517,
+      "highest": 9,
+      "length": 268
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3013,
+      "highest": 9,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2136,
+      "highest": 9,
+      "length": 238
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3207,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2017,
+      "highest": 9,
+      "length": 229
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2832,
+      "highest": 9,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2827,
+      "highest": 10,
+      "length": 287
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2926,
+      "highest": 9,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2721,
+      "highest": 10,
+      "length": 286
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1785,
+      "highest": 9,
+      "length": 189
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2225,
+      "highest": 9,
+      "length": 223
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2841,
+      "highest": 10,
+      "length": 281
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2785,
+      "highest": 10,
+      "length": 294
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2630,
+      "highest": 10,
+      "length": 267
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 1926,
+      "highest": 9,
+      "length": 211
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2059,
+      "highest": 9,
+      "length": 219
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2971,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2081,
+      "highest": 9,
+      "length": 240
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2761,
+      "highest": 10,
+      "length": 278
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2348,
+      "highest": 9,
+      "length": 248
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2342,
+      "highest": 9,
+      "length": 255
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2122,
+      "highest": 9,
+      "length": 224
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3133,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 1677,
+      "highest": 9,
+      "length": 169
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3037,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2808,
+      "highest": 9,
+      "length": 280
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "hybrid",
+      "score": 3257,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2651,
+      "highest": 10,
+      "length": 278
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "hybrid",
+      "score": 3127,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2919,
+      "highest": 10,
+      "length": 278
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "hybrid",
+      "score": 3188,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2999,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "hybrid",
+      "score": 2393,
+      "highest": 9,
+      "length": 246
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2999,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "hybrid",
+      "score": 3083,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3016,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "hybrid",
+      "score": 3163,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3118,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "hybrid",
+      "score": 1735,
+      "highest": 9,
+      "length": 186
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 3040,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "hybrid",
+      "score": 2422,
+      "highest": 9,
+      "length": 252
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1876,
+      "highest": 9,
+      "length": 205
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "hybrid",
+      "score": 1912,
+      "highest": 9,
+      "length": 195
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2188,
+      "highest": 9,
+      "length": 224
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "hybrid",
+      "score": 3170,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2817,
+      "highest": 10,
+      "length": 256
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "hybrid",
+      "score": 2652,
+      "highest": 10,
+      "length": 254
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2458,
+      "highest": 10,
+      "length": 251
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "hybrid",
+      "score": 2450,
+      "highest": 9,
+      "length": 262
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2783,
+      "highest": 10,
+      "length": 273
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2149,
+      "highest": 9,
+      "length": 247
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2968,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2535,
+      "highest": 9,
+      "length": 272
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2778,
+      "highest": 9,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2927,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2874,
+      "highest": 10,
+      "length": 293
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2008,
+      "highest": 9,
+      "length": 236
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1876,
+      "highest": 9,
+      "length": 205
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2022,
+      "highest": 9,
+      "length": 224
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2018,
+      "highest": 9,
+      "length": 205
+    },
+    {
+      "condition": "physics",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2021,
+      "highest": 9,
+      "length": 220
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 1717,
+      "highest": 9,
+      "length": 186
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2160,
+      "highest": 9,
+      "length": 231
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2822,
+      "highest": 10,
+      "length": 278
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 1909,
+      "highest": 9,
+      "length": 225
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2957,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3169,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2135,
+      "highest": 9,
+      "length": 228
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2493,
+      "highest": 9,
+      "length": 273
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1956,
+      "highest": 9,
+      "length": 202
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2264,
+      "highest": 9,
+      "length": 233
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 1620,
+      "highest": 9,
+      "length": 164
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "clean",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2205,
+      "highest": 9,
+      "length": 237
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3310,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2084,
+      "highest": 9,
+      "length": 221
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3183,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2178,
+      "highest": 9,
+      "length": 231
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2901,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2489,
+      "highest": 9,
+      "length": 259
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2063,
+      "highest": 9,
+      "length": 223
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2759,
+      "highest": 10,
+      "length": 271
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1991,
+      "highest": 9,
+      "length": 200
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 1294,
+      "highest": 8,
+      "length": 157
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 1626,
+      "highest": 9,
+      "length": 164
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "physics",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3178,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 2845,
+      "highest": 10,
+      "length": 275
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2051,
+      "highest": 9,
+      "length": 225
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 2960,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2255,
+      "highest": 9,
+      "length": 243
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 1914,
+      "highest": 8,
+      "length": 226
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3023,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2776,
+      "highest": 10,
+      "length": 278
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2284,
+      "highest": 9,
+      "length": 247
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 2862,
+      "highest": 10,
+      "length": 279
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3079,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 3348,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "vision",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 1679,
+      "highest": 9,
+      "length": 177
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 3023,
+      "highest": 10,
+      "length": 292
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261201,
+      "strategy": "hybrid",
+      "score": 2860,
+      "highest": 10,
+      "length": 275
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 2654,
+      "highest": 9,
+      "length": 277
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261202,
+      "strategy": "hybrid",
+      "score": 1810,
+      "highest": 9,
+      "length": 193
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3043,
+      "highest": 10,
+      "length": 299
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261203,
+      "strategy": "hybrid",
+      "score": 3162,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 3036,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261204,
+      "strategy": "hybrid",
+      "score": 3076,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2502,
+      "highest": 9,
+      "length": 278
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261205,
+      "strategy": "hybrid",
+      "score": 3037,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 3017,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261206,
+      "strategy": "hybrid",
+      "score": 3123,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 2459,
+      "highest": 9,
+      "length": 247
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261207,
+      "strategy": "hybrid",
+      "score": 3077,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 1795,
+      "highest": 9,
+      "length": 193
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261208,
+      "strategy": "hybrid",
+      "score": 2867,
+      "highest": 10,
+      "length": 280
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 1841,
+      "highest": 9,
+      "length": 191
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261209,
+      "strategy": "hybrid",
+      "score": 3240,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 2640,
+      "highest": 10,
+      "length": 259
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261210,
+      "strategy": "hybrid",
+      "score": 3084,
+      "highest": 10,
+      "length": 295
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 1648,
+      "highest": 9,
+      "length": 174
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261211,
+      "strategy": "hybrid",
+      "score": 2842,
+      "highest": 10,
+      "length": 258
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 2003,
+      "highest": 9,
+      "length": 204
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "both",
+      "fruit_seed": 20261212,
+      "strategy": "hybrid",
+      "score": 2996,
+      "highest": 10,
+      "length": 296
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261201,
+      "strategy": "sample",
+      "score": 1657,
+      "highest": 9,
+      "length": 173
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261202,
+      "strategy": "sample",
+      "score": 1794,
+      "highest": 9,
+      "length": 197
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261203,
+      "strategy": "sample",
+      "score": 3129,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261204,
+      "strategy": "sample",
+      "score": 2564,
+      "highest": 9,
+      "length": 268
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261205,
+      "strategy": "sample",
+      "score": 2939,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261206,
+      "strategy": "sample",
+      "score": 2940,
+      "highest": 10,
+      "length": 297
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261207,
+      "strategy": "sample",
+      "score": 3077,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261208,
+      "strategy": "sample",
+      "score": 2496,
+      "highest": 10,
+      "length": 247
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261209,
+      "strategy": "sample",
+      "score": 3251,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261210,
+      "strategy": "sample",
+      "score": 3287,
+      "highest": 10,
+      "length": 300
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261211,
+      "strategy": "sample",
+      "score": 2445,
+      "highest": 9,
+      "length": 251
+    },
+    {
+      "condition": "both",
+      "training_seed": 53,
+      "profile": "stress",
+      "fruit_seed": 20261212,
+      "strategy": "sample",
+      "score": 3132,
+      "highest": 10,
+      "length": 300
+    }
+  ],
+  "by_training_seed": [
+    {
+      "profile": "clean",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "fixed",
+      "mean_score": 2468.4166666666665,
+      "paired_delta": {
+        "physics": -293,
+        "both": -114.5
+      }
+    },
+    {
+      "profile": "clean",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "physics",
+      "mean_score": 2761.4166666666665,
+      "paired_delta": {
+        "fixed": 293,
+        "both": 178.5
+      }
+    },
+    {
+      "profile": "clean",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "both",
+      "mean_score": 2582.9166666666665,
+      "paired_delta": {
+        "fixed": 114.5,
+        "physics": -178.5
+      }
+    },
+    {
+      "profile": "clean",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "fixed",
+      "mean_score": 2857.5833333333335,
+      "paired_delta": {
+        "physics": 125.08333333333333,
+        "both": 162.25
+      }
+    },
+    {
+      "profile": "clean",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "physics",
+      "mean_score": 2732.5,
+      "paired_delta": {
+        "fixed": -125.08333333333333,
+        "both": 37.166666666666664
+      }
+    },
+    {
+      "profile": "clean",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "both",
+      "mean_score": 2695.3333333333335,
+      "paired_delta": {
+        "fixed": -162.25,
+        "physics": -37.166666666666664
+      }
+    },
+    {
+      "profile": "clean",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "fixed",
+      "mean_score": 2846.25,
+      "paired_delta": {
+        "physics": 195.33333333333334,
+        "both": 562.3333333333334
+      }
+    },
+    {
+      "profile": "clean",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "physics",
+      "mean_score": 2650.9166666666665,
+      "paired_delta": {
+        "fixed": -195.33333333333334,
+        "both": 367
+      }
+    },
+    {
+      "profile": "clean",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "both",
+      "mean_score": 2283.9166666666665,
+      "paired_delta": {
+        "fixed": -562.3333333333334,
+        "physics": -367
+      }
+    },
+    {
+      "profile": "physics",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "fixed",
+      "mean_score": 2728.5833333333335,
+      "paired_delta": {
+        "physics": 128.91666666666666,
+        "both": 55.833333333333336
+      }
+    },
+    {
+      "profile": "physics",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "physics",
+      "mean_score": 2599.6666666666665,
+      "paired_delta": {
+        "fixed": -128.91666666666666,
+        "both": -73.08333333333333
+      }
+    },
+    {
+      "profile": "physics",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "both",
+      "mean_score": 2672.75,
+      "paired_delta": {
+        "fixed": -55.833333333333336,
+        "physics": 73.08333333333333
+      }
+    },
+    {
+      "profile": "physics",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "fixed",
+      "mean_score": 2580.25,
+      "paired_delta": {
+        "physics": 13,
+        "both": -253.91666666666666
+      }
+    },
+    {
+      "profile": "physics",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "physics",
+      "mean_score": 2567.25,
+      "paired_delta": {
+        "fixed": -13,
+        "both": -266.9166666666667
+      }
+    },
+    {
+      "profile": "physics",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "both",
+      "mean_score": 2834.1666666666665,
+      "paired_delta": {
+        "fixed": 253.91666666666666,
+        "physics": 266.9166666666667
+      }
+    },
+    {
+      "profile": "physics",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "fixed",
+      "mean_score": 2850.75,
+      "paired_delta": {
+        "physics": 241.16666666666666,
+        "both": 429.4166666666667
+      }
+    },
+    {
+      "profile": "physics",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "physics",
+      "mean_score": 2609.5833333333335,
+      "paired_delta": {
+        "fixed": -241.16666666666666,
+        "both": 188.25
+      }
+    },
+    {
+      "profile": "physics",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "both",
+      "mean_score": 2421.3333333333335,
+      "paired_delta": {
+        "fixed": -429.4166666666667,
+        "physics": -188.25
+      }
+    },
+    {
+      "profile": "vision",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "fixed",
+      "mean_score": 2574.4166666666665,
+      "paired_delta": {
+        "physics": -23.416666666666668,
+        "both": -139.08333333333334
+      }
+    },
+    {
+      "profile": "vision",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "physics",
+      "mean_score": 2597.8333333333335,
+      "paired_delta": {
+        "fixed": 23.416666666666668,
+        "both": -115.66666666666667
+      }
+    },
+    {
+      "profile": "vision",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "both",
+      "mean_score": 2713.5,
+      "paired_delta": {
+        "fixed": 139.08333333333334,
+        "physics": 115.66666666666667
+      }
+    },
+    {
+      "profile": "vision",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "fixed",
+      "mean_score": 2861.5833333333335,
+      "paired_delta": {
+        "physics": -72,
+        "both": 150.41666666666666
+      }
+    },
+    {
+      "profile": "vision",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "physics",
+      "mean_score": 2933.5833333333335,
+      "paired_delta": {
+        "fixed": 72,
+        "both": 222.41666666666666
+      }
+    },
+    {
+      "profile": "vision",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "both",
+      "mean_score": 2711.1666666666665,
+      "paired_delta": {
+        "fixed": -150.41666666666666,
+        "physics": -222.41666666666666
+      }
+    },
+    {
+      "profile": "vision",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "fixed",
+      "mean_score": 2934.5,
+      "paired_delta": {
+        "physics": 510.5833333333333,
+        "both": 344.8333333333333
+      }
+    },
+    {
+      "profile": "vision",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "physics",
+      "mean_score": 2423.9166666666665,
+      "paired_delta": {
+        "fixed": -510.5833333333333,
+        "both": -165.75
+      }
+    },
+    {
+      "profile": "vision",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "both",
+      "mean_score": 2589.6666666666665,
+      "paired_delta": {
+        "fixed": -344.8333333333333,
+        "physics": 165.75
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "fixed",
+      "mean_score": 2543.9166666666665,
+      "paired_delta": {
+        "physics": 129.16666666666666,
+        "both": -275.8333333333333
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "physics",
+      "mean_score": 2414.75,
+      "paired_delta": {
+        "fixed": -129.16666666666666,
+        "both": -405
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "both",
+      "mean_score": 2819.75,
+      "paired_delta": {
+        "fixed": 275.8333333333333,
+        "physics": 405
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "fixed",
+      "mean_score": 2625.75,
+      "paired_delta": {
+        "physics": -160.66666666666666,
+        "both": 13.666666666666666
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "physics",
+      "mean_score": 2786.4166666666665,
+      "paired_delta": {
+        "fixed": 160.66666666666666,
+        "both": 174.33333333333334
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "both",
+      "mean_score": 2612.0833333333335,
+      "paired_delta": {
+        "fixed": -13.666666666666666,
+        "physics": -174.33333333333334
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "fixed",
+      "mean_score": 2814,
+      "paired_delta": {
+        "physics": 73.25,
+        "both": 342.25
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "physics",
+      "mean_score": 2740.75,
+      "paired_delta": {
+        "fixed": -73.25,
+        "both": 269
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "both",
+      "mean_score": 2471.75,
+      "paired_delta": {
+        "fixed": -342.25,
+        "physics": -269
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "hybrid",
+      "seed": 51,
+      "condition": "fixed",
+      "mean_score": 2942.3333333333335,
+      "paired_delta": {
+        "physics": 0.16666666666666666,
+        "both": 169.33333333333334
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "hybrid",
+      "seed": 51,
+      "condition": "physics",
+      "mean_score": 2942.1666666666665,
+      "paired_delta": {
+        "fixed": -0.16666666666666666,
+        "both": 169.16666666666666
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "hybrid",
+      "seed": 51,
+      "condition": "both",
+      "mean_score": 2773,
+      "paired_delta": {
+        "fixed": -169.33333333333334,
+        "physics": -169.16666666666666
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "hybrid",
+      "seed": 52,
+      "condition": "fixed",
+      "mean_score": 2790.75,
+      "paired_delta": {
+        "physics": -87.58333333333333,
+        "both": -184.66666666666666
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "hybrid",
+      "seed": 52,
+      "condition": "physics",
+      "mean_score": 2878.3333333333335,
+      "paired_delta": {
+        "fixed": 87.58333333333333,
+        "both": -97.08333333333333
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "hybrid",
+      "seed": 52,
+      "condition": "both",
+      "mean_score": 2975.4166666666665,
+      "paired_delta": {
+        "fixed": 184.66666666666666,
+        "physics": 97.08333333333333
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "hybrid",
+      "seed": 53,
+      "condition": "fixed",
+      "mean_score": 2801,
+      "paired_delta": {
+        "physics": 88.33333333333333,
+        "both": -130.16666666666666
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "hybrid",
+      "seed": 53,
+      "condition": "physics",
+      "mean_score": 2712.6666666666665,
+      "paired_delta": {
+        "fixed": -88.33333333333333,
+        "both": -218.5
+      }
+    },
+    {
+      "profile": "both",
+      "strategy": "hybrid",
+      "seed": 53,
+      "condition": "both",
+      "mean_score": 2931.1666666666665,
+      "paired_delta": {
+        "fixed": 130.16666666666666,
+        "physics": 218.5
+      }
+    },
+    {
+      "profile": "stress",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "fixed",
+      "mean_score": 2665.5,
+      "paired_delta": {
+        "physics": -12.5,
+        "both": -100.66666666666667
+      }
+    },
+    {
+      "profile": "stress",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "physics",
+      "mean_score": 2678,
+      "paired_delta": {
+        "fixed": 12.5,
+        "both": -88.16666666666667
+      }
+    },
+    {
+      "profile": "stress",
+      "strategy": "sample",
+      "seed": 51,
+      "condition": "both",
+      "mean_score": 2766.1666666666665,
+      "paired_delta": {
+        "fixed": 100.66666666666667,
+        "physics": 88.16666666666667
+      }
+    },
+    {
+      "profile": "stress",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "fixed",
+      "mean_score": 2658.75,
+      "paired_delta": {
+        "physics": 14.333333333333334,
+        "both": 33.083333333333336
+      }
+    },
+    {
+      "profile": "stress",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "physics",
+      "mean_score": 2644.4166666666665,
+      "paired_delta": {
+        "fixed": -14.333333333333334,
+        "both": 18.75
+      }
+    },
+    {
+      "profile": "stress",
+      "strategy": "sample",
+      "seed": 52,
+      "condition": "both",
+      "mean_score": 2625.6666666666665,
+      "paired_delta": {
+        "fixed": -33.083333333333336,
+        "physics": -18.75
+      }
+    },
+    {
+      "profile": "stress",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "fixed",
+      "mean_score": 2931.4166666666665,
+      "paired_delta": {
+        "physics": 518.1666666666666,
+        "both": 205.5
+      }
+    },
+    {
+      "profile": "stress",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "physics",
+      "mean_score": 2413.25,
+      "paired_delta": {
+        "fixed": -518.1666666666666,
+        "both": -312.6666666666667
+      }
+    },
+    {
+      "profile": "stress",
+      "strategy": "sample",
+      "seed": 53,
+      "condition": "both",
+      "mean_score": 2725.9166666666665,
+      "paired_delta": {
+        "fixed": -205.5,
+        "physics": 312.6666666666667
+      }
+    }
+  ]
+}

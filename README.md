@@ -228,3 +228,31 @@ In the 198-drop capture, 94 of the 165 predicted scoring drops increased the sit
 ### Completed uncapped episode
 
 The final retry reached the site's game-over screen after **188 drops**, with an observed final score of **1,725** in 20 minutes 23 seconds. Both caps were disabled. It used the original frozen 204,800-drop PPO policy with one-drop local physics planning and the widened aim crop. The uncapped capture that paused at 1,855 used a different live fruit sequence. [Completed replay](artifacts/transfer/replays/index.html#websiteGameOver) · [Game-over screen](artifacts/transfer/demo-game-over/end.png) · [Manifest](artifacts/transfer/demo-game-over/manifest.json)
+
+## Joint physics and screenshot-noise training
+
+This pilot continues the same frozen FlyWire checkpoint for 49,152 new drops and 48 PPO updates per trial. It uses three continuation seeds, with matched fixed-physics, randomized-physics, and joint physics-plus-vision conditions. Training uses four game workers per learner. Twelve fresh fruit seeds are shared by every held-out evaluation condition.
+
+At unit vision-noise strength, a board fruit has a 6% chance of omission, its center has independent Gaussian noise with a standard deviation of 1.2% of board width or height, and its tier has a 4.5% chance of a one-tier error. A large fruit can also produce a small false detection near it. This happens on 18% of observations that contain an eligible large fruit. The next-fruit feature is additionally masked on 7% of observations. These synthetic rates exercise failure modes seen in captures. The board, score, and fruit sequence evolve independently of the observation-noise RNG. The stress evaluation multiplies the vision noise by 1.5 and also varies physics.
+
+```bash
+bash flymerge/run-vision-suite.sh
+.venv/bin/python -m flymerge.evaluate_vision
+```
+
+The PPO sampling comparison measures changes in learned policy. The hybrid comparison also runs the same one-drop planner from the website transfer against every continuation checkpoint under joint perturbations. All training and evaluation in this pilot use the local simulator.
+
+### Joint training results
+
+Each cell averages 36 episodes from three continuation seeds and 12 paired fruit sequences per seed.
+
+| Held-out evaluation | Fixed training | Physics-only training | Joint training |
+| --- | ---: | ---: | ---: |
+| Clean, PPO sampling | 2,724.1 | 2,714.9 | 2,520.7 |
+| Physics variation only, PPO sampling | 2,719.9 | 2,592.2 | 2,642.8 |
+| Vision noise only, PPO sampling | 2,790.2 | 2,651.8 | 2,671.4 |
+| Both perturbations, PPO sampling | 2,661.2 | 2,647.3 | 2,634.5 |
+| Both with stronger vision noise, PPO sampling | 2,751.9 | 2,578.6 | 2,705.9 |
+| Both perturbations, PPO plus planner | 2,844.7 | 2,844.4 | 2,893.2 |
+
+Joint training gained 48.5 points with the deployed planner under joint perturbations. The paired changes versus fixed training were −169.3, +184.7, and +130.2 across the three training seeds. The joint model lost 26.7 points on the same profile with PPO sampling and 203.4 points on clean observations. The experiment used synthetic perturbations with approximate noise rates. The committed website replay continues to use the earlier frozen policy. [All episode results and paired differences](artifacts/transfer/results/vision-robustness.json) · [Nine checkpoints and training summaries](artifacts/transfer/checkpoints/vision-robustness.tar.gz)
