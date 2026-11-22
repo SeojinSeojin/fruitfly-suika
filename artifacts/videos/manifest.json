@@ -19,7 +19,9 @@
     },
     "render_and_decode_seconds": 32.03143114701379,
     "fps": 30,
-    "frames_per_drop": 28
+    "frames_per_drop": 28,
+    "checkpoint_sha256": "77f8ff102f46a2495770aec955cf038a96afdbd538d71a47dc2922a742c0cc39",
+    "policy_sha256": "098bca54c6db4d787d23bbc0682e44b80f24316d5c1c511c098aeb3b619dc17b"
   },
   "drop1000": {
     "kind": "flywire",
@@ -41,7 +43,9 @@
     },
     "render_and_decode_seconds": 31.209328080993146,
     "fps": 30,
-    "frames_per_drop": 28
+    "frames_per_drop": 28,
+    "checkpoint_sha256": "aee5dacf584a8c3b07c600294c5e8af7111db8bc4326f220fe344583293eae22",
+    "policy_sha256": "098bca54c6db4d787d23bbc0682e44b80f24316d5c1c511c098aeb3b619dc17b"
   },
   "early": {
     "kind": "flywire",
@@ -63,7 +67,9 @@
     },
     "render_and_decode_seconds": 29.952056872018147,
     "fps": 30,
-    "frames_per_drop": 28
+    "frames_per_drop": 28,
+    "checkpoint_sha256": "131457479bb553569a89caf23537f130cdb4484fca20541b2d2aca4a2755e392",
+    "policy_sha256": "b6ae3e5e015016b5665abb1659d029436020f9ec2563f80fe4fe4ca6adc0757c"
   },
   "middle": {
     "kind": "flywire",
@@ -85,7 +91,9 @@
     },
     "render_and_decode_seconds": 26.794898365973495,
     "fps": 30,
-    "frames_per_drop": 28
+    "frames_per_drop": 28,
+    "checkpoint_sha256": "86214c05afb889e791cc3d7703f3940c5bc3cb21a999f703fe1c00330a2ebc07",
+    "policy_sha256": "dc85d5c3101a7fa199655c9cf7cd132269260d184a3bfc332a2758aee239e817"
   },
   "final": {
     "kind": "flywire",
@@ -107,6 +115,8 @@
     },
     "render_and_decode_seconds": 29.02612572297221,
     "fps": 30,
-    "frames_per_drop": 28
+    "frames_per_drop": 28,
+    "checkpoint_sha256": "dbd0b04237fba6c87d65cc0a47615adac8abe266d69b81c62b356c18b2923fe4",
+    "policy_sha256": "4707771ab20243ac37f7bf0f2455a65c37ae843ba507c5f812451072e702a95c"
   }
 }

@@ -1,6 +1,7 @@
 """Verify frozen-policy alignment and decode every committed video."""
 import base64
 import gzip
+import hashlib
 import json
 import subprocess
 from pathlib import Path
@@ -25,7 +26,10 @@ def main():
     assert json.loads(replay_manifest) == manifest
     assert set(manifest) == {'drop5','drop1000','early','middle','final'}
     for label, metadata in manifest.items():
-        policy, checkpoint = restore(Path(metadata['checkpoint']), graph)
+        checkpoint_path = Path(metadata['checkpoint'])
+        with checkpoint_path.open('rb') as source:
+            assert hashlib.file_digest(source, 'sha256').hexdigest() == metadata['checkpoint_sha256']
+        policy, checkpoint = restore(checkpoint_path, graph)
         assert all(checkpoint[key] == metadata[key] for key in ('requested','drops','updates'))
         video = ROOT/'videos'/metadata['video']
         assert metadata['bytes'] == video.stat().st_size

@@ -2,6 +2,7 @@
 import argparse
 import base64
 import gzip
+import hashlib
 import json
 import subprocess
 import time
@@ -105,14 +106,22 @@ def render(args, graph, protocol):
     manifest_path = ROOT / 'videos/manifest.json'
     manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
     for label in args.labels:
-        policy, checkpoint = restore(run / f'{label}.pt', graph)
+        checkpoint_path = run / f'{label}.pt'
+        policy, checkpoint = restore(checkpoint_path, graph)
+        with checkpoint_path.open('rb') as source:
+            checkpoint_digest = hashlib.file_digest(source, 'sha256').hexdigest()
         meta = {k: checkpoint[k] for k in ('kind', 'seed', 'requested', 'drops', 'updates')}
+        policy_digest = hashlib.sha256(b''.join(
+            value.numpy().tobytes() for value in checkpoint['state'].values())).hexdigest()
         previous = next((entry for entry in manifest.values()
                          if (entry['drops'], entry['updates'], entry['seed'], entry['fruit_seed'])
                          == (meta['drops'], meta['updates'], seed, fruit_seed)
-                         and (ROOT / 'videos' / entry['video']).is_file()), None)
+                         and entry.get('policy_sha256') == policy_digest
+                         and (ROOT / 'videos' / entry['video']).is_file()
+                         and (ROOT / 'replays' / f"{entry['trace']}.js").is_file()), None)
         if previous:
-            manifest[label] = {**previous, **meta, 'checkpoint': str(run / f'{label}.pt')}
+            manifest[label] = {**previous, **meta, 'checkpoint': str(checkpoint_path),
+                               'checkpoint_sha256': checkpoint_digest}
             continue
         path = ROOT / 'videos' / f'{label}.mp4'
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -126,7 +135,8 @@ def render(args, graph, protocol):
             if ffmpeg.wait():
                 raise RuntimeError(f'Encoding {path} failed')
         subprocess.run([get_ffmpeg_exe(), '-v', 'error', '-i', str(path), '-f', 'null', '-'], check=True)
-        entry = dict(**meta, checkpoint=str(run / f'{label}.pt'), fruit_seed=fruit_seed,
+        entry = dict(**meta, checkpoint=str(checkpoint_path), checkpoint_sha256=checkpoint_digest,
+                     policy_sha256=policy_digest, fruit_seed=fruit_seed,
                      action_rng_seed=fruit_seed + protocol['evaluation_action_seed_offset'],
                      pre_update=not bool(meta['updates']), video=path.name, trace=label,
                      bytes=path.stat().st_size, episode=info, render_and_decode_seconds=time.perf_counter()-started,
