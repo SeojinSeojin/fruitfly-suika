@@ -1,0 +1,9 @@
+{
+  "training_seeds": [11, 22, 33],
+  "held_out_fruit_seeds": [20261122, 20261123, 20261124, 20261125, 20261126, 20261127, 20261128, 20261129, 20261130, 20261131, 20261132, 20261133],
+  "video_training_seed": 11,
+  "video_fruit_seed": 20261122,
+  "evaluation_action_seed_offset": 1771,
+  "policy_decision": "Categorical sampling with paired action RNG seeds",
+  "protocol_note": "Training and showcase seeds selected before inspecting evaluation scores."
+}
