@@ -168,3 +168,39 @@ The learning comparison tests supervised readout training on the local planner's
   --distilled artifacts/transfer/checkpoints/flywire-seed11-distilled.pt \
   --aggregated artifacts/transfer/checkpoints/flywire-seed11-aggregated.pt
 ```
+
+### Local planning and learning comparison
+
+The table reports one original PPO seed and 12 paired fruit sequences per row. The local game ends at overflow or 300 drops. The hybrid was selected for the website run using a separate combination of the same frozen PPO weights and the local simulator.
+
+| Method | Mean local score | Mean episode drops |
+| --- | ---: | ---: |
+| Frozen PPO sampling | 2,730.5 | 270.1 |
+| Frozen PPO highest probability | 2,840.3 | 270.6 |
+| One-drop physics planning | 3,021.3 | 292.1 |
+| Frozen PPO plus physics planning | 3,177.5 | 296.8 |
+| Planner imitation, highest probability | 2,422.2 | 249.8 |
+| Data aggregation, highest probability | 2,452.1 | 247.4 |
+| Action-relative readout and data aggregation, highest probability | 2,676.0 | 266.2 |
+| Additional 32,768 PPO drops, sampling | 2,802.4 | 275.1 |
+| Additional 32,768 PPO drops from action-relative imitation, sampling | 2,396.2 | 252.2 |
+
+The biggest gain came from ranking simulated outcomes at inference. Action-relative features raised the score of the imitation-only readout, and the extra PPO budget had a smaller effect for this training seed. The comparison does not establish an improvement from imitation over the original PPO. A sensible next learning experiment is to give PPO action-relative inputs from the start and randomize fruit detection errors and collision parameters during training. Validate those changes on reserved seeds with matched training budgets. [Per-seed results](artifacts/transfer/results/planning.json)
+
+The action-relative readout adds a small shared network over landing height, the first obstructing fruit, distance to same-tier fruit, and other geometric features for each of the 15 aim columns. The recurrent FlyWire input mapping stays fixed. To reproduce that pilot and the matched continuation trials, run the following.
+
+```bash
+.venv/bin/python -m flymerge.distill --spatial --rounds 3 \
+  --out artifacts/transfer/checkpoints/flywire-seed11-spatial.pt
+for variant in final spatial; do
+  .venv/bin/python -m flymerge.train --kind flywire --seed 44 --rules transfer \
+    --workers 4 --budget 32768 \
+    --initialize "artifacts/transfer/checkpoints/flywire-seed11-${variant}.pt" \
+    --out "runs/continue-${variant}"
+done
+.venv/bin/python -m flymerge.compare_planning \
+  --distilled artifacts/transfer/checkpoints/flywire-seed11-distilled.pt \
+  --aggregated artifacts/transfer/checkpoints/flywire-seed11-aggregated.pt \
+  --spatial artifacts/transfer/checkpoints/flywire-seed11-spatial.pt \
+  --continuations runs/continue-final/final.pt runs/continue-spatial/final.pt
+```

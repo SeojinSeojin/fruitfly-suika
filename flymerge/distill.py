@@ -13,7 +13,13 @@ def train(args):
     model, checkpoint = restore(args.source, graph)
     rng = np.random.default_rng(53001)
     examples, estimates = [], []
-    optimizer = torch.optim.Adam(model.actor.parameters(), lr=.002)
+    params = list(model.actor.parameters())
+    if args.spatial and not hasattr(model, 'spatial_head'):
+        torch.manual_seed(53001)
+        model.enable_spatial_head()
+    if hasattr(model, 'spatial_head'):
+        params.extend(model.spatial_head.parameters())
+    optimizer = torch.optim.Adam(params, lr=.002)
     for round_index in range(args.rounds):
         for seed in range(53001+round_index*args.episodes, 53001+(round_index+1)*args.episodes):
             env = Orchard(rules='transfer')
@@ -41,15 +47,16 @@ def train(args):
         model.train()
         for _ in range(35):
             for batch in np.array_split(rng.permutation(len(x)), (len(x)+127)//128):
-                predicted = model.actor(features[batch]).log_softmax(-1)
+                predicted = model.action_logits(features[batch], x[batch]).log_softmax(-1)
                 loss = -(target[batch] * predicted).sum(-1).mean()
                 optimizer.zero_grad()
                 loss.backward()
                 optimizer.step()
     args.out.parent.mkdir(parents=True, exist_ok=True)
-    torch.save(dict(**{k: v for k, v in checkpoint.items() if k != 'state'}, state=model.state_dict(),
-                    imitation_examples=len(x), imitation_episodes=args.episodes*args.rounds,
-                    imitation_rounds=args.rounds), args.out)
+    checkpoint.update(state=model.state_dict(), imitation_examples=len(x),
+                      imitation_episodes=args.episodes*args.rounds, imitation_rounds=args.rounds,
+                      spatial_head=hasattr(model, 'spatial_head'))
+    torch.save(checkpoint, args.out)
 
 
 if __name__ == '__main__':
@@ -57,6 +64,7 @@ if __name__ == '__main__':
     parser.add_argument('--source', type=Path, default=Path('artifacts/transfer/checkpoints/flywire-seed11-final.pt'))
     parser.add_argument('--out', type=Path, required=True)
     parser.add_argument('--episodes', type=int, default=12)
+    parser.add_argument('--spatial', action='store_true')
     parser.add_argument('--rounds', type=int, default=1)
     args = parser.parse_args()
     if args.rounds < 1 or args.episodes < 1:

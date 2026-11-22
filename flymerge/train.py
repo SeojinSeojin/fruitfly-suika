@@ -6,7 +6,7 @@ import resource
 import time
 from pathlib import Path
 
-from .policy import Policy, np, torch
+from .policy import Policy, np, restore, torch
 from .game import Orchard
 from torch.distributions import Categorical
 
@@ -44,7 +44,14 @@ def train(args):
         pipes.append(host)
         workers.append(process)
     observation = np.stack([pipe.recv() for pipe in pipes])
-    policy = Policy(args.kind, graph, args.sparse)
+    prior = {}
+    if args.initialize:
+        policy, prior = restore(args.initialize, graph)
+        if prior['kind'] != args.kind or prior.get('rules', 'original') != args.rules:
+            raise ValueError('Warm-start architecture and physics must match the training run')
+        policy.train()
+    else:
+        policy = Policy(args.kind, graph, args.sparse)
     optimizer = torch.optim.Adam(policy.parameters(), lr=3e-4, eps=1e-5)
     total = updates = 0
     peaks = [0] * args.workers
@@ -55,7 +62,11 @@ def train(args):
     def save(label):
         start = time.perf_counter()
         path = args.out / f'{label}.pt'
-        torch.save(dict(kind=args.kind, seed=args.seed, drops=total, updates=updates,
+        extra = {}
+        if prior:
+            extra.update(initial_checkpoint=str(args.initialize), initial_drops=prior['drops'],
+                         initial_updates=prior['updates'], spatial_head=hasattr(policy, 'spatial_head'))
+        torch.save(dict(**extra, kind=args.kind, seed=args.seed, drops=total, updates=updates,
                         requested=marks[label], rules=args.rules, state=policy.state_dict()), path)
         snapshots[label] = dict(file=path.name, requested=marks[label], drops=total, updates=updates)
         timings['checkpoint'] += time.perf_counter() - start
@@ -64,13 +75,15 @@ def train(args):
     learning_started = time.perf_counter()
     with (args.out / 'episodes.jsonl').open('w') as episodes, (args.out / 'learning.jsonl').open('w') as learning:
         while total < args.budget:
-            feats, actions, old_logp, values, rewards, done_rows = [], [], [], [], [], []
+            feats, actions, old_logp, values, rewards, done_rows, raw = [], [], [], [], [], [], []
             length = min(args.rollout // args.workers, (args.budget - total) // args.workers)
             for _ in range(length):
                 start = time.perf_counter()
                 with torch.no_grad():
-                    features = policy.features(torch.from_numpy(observation))
-                    logits, value = policy.heads(features)
+                    obs_tensor = torch.from_numpy(observation)
+                    features = policy.features(obs_tensor)
+                    logits, value = policy.heads(features, obs_tensor)
+                    raw.append(obs_tensor)
                     distribution = Categorical(logits=logits)
                     action = distribution.sample()
                     logp = distribution.log_prob(action)
@@ -102,7 +115,8 @@ def train(args):
                             save(label)
             start = time.perf_counter()
             with torch.no_grad():
-                _, next_value = policy.heads(policy.features(torch.from_numpy(observation)))
+                bootstrap = torch.from_numpy(observation)
+                _, next_value = policy.heads(policy.features(bootstrap), bootstrap)
                 advantages = torch.empty((length, args.workers))
                 gae = 0.
                 for t in reversed(range(length)):
@@ -114,12 +128,12 @@ def train(args):
                 targets = advantages.flatten() + torch.cat(values)
                 advantages = advantages.flatten()
                 advantages = (advantages - advantages.mean()) / (advantages.std(unbiased=False) + 1e-8)
-            feature_batch, action_batch, logp_batch = map(torch.cat, (feats, actions, old_logp))
+            feature_batch, action_batch, logp_batch, raw_batch = map(torch.cat, (feats, actions, old_logp, raw))
             for _ in range(4):
                 indexes = rng.permutation(len(targets))
                 for begin in range(0, len(targets), 256):
                     i = indexes[begin:begin + 256]
-                    logits, value = policy.heads(feature_batch[i])
+                    logits, value = policy.heads(feature_batch[i], raw_batch[i])
                     dist = Categorical(logits=logits)
                     ratio = (dist.log_prob(action_batch[i]) - logp_batch[i]).exp()
                     loss = (-torch.minimum(ratio * advantages[i], ratio.clamp(.8, 1.2) * advantages[i]).mean()
@@ -152,6 +166,7 @@ def train(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--initialize', type=Path)
     parser.add_argument('--rules', choices=['original','transfer'], default='original')
     parser.add_argument('--kind', choices=['flywire', 'rewired', 'mlp'], required=True)
     parser.add_argument('--graph', type=Path, default=Path('artifacts/graph.json'))

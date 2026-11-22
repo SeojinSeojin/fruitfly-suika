@@ -80,7 +80,8 @@ def episode(policy, seed, offset, capture=None, metadata=None, rules="original")
             action, trace = policy.decide(observation, rng)
         else:
             with torch.no_grad():
-                logits, _ = policy.heads(policy.features(torch.from_numpy(observation[None])))
+                tensor = torch.from_numpy(observation[None])
+                logits, _ = policy.heads(policy.features(tensor), tensor)
                 p = logits[0].softmax(-1).numpy().astype(float)
             action = int(rng.choice(15, p=p / p.sum()))
         pre_score = env.score

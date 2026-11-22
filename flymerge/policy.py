@@ -57,12 +57,26 @@ class Policy(nn.Module):
                 activity.append((recurrence, state))
         return (state, direct, activity) if trace else state
 
+    def enable_spatial_head(self):
+        from .spatial import FEATURE_COUNT
+
+        self.spatial_head = nn.Sequential(nn.Linear(FEATURE_COUNT, 32), nn.Tanh(), nn.Linear(32, 1))
+
+    def action_logits(self, features, observation):
+        logits = self.actor(features)
+        if hasattr(self, 'spatial_head'):
+            from .spatial import spatial_features
+
+            logits = logits + self.spatial_head(spatial_features(observation)).squeeze(-1)
+        return logits
+
     def features(self, observation):
         return observation if self.kind == 'mlp' else self.circuit(observation)
 
-    def heads(self, features):
+    def heads(self, features, observation=None):
         hidden = self.embedding(features) if self.kind == 'mlp' else features
-        return self.actor(hidden), self.critic(hidden).squeeze(-1)
+        logits = self.actor(hidden) if observation is None else self.action_logits(hidden, observation)
+        return logits, self.critic(hidden).squeeze(-1)
 
     @torch.no_grad()
     def decide(self, observation, random, strategy="sample", trace=True):
@@ -72,7 +86,7 @@ class Policy(nn.Module):
             state, direct, activity = self.circuit(observation, trace=True)
         else:
             state = self.circuit(observation)
-        probabilities = self.actor(state).softmax(-1)[0].numpy().astype(float)
+        probabilities = self.action_logits(state, observation).softmax(-1)[0].numpy().astype(float)
         if strategy == 'sample':
             action = int(random.choice(15, p=probabilities / probabilities.sum()))
         elif strategy == 'greedy':
@@ -99,5 +113,7 @@ class Policy(nn.Module):
 def restore(path, graph):
     checkpoint = torch.load(path, map_location='cpu', weights_only=True)
     policy = Policy(checkpoint['kind'], graph)
+    if checkpoint.get('spatial_head'):
+        policy.enable_spatial_head()
     policy.load_state_dict(checkpoint['state'])
     return policy.eval(), checkpoint
