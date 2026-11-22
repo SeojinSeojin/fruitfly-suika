@@ -1,0 +1,8 @@
+numpy
+scipy
+numba
+pillow
+gymnasium
+pandas
+imageio-ffmpeg
+playwright
