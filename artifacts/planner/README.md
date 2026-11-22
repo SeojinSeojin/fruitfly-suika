@@ -57,3 +57,12 @@ setsid xvfb-run -a -s '-screen 0 1440x1024x24' .venv/bin/python -m flymerge.site
   --strategy robust --until-game-over --out artifacts/planner/website \
   --replay-key plannerWebsite > runs/planner-website.log 2>&1 < /dev/null &
 ```
+
+## Website transfer
+
+One headed session on [playsuikagame.com](https://playsuikagame.com/ko) ended at the game's own game-over screen with **1,673 points in 174 drops** after 17 minutes 54 seconds. The saved observations, executing actions, scores, and FlyWire traces align for all 174 decisions. C chose the rightmost slot 101 times. Recomputing A on those exact observations gives 94 rightmost choices and 37 total action differences between A and C. These are choice counterfactuals along C's trajectory. The sequence of live fruit was uncontrolled, so the website score describes this transfer episode. [Synchronized replay](website.html) · [Game-over frame](website/end.png) · [Website manifest](website/manifest.json) · [Same-board action comparison](website-actions.json)
+
+```bash
+.venv/bin/python -m flymerge.check_planner_replays --local-only
+.venv/bin/python -m flymerge.check_planner_replays
+```

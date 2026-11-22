@@ -1,0 +1,877 @@
+{
+  "decisions": [
+    {
+      "drop": 1,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 2,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 3,
+      "executed": 13,
+      "legacy": 13
+    },
+    {
+      "drop": 4,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 5,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 6,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 7,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 8,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 9,
+      "executed": 8,
+      "legacy": 8
+    },
+    {
+      "drop": 10,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 11,
+      "executed": 9,
+      "legacy": 8
+    },
+    {
+      "drop": 12,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 13,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 14,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 15,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 16,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 17,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 18,
+      "executed": 6,
+      "legacy": 6
+    },
+    {
+      "drop": 19,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 20,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 21,
+      "executed": 14,
+      "legacy": 11
+    },
+    {
+      "drop": 22,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 23,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 24,
+      "executed": 8,
+      "legacy": 8
+    },
+    {
+      "drop": 25,
+      "executed": 12,
+      "legacy": 11
+    },
+    {
+      "drop": 26,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 27,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 28,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 29,
+      "executed": 14,
+      "legacy": 13
+    },
+    {
+      "drop": 30,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 31,
+      "executed": 12,
+      "legacy": 12
+    },
+    {
+      "drop": 32,
+      "executed": 4,
+      "legacy": 4
+    },
+    {
+      "drop": 33,
+      "executed": 8,
+      "legacy": 8
+    },
+    {
+      "drop": 34,
+      "executed": 8,
+      "legacy": 14
+    },
+    {
+      "drop": 35,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 36,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 37,
+      "executed": 1,
+      "legacy": 1
+    },
+    {
+      "drop": 38,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 39,
+      "executed": 0,
+      "legacy": 0
+    },
+    {
+      "drop": 40,
+      "executed": 2,
+      "legacy": 2
+    },
+    {
+      "drop": 41,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 42,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 43,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 44,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 45,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 46,
+      "executed": 2,
+      "legacy": 2
+    },
+    {
+      "drop": 47,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 48,
+      "executed": 2,
+      "legacy": 2
+    },
+    {
+      "drop": 49,
+      "executed": 0,
+      "legacy": 9
+    },
+    {
+      "drop": 50,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 51,
+      "executed": 2,
+      "legacy": 2
+    },
+    {
+      "drop": 52,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 53,
+      "executed": 6,
+      "legacy": 6
+    },
+    {
+      "drop": 54,
+      "executed": 1,
+      "legacy": 14
+    },
+    {
+      "drop": 55,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 56,
+      "executed": 2,
+      "legacy": 2
+    },
+    {
+      "drop": 57,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 58,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 59,
+      "executed": 0,
+      "legacy": 0
+    },
+    {
+      "drop": 60,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 61,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 62,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 63,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 64,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 65,
+      "executed": 6,
+      "legacy": 6
+    },
+    {
+      "drop": 66,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 67,
+      "executed": 2,
+      "legacy": 2
+    },
+    {
+      "drop": 68,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 69,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 70,
+      "executed": 8,
+      "legacy": 11
+    },
+    {
+      "drop": 71,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 72,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 73,
+      "executed": 0,
+      "legacy": 0
+    },
+    {
+      "drop": 74,
+      "executed": 13,
+      "legacy": 13
+    },
+    {
+      "drop": 75,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 76,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 77,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 78,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 79,
+      "executed": 0,
+      "legacy": 0
+    },
+    {
+      "drop": 80,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 81,
+      "executed": 14,
+      "legacy": 12
+    },
+    {
+      "drop": 82,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 83,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 84,
+      "executed": 0,
+      "legacy": 14
+    },
+    {
+      "drop": 85,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 86,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 87,
+      "executed": 0,
+      "legacy": 0
+    },
+    {
+      "drop": 88,
+      "executed": 11,
+      "legacy": 9
+    },
+    {
+      "drop": 89,
+      "executed": 13,
+      "legacy": 0
+    },
+    {
+      "drop": 90,
+      "executed": 12,
+      "legacy": 12
+    },
+    {
+      "drop": 91,
+      "executed": 8,
+      "legacy": 8
+    },
+    {
+      "drop": 92,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 93,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 94,
+      "executed": 14,
+      "legacy": 0
+    },
+    {
+      "drop": 95,
+      "executed": 13,
+      "legacy": 14
+    },
+    {
+      "drop": 96,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 97,
+      "executed": 2,
+      "legacy": 2
+    },
+    {
+      "drop": 98,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 99,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 100,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 101,
+      "executed": 2,
+      "legacy": 2
+    },
+    {
+      "drop": 102,
+      "executed": 14,
+      "legacy": 2
+    },
+    {
+      "drop": 103,
+      "executed": 10,
+      "legacy": 9
+    },
+    {
+      "drop": 104,
+      "executed": 11,
+      "legacy": 14
+    },
+    {
+      "drop": 105,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 106,
+      "executed": 13,
+      "legacy": 13
+    },
+    {
+      "drop": 107,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 108,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 109,
+      "executed": 0,
+      "legacy": 13
+    },
+    {
+      "drop": 110,
+      "executed": 13,
+      "legacy": 0
+    },
+    {
+      "drop": 111,
+      "executed": 14,
+      "legacy": 0
+    },
+    {
+      "drop": 112,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 113,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 114,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 115,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 116,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 117,
+      "executed": 14,
+      "legacy": 6
+    },
+    {
+      "drop": 118,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 119,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 120,
+      "executed": 13,
+      "legacy": 14
+    },
+    {
+      "drop": 121,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 122,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 123,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 124,
+      "executed": 7,
+      "legacy": 11
+    },
+    {
+      "drop": 125,
+      "executed": 14,
+      "legacy": 0
+    },
+    {
+      "drop": 126,
+      "executed": 2,
+      "legacy": 8
+    },
+    {
+      "drop": 127,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 128,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 129,
+      "executed": 10,
+      "legacy": 14
+    },
+    {
+      "drop": 130,
+      "executed": 8,
+      "legacy": 8
+    },
+    {
+      "drop": 131,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 132,
+      "executed": 13,
+      "legacy": 13
+    },
+    {
+      "drop": 133,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 134,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 135,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 136,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 137,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 138,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 139,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 140,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 141,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 142,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 143,
+      "executed": 12,
+      "legacy": 11
+    },
+    {
+      "drop": 144,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 145,
+      "executed": 8,
+      "legacy": 8
+    },
+    {
+      "drop": 146,
+      "executed": 14,
+      "legacy": 13
+    },
+    {
+      "drop": 147,
+      "executed": 8,
+      "legacy": 8
+    },
+    {
+      "drop": 148,
+      "executed": 14,
+      "legacy": 13
+    },
+    {
+      "drop": 149,
+      "executed": 13,
+      "legacy": 13
+    },
+    {
+      "drop": 150,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 151,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 152,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 153,
+      "executed": 11,
+      "legacy": 11
+    },
+    {
+      "drop": 154,
+      "executed": 13,
+      "legacy": 5
+    },
+    {
+      "drop": 155,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 156,
+      "executed": 14,
+      "legacy": 0
+    },
+    {
+      "drop": 157,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 158,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 159,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 160,
+      "executed": 14,
+      "legacy": 8
+    },
+    {
+      "drop": 161,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 162,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 163,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 164,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 165,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 166,
+      "executed": 8,
+      "legacy": 2
+    },
+    {
+      "drop": 167,
+      "executed": 0,
+      "legacy": 0
+    },
+    {
+      "drop": 168,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 169,
+      "executed": 14,
+      "legacy": 11
+    },
+    {
+      "drop": 170,
+      "executed": 14,
+      "legacy": 11
+    },
+    {
+      "drop": 171,
+      "executed": 14,
+      "legacy": 14
+    },
+    {
+      "drop": 172,
+      "executed": 7,
+      "legacy": 8
+    },
+    {
+      "drop": 173,
+      "executed": 2,
+      "legacy": 2
+    },
+    {
+      "drop": 174,
+      "executed": 3,
+      "legacy": 2
+    }
+  ],
+  "robust_rightmost": 101,
+  "legacy_rightmost": 94,
+  "changed": 37
+}
