@@ -24,17 +24,17 @@ def observe(fruits, current, upcoming):
 
 
 @njit(cache=True)
-def tick(body, n, width=WIDTH, radii=RADII):
+def tick(body, n, width=WIDTH, radii=RADII, gravity=.46, drag=.97, bounce=.19, impact=.55):
     gained = 0
     for i in range(n):
         r = radii[int(body[i, 4])]
-        body[i, 3] = min(12, body[i, 3] + .46)
+        body[i, 3] = min(12, body[i, 3] + gravity)
         body[i, 0] += body[i, 2]
         body[i, 1] += body[i, 3]
-        body[i, 2] *= .97
+        body[i, 2] *= drag
         if body[i, 0] < r or body[i, 0] > width - r:
             body[i, 0] = max(r, min(width - r, body[i, 0]))
-            body[i, 2] *= -.19
+            body[i, 2] *= -bounce
         if body[i, 1] > HEIGHT - r:
             body[i, 1] = HEIGHT - r
             body[i, 3] = 0
@@ -59,7 +59,7 @@ def tick(body, n, width=WIDTH, radii=RADII):
                     ux, uy = (dx / distance, dy / distance) if distance > 1e-8 else (1., 0.)
                     shift = .5 * (limit - distance)
                     impulse = max(0., (body[i, 2] - body[j, 2]) * ux
-                                  + (body[i, 3] - body[j, 3]) * uy) * .55
+                                  + (body[i, 3] - body[j, 3]) * uy) * impact
                     body[i, 0] -= shift * ux
                     body[j, 0] += shift * ux
                     body[i, 1] -= shift * uy
@@ -81,12 +81,13 @@ class Orchard(gym.Env):
     action_space = spaces.Discrete(15)
     observation_space = spaces.Box(-1, 1, (SLOTS * 3 + 2,), np.float32)
 
-    def __init__(self, missing=0., capture=False, rules="original"):
+    def __init__(self, missing=0., capture=False, rules="original", randomize_physics=False):
         self.missing = missing
         self.capture = capture
         if rules not in ('original', 'transfer'):
             raise ValueError(f'Unknown physics profile: {rules}')
         self.rules = rules
+        self.randomize_physics = randomize_physics
         self.width = TRANSFER_WIDTH if rules == 'transfer' else WIDTH
         self.radii = TRANSFER_RADII if rules == 'transfer' else RADII
         self.release_y = -25 if rules == 'transfer' else 28
@@ -94,7 +95,13 @@ class Orchard(gym.Env):
 
     def reset(self, *, seed=None, options=None):
         super().reset(seed=seed)
-        self.mask_rng = np.random.default_rng(self.np_random.integers(2**32))
+        mask_seed = self.np_random.integers(2**32)
+        self.mask_rng = np.random.default_rng(mask_seed)
+        dynamics = np.random.default_rng(int(mask_seed) ^ 71419)
+        self.physics = (.46, .97, .19, .55)
+        if self.randomize_physics:
+            self.physics = tuple(dynamics.uniform(low, high) for low, high in
+                                 ((.35,.57), (.94,.995), (.10,.28), (.42,.70)))
         self.body = np.zeros((SLOTS + 1, 5))
         self.n = self.score = self.drops = self.highest = 0
         self.current, self.upcoming = map(int, self.np_random.integers(0, 5, 2))
@@ -121,7 +128,7 @@ class Orchard(gym.Env):
         gain = 0
         self.frames = []
         for frame in range(80):
-            self.n, added = tick(self.body, self.n, self.width, self.radii)
+            self.n, added = tick(self.body, self.n, self.width, self.radii, *self.physics)
             gain += added
             if self.capture and (frame % 3 == 0 or frame == 79):
                 self.frames.append((self.body[:self.n, [0, 1, 4]].copy(), self.score + gain))

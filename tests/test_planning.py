@@ -30,3 +30,10 @@ class LocalPlanningTest(unittest.TestCase):
         self.assertEqual(tuple(features.shape), (1, 15, FEATURE_COUNT))
         self.assertEqual(float(features[0, 7, 5]), 1.)
         self.assertEqual(float(features[0, 0, 5]), 0.)
+
+    def test_two_drop_search_keeps_four_legal_candidates(self):
+        env = Orchard(rules='transfer')
+        observation, _ = env.reset(seed=42)
+        estimates = drop_values(observation, future=True)
+        self.assertEqual(int(torch.isfinite(torch.from_numpy(estimates)).sum()), 4)
+        self.assertTrue(env.action_space.contains(int(estimates.argmax())))

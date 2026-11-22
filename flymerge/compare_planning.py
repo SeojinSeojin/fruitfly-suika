@@ -15,7 +15,7 @@ def main(distilled, aggregated, spatial, continuations, append):
     graph = json.loads((root/'graph.json').read_text())
     protocol = json.loads((root/'protocol.json').read_text())
     policy, _ = restore(root/'transfer/checkpoints/flywire-seed11-final.pt', graph)
-    cases = [(policy, strategy, strategy) for strategy in ('sample', 'planning', 'hybrid')]
+    cases = [(policy, strategy, strategy) for strategy in ('sample', 'planning', 'hybrid', 'lookahead')]
     if distilled:
         student, _ = restore(distilled, graph)
         cases.extend(((policy, 'greedy', 'ppo_greedy'), (student, 'greedy', 'distilled_greedy'),

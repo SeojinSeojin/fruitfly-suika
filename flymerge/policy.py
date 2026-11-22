@@ -91,11 +91,11 @@ class Policy(nn.Module):
             action = int(random.choice(15, p=probabilities / probabilities.sum()))
         elif strategy == 'greedy':
             action = int(probabilities.argmax())
-        elif strategy in ('planning', 'hybrid'):
+        elif strategy in ('planning', 'hybrid', 'lookahead'):
             from .planning import drop_values
 
-            estimates = drop_values(raw)
-            if strategy == 'hybrid':
+            estimates = drop_values(raw, future=strategy == 'lookahead')
+            if strategy != 'planning':
                 estimates = estimates + .20 * np.log(probabilities.clip(1e-8))
             action = int(estimates.argmax())
         else:

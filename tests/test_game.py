@@ -38,6 +38,18 @@ class GameTest(unittest.TestCase):
         self.assertGreater(observation[0], .9)
         self.assertFalse(terminated or truncated)
 
+    def test_randomized_physics_is_seeded_and_keeps_the_fruit_sequence(self):
+        normal = Orchard(rules='transfer')
+        varied = Orchard(rules='transfer', randomize_physics=True)
+        normal.reset(seed=17)
+        varied.reset(seed=17)
+        first = varied.physics
+        self.assertNotEqual(first, normal.physics)
+        self.assertEqual(normal.current, varied.current)
+        self.assertEqual(normal.upcoming, varied.upcoming)
+        varied.reset(seed=17)
+        self.assertEqual(varied.physics, first)
+
     def test_overflow(self):
         env = Orchard()
         env.reset(seed=1)

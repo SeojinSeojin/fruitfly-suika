@@ -204,3 +204,17 @@ done
   --spatial artifacts/transfer/checkpoints/flywire-seed11-spatial.pt \
   --continuations runs/continue-final/final.pt runs/continue-spatial/final.pt
 ```
+
+### Physics mismatch pilot
+
+For the first uncapped capture, the local simulator predicted a score increase on 50 of the 77 observed drops. The website score increased on 38 of those 50. The two use different physics and imperfect screenshot positions, so this test measures end-to-end agreement and cannot isolate either source of error. [First uncapped capture](artifacts/transfer/replays/index.html#websiteSettling) · [Per-drop agreement and local trials](artifacts/transfer/results/physics.json)
+
+A matched 32,768-drop PPO continuation randomized gravity, horizontal damping, wall bounce and collision impulse once per local episode. The randomized continuation scored 2,726.5 against 2,527.3 from the fixed-physics continuation on the same 12 randomized evaluation episodes. On fixed-physics evaluation, it scored 2,582.7 versus 2,802.4. This is a robustness tradeoff from one continuation seed. Neither policy was selected using website scores.
+
+```bash
+.venv/bin/python -m flymerge.train --kind flywire --seed 44 --rules transfer \
+  --workers 4 --budget 32768 --randomize-physics \
+  --initialize artifacts/transfer/checkpoints/flywire-seed11-final.pt \
+  --out runs/continue-random-physics
+.venv/bin/python -m flymerge.compare_physics runs/continue-random-physics/final.pt
+```
