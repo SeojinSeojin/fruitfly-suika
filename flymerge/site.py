@@ -209,6 +209,7 @@ def run(args):
     images.mkdir(exist_ok=True)
     result = dict(url=URL, checkpoint=str(args.checkpoint), training_drops=ckpt['drops'],
                   updates=ckpt['updates'], seed=ckpt['seed'], action_seed=args.action_seed,
+                  rules=ckpt.get('rules', 'original'), drop_cap=args.max_drops, time_cap_seconds=600,
                   final_score=None, completed_drops=0, browser='headed Chromium', ad_filter=True, outcome='launch interrupted')
     decisions = []
     try:
@@ -234,6 +235,12 @@ def run(args):
             result['board_bounds'] = box
             while len(decisions) < args.max_drops and time.monotonic() < deadline:
                 detected, coverage = vision.board(pixels[y0:y1,x0:x1], background)
+                for _ in range(3):
+                    if coverage >= .86 or time.monotonic() >= deadline:
+                        break
+                    page.wait_for_timeout(220)
+                    pixels = screenshot(page)
+                    detected, coverage = vision.board(pixels[y0:y1,x0:x1], background)
                 if coverage < .86:
                     result['outcome'] = f'paused on unreliable board detection ({coverage:.1%} explained foreground)'
                     page.screenshot(path=str(args.out/'paused.png'))

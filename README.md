@@ -104,3 +104,22 @@ The machine reported 16 Intel Haswell-class logical CPUs and 125 GiB of usable R
 For the showcased FlyWire trial, the learning loop took 76.9 s, with 29.6 s for batched inference, 38.8 s in environment dispatch/receive, and 7.3 s in PPO. The environment phase included an estimated 9.2 s of communication and scheduling wait beyond the slowest worker's measured duration per batch. The maximum process RSS was 443 MiB for a learner and 200 MiB for a worker. These per-process peaks include shared pages. [Benchmarks](artifacts/results/benchmarks) · [Per-trial runtime and memory](artifacts/results/training.json)
 
 FFmpeg decoded all five H.264 MP4s. The verifier checks video lengths against the recorded physics frame counts, reproduces every local and website replay action and circuit trace with the corresponding frozen policy, and checks local scores and termination. Chromium loaded all five videos and the website capture and exercised playback, drop navigation, and recurrent-step controls.
+
+## Follow-up transfer run
+
+The follow-up uses 204,800 training drops per trial and 200 releases as the website cap. The browser still stops after ten minutes, game over, or unreliable screenshot observations. The transfer physics profile widens the board from 320 × 440 to 410 × 440, revises the fruit radii using visible sprite proportions, releases above the rim, and places the overflow line near the top of the container. It uses Orchard Drop's own circle collision solver. The original profile is available to replay and verify the first experiment.
+
+The replay lists each named neuropil at the selected drop and recurrent step. Select a region to highlight the presynaptic neurons whose retained synapses contribute to its activity estimate. The display uses the same fixed scale throughout. It excludes the release's unassigned-neuropil category from the region ranking. The original graph retains those 20 synapses for recurrence.
+
+```bash
+RULES=transfer BUDGET=204800 RUNS_DIR=runs/transfer bash flymerge/run-suite.sh
+.venv/bin/python -m flymerge.replay evaluate --runs runs/transfer --output artifacts/transfer --eval-workers 4
+.venv/bin/python -m flymerge.replay render --runs runs/transfer --output artifacts/transfer
+.venv/bin/python -m flymerge.plot --output artifacts/transfer/results
+.venv/bin/python -m flymerge.verify --output artifacts/transfer
+xvfb-run -a -s '-screen 0 1440x1024x24' .venv/bin/python -m flymerge.site \
+  --checkpoint runs/transfer/flywire-11/final.pt --max-drops 200 \
+  --out runs/new-transfer --replay-key websiteFiltered
+```
+
+The browser uses a request filter for ad-serving hosts and verifies fruit near the board edges using padded template matching. The first website capture remains available in the original replay.

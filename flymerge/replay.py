@@ -1,5 +1,6 @@
 """Evaluate checkpoints and render synchronized physics and circuit replays."""
 import argparse
+from concurrent.futures import ProcessPoolExecutor
 import base64
 import gzip
 import hashlib
@@ -161,21 +162,33 @@ def render(args, graph, protocol):
     (args.output / 'replays/manifest.js').write_text('window.localManifest=' + json.dumps(manifest) + ';\n')
 
 
+def evaluate_trial(run, graph, protocol):
+    summary = json.loads((run / 'summary.json').read_text())
+    rows = []
+    for label in ('init', *LABELS):
+        policy, ckpt = restore(run / f'{label}.pt', graph)
+        for fruit_seed in protocol['held_out_fruit_seeds']:
+            info, _ = episode(policy, fruit_seed, protocol['evaluation_action_seed_offset'],
+                              rules=ckpt.get('rules', 'original'))
+            rows.append(dict(kind=ckpt['kind'], seed=ckpt['seed'], milestone=label,
+                             fruit_seed=fruit_seed, drops=ckpt['drops'], updates=ckpt['updates'], **info))
+    return run.name, summary, rows
+
+
 def evaluate(args, graph, protocol):
     started = time.perf_counter()
     rows, summaries, paired = [], {}, []
     kinds = ('flywire', 'rewired', 'mlp')
-    for kind in kinds:
-        for seed in protocol['training_seeds']:
-            run = args.runs / f'{kind}-{seed}'
-            summaries[run.name] = json.loads((run / 'summary.json').read_text())
-            for label in ('init', *LABELS):
-                policy, ckpt = restore(run / f'{label}.pt', graph)
-                for fruit_seed in protocol['held_out_fruit_seeds']:
-                    info, _ = episode(policy, fruit_seed, protocol['evaluation_action_seed_offset'],
-                                      rules=ckpt.get('rules', 'original'))
-                    rows.append(dict(kind=kind, seed=seed, milestone=label, fruit_seed=fruit_seed,
-                                     drops=ckpt['drops'], updates=ckpt['updates'], **info))
+    trials = [args.runs / f'{kind}-{seed}' for kind in kinds for seed in protocol['training_seeds']]
+    if args.eval_workers == 1:
+        evaluated = [evaluate_trial(trial, graph, protocol) for trial in trials]
+    else:
+        with ProcessPoolExecutor(max_workers=args.eval_workers) as pool:
+            jobs = [pool.submit(evaluate_trial, trial, graph, protocol) for trial in trials]
+            evaluated = [job.result() for job in jobs]
+    for name, summary, trial_rows in evaluated:
+        summaries[name] = summary
+        rows.extend(trial_rows)
     index = {(r['kind'], r['seed'], r['milestone'], r['fruit_seed']): r['score'] for r in rows}
     for kind in kinds[1:]:
         for seed in protocol['training_seeds']:
@@ -199,10 +212,13 @@ def evaluate(args, graph, protocol):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=['evaluate', 'render'])
+    parser.add_argument('--eval-workers', type=int, default=1)
     parser.add_argument('--output', type=Path, default=ROOT)
     parser.add_argument('--runs', type=Path, default=Path('runs'))
     parser.add_argument('--labels', choices=LABELS, nargs='+', default=LABELS)
     args = parser.parse_args()
+    if args.eval_workers < 1:
+        parser.error('--eval-workers must be positive')
     graph = json.loads((ROOT / 'graph.json').read_text())
     protocol = json.loads((ROOT / 'protocol.json').read_text())
     (render if args.command == 'render' else evaluate)(args, graph, protocol)
