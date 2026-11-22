@@ -1,0 +1,77 @@
+{
+  "drop5": {
+    "kind": "flywire",
+    "seed": 11,
+    "requested": 5,
+    "drops": 8,
+    "updates": 0,
+    "rules": "transfer",
+    "checkpoint": "runs/transfer/flywire-11/drop5.pt",
+    "checkpoint_sha256": "48c28a86e8d6fd430e619b4317e143f4ecaad9e247cfefd4e4292d0b22d171b8",
+    "policy_sha256": "098bca54c6db4d787d23bbc0682e44b80f24316d5c1c511c098aeb3b619dc17b",
+    "fruit_seed": 20261122,
+    "action_rng_seed": 20262893,
+    "pre_update": true,
+    "video": "drop5.mp4",
+    "trace": "drop5",
+    "bytes": 4008925,
+    "episode": {
+      "score": 1457,
+      "highest": 8,
+      "length": 185
+    },
+    "render_and_decode_seconds": 53.11786205100361,
+    "fps": 30,
+    "frames_per_drop": 28
+  },
+  "drop1000": {
+    "kind": "flywire",
+    "seed": 11,
+    "requested": 1000,
+    "drops": 1000,
+    "updates": 0,
+    "rules": "transfer",
+    "checkpoint": "runs/transfer/flywire-11/drop1000.pt",
+    "checkpoint_sha256": "fbcf92a9866f3409bfc1a76a31fbf3ad34b2d03805c5db6466c85bce90f20018",
+    "policy_sha256": "098bca54c6db4d787d23bbc0682e44b80f24316d5c1c511c098aeb3b619dc17b",
+    "fruit_seed": 20261122,
+    "action_rng_seed": 20262893,
+    "pre_update": true,
+    "video": "drop1000.mp4",
+    "trace": "drop1000",
+    "bytes": 4011527,
+    "episode": {
+      "score": 1457,
+      "highest": 8,
+      "length": 185
+    },
+    "render_and_decode_seconds": 53.97131667495705,
+    "fps": 30,
+    "frames_per_drop": 28
+  },
+  "early": {
+    "kind": "flywire",
+    "seed": 11,
+    "requested": 10240,
+    "drops": 10240,
+    "updates": 10,
+    "rules": "transfer",
+    "checkpoint": "runs/transfer/flywire-11/early.pt",
+    "checkpoint_sha256": "4cf70ae3f4f48b96fb3e032f87b129953274231c66f4de41c67edc9721746289",
+    "policy_sha256": "ed87986e8abe86a838462d12d512b674d4e009e9a1c16f4720b82d0c03ea9f8c",
+    "fruit_seed": 20261122,
+    "action_rng_seed": 20262893,
+    "pre_update": false,
+    "video": "early.mp4",
+    "trace": "early",
+    "bytes": 4876711,
+    "episode": {
+      "score": 1965,
+      "highest": 9,
+      "length": 204
+    },
+    "render_and_decode_seconds": 59.52142046199879,
+    "fps": 30,
+    "frames_per_drop": 28
+  }
+}

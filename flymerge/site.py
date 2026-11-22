@@ -59,6 +59,11 @@ class Vision:
 
     def match(self, pixels, tiers, scales, angles, threshold, multi=False, changed=None):
         matches = []
+        if multi:
+            ys, xs = np.where(changed)
+            if not len(xs):
+                return []
+            xmin, xmax, ymin, ymax = xs.min(), xs.max(), ys.min(), ys.max()
         for tier in tiers:
             for scale in scales:
                 for angle in angles:
@@ -66,13 +71,21 @@ class Vision:
                     h, w = mask.shape
                     if h > pixels.shape[0] or w > pixels.shape[1]:
                         continue
-                    result = cv2.matchTemplate(pixels, pattern, cv2.TM_SQDIFF_NORMED, mask=mask)
+                    dx = dy = 0
+                    subject = pixels
+                    if multi:
+                        dx, dy = max(0, xmin-w//2), max(0, ymin-h//2)
+                        right, bottom = xmax+w-w//2, ymax+h-h//2
+                        subject = pixels[dy:bottom, dx:right]
+                        if h > subject.shape[0] or w > subject.shape[1]:
+                            continue
+                    result = cv2.matchTemplate(subject, pattern, cv2.TM_SQDIFF_NORMED, mask=mask)
                     result[~np.isfinite(result)] = 1
                     if multi:
                         minima = (result < threshold) & (result == cv2.erode(result, None))
                         ys, xs = np.where(minima)
                         for x, y in zip(xs, ys):
-                            cx, cy = x+w//2, y+h//2
+                            cx, cy = x+dx+w//2, y+dy+h//2
                             if changed[cy, cx]:
                                 matches.append((float(result[y,x]), cx, cy, tier, radius))
                     else:
@@ -128,19 +141,24 @@ def integer_text(page, selector):
 def ready(page, detect, box, deadline):
     previous = None
     last_find = None
+    quiet = 0
     while time.monotonic() < deadline:
         if page.locator('#restart-game').is_visible():
             return None, None, 'game over'
         pixels = screenshot(page)
         x0, y0, x1, y1 = box
-        board = pixels[y0:y1, x0:x1]
+        board = cv2.resize(pixels[y0:y1, x0:x1], (132, 142), interpolation=cv2.INTER_AREA)
         hand = pixels[y0-104:y0+5, x0-5:x1+5]
         last_find = detect.match(hand, range(5), (.64, .68, .72), (0,), .047)
-        if previous is not None and last_find and np.mean(cv2.absdiff(board, previous) > 25) < .0015:
-            return pixels, last_find, None
-        previous = board.copy()
+        if previous is not None and last_find and np.mean(cv2.absdiff(board, previous) > 30) < .005:
+            quiet += 1
+            if quiet >= 2:
+                return pixels, last_find, None
+        else:
+            quiet = 0
+        previous = board
         page.wait_for_timeout(180)
-    return None, last_find, 'ready cue or board stability timed out'
+    return None, last_find, ('board stability timed out' if last_find else 'visible current fruit timed out')
 
 
 def activity_panel(page, graph, decision):
@@ -279,8 +297,8 @@ def run(args):
                 page.mouse.click(target,y0-39)
                 decisions.append(decision)
                 result['completed_drops'] = len(decisions)
-                page.wait_for_timeout(550)
-                pixels, hand, error = ready(page, vision, box, min(deadline, time.monotonic()+10))
+                page.wait_for_timeout(750)
+                pixels, hand, error = ready(page, vision, box, min(deadline, time.monotonic()+18))
                 score = integer_text(page, '#final-score' if error == 'game over' else '#currentScore')
                 decision['score'] = result['final_score'] = score
                 if error:
