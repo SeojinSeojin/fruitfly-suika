@@ -102,7 +102,7 @@ class Vision:
                 retained.append(candidate)
         return retained
 
-    def board(self, pixels, background):
+    def board(self, pixels, background, fast=False):
         pixels = cv2.resize(pixels, None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA)
         background = cv2.resize(background, None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA)
         changed = np.max(cv2.absdiff(pixels, background), axis=2) > 43
@@ -119,8 +119,10 @@ class Vision:
         left, top = x0 + (pad if x0 else 0), y0 + (pad if y0 else 0)
         right = x1 + (pad if x1 < pixels.shape[1] else 2*pad)
         bottom = y1 + (pad if y1 < pixels.shape[0] else 2*pad)
-        detected = self.match(search[top:bottom, left:right], range(11), (.337, .365),
-                              range(0,360,30), .074, True, candidates[top:bottom, left:right])
+        scales = (.35,) if fast else (.337, .365)
+        angles = range(0, 360, 45 if fast else 30)
+        detected = self.match(search[top:bottom, left:right], range(11), scales,
+                              angles, .074, True, candidates[top:bottom, left:right])
         x0, y0 = left-pad, top-pad
         covered = np.zeros(changed.shape, np.uint8)
         result = []
@@ -161,6 +163,28 @@ def ready(page, detect, box, deadline):
         previous = board
         page.wait_for_timeout(180)
     return None, last_find, ('board stability timed out' if last_find else 'visible current fruit timed out')
+
+
+def recover_ready(page, vision, box, background, limit):
+    """Confirm a ready fruit and stable centers when sprite animation trips pixel gating."""
+    x0, y0, x1, y1 = box
+    last = None
+    while time.monotonic() < limit:
+        if page.locator('#restart-game').is_visible():
+            return None, None, 'game over'
+        pixels = screenshot(page)
+        hand = vision.match(pixels[y0-104:y0+5,x0-5:x1+5], range(5), (.64,.68,.72), (0,), .047)
+        if hand:
+            fruits, coverage = vision.board(pixels[y0:y1,x0:x1], background, fast=True)
+            if coverage >= .86:
+                if last and len(last) == len(fruits) and all(
+                    min((np.hypot(a-x, b-y) for x,y,t,_ in last if t == tier), default=1.) < .025
+                    for a,b,tier,_ in fruits
+                ):
+                    return pixels, hand, None
+                last = fruits
+        page.wait_for_timeout(250)
+    return None, None, 'fruit centers or ready cue remained uncertain'
 
 
 def activity_panel(page, graph, decision):
@@ -254,7 +278,9 @@ def run(args):
             background = pixels[y0:y1,x0:x1].copy()
             result['board_bounds'] = box
             while (args.until_game_over or len(decisions) < args.max_drops) and time.monotonic() < deadline:
-                detected, coverage = vision.board(pixels[y0:y1,x0:x1], background)
+                detected, coverage = vision.board(pixels[y0:y1,x0:x1], background, fast=True)
+                if coverage < .86:
+                    detected, coverage = vision.board(pixels[y0:y1,x0:x1], background)
                 for _ in range(3):
                     if coverage >= .86 or time.monotonic() >= deadline:
                         break
@@ -306,6 +332,8 @@ def run(args):
                 result['completed_drops'] = len(decisions)
                 page.wait_for_timeout(750)
                 pixels, hand, error = ready(page, vision, box, min(deadline, time.monotonic()+18))
+                if args.until_game_over and error in ('board stability timed out', 'visible current fruit timed out'):
+                    pixels, hand, error = recover_ready(page, vision, box, background, time.monotonic()+70)
                 score = integer_text(page, '#final-score' if error == 'game over' else '#currentScore')
                 decision['score'] = result['final_score'] = score
                 if error:

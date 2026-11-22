@@ -1,10 +1,10 @@
 'use strict';
 const by = id => document.getElementById(id);
-const labels = {drop5:'5 drops', drop1000:'1,000 drops', early:'Early · 5%', middle:'Middle · 50%', final:'Final · 100%', website:'Website transfer', websiteFiltered:'Website · ads blocked'};
+const labels = {drop5:'5 drops', drop1000:'1,000 drops', early:'Early · 5%', middle:'Middle · 50%', final:'Final · 100%', website:'Website transfer', websiteFiltered:'Website · ads blocked', websiteGameOver:'Website · game-over mode', websiteSettling:'Website · first uncapped run'};
 const regionNames = {IPS_L:'Left inferior posterior slope', IPS_R:'Right inferior posterior slope',
   LOP_R:'Right lobula plate', LO_R:'Right lobula', ME_R:'Right medulla',
   PVLP_R:'Right posterior ventrolateral protocerebrum', SPS_R:'Right superior posterior slope', WED_R:'Right wedge'};
-const siteFolders = {website:'../demo/', websiteFiltered:'../demo-ad-filtered/'};
+const siteFolders = {website:'../demo/', websiteFiltered:'../demo-ad-filtered/', websiteGameOver:'../demo-game-over/', websiteSettling:'../demo-settling-stop/'};
 const video = by('video'), image = by('capture'), slider = by('drop'), canvas = by('circuit');
 const ctx = canvas.getContext('2d');
 let graph, replay, entry, current = 0, projected = [], selected = null, timer = null, openToken = 0, regionFocus = null;
@@ -122,7 +122,7 @@ async function open(label) {
   by('gameTitle').textContent = entry.website ? 'Website transfer' : 'Gameplay';
   current = 0;
   by('status').textContent = entry.website
-    ? `${replay.decisions.length} drop${replay.decisions.length === 1 ? '' : 's'} · site ${replay.meta.outcome} · final observed score ${replay.meta.final_score ?? 'unknown'}`
+    ? `${replay.meta.strategy === 'hybrid' ? 'FlyWire + local planning · ' : ''}${replay.decisions.length} drop${replay.decisions.length === 1 ? '' : 's'} · site ${replay.meta.outcome} · final observed score ${replay.meta.final_score ?? 'unknown'}`
     : `Requested ${entry.requested.toLocaleString()} drops · checkpoint ${entry.drops.toLocaleString()} drops · ${entry.updates} PPO updates${entry.pre_update ? ' · pre-update policy' : ''} · fruit seed ${entry.fruit_seed}`;
   if (!entry.website) video.src = '../videos/' + entry.video;
   slider.max = replay.decisions.length;
