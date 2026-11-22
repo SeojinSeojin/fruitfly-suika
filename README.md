@@ -143,3 +143,28 @@ The same 16-CPU machine ran waves of three learners and 12 game workers, with 20
 ### Follow-up website result
 
 The ad-free headed demo reached **427 points in 65 verified releases**. Its 200-drop allowance remained available when the ten-minute time cap stopped the next release. The final screenshot shows the prepared aim for drop 66. Only the 65 released drops are included in the synchronized sequence. Two earlier ad-free diagnostics exposed a settling check and a held-fruit overlap at the top edge. The final run used the repaired camera checks and the same frozen 204,800-drop policy. [Website replay](artifacts/transfer/replays/index.html#websiteFiltered) · [Capture manifest](artifacts/transfer/demo-ad-filtered/manifest.json) · [Final screenshot](artifacts/transfer/demo-ad-filtered/time-cap.jpg)
+
+## Planning and game-over mode
+
+The previous website run stopped at its time cap. The following command disables both drop and time caps. It uses the same frozen FlyWire PPO weights with a local-physics action scorer. The screenshot confidence and aim checks still gate releases.
+
+```bash
+xvfb-run -a -s '-screen 0 1440x1024x24' .venv/bin/python -m flymerge.site \
+  --checkpoint artifacts/transfer/checkpoints/flywire-seed11-final.pt \
+  --strategy hybrid --until-game-over --replay-key websiteGameOver \
+  --out artifacts/transfer/demo-game-over
+```
+
+At every decision, the hybrid estimates what each of the 15 legal drops would do in Orchard Drop's transfer physics. It scores immediate merge points, number of merges, stack clearance, tall stacks, and access to the known next fruit's tier. It adds 0.20 times the frozen PPO log probability to each simulated action score. The browser observations and inference use visible screenshots. Website gameplay provides no training examples. Its activity panel shows the simulated FlyWire circuit that supplies the policy term.
+
+The learning comparison tests supervised readout training on the local planner's soft action targets and an iterative data-aggregation variant that also labels positions visited by the student. The frozen recurrent graph is shared by each variant. The readout data use seeds starting at 53001, separate from the 12 paired evaluation seeds. [Data aggregation paper](https://proceedings.mlr.press/v15/ross11a.html)
+
+```bash
+.venv/bin/python -m flymerge.distill \
+  --out artifacts/transfer/checkpoints/flywire-seed11-distilled.pt
+.venv/bin/python -m flymerge.distill --rounds 3 \
+  --out artifacts/transfer/checkpoints/flywire-seed11-aggregated.pt
+.venv/bin/python -m flymerge.compare_planning \
+  --distilled artifacts/transfer/checkpoints/flywire-seed11-distilled.pt \
+  --aggregated artifacts/transfer/checkpoints/flywire-seed11-aggregated.pt
+```

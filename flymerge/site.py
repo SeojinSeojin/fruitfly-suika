@@ -229,8 +229,8 @@ def run(args):
     images.mkdir(exist_ok=True)
     result = dict(url=URL, checkpoint=str(args.checkpoint), training_drops=ckpt['drops'],
                   updates=ckpt['updates'], seed=ckpt['seed'], action_seed=args.action_seed,
-                  rules=ckpt.get('rules', 'original'), drop_cap=args.max_drops, time_cap_seconds=600,
-                  final_score=None, completed_drops=0, browser='headed Chromium', ad_filter=True, outcome='launch interrupted')
+                  rules=ckpt.get('rules', 'original'), drop_cap=None if args.until_game_over else args.max_drops, time_cap_seconds=None if args.until_game_over else 600,
+                  final_score=None, completed_drops=0, browser='headed Chromium', ad_filter=True, strategy=args.strategy, outcome='launch interrupted')
     decisions = []
     try:
         with sync_playwright() as p:
@@ -238,7 +238,7 @@ def run(args):
             page = browser.new_page(service_workers='block', viewport={'width':1280,'height':900})
             page.route('**/*', filter_ad_requests)
             started = time.monotonic()
-            deadline = started + 600
+            deadline = float("inf") if args.until_game_over else started + 600
             page.goto(URL, wait_until='domcontentloaded', timeout=30000)
             board = page.locator('#game-container > canvas')
             bounds = board.bounding_box(timeout=12000)
@@ -253,7 +253,7 @@ def run(args):
                 return
             background = pixels[y0:y1,x0:x1].copy()
             result['board_bounds'] = box
-            while len(decisions) < args.max_drops and time.monotonic() < deadline:
+            while (args.until_game_over or len(decisions) < args.max_drops) and time.monotonic() < deadline:
                 detected, coverage = vision.board(pixels[y0:y1,x0:x1], background)
                 for _ in range(3):
                     if coverage >= .86 or time.monotonic() >= deadline:
@@ -272,7 +272,7 @@ def run(args):
                 next_tier = nxt[3] if nxt else -1
                 current = hand[3]
                 observation = observe([d[:3] for d in detected], current, next_tier)
-                action, trace = model.decide(observation, rng)
+                action, trace = model.decide(observation, rng, args.strategy)
                 margin = vision.sprites[current].shape[1]*.34 + 3
                 target = x0+margin+(x1-x0-2*margin)*AIMS[action]
                 page.mouse.move(target,y0-39)
@@ -339,5 +339,7 @@ if __name__ == '__main__':
     parser.add_argument('--out', type=Path, default=Path('artifacts/demo'))
     parser.add_argument('--replay-key', default='website')
     parser.add_argument('--max-drops', type=int, choices=range(1,201), default=200)
+    parser.add_argument('--until-game-over', action='store_true')
+    parser.add_argument('--strategy', choices=['sample','planning','hybrid'], default='sample')
     parser.add_argument('--action-seed', type=int, default=32833)
     run(parser.parse_args())

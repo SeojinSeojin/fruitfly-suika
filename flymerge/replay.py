@@ -110,6 +110,10 @@ def render(args, graph, protocol):
         template = template.replace('href="viewer.css"', f'href="{viewer}/viewer.css"')
         template = template.replace('src="viewer.js"', f'src="{viewer}/viewer.js"')
         template = template.replace('../demo/website.js', '../demo-ad-filtered/website.js')
+        if (args.output/'demo-game-over/website.js').exists():
+            template = template.replace('<script src="../demo-ad-filtered/website.js"></script>',
+                                        '<script src="../demo-ad-filtered/website.js"></script>\n'
+                                        '<script src="../demo-game-over/website.js"></script>')
         (args.output/'replays/index.html').write_text(template)
     seed = protocol['video_training_seed']
     fruit_seed = protocol['video_fruit_seed']

@@ -66,7 +66,8 @@ def main(root):
             assert (demo_path.parent/decision['image']).is_file()
             assert decision['drop'] == row['drop'] == drop
             assert decision['score'] == row['score']
-            action, trace = policy.decide(np.array(decision['observation'], dtype=np.float32), rng)
+            action, trace = policy.decide(np.array(decision['observation'], dtype=np.float32), rng,
+                                         demo['meta'].get('strategy', 'sample'))
             assert action == decision['action']
             assert trace == {key: decision[key] for key in trace}
         print(f'website: {len(demo["decisions"])} aligned drops')

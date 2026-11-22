@@ -65,12 +65,30 @@ class Policy(nn.Module):
         return self.actor(hidden), self.critic(hidden).squeeze(-1)
 
     @torch.no_grad()
-    def decide(self, observation, random):
+    def decide(self, observation, random, strategy="sample", trace=True):
+        raw = observation
         observation = torch.as_tensor(observation[None], dtype=torch.float32)
-        state, direct, activity = self.circuit(observation, trace=True)
-        _, _, reference = self.circuit(torch.zeros_like(observation), trace=True)
+        if trace:
+            state, direct, activity = self.circuit(observation, trace=True)
+        else:
+            state = self.circuit(observation)
         probabilities = self.actor(state).softmax(-1)[0].numpy().astype(float)
-        action = int(random.choice(15, p=probabilities / probabilities.sum()))
+        if strategy == 'sample':
+            action = int(random.choice(15, p=probabilities / probabilities.sum()))
+        elif strategy == 'greedy':
+            action = int(probabilities.argmax())
+        elif strategy in ('planning', 'hybrid'):
+            from .planning import drop_values
+
+            estimates = drop_values(raw)
+            if strategy == 'hybrid':
+                estimates = estimates + .20 * np.log(probabilities.clip(1e-8))
+            action = int(estimates.argmax())
+        else:
+            raise ValueError(f'Unknown strategy: {strategy}')
+        if not trace:
+            return action, None
+        _, _, reference = self.circuit(torch.zeros_like(observation), trace=True)
         pack = lambda values: np.round(values[0].numpy().astype(float), 5).tolist()
         return action, dict(direct=pack(direct), steps=[
             dict(recurrent=pack(recurrent), activation=pack(activation),
