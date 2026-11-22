@@ -185,7 +185,7 @@ The table reports one original PPO seed and 12 paired fruit sequences per row. T
 | Additional 32,768 PPO drops, sampling | 2,802.4 | 275.1 |
 | Additional 32,768 PPO drops from action-relative imitation, sampling | 2,396.2 | 252.2 |
 
-The biggest gain came from ranking simulated outcomes at inference. Action-relative features raised the score of the imitation-only readout, and the extra PPO budget had a smaller effect for this training seed. The comparison does not establish an improvement from imitation over the original PPO. A sensible next learning experiment is to give PPO action-relative inputs from the start and randomize fruit detection errors and collision parameters during training. Validate those changes on reserved seeds with matched training budgets. [Per-seed results](artifacts/transfer/results/planning.json)
+The biggest gain came from ranking simulated outcomes at inference. Action-relative features raised the score of the imitation-only readout, and the extra PPO budget had a smaller effect for this training seed. The imitation policies scored below the original PPO. A sensible next learning experiment is to give PPO action-relative inputs from the start and randomize fruit detection errors and collision parameters during training. Validate those changes on reserved seeds with matched training budgets. [Per-seed results](artifacts/transfer/results/planning.json)
 
 The action-relative readout adds a small shared network over landing height, the first obstructing fruit, distance to same-tier fruit, and other geometric features for each of the 15 aim columns. The recurrent FlyWire input mapping stays fixed. To reproduce that pilot and the matched continuation trials, run the following.
 
@@ -207,9 +207,9 @@ done
 
 ### Physics mismatch pilot
 
-For the first uncapped capture, the local simulator predicted a score increase on 50 of the 77 observed drops. The website score increased on 38 of those 50. The two use different physics and imperfect screenshot positions, so this test measures end-to-end agreement and cannot isolate either source of error. [First uncapped capture](artifacts/transfer/replays/index.html#websiteSettling) · [Per-drop agreement and local trials](artifacts/transfer/results/physics.json)
+For the first uncapped capture, the local simulator predicted a score increase on 50 of the 77 observed drops. The website score increased on 38 of those 50. The two use different physics and imperfect screenshot positions, so this end-to-end measure combines both sources of error. [First uncapped capture](artifacts/transfer/replays/index.html#websiteSettling) · [Per-drop agreement and local trials](artifacts/transfer/results/physics.json)
 
-A matched 32,768-drop PPO continuation randomized gravity, horizontal damping, wall bounce and collision impulse once per local episode. The randomized continuation scored 2,726.5 against 2,527.3 from the fixed-physics continuation on the same 12 randomized evaluation episodes. On fixed-physics evaluation, it scored 2,582.7 versus 2,802.4. This is a robustness tradeoff from one continuation seed. Neither policy was selected using website scores.
+A matched 32,768-drop PPO continuation randomized gravity, horizontal damping, wall bounce and collision impulse once per local episode. The randomized continuation scored 2,726.5 against 2,527.3 from the fixed-physics continuation on the same 12 randomized evaluation episodes. On fixed-physics evaluation, it scored 2,582.7 versus 2,802.4. This is a robustness tradeoff from one continuation seed. Policy selection used local scores.
 
 ```bash
 .venv/bin/python -m flymerge.train --kind flywire --seed 44 --rules transfer \
@@ -220,3 +220,5 @@ A matched 32,768-drop PPO continuation randomized gravity, horizontal damping, w
 ```
 
 The two-drop pilot replayed the next visible fruit at all 15 aims after each of the four strongest first actions. It averaged 2,983.6 points on the same 12 local sequences, compared with 3,177.5 for the one-drop hybrid. The website run kept the one-drop method. On the paired local comparison, that method beat PPO sampling on 11 of 12 sequences by a mean of 447 points. [Planning comparison](artifacts/transfer/results/planning.json)
+
+A subsequent uncapped capture reached 1,855 points after 198 drops. The current fruit extended outside the aim-validation crop at the far right edge, so release 199 was withheld. The wider crop identifies that fruit at x = 876 in the preserved image. The capture remains available with all 198 decisions and a separate pause frame. [1,855-point replay](artifacts/transfer/replays/index.html#websiteAimStop) · [Pause frame](artifacts/transfer/demo-aim-stop/paused.png)

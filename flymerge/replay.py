@@ -111,7 +111,7 @@ def render(args, graph, protocol):
         template = template.replace('href="viewer.css"', f'href="{viewer}/viewer.css"')
         template = template.replace('src="viewer.js"', f'src="{viewer}/viewer.js"')
         template = template.replace('../demo/website.js', '../demo-ad-filtered/website.js')
-        for folder in ('demo-game-over', 'demo-settling-stop'):
+        for folder in ('demo-game-over', 'demo-settling-stop', 'demo-aim-stop'):
             if (args.output/folder/'website.js').exists():
                 template = template.replace('<script src="../demo-ad-filtered/website.js"></script>',
                                             '<script src="../demo-ad-filtered/website.js"></script>\n'

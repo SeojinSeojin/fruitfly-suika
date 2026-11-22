@@ -1,5 +1,6 @@
 """Run one headed Playwright episode using screenshot-only fruit observations."""
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 import io
 import json
 import time
@@ -33,6 +34,7 @@ class Vision:
         cache.mkdir(parents=True, exist_ok=True)
         self.sprites = []
         self.templates = {}
+        self.pool = ThreadPoolExecutor(max_workers=8)
         for tier in range(11):
             path = cache / f'{tier}.png'
             if not path.exists():
@@ -57,7 +59,12 @@ class Vision:
         self.templates[key] = item
         return item
 
-    def match(self, pixels, tiers, scales, angles, threshold, multi=False, changed=None):
+    def match(self, pixels, tiers, scales, angles, threshold, multi=False, changed=None, candidates_only=False):
+        if multi and not candidates_only:
+            jobs = [self.pool.submit(self.match, pixels, (tier,), scales, angles, threshold,
+                                     True, changed, True) for tier in tiers]
+            matches = sorted(candidate for job in jobs for candidate in job.result())
+            return self.suppress(matches)
         matches = []
         if multi:
             ys, xs = np.where(changed)
@@ -95,6 +102,10 @@ class Vision:
         matches.sort()
         if not multi:
             return matches[0] if matches else None
+        return matches
+
+    @staticmethod
+    def suppress(matches):
         retained = []
         for candidate in matches:
             _, x, y, _, r = candidate
@@ -142,6 +153,12 @@ def integer_text(page, selector):
     return int(text) if text.isdecimal() else None
 
 
+def hand_pixels(pixels, box):
+    x0, y0, x1, _ = box
+    left = max(0, x0-60)
+    return pixels[y0-104:y0+12, left:x1+60], left
+
+
 def ready(page, detect, box, deadline):
     previous = None
     last_find = None
@@ -152,7 +169,7 @@ def ready(page, detect, box, deadline):
         pixels = screenshot(page)
         x0, y0, x1, y1 = box
         board = cv2.resize(pixels[y0+12:y1, x0:x1], (132, 142), interpolation=cv2.INTER_AREA)
-        hand = pixels[y0-104:y0+5, x0-5:x1+5]
+        hand, _ = hand_pixels(pixels, box)
         last_find = detect.match(hand, range(5), (.64, .68, .72), (0,), .047)
         if previous is not None and last_find and np.mean(cv2.absdiff(board, previous) > 30) < .005:
             quiet += 1
@@ -173,7 +190,8 @@ def recover_ready(page, vision, box, background, limit):
         if page.locator('#restart-game').is_visible():
             return None, None, 'game over'
         pixels = screenshot(page)
-        hand = vision.match(pixels[y0-104:y0+5,x0-5:x1+5], range(5), (.64,.68,.72), (0,), .047)
+        hand_image, _ = hand_pixels(pixels, box)
+        hand = vision.match(hand_image, range(5), (.64,.68,.72), (0,), .047)
         if hand:
             fruits, coverage = vision.board(pixels[y0:y1,x0:x1], background, fast=True)
             if coverage >= .86:
@@ -304,8 +322,24 @@ def run(args):
                 page.mouse.move(target,y0-39)
                 page.wait_for_timeout(120)
                 aimed = screenshot(page)
-                check = vision.match(aimed[y0-104:y0+5,x0-5:x1+5], [current], (.64,.68,.72), (0,), .047)
-                error_px = abs(x0-5+check[1]-target) if check else None
+                error_px = None
+                for attempt in range(4):
+                    hand_image, left = hand_pixels(aimed, box)
+                    check = vision.match(hand_image, [current], (.64,.68,.72), (0,), .047)
+                    error_px = abs(left+check[1]-target) if check else None
+                    if error_px is not None and error_px <= 13:
+                        break
+                    if page.locator('#restart-game').is_visible():
+                        break
+                    if attempt < 3:
+                        page.mouse.move(target,y0-39)
+                        page.wait_for_timeout(180)
+                        aimed = screenshot(page)
+                if page.locator('#restart-game').is_visible():
+                    result['outcome'] = 'game over'
+                    result['final_score'] = integer_text(page, '#final-score')
+                    Image.fromarray(aimed).save(args.out/'end.png')
+                    break
                 if error_px is None or error_px > 13:
                     result['outcome'] = f'paused before clicking: aim verification failed ({error_px} px)'
                     page.screenshot(path=str(args.out/'paused.png'))
