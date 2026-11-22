@@ -292,9 +292,14 @@ def run(args):
                                 image=filename, timestamp=time.monotonic()-started)
                 activity_panel(page, graph, decision)
                 aimed = screenshot(page)
+                if time.monotonic() >= deadline:
+                    result['outcome'] = 'time cap reached before release'
+                    Image.fromarray(aimed).save(args.out/'end.png')
+                    break
                 annotate(aimed, box, detected, target, current, next_tier, decision, args.out/filename)
                 if time.monotonic() >= deadline:
                     result['outcome'] = 'time cap reached before release'
+                    (args.out/filename).rename(args.out/'time-cap.jpg')
                     break
                 page.mouse.click(target,y0-39)
                 decisions.append(decision)
@@ -316,7 +321,7 @@ def run(args):
         result['outcome'] = f'{type(error).__name__}: {error}'
         raise
     finally:
-        for name in ('end.png', 'paused.png'):
+        for name in ('end.png', 'paused.png', 'time-cap.jpg'):
             if (args.out/name).exists():
                 result['final_capture'] = name
                 break
