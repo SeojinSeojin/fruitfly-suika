@@ -73,5 +73,55 @@
     "render_and_decode_seconds": 59.52142046199879,
     "fps": 30,
     "frames_per_drop": 28
+  },
+  "middle": {
+    "kind": "flywire",
+    "seed": 11,
+    "requested": 102400,
+    "drops": 102400,
+    "updates": 100,
+    "rules": "transfer",
+    "checkpoint": "runs/transfer/flywire-11/middle.pt",
+    "checkpoint_sha256": "5a4da8699e83d8a7b18dff5ef5b34193e43e1216ebc651a20a4f296cf0278a17",
+    "policy_sha256": "973e35f4ea60fa516d47b53fa7530c9bf4c9c1612a8ffe5f6a415ce725b5960d",
+    "fruit_seed": 20261122,
+    "action_rng_seed": 20262893,
+    "pre_update": false,
+    "video": "middle.mp4",
+    "trace": "middle",
+    "bytes": 6253172,
+    "episode": {
+      "score": 2611,
+      "highest": 10,
+      "length": 269
+    },
+    "render_and_decode_seconds": 77.54023761599092,
+    "fps": 30,
+    "frames_per_drop": 28
+  },
+  "final": {
+    "kind": "flywire",
+    "seed": 11,
+    "requested": 204800,
+    "drops": 204800,
+    "updates": 200,
+    "rules": "transfer",
+    "checkpoint": "runs/transfer/flywire-11/final.pt",
+    "checkpoint_sha256": "b2316d67a4538d55f2270633497dfe521a1dfd29dfc3ba0406ab8733380e1e7f",
+    "policy_sha256": "0a870d0593f5182c08ffa9358f4e99142eef0138d3bf07b31c1c0679471cd7b8",
+    "fruit_seed": 20261122,
+    "action_rng_seed": 20262893,
+    "pre_update": false,
+    "video": "final.mp4",
+    "trace": "final",
+    "bytes": 4549281,
+    "episode": {
+      "score": 2164,
+      "highest": 9,
+      "length": 222
+    },
+    "render_and_decode_seconds": 62.707533261040226,
+    "fps": 30,
+    "frames_per_drop": 28
   }
 }

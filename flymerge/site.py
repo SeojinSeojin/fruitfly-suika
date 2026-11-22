@@ -106,6 +106,8 @@ class Vision:
         pixels = cv2.resize(pixels, None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA)
         background = cv2.resize(background, None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA)
         changed = np.max(cv2.absdiff(pixels, background), axis=2) > 43
+        # The held fruit can overlap the top few pixels of the box.
+        changed[:6] = False
         if not changed.any():
             return [], 1.
         ys, xs = np.where(changed)
@@ -147,7 +149,7 @@ def ready(page, detect, box, deadline):
             return None, None, 'game over'
         pixels = screenshot(page)
         x0, y0, x1, y1 = box
-        board = cv2.resize(pixels[y0:y1, x0:x1], (132, 142), interpolation=cv2.INTER_AREA)
+        board = cv2.resize(pixels[y0+12:y1, x0:x1], (132, 142), interpolation=cv2.INTER_AREA)
         hand = pixels[y0-104:y0+5, x0-5:x1+5]
         last_find = detect.match(hand, range(5), (.64, .68, .72), (0,), .047)
         if previous is not None and last_find and np.mean(cv2.absdiff(board, previous) > 30) < .005:

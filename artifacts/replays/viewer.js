@@ -39,7 +39,8 @@ function draw() {
   const theta = Number(by('rotate').value) * Math.PI / 180;
   by('stepValue').value = step;
   slider.value = decision.drop;
-  by('decision').value = `#${decision.drop} · aim ${decision.action + 1}/15 · score ${decision.score ?? 'unknown'}`;
+  const score = entry.website ? `${decision.score_before ?? '?'} → ${decision.score ?? '?'}` : decision.score;
+  by('decision').value = `#${decision.drop} · aim ${decision.action + 1}/15 · score ${score}`;
   by('regionTitle').textContent = `Neuropil activity · drop ${decision.drop}, recurrent step ${step}/${decision.steps.length}`;
   const focusedNodes = new Set(graph.edges.filter(edge => edge[3][regionFocus]).map(edge => edge[0]));
   if (entry.website && image.getAttribute('src') !== entry.folder + decision.image) image.src = entry.folder + decision.image;
