@@ -1,0 +1,24 @@
+{
+  "drop5": {
+    "kind": "flywire",
+    "seed": 11,
+    "requested": 5,
+    "drops": 8,
+    "updates": 0,
+    "checkpoint": "runs/flywire-11/drop5.pt",
+    "fruit_seed": 20261122,
+    "action_rng_seed": 20262893,
+    "pre_update": true,
+    "video": "drop5.mp4",
+    "trace": "drop5",
+    "bytes": 2375945,
+    "episode": {
+      "score": 1051,
+      "highest": 8,
+      "length": 128
+    },
+    "render_and_decode_seconds": 32.03143114701379,
+    "fps": 30,
+    "frames_per_drop": 28
+  }
+}
