@@ -1,0 +1,722 @@
+[
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 11,
+    "milestone": "init",
+    "mean": 127.16666666666667,
+    "differences": [
+      0,
+      876,
+      0,
+      0,
+      -809,
+      0,
+      767,
+      0,
+      0,
+      0,
+      0,
+      692
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 11,
+    "milestone": "drop5",
+    "mean": 127.16666666666667,
+    "differences": [
+      0,
+      876,
+      0,
+      0,
+      -809,
+      0,
+      767,
+      0,
+      0,
+      0,
+      0,
+      692
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 11,
+    "milestone": "drop1000",
+    "mean": 127.16666666666667,
+    "differences": [
+      0,
+      876,
+      0,
+      0,
+      -809,
+      0,
+      767,
+      0,
+      0,
+      0,
+      0,
+      692
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 11,
+    "milestone": "early",
+    "mean": 12.25,
+    "differences": [
+      -751,
+      590,
+      -61,
+      383,
+      7,
+      52,
+      947,
+      26,
+      -337,
+      -1104,
+      -98,
+      493
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 11,
+    "milestone": "middle",
+    "mean": 185.91666666666666,
+    "differences": [
+      -452,
+      921,
+      116,
+      129,
+      -64,
+      -1299,
+      512,
+      550,
+      1027,
+      397,
+      -113,
+      507
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 11,
+    "milestone": "final",
+    "mean": 255.25,
+    "differences": [
+      -666,
+      112,
+      1282,
+      -61,
+      1033,
+      -78,
+      -402,
+      1135,
+      861,
+      -904,
+      1212,
+      -461
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 22,
+    "milestone": "init",
+    "mean": 22.166666666666668,
+    "differences": [
+      0,
+      973,
+      0,
+      0,
+      0,
+      0,
+      -707,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 22,
+    "milestone": "drop5",
+    "mean": 22.166666666666668,
+    "differences": [
+      0,
+      973,
+      0,
+      0,
+      0,
+      0,
+      -707,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 22,
+    "milestone": "drop1000",
+    "mean": 22.166666666666668,
+    "differences": [
+      0,
+      973,
+      0,
+      0,
+      0,
+      0,
+      -707,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 22,
+    "milestone": "early",
+    "mean": 301.0,
+    "differences": [
+      335,
+      -1223,
+      322,
+      -96,
+      1504,
+      -225,
+      1389,
+      310,
+      223,
+      525,
+      623,
+      -75
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 22,
+    "milestone": "middle",
+    "mean": 501.5,
+    "differences": [
+      276,
+      1684,
+      1091,
+      808,
+      396,
+      -345,
+      1423,
+      763,
+      -1414,
+      90,
+      580,
+      666
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 22,
+    "milestone": "final",
+    "mean": 240.58333333333334,
+    "differences": [
+      -788,
+      24,
+      -254,
+      544,
+      98,
+      1047,
+      1004,
+      309,
+      862,
+      -22,
+      84,
+      -21
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 33,
+    "milestone": "init",
+    "mean": -164.66666666666666,
+    "differences": [
+      -47,
+      0,
+      0,
+      -945,
+      0,
+      479,
+      0,
+      32,
+      0,
+      -297,
+      -1198,
+      0
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 33,
+    "milestone": "drop5",
+    "mean": -164.66666666666666,
+    "differences": [
+      -47,
+      0,
+      0,
+      -945,
+      0,
+      479,
+      0,
+      32,
+      0,
+      -297,
+      -1198,
+      0
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 33,
+    "milestone": "drop1000",
+    "mean": -164.66666666666666,
+    "differences": [
+      -47,
+      0,
+      0,
+      -945,
+      0,
+      479,
+      0,
+      32,
+      0,
+      -297,
+      -1198,
+      0
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 33,
+    "milestone": "early",
+    "mean": 32.75,
+    "differences": [
+      531,
+      -1290,
+      449,
+      348,
+      -12,
+      -191,
+      -1217,
+      -586,
+      343,
+      -428,
+      1626,
+      820
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 33,
+    "milestone": "middle",
+    "mean": -62.166666666666664,
+    "differences": [
+      279,
+      -554,
+      -505,
+      -34,
+      -174,
+      -220,
+      -19,
+      -628,
+      317,
+      309,
+      -207,
+      690
+    ]
+  },
+  {
+    "comparison": "flywire minus rewired",
+    "seed": 33,
+    "milestone": "final",
+    "mean": 158.33333333333334,
+    "differences": [
+      -599,
+      227,
+      -744,
+      1055,
+      29,
+      97,
+      -493,
+      270,
+      32,
+      364,
+      654,
+      1008
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 11,
+    "milestone": "init",
+    "mean": 137.75,
+    "differences": [
+      0,
+      665,
+      -1226,
+      49,
+      -951,
+      559,
+      874,
+      0,
+      1153,
+      0,
+      1092,
+      -562
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 11,
+    "milestone": "drop5",
+    "mean": 137.75,
+    "differences": [
+      0,
+      665,
+      -1226,
+      49,
+      -951,
+      559,
+      874,
+      0,
+      1153,
+      0,
+      1092,
+      -562
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 11,
+    "milestone": "drop1000",
+    "mean": 137.75,
+    "differences": [
+      0,
+      665,
+      -1226,
+      49,
+      -951,
+      559,
+      874,
+      0,
+      1153,
+      0,
+      1092,
+      -562
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 11,
+    "milestone": "early",
+    "mean": 170.5,
+    "differences": [
+      375,
+      910,
+      -866,
+      -81,
+      888,
+      -243,
+      -66,
+      525,
+      312,
+      94,
+      351,
+      -153
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 11,
+    "milestone": "middle",
+    "mean": 19.75,
+    "differences": [
+      -472,
+      917,
+      1199,
+      -98,
+      -54,
+      -235,
+      603,
+      -69,
+      -306,
+      -460,
+      -129,
+      -659
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 11,
+    "milestone": "final",
+    "mean": 213.91666666666666,
+    "differences": [
+      -599,
+      -1043,
+      151,
+      1055,
+      1588,
+      23,
+      61,
+      800,
+      199,
+      104,
+      1197,
+      -969
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 22,
+    "milestone": "init",
+    "mean": -133.5,
+    "differences": [
+      -447,
+      5,
+      -20,
+      0,
+      -313,
+      331,
+      -226,
+      0,
+      -939,
+      0,
+      -71,
+      78
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 22,
+    "milestone": "drop5",
+    "mean": -133.5,
+    "differences": [
+      -447,
+      5,
+      -20,
+      0,
+      -313,
+      331,
+      -226,
+      0,
+      -939,
+      0,
+      -71,
+      78
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 22,
+    "milestone": "drop1000",
+    "mean": -133.5,
+    "differences": [
+      -447,
+      5,
+      -20,
+      0,
+      -313,
+      331,
+      -226,
+      0,
+      -939,
+      0,
+      -71,
+      78
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 22,
+    "milestone": "early",
+    "mean": 17.666666666666668,
+    "differences": [
+      488,
+      -1354,
+      -35,
+      655,
+      1167,
+      219,
+      627,
+      -545,
+      386,
+      -123,
+      -200,
+      -1073
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 22,
+    "milestone": "middle",
+    "mean": 347.6666666666667,
+    "differences": [
+      173,
+      745,
+      743,
+      541,
+      711,
+      -1005,
+      1101,
+      158,
+      -708,
+      1537,
+      76,
+      100
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 22,
+    "milestone": "final",
+    "mean": 249.83333333333334,
+    "differences": [
+      -250,
+      146,
+      432,
+      -213,
+      323,
+      1323,
+      -48,
+      1,
+      590,
+      -849,
+      1263,
+      280
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 33,
+    "milestone": "init",
+    "mean": -45.416666666666664,
+    "differences": [
+      212,
+      -85,
+      0,
+      -174,
+      262,
+      479,
+      -592,
+      0,
+      -771,
+      1384,
+      -1296,
+      36
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 33,
+    "milestone": "drop5",
+    "mean": -45.416666666666664,
+    "differences": [
+      212,
+      -85,
+      0,
+      -174,
+      262,
+      479,
+      -592,
+      0,
+      -771,
+      1384,
+      -1296,
+      36
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 33,
+    "milestone": "drop1000",
+    "mean": -45.416666666666664,
+    "differences": [
+      212,
+      -85,
+      0,
+      -174,
+      262,
+      479,
+      -592,
+      0,
+      -771,
+      1384,
+      -1296,
+      36
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 33,
+    "milestone": "early",
+    "mean": 28.833333333333332,
+    "differences": [
+      69,
+      -1376,
+      1083,
+      14,
+      353,
+      -578,
+      -524,
+      -499,
+      197,
+      534,
+      1049,
+      24
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 33,
+    "milestone": "middle",
+    "mean": -129.41666666666666,
+    "differences": [
+      728,
+      -863,
+      -793,
+      -119,
+      493,
+      55,
+      -635,
+      -104,
+      29,
+      -379,
+      -266,
+      301
+    ]
+  },
+  {
+    "comparison": "flywire minus mlp",
+    "seed": 33,
+    "milestone": "final",
+    "mean": 204.91666666666666,
+    "differences": [
+      386,
+      611,
+      80,
+      594,
+      334,
+      177,
+      -966,
+      -153,
+      169,
+      965,
+      -605,
+      867
+    ]
+  }
+]

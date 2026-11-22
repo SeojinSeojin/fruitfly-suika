@@ -123,3 +123,19 @@ xvfb-run -a -s '-screen 0 1440x1024x24' .venv/bin/python -m flymerge.site \
 ```
 
 The browser uses a request filter for ad-serving hosts and verifies fruit near the board edges using padded template matching. The first website capture remains available in the original replay.
+
+### Follow-up local results
+
+[Extended gameplay and circuit replay](artifacts/transfer/replays/index.html) · [Milestone videos](artifacts/transfer/videos/manifest.json) · [Learning curves](artifacts/transfer/results/learning-curves.png) · [Extended checkpoint archive](artifacts/transfer/checkpoints/ppo-checkpoints.tar.gz)
+
+Mean final scores on the same 12 held-out fruit sequences per trial.
+
+| Training seed | FlyWire | Degree-preserving control | MLP |
+| ---: | ---: | ---: | ---: |
+| 11 | 2,730.5 | 2,475.2 | 2,516.6 |
+| 22 | 2,779.9 | 2,539.3 | 2,530.1 |
+| 33 | 2,514.8 | 2,356.4 | 2,309.8 |
+
+FlyWire finished ahead of both controls on each seed under the follow-up physics profile. Mean paired differences were +218.1 against rewired and +222.9 against MLP. The first experiment used a different physics profile and a different budget, so its raw scores describe a different local task. [Paired scores](artifacts/transfer/results/paired.json)
+
+The same 16-CPU machine ran waves of three learners and 12 game workers, with 200 PPO updates per trial. The longest trials in the FlyWire, rewired, and MLP waves took 198.8, 211.0, and 212.6 seconds including setup. Across the nine trials, training throughput ranged from 975 to 1,102 drops/s. The existing graph was reused. Four evaluation processes finished held-out scoring in 82.5 seconds. All five follow-up videos decoded and their 1,065 recorded decisions matched their frozen policy traces. [Training summaries](artifacts/transfer/results/training.json)
