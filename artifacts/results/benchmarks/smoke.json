@@ -1,0 +1,63 @@
+{
+  "kind": "flywire",
+  "seed": 99,
+  "budget": 1024,
+  "workers": 2,
+  "sparse": false,
+  "updates": 1,
+  "seconds": 1.2916840339894406,
+  "runtime": 14.444586177007295,
+  "drops_per_second": 792.7635343121158,
+  "learner_peak_kib": 507116,
+  "worker_peak_kib": [
+    248220,
+    248220
+  ],
+  "parameters": 8208,
+  "timings": {
+    "inference": 0.5607007283251733,
+    "environment_wall": 0.624132010678295,
+    "worker_physics_sum": 0.7603462640545331,
+    "communication_and_wait": 0.15674856310943142,
+    "ppo": 0.08193853398552164,
+    "checkpoint": 0.008323691901750863
+  },
+  "snapshots": {
+    "init": {
+      "file": "init.pt",
+      "requested": 0,
+      "drops": 0,
+      "updates": 0
+    },
+    "drop5": {
+      "file": "drop5.pt",
+      "requested": 5,
+      "drops": 6,
+      "updates": 0
+    },
+    "early": {
+      "file": "early.pt",
+      "requested": 51,
+      "drops": 52,
+      "updates": 0
+    },
+    "middle": {
+      "file": "middle.pt",
+      "requested": 512,
+      "drops": 512,
+      "updates": 0
+    },
+    "drop1000": {
+      "file": "drop1000.pt",
+      "requested": 1000,
+      "drops": 1000,
+      "updates": 0
+    },
+    "final": {
+      "file": "final.pt",
+      "requested": 1024,
+      "drops": 1024,
+      "updates": 1
+    }
+  }
+}

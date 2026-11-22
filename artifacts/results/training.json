@@ -1,0 +1,587 @@
+{
+  "flywire-11": {
+    "kind": "flywire",
+    "seed": 11,
+    "budget": 100352,
+    "workers": 4,
+    "sparse": true,
+    "updates": 98,
+    "seconds": 76.92278113396605,
+    "runtime": 79.2395875279908,
+    "drops_per_second": 1304.5810164511659,
+    "learner_peak_kib": 451736,
+    "worker_peak_kib": [
+      203520,
+      203520,
+      203520,
+      203520
+    ],
+    "parameters": 8208,
+    "timings": {
+      "inference": 29.55930597538827,
+      "environment_wall": 38.82761068805121,
+      "worker_physics_sum": 78.24328834668268,
+      "communication_and_wait": 9.187439394241665,
+      "ppo": 7.268394226965029,
+      "checkpoint": 0.00888034695526585
+    },
+    "snapshots": {
+      "init": {
+        "file": "init.pt",
+        "requested": 0,
+        "drops": 0,
+        "updates": 0
+      },
+      "drop5": {
+        "file": "drop5.pt",
+        "requested": 5,
+        "drops": 8,
+        "updates": 0
+      },
+      "drop1000": {
+        "file": "drop1000.pt",
+        "requested": 1000,
+        "drops": 1000,
+        "updates": 0
+      },
+      "early": {
+        "file": "early.pt",
+        "requested": 5017,
+        "drops": 5020,
+        "updates": 4
+      },
+      "middle": {
+        "file": "middle.pt",
+        "requested": 50176,
+        "drops": 50176,
+        "updates": 49
+      },
+      "final": {
+        "file": "final.pt",
+        "requested": 100352,
+        "drops": 100352,
+        "updates": 98
+      }
+    }
+  },
+  "flywire-22": {
+    "kind": "flywire",
+    "seed": 22,
+    "budget": 100352,
+    "workers": 4,
+    "sparse": true,
+    "updates": 98,
+    "seconds": 77.19303852599114,
+    "runtime": 79.73477856599493,
+    "drops_per_second": 1300.0136011774061,
+    "learner_peak_kib": 451992,
+    "worker_peak_kib": [
+      203712,
+      203712,
+      203712,
+      203840
+    ],
+    "parameters": 8208,
+    "timings": {
+      "inference": 29.834820879157633,
+      "environment_wall": 38.772669205325656,
+      "worker_physics_sum": 77.7353344936273,
+      "communication_and_wait": 9.63317495409865,
+      "ppo": 7.2783106819260865,
+      "checkpoint": 0.009831966017372906
+    },
+    "snapshots": {
+      "init": {
+        "file": "init.pt",
+        "requested": 0,
+        "drops": 0,
+        "updates": 0
+      },
+      "drop5": {
+        "file": "drop5.pt",
+        "requested": 5,
+        "drops": 8,
+        "updates": 0
+      },
+      "drop1000": {
+        "file": "drop1000.pt",
+        "requested": 1000,
+        "drops": 1000,
+        "updates": 0
+      },
+      "early": {
+        "file": "early.pt",
+        "requested": 5017,
+        "drops": 5020,
+        "updates": 4
+      },
+      "middle": {
+        "file": "middle.pt",
+        "requested": 50176,
+        "drops": 50176,
+        "updates": 49
+      },
+      "final": {
+        "file": "final.pt",
+        "requested": 100352,
+        "drops": 100352,
+        "updates": 98
+      }
+    }
+  },
+  "flywire-33": {
+    "kind": "flywire",
+    "seed": 33,
+    "budget": 100352,
+    "workers": 4,
+    "sparse": true,
+    "updates": 98,
+    "seconds": 77.71374459401704,
+    "runtime": 80.30472857499262,
+    "drops_per_second": 1291.3031089191115,
+    "learner_peak_kib": 453524,
+    "worker_peak_kib": [
+      203632,
+      203632,
+      203632,
+      203760
+    ],
+    "parameters": 8208,
+    "timings": {
+      "inference": 29.72663714044029,
+      "environment_wall": 39.51305279304506,
+      "worker_physics_sum": 79.47638198948698,
+      "communication_and_wait": 9.473719753324986,
+      "ppo": 7.167668102891184,
+      "checkpoint": 0.009709377016406506
+    },
+    "snapshots": {
+      "init": {
+        "file": "init.pt",
+        "requested": 0,
+        "drops": 0,
+        "updates": 0
+      },
+      "drop5": {
+        "file": "drop5.pt",
+        "requested": 5,
+        "drops": 8,
+        "updates": 0
+      },
+      "drop1000": {
+        "file": "drop1000.pt",
+        "requested": 1000,
+        "drops": 1000,
+        "updates": 0
+      },
+      "early": {
+        "file": "early.pt",
+        "requested": 5017,
+        "drops": 5020,
+        "updates": 4
+      },
+      "middle": {
+        "file": "middle.pt",
+        "requested": 50176,
+        "drops": 50176,
+        "updates": 49
+      },
+      "final": {
+        "file": "final.pt",
+        "requested": 100352,
+        "drops": 100352,
+        "updates": 98
+      }
+    }
+  },
+  "rewired-11": {
+    "kind": "rewired",
+    "seed": 11,
+    "budget": 100352,
+    "workers": 4,
+    "sparse": true,
+    "updates": 98,
+    "seconds": 77.25059579894878,
+    "runtime": 79.78174201998627,
+    "drops_per_second": 1299.0449971567155,
+    "learner_peak_kib": 451632,
+    "worker_peak_kib": [
+      203404,
+      203404,
+      203404,
+      204300
+    ],
+    "parameters": 8208,
+    "timings": {
+      "inference": 29.089511950092856,
+      "environment_wall": 39.7170229186886,
+      "worker_physics_sum": 79.37195053196047,
+      "communication_and_wait": 9.611985140072647,
+      "ppo": 7.186813856009394,
+      "checkpoint": 0.008476440038066357
+    },
+    "snapshots": {
+      "init": {
+        "file": "init.pt",
+        "requested": 0,
+        "drops": 0,
+        "updates": 0
+      },
+      "drop5": {
+        "file": "drop5.pt",
+        "requested": 5,
+        "drops": 8,
+        "updates": 0
+      },
+      "drop1000": {
+        "file": "drop1000.pt",
+        "requested": 1000,
+        "drops": 1000,
+        "updates": 0
+      },
+      "early": {
+        "file": "early.pt",
+        "requested": 5017,
+        "drops": 5020,
+        "updates": 4
+      },
+      "middle": {
+        "file": "middle.pt",
+        "requested": 50176,
+        "drops": 50176,
+        "updates": 49
+      },
+      "final": {
+        "file": "final.pt",
+        "requested": 100352,
+        "drops": 100352,
+        "updates": 98
+      }
+    }
+  },
+  "rewired-22": {
+    "kind": "rewired",
+    "seed": 22,
+    "budget": 100352,
+    "workers": 4,
+    "sparse": true,
+    "updates": 98,
+    "seconds": 77.44216937304009,
+    "runtime": 79.89573823998217,
+    "drops_per_second": 1295.831467693046,
+    "learner_peak_kib": 452104,
+    "worker_peak_kib": [
+      203632,
+      203632,
+      203632,
+      204528
+    ],
+    "parameters": 8208,
+    "timings": {
+      "inference": 29.477211179153528,
+      "environment_wall": 39.56046492501628,
+      "worker_physics_sum": 78.99380532861687,
+      "communication_and_wait": 9.666706450632773,
+      "ppo": 7.130146191106178,
+      "checkpoint": 0.0080420789308846
+    },
+    "snapshots": {
+      "init": {
+        "file": "init.pt",
+        "requested": 0,
+        "drops": 0,
+        "updates": 0
+      },
+      "drop5": {
+        "file": "drop5.pt",
+        "requested": 5,
+        "drops": 8,
+        "updates": 0
+      },
+      "drop1000": {
+        "file": "drop1000.pt",
+        "requested": 1000,
+        "drops": 1000,
+        "updates": 0
+      },
+      "early": {
+        "file": "early.pt",
+        "requested": 5017,
+        "drops": 5020,
+        "updates": 4
+      },
+      "middle": {
+        "file": "middle.pt",
+        "requested": 50176,
+        "drops": 50176,
+        "updates": 49
+      },
+      "final": {
+        "file": "final.pt",
+        "requested": 100352,
+        "drops": 100352,
+        "updates": 98
+      }
+    }
+  },
+  "rewired-33": {
+    "kind": "rewired",
+    "seed": 33,
+    "budget": 100352,
+    "workers": 4,
+    "sparse": true,
+    "updates": 98,
+    "seconds": 78.06411803199444,
+    "runtime": 80.65648463595426,
+    "drops_per_second": 1285.507382007069,
+    "learner_peak_kib": 451604,
+    "worker_peak_kib": [
+      203624,
+      203624,
+      203624,
+      203624
+    ],
+    "parameters": 8208,
+    "timings": {
+      "inference": 29.906412251351867,
+      "environment_wall": 39.54683087771991,
+      "worker_physics_sum": 79.95520207268419,
+      "communication_and_wait": 9.375059683865402,
+      "ppo": 7.328226285171695,
+      "checkpoint": 0.007934579043649137
+    },
+    "snapshots": {
+      "init": {
+        "file": "init.pt",
+        "requested": 0,
+        "drops": 0,
+        "updates": 0
+      },
+      "drop5": {
+        "file": "drop5.pt",
+        "requested": 5,
+        "drops": 8,
+        "updates": 0
+      },
+      "drop1000": {
+        "file": "drop1000.pt",
+        "requested": 1000,
+        "drops": 1000,
+        "updates": 0
+      },
+      "early": {
+        "file": "early.pt",
+        "requested": 5017,
+        "drops": 5020,
+        "updates": 4
+      },
+      "middle": {
+        "file": "middle.pt",
+        "requested": 50176,
+        "drops": 50176,
+        "updates": 49
+      },
+      "final": {
+        "file": "final.pt",
+        "requested": 100352,
+        "drops": 100352,
+        "updates": 98
+      }
+    }
+  },
+  "mlp-11": {
+    "kind": "mlp",
+    "seed": 11,
+    "budget": 100352,
+    "workers": 4,
+    "sparse": true,
+    "updates": 98,
+    "seconds": 63.0808557929704,
+    "runtime": 65.47275847400306,
+    "drops_per_second": 1590.8471554246578,
+    "learner_peak_kib": 443996,
+    "worker_peak_kib": [
+      202500,
+      202500,
+      202500,
+      202628
+    ],
+    "parameters": 8304,
+    "timings": {
+      "inference": 15.675988701521419,
+      "environment_wall": 38.91056216182187,
+      "worker_physics_sum": 78.51054688770091,
+      "communication_and_wait": 9.241215813905,
+      "ppo": 7.192366958770435,
+      "checkpoint": 0.01112762390403077
+    },
+    "snapshots": {
+      "init": {
+        "file": "init.pt",
+        "requested": 0,
+        "drops": 0,
+        "updates": 0
+      },
+      "drop5": {
+        "file": "drop5.pt",
+        "requested": 5,
+        "drops": 8,
+        "updates": 0
+      },
+      "drop1000": {
+        "file": "drop1000.pt",
+        "requested": 1000,
+        "drops": 1000,
+        "updates": 0
+      },
+      "early": {
+        "file": "early.pt",
+        "requested": 5017,
+        "drops": 5020,
+        "updates": 4
+      },
+      "middle": {
+        "file": "middle.pt",
+        "requested": 50176,
+        "drops": 50176,
+        "updates": 49
+      },
+      "final": {
+        "file": "final.pt",
+        "requested": 100352,
+        "drops": 100352,
+        "updates": 98
+      }
+    }
+  },
+  "mlp-22": {
+    "kind": "mlp",
+    "seed": 22,
+    "budget": 100352,
+    "workers": 4,
+    "sparse": true,
+    "updates": 98,
+    "seconds": 63.50623814295977,
+    "runtime": 65.97640355897602,
+    "drops_per_second": 1580.1912211221868,
+    "learner_peak_kib": 443260,
+    "worker_peak_kib": [
+      202632,
+      202632,
+      202632,
+      202632
+    ],
+    "parameters": 8304,
+    "timings": {
+      "inference": 15.860691398091149,
+      "environment_wall": 39.052758037287276,
+      "worker_physics_sum": 78.85256972565548,
+      "communication_and_wait": 9.115422547911294,
+      "ppo": 7.2890947083360516,
+      "checkpoint": 0.010928355040960014
+    },
+    "snapshots": {
+      "init": {
+        "file": "init.pt",
+        "requested": 0,
+        "drops": 0,
+        "updates": 0
+      },
+      "drop5": {
+        "file": "drop5.pt",
+        "requested": 5,
+        "drops": 8,
+        "updates": 0
+      },
+      "drop1000": {
+        "file": "drop1000.pt",
+        "requested": 1000,
+        "drops": 1000,
+        "updates": 0
+      },
+      "early": {
+        "file": "early.pt",
+        "requested": 5017,
+        "drops": 5020,
+        "updates": 4
+      },
+      "middle": {
+        "file": "middle.pt",
+        "requested": 50176,
+        "drops": 50176,
+        "updates": 49
+      },
+      "final": {
+        "file": "final.pt",
+        "requested": 100352,
+        "drops": 100352,
+        "updates": 98
+      }
+    }
+  },
+  "mlp-33": {
+    "kind": "mlp",
+    "seed": 33,
+    "budget": 100352,
+    "workers": 4,
+    "sparse": true,
+    "updates": 98,
+    "seconds": 63.9498455110006,
+    "runtime": 66.29155593499308,
+    "drops_per_second": 1569.2297486901282,
+    "learner_peak_kib": 443992,
+    "worker_peak_kib": [
+      202484,
+      202612,
+      202484,
+      202484
+    ],
+    "parameters": 8304,
+    "timings": {
+      "inference": 15.777760431810748,
+      "environment_wall": 39.620099734456744,
+      "worker_physics_sum": 80.4377893517958,
+      "communication_and_wait": 9.135990177863277,
+      "ppo": 7.255578268959653,
+      "checkpoint": 0.011596019030548632
+    },
+    "snapshots": {
+      "init": {
+        "file": "init.pt",
+        "requested": 0,
+        "drops": 0,
+        "updates": 0
+      },
+      "drop5": {
+        "file": "drop5.pt",
+        "requested": 5,
+        "drops": 8,
+        "updates": 0
+      },
+      "drop1000": {
+        "file": "drop1000.pt",
+        "requested": 1000,
+        "drops": 1000,
+        "updates": 0
+      },
+      "early": {
+        "file": "early.pt",
+        "requested": 5017,
+        "drops": 5020,
+        "updates": 4
+      },
+      "middle": {
+        "file": "middle.pt",
+        "requested": 50176,
+        "drops": 50176,
+        "updates": 49
+      },
+      "final": {
+        "file": "final.pt",
+        "requested": 100352,
+        "drops": 100352,
+        "updates": 98
+      }
+    }
+  }
+}

@@ -30,12 +30,12 @@ class GameTest(unittest.TestCase):
     def test_overflow(self):
         env = Orchard()
         env.reset(seed=1)
-        tier = 6
+        tier = len(RADII) - 1
         r = RADII[tier]
-        env.n = 4
+        env.n = 2
         for i in range(env.n):
             env.body[i] = r, 440 - r * (2 * i + 1), 0, 0, tier
-        _, _, terminated, _, _ = env.step(0)
+        _, _, terminated, _, _ = env.step(14)
         self.assertTrue(terminated)
 
 
