@@ -1,0 +1,34 @@
+{
+  "url": "https://playsuikagame.com/ko",
+  "checkpoint": "artifacts/checkpoints/flywire-seed11-final.pt",
+  "training_drops": 100352,
+  "updates": 98,
+  "seed": 11,
+  "action_seed": 32833,
+  "final_score": 0,
+  "completed_drops": 1,
+  "browser": "headed Chromium",
+  "outcome": "paused on unreliable board detection (0.0% explained foreground)",
+  "board_bounds": [
+    370,
+    216,
+    896,
+    781
+  ],
+  "seconds": 7.743247335019987,
+  "drops": [
+    {
+      "drop": 1,
+      "action": 8,
+      "target_x": 667.7628571428572,
+      "aim_error_px": 0.7628571428572286,
+      "coverage": 1.0,
+      "score_before": 0,
+      "score": 0,
+      "image": "screens/001.jpg",
+      "timestamp": 2.9811846280354075
+    }
+  ],
+  "final_capture": "paused.png",
+  "pause_diagnosis": "A sticky bottom banner covered part of the board, including the first fruit."
+}

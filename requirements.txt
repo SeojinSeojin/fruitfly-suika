@@ -6,3 +6,4 @@ gymnasium
 pandas
 imageio-ffmpeg
 playwright
+opencv-python-headless

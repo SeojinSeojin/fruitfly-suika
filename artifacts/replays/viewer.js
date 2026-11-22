@@ -3,7 +3,7 @@ const by = id => document.getElementById(id);
 const labels = {drop5:'5 drops', drop1000:'1,000 drops', early:'Early · 5%', middle:'Middle · 50%', final:'Final · 100%', website:'Website transfer'};
 const video = by('video'), image = by('capture'), slider = by('drop'), canvas = by('circuit');
 const ctx = canvas.getContext('2d');
-let graph, replay, entry, current = 0, projected = [], selected = null, timer = null;
+let graph, replay, entry, current = 0, projected = [], selected = null, timer = null, openToken = 0;
 
 async function unpack(encoded) {
   const bytes = Uint8Array.from(atob(encoded), c => c.charCodeAt(0));
@@ -36,7 +36,7 @@ function draw() {
   by('stepValue').value = step;
   slider.value = decision.drop;
   by('decision').value = `#${decision.drop} · aim ${decision.action + 1}/15 · score ${decision.score ?? 'unknown'}`;
-  if (entry.website) image.src = '../demo/' + decision.image;
+  if (entry.website && image.getAttribute('src') !== '../demo/' + decision.image) image.src = '../demo/' + decision.image;
   projected = graph.points.map((p,i) => p && ({
     x: 292 + 243 * (Math.cos(theta)*p[0] + Math.sin(theta)*p[2]),
     y: 256 + 220*p[1],
@@ -89,10 +89,16 @@ function pause() {
 
 async function open(label) {
   pause();
-  entry = label === 'website' ? {website:true, trace:label} : window.localManifest[label];
-  replay = await unpack(window.replays[entry.trace]);
+  const token = ++openToken;
+  const requested = label === 'website' ? {website:true, trace:label} : window.localManifest[label];
+  const data = await unpack(window.replays[requested.trace]);
+  if (token !== openToken) return;
+  entry = requested;
+  replay = data;
   for (const button of by('milestones').children) button.setAttribute('aria-pressed', button.dataset.label === label);
   video.hidden = Boolean(entry.website); image.hidden = !entry.website;
+  by('terminalCapture').hidden = !entry.website || !replay.meta.final_capture;
+  if (entry.website && replay.meta.final_capture) by('terminalCapture').href = '../demo/' + replay.meta.final_capture;
   by('gameTitle').textContent = entry.website ? 'Website transfer' : 'Gameplay';
   current = 0;
   by('status').textContent = entry.website
@@ -141,5 +147,7 @@ video.ontimeupdate = () => {
     const button = document.createElement('button'); button.textContent = label; button.dataset.label = key;
     button.onclick = () => open(key); by('milestones').append(button);
   }
-  if (by('milestones').firstChild) await open(by('milestones').firstChild.dataset.label);
+  const requested = Array.from(by('milestones').children).find(button => '#' + button.dataset.label === location.hash);
+  const initial = requested ?? by('milestones').firstChild;
+  if (initial) await open(initial.dataset.label);
 })().catch(error => { by('status').textContent = error.message; });
