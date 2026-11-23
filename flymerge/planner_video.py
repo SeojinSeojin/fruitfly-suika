@@ -61,11 +61,14 @@ class Lane:
         draw.text((side,73),'Current    Next',fill='#c2d8d2')
         fruit(draw,side+21,116,15,self.current)
         fruit(draw,side+91,116,15,self.next)
-        draw.text((side,156),'FlyWire activity',fill='#d5e8df')
-        draw.text((side,178),'Recurrent step 6',fill='#9ebcb5')
-        for i,(x,y) in enumerate(POINTS):
-            px,py = side+5+x*130,215+y*120
-            draw.ellipse((px-1.6,py-1.6,px+1.6,py+1.6), fill=color(data['steps'][-1]['delta'][i]))
+        if 'steps' in data:
+            draw.text((side,156),'FlyWire activity',fill='#d5e8df')
+            draw.text((side,178),'Recurrent step 6',fill='#9ebcb5')
+            for i,(x,y) in enumerate(POINTS):
+                px,py = side+5+x*130,215+y*120
+                draw.ellipse((px-1.6,py-1.6,px+1.6,py+1.6), fill=color(data['steps'][-1]['delta'][i]))
+        else:
+            draw.text((side,156),'Compact value head',fill='#d5e8df')
         if finished:
             draw.text((side,354),'Overflow' if overflow(env) else '300-drop cap',fill='#f7cc82')
 

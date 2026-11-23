@@ -58,3 +58,7 @@ Use the repository's existing Python environment. The generated data stays in gi
 ```
 
 The predeclared video seed is 20270701 under joint perturbations. The FlyWire inspection can seek its corresponding afterstate trace by drop and recurrent step, using the same fruit sequence. The archived media manifest records scores, lengths and checkpoint identity.
+
+On the predeclared showcase, the deployed hybrid scored 2,588 and overflowed at drop 293. Compact scored 2,848 at the 300-drop cap, and the independent FlyWire inspection trace reached 3,027 at the cap. The replay highlights drop 8, where compact scored zero and an alternate move on the same board would have scored 3 immediately. Drop 11 scored 16 total, including a 10-point merge. Individual merges were recovered from conservation of fruit-tier counts between drops. This illustration follows one observed local continuation.
+
+FFmpeg decoded the 3.6 MB MP4. The verifier matched all 893 recorded decisions, scores, and available circuit traces to their deterministic replay inputs. Chromium playback, both illustration seek buttons, the drop slider, and the FlyWire recurrent-step control passed.

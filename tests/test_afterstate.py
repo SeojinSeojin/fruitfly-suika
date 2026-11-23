@@ -35,11 +35,10 @@ class AfterstateTest(unittest.TestCase):
         torch.testing.assert_close(one,many)
 
     def test_loss_masks_unknown_targets(self):
-        p = torch.zeros((2,2))
-        zero, one = torch.tensor([0.,1.]),torch.tensor([1.,0.])
+        p = torch.tensor([[0.,2.],[1.,-8.]])
         known = torch.tensor([True,False])
-        a,b = loss_parts(p,zero,zero,known,known)
-        self.assertEqual(a.item(),0.)
-        c,d = loss_parts(p,zero,one,known,known)
-        self.assertEqual(c.item(),0.)
-        self.assertEqual(b.item(),d.item())
+        targets = torch.tensor([0.,1.])
+        changed = torch.tensor([0.,0.])
+        first = loss_parts(p,targets,targets,known,known)
+        second = loss_parts(p,changed,changed,known,known)
+        torch.testing.assert_close(first,second)

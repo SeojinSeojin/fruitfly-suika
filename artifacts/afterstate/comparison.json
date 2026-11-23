@@ -1,0 +1,52 @@
+{
+  "seed": 20270701,
+  "profile": "joint",
+  "fps": 20,
+  "frames_per_drop": 6,
+  "checkpoint": "artifacts/transfer/checkpoints/flywire-seed11-final.pt",
+  "sha256": "b2316d67a4538d55f2270633497dfe521a1dfd29dfc3ba0406ab8733380e1e7f",
+  "model": "C",
+  "weights": {
+    "C": [
+      0.5,
+      70.0
+    ],
+    "D": [
+      0.5,
+      70.0
+    ]
+  },
+  "bytes": 3677872,
+  "illustration": {
+    "drop": 8,
+    "actual_gain": 0.0,
+    "foregone": 3.0,
+    "later_drop": 11,
+    "later_gain": 16.0,
+    "individual_merge": 10
+  },
+  "episodes": {
+    "A": {
+      "score": 2588,
+      "highest": 9,
+      "length": 293,
+      "overflow": true
+    },
+    "learned": {
+      "score": 2848,
+      "highest": 10,
+      "length": 300,
+      "overflow": false
+    },
+    "flywire": {
+      "score": 3027,
+      "highest": 10,
+      "length": 300,
+      "overflow": false
+    }
+  },
+  "model_hashes": {
+    "compact": "583a7539443600dc17f4d2a4bb7f98c12af40339d99de57302452d3cb36440d1",
+    "flywire": "1a98a6f5951f722f4b8a41009e4c9db6219af7af942efcf2a67b48cee08c0716"
+  }
+}
