@@ -1,0 +1,87 @@
+{
+  "attempt-1": {
+    "outcome": "game over",
+    "releases": 200,
+    "nonterminal_spawn_rule_fatal": 0,
+    "nonterminal_local_80_overflow": 0,
+    "nonterminal_detected_board_over_local_line": 0,
+    "first_drop_detected_over_local_line": null,
+    "terminal": {
+      "drop": 200,
+      "spawn": {
+        "contact_center": 21.0,
+        "contact_tier": 4,
+        "limit": -27.7,
+        "fatal": false
+      },
+      "local_overflow_80": false,
+      "detected_board_over_local_line": false
+    }
+  },
+  "attempt-2": {
+    "outcome": "game over",
+    "releases": 222,
+    "nonterminal_spawn_rule_fatal": 0,
+    "nonterminal_local_80_overflow": 0,
+    "nonterminal_detected_board_over_local_line": 7,
+    "first_drop_detected_over_local_line": 212,
+    "terminal": {
+      "drop": 222,
+      "spawn": {
+        "contact_center": 9.0,
+        "contact_tier": 6,
+        "limit": -19.4,
+        "fatal": false
+      },
+      "local_overflow_80": false,
+      "detected_board_over_local_line": false
+    }
+  },
+  "archived-robust-1673": {
+    "outcome": "game over",
+    "releases": 174,
+    "nonterminal_spawn_rule_fatal": 0,
+    "nonterminal_local_80_overflow": 0,
+    "nonterminal_detected_board_over_local_line": 0,
+    "first_drop_detected_over_local_line": null,
+    "terminal": {
+      "drop": 174,
+      "spawn": {
+        "contact_center": -24.3,
+        "contact_tier": 10,
+        "limit": -19.4,
+        "fatal": true
+      },
+      "local_overflow_80": false,
+      "detected_board_over_local_line": false
+    }
+  },
+  "archived-hybrid-1725": {
+    "outcome": "game over",
+    "releases": 188,
+    "nonterminal_spawn_rule_fatal": 0,
+    "nonterminal_local_80_overflow": 0,
+    "nonterminal_detected_board_over_local_line": 0,
+    "first_drop_detected_over_local_line": null,
+    "terminal": {
+      "drop": 188,
+      "spawn": {
+        "contact_center": -23.4,
+        "contact_tier": 4,
+        "limit": -19.4,
+        "fatal": true
+      },
+      "local_overflow_80": false,
+      "detected_board_over_local_line": false
+    }
+  },
+  "attempt-3": {
+    "outcome": "fruit centers or ready cue remained uncertain",
+    "releases": 182,
+    "nonterminal_spawn_rule_fatal": 0,
+    "nonterminal_local_80_overflow": 0,
+    "nonterminal_detected_board_over_local_line": 0,
+    "first_drop_detected_over_local_line": null,
+    "terminal": null
+  }
+}

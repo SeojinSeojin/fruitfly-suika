@@ -1,0 +1,30 @@
+{
+  "attempt-1": {
+    "decisions": 200,
+    "chosen_all_scenarios_overflow": 0,
+    "knowingly_fatal_with_safer": 0,
+    "chosen_nonzero_risk": 0,
+    "max_chosen_mean_risk": 0.0
+  },
+  "attempt-2": {
+    "decisions": 222,
+    "chosen_all_scenarios_overflow": 0,
+    "knowingly_fatal_with_safer": 0,
+    "chosen_nonzero_risk": 5,
+    "max_chosen_mean_risk": 0.658
+  },
+  "archived-robust-1673": {
+    "decisions": 174,
+    "chosen_all_scenarios_overflow": 0,
+    "knowingly_fatal_with_safer": 0,
+    "chosen_nonzero_risk": 1,
+    "max_chosen_mean_risk": 0.031
+  },
+  "attempt-3": {
+    "decisions": 182,
+    "chosen_all_scenarios_overflow": 0,
+    "knowingly_fatal_with_safer": 0,
+    "chosen_nonzero_risk": 0,
+    "max_chosen_mean_risk": 0.0
+  }
+}

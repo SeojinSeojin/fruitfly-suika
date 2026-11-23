@@ -2,7 +2,7 @@
 
 Branch `experiment/live-robust-baseline` starts at `b2d689ae72652f15304e1b1ac96f6bf0d910e246`, the tip of `experiment/rollout-state-estimation`. The planner and weights are frozen: strategy `robust` with checkpoint `artifacts/transfer/checkpoints/flywire-seed11-final.pt` (SHA-256 `b2316d67…e1e7f`). Browser adapter, screenshot gating, aim verification and simulator are unchanged. The only code change to gameplay is an opt-in `--record` flag that saves frames.
 
-[Interactive replay of all three attempts](index.html) · [Attempt 2 final 10 drops (MP4)](attempt-2-final-drops.mp4) · [Verification](verification.json) · [Per-release diagnostic ledger](physics-diagnostic.json)
+[Game-over audit](gameover-audit/README.md) · [Interactive replay of all three attempts](index.html) · [Attempt 2 final 10 drops (MP4)](attempt-2-final-drops.mp4) · [Verification](verification.json) · [Per-release diagnostic ledger](physics-diagnostic.json)
 
 ## Website attempts
 

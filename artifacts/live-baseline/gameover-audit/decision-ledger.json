@@ -1,0 +1,4072 @@
+{
+  "description": "Audit the final drops of website runs that ended at the site's own game-over screen.\n\nEach logged decision is recomputed from its saved observation with the frozen checkpoint and the\nrun's action seed (robust) or deterministically (hybrid), and the executed action must reproduce.\nGeometry uses local transfer units: the board box top is y = 0, the local overflow check is a fruit\ntop above y = 11 after 80 ticks. The site's game-over test (public script) fires on a collision\nbetween different fruits when body.y - centerOffset.y/2 < 70 game px, i.e. center - r/2 < 70 for a\ncircle; the release center is at game y = 80.",
+  "local_line": 11.0,
+  "release_center_local": -29.076302053231938,
+  "site_threshold_examples": {
+    "tier 1": -30.1,
+    "tier 2": -28.6,
+    "tier 3": -25.6,
+    "tier 4": -24.1,
+    "tier 5": -20.1
+  },
+  "skipped": {
+    "attempt-3": "detector stop (fruit centers or ready cue remained uncertain)"
+  },
+  "runs": {
+    "attempt-1": {
+      "strategy": "robust",
+      "outcome": "game over",
+      "final_score": 1813,
+      "drops": 200,
+      "ledger": [
+        {
+          "drop": 191,
+          "action": 5,
+          "aim": 6,
+          "current_tier": 4,
+          "next_tier": 3,
+          "detections": 31,
+          "coverage": 0.982609738546414,
+          "score_before": 1746,
+          "score_after": 1771,
+          "detected_tops": [
+            {
+              "top": 58.4,
+              "tier": 6,
+              "x": 322.7,
+              "center_y": 101.4
+            },
+            {
+              "top": 80.6,
+              "tier": 1,
+              "x": 396.0,
+              "center_y": 93.6
+            },
+            {
+              "top": 112.2,
+              "tier": 3,
+              "x": 383.5,
+              "center_y": 134.2
+            },
+            {
+              "top": 129.2,
+              "tier": 8,
+              "x": 258.8,
+              "center_y": 187.2
+            }
+          ],
+          "predicted": {
+            "points": 194,
+            "top": 142.04088220539907,
+            "clearance": 131.04088220539907,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -1.1677324364967077,
+          "candidates": [
+            {
+              "action": 6,
+              "physics_term": 17.619863404052108,
+              "risk_term": -0.0,
+              "ppo_term": -0.943271621832357,
+              "combined": 16.676591782219752,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 7,
+              "physics_term": 16.884894970387258,
+              "risk_term": -0.0,
+              "ppo_term": -0.9862450482725486,
+              "combined": 15.898649922114709,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 5,
+              "physics_term": 18.02868401672017,
+              "risk_term": -0.0,
+              "ppo_term": -1.1677324364967077,
+              "combined": 16.860951580223464,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 16.495261792129234,
+              "risk_term": -0.0,
+              "ppo_term": -0.0516223911616166,
+              "combined": 16.44363940096762,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 18.02868401672017,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 192,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 3,
+          "next_tier": 3,
+          "detections": 29,
+          "coverage": 0.9790663696677924,
+          "score_before": 1771,
+          "score_after": 1771,
+          "detected_tops": [
+            {
+              "top": 58.4,
+              "tier": 6,
+              "x": 322.7,
+              "center_y": 101.4
+            },
+            {
+              "top": 80.6,
+              "tier": 1,
+              "x": 396.0,
+              "center_y": 93.6
+            },
+            {
+              "top": 112.2,
+              "tier": 3,
+              "x": 383.5,
+              "center_y": 134.2
+            },
+            {
+              "top": 129.2,
+              "tier": 8,
+              "x": 258.8,
+              "center_y": 187.2
+            }
+          ],
+          "predicted": {
+            "points": 165,
+            "top": 190.52923746346997,
+            "clearance": 179.52923746346997,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05123689953655517,
+          "candidates": [
+            {
+              "action": 6,
+              "physics_term": 13.44411524688176,
+              "risk_term": -0.0,
+              "ppo_term": -0.9489851709988131,
+              "combined": 12.495130075882946,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 3,
+              "physics_term": 14.733962524790753,
+              "risk_term": -0.0,
+              "ppo_term": -1.4422212366399432,
+              "combined": 13.29174128815081,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 14.692973999678332,
+              "risk_term": -0.0,
+              "ppo_term": -0.05123689953655517,
+              "combined": 14.641737100141777,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 11,
+              "physics_term": 14.831011355193056,
+              "risk_term": -0.0,
+              "ppo_term": -0.6917225655965388,
+              "combined": 14.139288789596517,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 14.692973999678332,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 193,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 3,
+          "next_tier": 5,
+          "detections": 30,
+          "coverage": 0.9809075946390783,
+          "score_before": 1771,
+          "score_after": 1777,
+          "detected_tops": [
+            {
+              "top": 42.0,
+              "tier": 3,
+              "x": 378.8,
+              "center_y": 64.0
+            },
+            {
+              "top": 60.0,
+              "tier": 6,
+              "x": 322.7,
+              "center_y": 103.0
+            },
+            {
+              "top": 83.7,
+              "tier": 1,
+              "x": 396.0,
+              "center_y": 96.7
+            },
+            {
+              "top": 112.2,
+              "tier": 3,
+              "x": 385.1,
+              "center_y": 134.2
+            }
+          ],
+          "predicted": {
+            "points": 186,
+            "top": 192.7661944262756,
+            "clearance": 181.7661944262756,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.0519373634454171,
+          "candidates": [
+            {
+              "action": 14,
+              "physics_term": 16.792100386714115,
+              "risk_term": -0.0,
+              "ppo_term": -0.0519373634454171,
+              "combined": 16.740163023268696,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 5,
+              "physics_term": 16.473186228269977,
+              "risk_term": -0.0,
+              "ppo_term": -1.1698200787737099,
+              "combined": 15.303366149496267,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 2,
+              "physics_term": 16.578636109686176,
+              "risk_term": -0.0,
+              "ppo_term": -1.1740894060563474,
+              "combined": 15.404546703629828,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 0,
+              "physics_term": 16.05310120553505,
+              "risk_term": -0.0,
+              "ppo_term": -1.343364299840256,
+              "combined": 14.709736905694793,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 16.792100386714115,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 194,
+          "action": 8,
+          "aim": 9,
+          "current_tier": 5,
+          "next_tier": 5,
+          "detections": 30,
+          "coverage": 0.9805995647188224,
+          "score_before": 1777,
+          "score_after": 1777,
+          "detected_tops": [
+            {
+              "top": 35.9,
+              "tier": 4,
+              "x": 378.8,
+              "center_y": 60.9
+            },
+            {
+              "top": 60.0,
+              "tier": 6,
+              "x": 322.7,
+              "center_y": 103.0
+            },
+            {
+              "top": 86.9,
+              "tier": 1,
+              "x": 399.1,
+              "center_y": 99.9
+            },
+            {
+              "top": 113.7,
+              "tier": 3,
+              "x": 383.5,
+              "center_y": 135.7
+            }
+          ],
+          "predicted": {
+            "points": 236,
+            "top": 176.48602710326648,
+            "clearance": 165.48602710326648,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.7187012309965722,
+          "candidates": [
+            {
+              "action": 8,
+              "physics_term": 19.399796430321484,
+              "risk_term": -0.0,
+              "ppo_term": -0.7187012309965722,
+              "combined": 18.68109519932491,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 6,
+              "physics_term": 19.020146162128295,
+              "risk_term": -0.0,
+              "ppo_term": -0.9443044138173969,
+              "combined": 18.0758417483109,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 7,
+              "physics_term": 18.863658491237526,
+              "risk_term": -0.0,
+              "ppo_term": -0.9906819994157628,
+              "combined": 17.872976491821763,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 11,
+              "physics_term": 15.93654390929565,
+              "risk_term": -0.0,
+              "ppo_term": -0.6892407076887528,
+              "combined": 15.247303201606897,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 19.399796430321484,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 195,
+          "action": 2,
+          "aim": 3,
+          "current_tier": 5,
+          "next_tier": 3,
+          "detections": 31,
+          "coverage": 0.9819316614278284,
+          "score_before": 1777,
+          "score_after": 1777,
+          "detected_tops": [
+            {
+              "top": 35.9,
+              "tier": 4,
+              "x": 378.8,
+              "center_y": 60.9
+            },
+            {
+              "top": 60.0,
+              "tier": 6,
+              "x": 322.7,
+              "center_y": 103.0
+            },
+            {
+              "top": 86.9,
+              "tier": 1,
+              "x": 399.1,
+              "center_y": 99.9
+            },
+            {
+              "top": 88.7,
+              "tier": 5,
+              "x": 187.1,
+              "center_y": 121.7
+            }
+          ],
+          "predicted": {
+            "points": 236,
+            "top": 171.64851257833539,
+            "clearance": 160.64851257833539,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -1.1725306457597677,
+          "candidates": [
+            {
+              "action": 2,
+              "physics_term": 17.73060505435596,
+              "risk_term": -0.0,
+              "ppo_term": -1.1725306457597677,
+              "combined": 16.55807440859619,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 0,
+              "physics_term": 16.41195829713853,
+              "risk_term": -0.0,
+              "ppo_term": -1.34177779624528,
+              "combined": 15.07018050089325,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 3,
+              "physics_term": 17.734640105874213,
+              "risk_term": -0.0,
+              "ppo_term": -1.4319398814198452,
+              "combined": 16.30270022445437,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 8,
+              "physics_term": 16.84916248678495,
+              "risk_term": -0.0,
+              "ppo_term": -0.7168403572574685,
+              "combined": 16.132322129527484,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 17.73060505435596,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 196,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 3,
+          "next_tier": 3,
+          "detections": 31,
+          "coverage": 0.9591122772493714,
+          "score_before": 1777,
+          "score_after": 1777,
+          "detected_tops": [
+            {
+              "top": 35.9,
+              "tier": 4,
+              "x": 378.8,
+              "center_y": 60.9
+            },
+            {
+              "top": 60.0,
+              "tier": 6,
+              "x": 322.7,
+              "center_y": 103.0
+            },
+            {
+              "top": 86.9,
+              "tier": 1,
+              "x": 399.1,
+              "center_y": 99.9
+            },
+            {
+              "top": 88.7,
+              "tier": 5,
+              "x": 187.1,
+              "center_y": 121.7
+            }
+          ],
+          "predicted": {
+            "points": 205,
+            "top": 132.5212018170314,
+            "clearance": 121.5212018170314,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05157304747635121,
+          "candidates": [
+            {
+              "action": 14,
+              "physics_term": 20.734716490404647,
+              "risk_term": -0.0,
+              "ppo_term": -0.05157304747635121,
+              "combined": 20.683143442928294,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 0,
+              "physics_term": 21.826871191888863,
+              "risk_term": -0.0,
+              "ppo_term": -1.3434902787267466,
+              "combined": 20.483380913162115,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 1,
+              "physics_term": 21.448701993593126,
+              "risk_term": -0.0,
+              "ppo_term": -1.3604083637009927,
+              "combined": 20.08829362989213,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 6,
+              "physics_term": 21.040707020460815,
+              "risk_term": -0.0,
+              "ppo_term": -0.9435887914068051,
+              "combined": 20.09711822905401,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 20.734716490404647,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 197,
+          "action": 9,
+          "aim": 10,
+          "current_tier": 3,
+          "next_tier": 5,
+          "detections": 32,
+          "coverage": 0.9764157083966153,
+          "score_before": 1777,
+          "score_after": 1777,
+          "detected_tops": [
+            {
+              "top": 37.4,
+              "tier": 4,
+              "x": 378.8,
+              "center_y": 62.4
+            },
+            {
+              "top": 60.0,
+              "tier": 6,
+              "x": 322.7,
+              "center_y": 103.0
+            },
+            {
+              "top": 85.3,
+              "tier": 1,
+              "x": 397.5,
+              "center_y": 98.3
+            },
+            {
+              "top": 88.7,
+              "tier": 5,
+              "x": 187.1,
+              "center_y": 121.7
+            }
+          ],
+          "predicted": {
+            "points": 236,
+            "top": 172.30313798259036,
+            "clearance": 161.30313798259036,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.9717206646711953,
+          "candidates": [
+            {
+              "action": 9,
+              "physics_term": 18.868483436224697,
+              "risk_term": -0.0,
+              "ppo_term": -0.9717206646711953,
+              "combined": 17.8967627715535,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 10,
+              "physics_term": 17.50152113222908,
+              "risk_term": -0.0,
+              "ppo_term": -1.0469765291555369,
+              "combined": 16.454544603073543,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 6,
+              "physics_term": 18.383017966013032,
+              "risk_term": -0.0,
+              "ppo_term": -0.9220743851518205,
+              "combined": 17.460943580861212,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 7,
+              "physics_term": 18.3789124134016,
+              "risk_term": -0.0,
+              "ppo_term": -0.963404827432377,
+              "combined": 17.415507585969223,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 18.868483436224697,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 198,
+          "action": 8,
+          "aim": 9,
+          "current_tier": 5,
+          "next_tier": 3,
+          "detections": 34,
+          "coverage": 0.9773818414595113,
+          "score_before": 1777,
+          "score_after": 1813,
+          "detected_tops": [
+            {
+              "top": 39.0,
+              "tier": 4,
+              "x": 378.8,
+              "center_y": 64.0
+            },
+            {
+              "top": 61.5,
+              "tier": 6,
+              "x": 321.1,
+              "center_y": 104.5
+            },
+            {
+              "top": 84.1,
+              "tier": 3,
+              "x": 249.4,
+              "center_y": 106.1
+            },
+            {
+              "top": 88.4,
+              "tier": 1,
+              "x": 399.1,
+              "center_y": 101.4
+            }
+          ],
+          "predicted": {
+            "points": 205,
+            "top": 142.85704857505436,
+            "clearance": 131.85704857505436,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.6836116001238699,
+          "candidates": [
+            {
+              "action": 3,
+              "physics_term": 17.50748723559189,
+              "risk_term": -0.0,
+              "ppo_term": -1.360549095695447,
+              "combined": 16.14693813989644,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 8,
+              "physics_term": 17.832248605262155,
+              "risk_term": -0.0,
+              "ppo_term": -0.6836116001238699,
+              "combined": 17.148637005138283,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 7,
+              "physics_term": 17.811680161476406,
+              "risk_term": -0.0,
+              "ppo_term": -0.9411053947796127,
+              "combined": 16.870574766696794,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 11,
+              "physics_term": 13.90828913519161,
+              "risk_term": -0.0,
+              "ppo_term": -0.6655977353567901,
+              "combined": 13.24269139983482,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 17.832248605262155,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 199,
+          "action": 12,
+          "aim": 13,
+          "current_tier": 3,
+          "next_tier": 2,
+          "detections": 33,
+          "coverage": 0.9773931855056788,
+          "score_before": 1813,
+          "score_after": 1813,
+          "detected_tops": [
+            {
+              "top": 40.5,
+              "tier": 4,
+              "x": 380.4,
+              "center_y": 65.5
+            },
+            {
+              "top": 61.5,
+              "tier": 6,
+              "x": 321.1,
+              "center_y": 104.5
+            },
+            {
+              "top": 88.4,
+              "tier": 1,
+              "x": 399.1,
+              "center_y": 101.4
+            },
+            {
+              "top": 104.4,
+              "tier": 3,
+              "x": 201.1,
+              "center_y": 126.4
+            }
+          ],
+          "predicted": {
+            "points": 194,
+            "top": 103.29777306003018,
+            "clearance": 92.29777306003018,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.9663399301661033,
+          "candidates": [
+            {
+              "action": 12,
+              "physics_term": 16.76587408989167,
+              "risk_term": -0.0,
+              "ppo_term": -0.9663399301661033,
+              "combined": 15.799534159725567,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 10,
+              "physics_term": 16.082714581074715,
+              "risk_term": -0.0,
+              "ppo_term": -1.046523639956751,
+              "combined": 15.036190941117964,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 13,
+              "physics_term": 14.854030672729944,
+              "risk_term": -0.0,
+              "ppo_term": -0.4136027525910746,
+              "combined": 14.44042792013887,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 11,
+              "physics_term": 16.32974924606409,
+              "risk_term": -0.0,
+              "ppo_term": -0.6773483445347017,
+              "combined": 15.652400901529388,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 16.76587408989167,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 200,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 2,
+          "next_tier": 5,
+          "detections": 33,
+          "coverage": 0.9556487671932887,
+          "score_before": 1813,
+          "score_after": 1813,
+          "detected_tops": [
+            {
+              "top": 18.6,
+              "tier": 3,
+              "x": 332.1,
+              "center_y": 40.6
+            },
+            {
+              "top": 39.0,
+              "tier": 4,
+              "x": 378.8,
+              "center_y": 64.0
+            },
+            {
+              "top": 63.1,
+              "tier": 6,
+              "x": 322.7,
+              "center_y": 106.1
+            },
+            {
+              "top": 86.9,
+              "tier": 1,
+              "x": 397.5,
+              "center_y": 99.9
+            }
+          ],
+          "predicted": {
+            "points": 131,
+            "top": 143.90197741343252,
+            "clearance": 132.90197741343252,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05749235958938025,
+          "candidates": [
+            {
+              "action": 14,
+              "physics_term": 13.22368996017459,
+              "risk_term": -0.0,
+              "ppo_term": -0.05749235958938025,
+              "combined": 13.16619760058521,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 13,
+              "physics_term": 9.206844128977142,
+              "risk_term": -0.0,
+              "ppo_term": -0.4109891508545375,
+              "combined": 8.795854978122605,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 11,
+              "physics_term": 8.338615073680518,
+              "risk_term": -0.0,
+              "ppo_term": -0.6681485309053852,
+              "combined": 7.6704665427751335,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 8,
+              "physics_term": 8.345903026737073,
+              "risk_term": -0.0,
+              "ppo_term": -0.6886711242439025,
+              "combined": 7.65723190249317,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 13.22368996017459,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        }
+      ]
+    },
+    "attempt-2": {
+      "strategy": "robust",
+      "outcome": "game over",
+      "final_score": 2040,
+      "drops": 222,
+      "ledger": [
+        {
+          "drop": 213,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 2,
+          "next_tier": 3,
+          "detections": 29,
+          "coverage": 0.9971476345037867,
+          "score_before": 1991,
+          "score_after": 1991,
+          "detected_tops": [
+            {
+              "top": 10.7,
+              "tier": 5,
+              "x": 120.0,
+              "center_y": 43.7
+            },
+            {
+              "top": 30.2,
+              "tier": 9,
+              "x": 213.6,
+              "center_y": 95.2
+            },
+            {
+              "top": 34.3,
+              "tier": 4,
+              "x": 28.1,
+              "center_y": 59.3
+            },
+            {
+              "top": 54.1,
+              "tier": 1,
+              "x": 394.4,
+              "center_y": 67.1
+            }
+          ],
+          "predicted": {
+            "points": 21,
+            "top": 52.004946178323564,
+            "clearance": 41.004946178323564,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.051825448620137285,
+          "candidates": [
+            {
+              "action": 14,
+              "physics_term": 3.387728371254607,
+              "risk_term": -0.0,
+              "ppo_term": -0.051825448620137285,
+              "combined": 3.3359029226344696,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 2,
+              "physics_term": 4.461271069639939,
+              "risk_term": -0.0,
+              "ppo_term": -1.1743803245672773,
+              "combined": 3.286890745072662,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 1,
+              "physics_term": 4.46300909875931,
+              "risk_term": -0.0,
+              "ppo_term": -1.3612920083702373,
+              "combined": 3.101717090389072,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 3,
+              "physics_term": 4.4605663269154,
+              "risk_term": -0.0,
+              "ppo_term": -1.434917566625589,
+              "combined": 3.025648760289811,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 3.387728371254607,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 214,
+          "action": 2,
+          "aim": 3,
+          "current_tier": 3,
+          "next_tier": 1,
+          "detections": 30,
+          "coverage": 0.9971687429218573,
+          "score_before": 1991,
+          "score_after": 1991,
+          "detected_tops": [
+            {
+              "top": 10.7,
+              "tier": 5,
+              "x": 120.0,
+              "center_y": 43.7
+            },
+            {
+              "top": 28.6,
+              "tier": 9,
+              "x": 212.0,
+              "center_y": 93.6
+            },
+            {
+              "top": 34.3,
+              "tier": 4,
+              "x": 28.1,
+              "center_y": 59.3
+            },
+            {
+              "top": 54.1,
+              "tier": 1,
+              "x": 396.0,
+              "center_y": 67.1
+            }
+          ],
+          "predicted": {
+            "points": 140,
+            "top": 62.80963855150104,
+            "clearance": 51.80963855150104,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -1.1682995337623037,
+          "candidates": [
+            {
+              "action": 2,
+              "physics_term": 11.938646577852166,
+              "risk_term": -0.0,
+              "ppo_term": -1.1682995337623037,
+              "combined": 10.770347044089863,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 3,
+              "physics_term": 8.308893495078195,
+              "risk_term": -0.0,
+              "ppo_term": -1.4270610384470903,
+              "combined": 6.881832456631105,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 3.495744344119171,
+              "risk_term": -0.0,
+              "ppo_term": -0.052785346557616256,
+              "combined": 3.4429589975615547,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 13,
+              "physics_term": 3.4944660433643544,
+              "risk_term": -0.0,
+              "ppo_term": -0.41457671478315605,
+              "combined": 3.0798893285811983,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 11.938646577852166,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 215,
+          "action": 13,
+          "aim": 14,
+          "current_tier": 1,
+          "next_tier": 1,
+          "detections": 31,
+          "coverage": 0.9971493508994954,
+          "score_before": 1991,
+          "score_after": 1995,
+          "detected_tops": [
+            {
+              "top": 13.8,
+              "tier": 5,
+              "x": 123.2,
+              "center_y": 46.8
+            },
+            {
+              "top": 15.4,
+              "tier": 3,
+              "x": 70.2,
+              "center_y": 37.4
+            },
+            {
+              "top": 33.3,
+              "tier": 9,
+              "x": 213.6,
+              "center_y": 98.3
+            },
+            {
+              "top": 37.4,
+              "tier": 4,
+              "x": 28.1,
+              "center_y": 62.4
+            }
+          ],
+          "predicted": {
+            "points": 55,
+            "top": 45.87715927452756,
+            "clearance": 34.87715927452756,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.4183282415218111,
+          "candidates": [
+            {
+              "action": 1,
+              "physics_term": 9.407721866814237,
+              "risk_term": -0.0,
+              "ppo_term": -1.350554236480605,
+              "combined": 8.057167630333632,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 8.149060257876728,
+              "risk_term": -0.0,
+              "ppo_term": -0.052252832549441255,
+              "combined": 8.096807425327286,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 13,
+              "physics_term": 9.815046588736717,
+              "risk_term": -0.0,
+              "ppo_term": -0.4183282415218111,
+              "combined": 9.396718347214906,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 11,
+              "physics_term": 8.74270675893612,
+              "risk_term": -0.0,
+              "ppo_term": -0.6889880286064862,
+              "combined": 8.053718730329633,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 9.815046588736717,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 216,
+          "action": 0,
+          "aim": 1,
+          "current_tier": 1,
+          "next_tier": 1,
+          "detections": 29,
+          "coverage": 0.9870037625739077,
+          "score_before": 1995,
+          "score_after": 1995,
+          "detected_tops": [
+            {
+              "top": 12.3,
+              "tier": 3,
+              "x": 71.7,
+              "center_y": 34.3
+            },
+            {
+              "top": 15.4,
+              "tier": 5,
+              "x": 123.2,
+              "center_y": 48.4
+            },
+            {
+              "top": 34.9,
+              "tier": 9,
+              "x": 213.6,
+              "center_y": 99.9
+            },
+            {
+              "top": 39.0,
+              "tier": 4,
+              "x": 28.1,
+              "center_y": 64.0
+            }
+          ],
+          "predicted": {
+            "points": 140,
+            "top": 77.74888852311298,
+            "clearance": 66.74888852311298,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -1.3357680719560139,
+          "candidates": [
+            {
+              "action": 0,
+              "physics_term": 11.626408279180712,
+              "risk_term": -0.0,
+              "ppo_term": -1.3357680719560139,
+              "combined": 10.290640207224698,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 12,
+              "physics_term": 6.714552014994319,
+              "risk_term": -0.0,
+              "ppo_term": -0.9864550967953731,
+              "combined": 5.728096918198946,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 7,
+              "physics_term": 6.090156500494921,
+              "risk_term": -0.0663966542715866,
+              "ppo_term": -0.9877501885092208,
+              "combined": 5.036009657714114,
+              "overflow_risk": 0.0331983271357933,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 9.490698499483853,
+              "risk_term": -0.0,
+              "ppo_term": -0.052966641519871266,
+              "combined": 9.437731857963982,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 11.626408279180712,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 217,
+          "action": 1,
+          "aim": 2,
+          "current_tier": 1,
+          "next_tier": 4,
+          "detections": 30,
+          "coverage": 0.9851159769192556,
+          "score_before": 1995,
+          "score_after": 1996,
+          "detected_tops": [
+            {
+              "top": 10.4,
+              "tier": 1,
+              "x": 14.0,
+              "center_y": 23.4
+            },
+            {
+              "top": 13.9,
+              "tier": 3,
+              "x": 71.7,
+              "center_y": 35.9
+            },
+            {
+              "top": 15.4,
+              "tier": 5,
+              "x": 123.2,
+              "center_y": 48.4
+            },
+            {
+              "top": 34.9,
+              "tier": 9,
+              "x": 213.6,
+              "center_y": 99.9
+            }
+          ],
+          "predicted": {
+            "points": 141,
+            "top": 79.6373396783433,
+            "clearance": 68.6373396783433,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -1.3521908334214459,
+          "candidates": [
+            {
+              "action": 1,
+              "physics_term": 8.73474516926431,
+              "risk_term": -0.0,
+              "ppo_term": -1.3521908334214459,
+              "combined": 7.382554335842864,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 12,
+              "physics_term": 7.273833906877459,
+              "risk_term": -0.0,
+              "ppo_term": -0.983539625573479,
+              "combined": 6.29029428130398,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 9,
+              "physics_term": 6.0656231121611714,
+              "risk_term": -0.0,
+              "ppo_term": -0.9843447249147199,
+              "combined": 5.081278387246451,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 8,
+              "physics_term": 6.766409815468371,
+              "risk_term": -0.0,
+              "ppo_term": -0.7130515659938604,
+              "combined": 6.053358249474511,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 8.73474516926431,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 218,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 4,
+          "next_tier": 2,
+          "detections": 30,
+          "coverage": 0.987111043319097,
+          "score_before": 1996,
+          "score_after": 1996,
+          "detected_tops": [
+            {
+              "top": 7.4,
+              "tier": 2,
+              "x": 18.7,
+              "center_y": 23.4
+            },
+            {
+              "top": 13.9,
+              "tier": 3,
+              "x": 70.2,
+              "center_y": 35.9
+            },
+            {
+              "top": 15.4,
+              "tier": 5,
+              "x": 121.6,
+              "center_y": 48.4
+            },
+            {
+              "top": 34.9,
+              "tier": 9,
+              "x": 213.6,
+              "center_y": 99.9
+            }
+          ],
+          "predicted": {
+            "points": 50,
+            "top": 59.17457049796495,
+            "clearance": 48.17457049796495,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05298034431495163,
+          "candidates": [
+            {
+              "action": 8,
+              "physics_term": 7.972428060993913,
+              "risk_term": -0.0,
+              "ppo_term": -0.7131448856424444,
+              "combined": 7.259283175351468,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 7,
+              "physics_term": 6.545025199645979,
+              "risk_term": -0.0,
+              "ppo_term": -0.9828085921017762,
+              "combined": 5.562216607544203,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 2,
+              "physics_term": 7.8408772432971094,
+              "risk_term": -0.0,
+              "ppo_term": -1.165366759424136,
+              "combined": 6.675510483872974,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 8.57721950546365,
+              "risk_term": -0.15766189180698506,
+              "ppo_term": -0.05298034431495163,
+              "combined": 8.366577269341715,
+              "overflow_risk": 0.07883094590349253,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 8.57721950546365,
+          "risk_term": -0.15766189180698506,
+          "overflow_risk": 0.07883094590349253,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 219,
+          "action": 1,
+          "aim": 2,
+          "current_tier": 2,
+          "next_tier": 5,
+          "detections": 32,
+          "coverage": 0.9973555966907182,
+          "score_before": 1996,
+          "score_after": 2025,
+          "detected_tops": [
+            {
+              "top": -7.8,
+              "tier": 4,
+              "x": 381.9,
+              "center_y": 17.2
+            },
+            {
+              "top": 5.8,
+              "tier": 2,
+              "x": 18.7,
+              "center_y": 21.8
+            },
+            {
+              "top": 12.3,
+              "tier": 3,
+              "x": 70.2,
+              "center_y": 34.3
+            },
+            {
+              "top": 13.8,
+              "tier": 5,
+              "x": 121.6,
+              "center_y": 46.8
+            }
+          ],
+          "predicted": {
+            "points": 84,
+            "top": 49.36203897010661,
+            "clearance": 38.36203897010661,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -1.323627843643102,
+          "candidates": [
+            {
+              "action": 8,
+              "physics_term": 8.63693446996643,
+              "risk_term": -0.0,
+              "ppo_term": -0.698108756801044,
+              "combined": 7.938825713165386,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 10,
+              "physics_term": 10.504543712253824,
+              "risk_term": -0.0,
+              "ppo_term": -1.0450439373623859,
+              "combined": 9.459499774891437,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 1,
+              "physics_term": 11.817725240795076,
+              "risk_term": -0.08318220985554856,
+              "ppo_term": -1.323627843643102,
+              "combined": 10.410915187296425,
+              "overflow_risk": 0.04159110492777428,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 10.225524130222482,
+              "risk_term": -0.0,
+              "ppo_term": -0.05532874446854155,
+              "combined": 10.17019538575394,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 11.817725240795076,
+          "risk_term": -0.08318220985554856,
+          "overflow_risk": 0.04159110492777428,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 220,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 5,
+          "next_tier": 3,
+          "detections": 29,
+          "coverage": 0.9971814892401447,
+          "score_before": 2025,
+          "score_after": 2040,
+          "detected_tops": [
+            {
+              "top": 10.7,
+              "tier": 5,
+              "x": 131.0,
+              "center_y": 43.7
+            },
+            {
+              "top": 15.4,
+              "tier": 5,
+              "x": 34.3,
+              "center_y": 48.4
+            },
+            {
+              "top": 31.7,
+              "tier": 9,
+              "x": 218.3,
+              "center_y": 96.7
+            },
+            {
+              "top": 62.0,
+              "tier": 2,
+              "x": 79.5,
+              "center_y": 78.0
+            }
+          ],
+          "predicted": {
+            "points": 36,
+            "top": 21.715672614128593,
+            "clearance": 10.715672614128593,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.051660294390896894,
+          "candidates": [
+            {
+              "action": 9,
+              "physics_term": 5.975250876666798,
+              "risk_term": -0.0,
+              "ppo_term": -0.9895752448738071,
+              "combined": 4.985675631792991,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 10,
+              "physics_term": 6.356289408001281,
+              "risk_term": -0.047717725740594526,
+              "ppo_term": -1.0752345359314848,
+              "combined": 5.233337146329202,
+              "overflow_risk": 0.023858862870297263,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 6.912856108334957,
+              "risk_term": -1.1797686736401343,
+              "ppo_term": -0.051660294390896894,
+              "combined": 5.681427140303926,
+              "overflow_risk": 0.5898843368200671,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 13,
+              "physics_term": 7.204821774083592,
+              "risk_term": -1.1667541362254579,
+              "ppo_term": -0.4168794103143489,
+              "combined": 5.621188227543786,
+              "overflow_risk": 0.5833770681127289,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 6.912856108334957,
+          "risk_term": -1.1797686736401343,
+          "overflow_risk": 0.5898843368200671,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 221,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 3,
+          "next_tier": 5,
+          "detections": 29,
+          "coverage": 0.9972200973898767,
+          "score_before": 2040,
+          "score_after": 2040,
+          "detected_tops": [
+            {
+              "top": 12.2,
+              "tier": 5,
+              "x": 137.2,
+              "center_y": 45.2
+            },
+            {
+              "top": 15.4,
+              "tier": 5,
+              "x": 34.3,
+              "center_y": 48.4
+            },
+            {
+              "top": 33.3,
+              "tier": 9,
+              "x": 226.0,
+              "center_y": 98.3
+            },
+            {
+              "top": 42.8,
+              "tier": 6,
+              "x": 364.8,
+              "center_y": 85.8
+            }
+          ],
+          "predicted": {
+            "points": 49,
+            "top": 25.355502545420947,
+            "clearance": 14.355502545420947,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            1,
+            2,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.051449078519525654,
+          "candidates": [
+            {
+              "action": 13,
+              "physics_term": 5.525658248535421,
+              "risk_term": -1.6129332289273357,
+              "ppo_term": -0.4171520486269524,
+              "combined": 3.4955729709811325,
+              "overflow_risk": 0.8064666144636679,
+              "scenarios_overflowing": 1,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 5.555920643397804,
+              "risk_term": -0.19012762960679438,
+              "ppo_term": -0.051449078519525654,
+              "combined": 5.314343935271483,
+              "overflow_risk": 0.09506381480339719,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 2,
+              "physics_term": 3.0576499972526983,
+              "risk_term": -1.3223316753850836,
+              "ppo_term": -1.1769777064208609,
+              "combined": 0.5583406154467538,
+              "overflow_risk": 0.6611658376925418,
+              "scenarios_overflowing": 3,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 1,
+              "physics_term": 3.9729000337707823,
+              "risk_term": -1.1734481668445507,
+              "ppo_term": -1.3638143352957022,
+              "combined": 1.4356375316305294,
+              "overflow_risk": 0.5867240834222753,
+              "scenarios_overflowing": 3,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 5.555920643397804,
+          "risk_term": -0.19012762960679438,
+          "overflow_risk": 0.09506381480339719,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 222,
+          "action": 13,
+          "aim": 14,
+          "current_tier": 5,
+          "next_tier": 3,
+          "detections": 29,
+          "coverage": 0.9899150058076291,
+          "score_before": 2040,
+          "score_after": 2040,
+          "detected_tops": [
+            {
+              "top": 12.2,
+              "tier": 5,
+              "x": 138.7,
+              "center_y": 45.2
+            },
+            {
+              "top": 13.8,
+              "tier": 5,
+              "x": 34.3,
+              "center_y": 46.8
+            },
+            {
+              "top": 33.3,
+              "tier": 9,
+              "x": 229.2,
+              "center_y": 98.3
+            },
+            {
+              "top": 42.8,
+              "tier": 6,
+              "x": 364.8,
+              "center_y": 85.8
+            }
+          ],
+          "predicted": {
+            "points": 51,
+            "top": 16.460191580463892,
+            "clearance": 5.460191580463892,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.41671102832843543,
+          "candidates": [
+            {
+              "action": 11,
+              "physics_term": 6.151214630586848,
+              "risk_term": -1.4192156065255221,
+              "ppo_term": -0.6895394085036035,
+              "combined": 4.042459615557722,
+              "overflow_risk": 0.7096078032627611,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 6,
+              "physics_term": 6.048563076850442,
+              "risk_term": -0.8666439642378911,
+              "ppo_term": -0.9430344901448067,
+              "combined": 4.238884622467745,
+              "overflow_risk": 0.43332198211894557,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 5,
+              "physics_term": 5.5156348622262845,
+              "risk_term": -1.1624598003403324,
+              "ppo_term": -1.1685730261267577,
+              "combined": 3.1846020357591946,
+              "overflow_risk": 0.5812299001701662,
+              "scenarios_overflowing": 1,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 13,
+              "physics_term": 6.226781273525272,
+              "risk_term": -1.3161677316049942,
+              "ppo_term": -0.41671102832843543,
+              "combined": 4.493902513591841,
+              "overflow_risk": 0.6580838658024971,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 6.226781273525272,
+          "risk_term": -1.3161677316049942,
+          "overflow_risk": 0.6580838658024971,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        }
+      ]
+    },
+    "archived-robust-1673": {
+      "strategy": "robust",
+      "outcome": "game over",
+      "final_score": 1673,
+      "drops": 174,
+      "ledger": [
+        {
+          "drop": 165,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 4,
+          "next_tier": 4,
+          "detections": 20,
+          "coverage": 0.9989484461908847,
+          "score_before": 1557,
+          "score_after": 1582,
+          "detected_tops": [
+            {
+              "top": 46.9,
+              "tier": 10,
+              "x": 85.7,
+              "center_y": 127.9
+            },
+            {
+              "top": 166.4,
+              "tier": 1,
+              "x": 394.4,
+              "center_y": 179.4
+            },
+            {
+              "top": 188.5,
+              "tier": 8,
+              "x": 177.7,
+              "center_y": 246.5
+            },
+            {
+              "top": 191.7,
+              "tier": 5,
+              "x": 374.1,
+              "center_y": 224.7
+            }
+          ],
+          "predicted": {
+            "points": 92,
+            "top": 109.86782238843622,
+            "clearance": 98.86782238843622,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05027897615153362,
+          "candidates": [
+            {
+              "action": 14,
+              "physics_term": 9.163809532558234,
+              "risk_term": -0.0,
+              "ppo_term": -0.05027897615153362,
+              "combined": 9.113530556406701,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 13,
+              "physics_term": 9.162090780584577,
+              "risk_term": -0.0,
+              "ppo_term": -0.4100354954984057,
+              "combined": 8.752055285086172,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 11,
+              "physics_term": 9.207139066069129,
+              "risk_term": -0.0,
+              "ppo_term": -0.6987296339844526,
+              "combined": 8.508409432084676,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 12,
+              "physics_term": 9.164044193730584,
+              "risk_term": -0.0,
+              "ppo_term": -1.0069469731659193,
+              "combined": 8.157097220564665,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 9.163809532558234,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 166,
+          "action": 8,
+          "aim": 9,
+          "current_tier": 4,
+          "next_tier": 1,
+          "detections": 19,
+          "coverage": 0.9990326681775469,
+          "score_before": 1582,
+          "score_after": 1582,
+          "detected_tops": [
+            {
+              "top": 18.9,
+              "tier": 10,
+              "x": 87.3,
+              "center_y": 99.9
+            },
+            {
+              "top": 166.4,
+              "tier": 1,
+              "x": 394.4,
+              "center_y": 179.4
+            },
+            {
+              "top": 172.9,
+              "tier": 8,
+              "x": 157.5,
+              "center_y": 230.9
+            },
+            {
+              "top": 191.7,
+              "tier": 5,
+              "x": 374.1,
+              "center_y": 224.7
+            }
+          ],
+          "predicted": {
+            "points": 39,
+            "top": 87.5763920868431,
+            "clearance": 76.5763920868431,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.7219540475404223,
+          "candidates": [
+            {
+              "action": 2,
+              "physics_term": 5.407966619148986,
+              "risk_term": -0.0,
+              "ppo_term": -1.136328482924092,
+              "combined": 4.271638136224894,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 8,
+              "physics_term": 5.382611145644509,
+              "risk_term": -0.0,
+              "ppo_term": -0.7219540475404223,
+              "combined": 4.660657098104086,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 9,
+              "physics_term": 4.596321176125341,
+              "risk_term": -0.0,
+              "ppo_term": -0.9514637778132977,
+              "combined": 3.644857398312043,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 4,
+              "physics_term": 4.826310751148263,
+              "risk_term": -0.0,
+              "ppo_term": -1.394646246864772,
+              "combined": 3.431664504283491,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 5.382611145644509,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 167,
+          "action": 0,
+          "aim": 1,
+          "current_tier": 1,
+          "next_tier": 2,
+          "detections": 20,
+          "coverage": 0.9990863898965471,
+          "score_before": 1582,
+          "score_after": 1582,
+          "detected_tops": [
+            {
+              "top": 18.9,
+              "tier": 10,
+              "x": 87.3,
+              "center_y": 99.9
+            },
+            {
+              "top": 166.4,
+              "tier": 1,
+              "x": 394.4,
+              "center_y": 179.4
+            },
+            {
+              "top": 172.9,
+              "tier": 8,
+              "x": 157.5,
+              "center_y": 230.9
+            },
+            {
+              "top": 191.7,
+              "tier": 5,
+              "x": 374.1,
+              "center_y": 224.7
+            }
+          ],
+          "predicted": {
+            "points": 141,
+            "top": 96.10809766695832,
+            "clearance": 85.10809766695832,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -1.3685050739279607,
+          "candidates": [
+            {
+              "action": 0,
+              "physics_term": 8.304909018027901,
+              "risk_term": -0.0,
+              "ppo_term": -1.3685050739279607,
+              "combined": 6.936403944099941,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 6.184994160393877,
+              "risk_term": -0.0,
+              "ppo_term": -0.05004975257469055,
+              "combined": 6.134944407819187,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 2,
+              "physics_term": 7.229453276528964,
+              "risk_term": -0.0,
+              "ppo_term": -1.1958865868205681,
+              "combined": 6.033566689708396,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 1,
+              "physics_term": 6.34964111864213,
+              "risk_term": -0.0,
+              "ppo_term": -1.399155404327739,
+              "combined": 4.950485714314391,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 8.304909018027901,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 168,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 2,
+          "next_tier": 5,
+          "detections": 21,
+          "coverage": 0.999092704274964,
+          "score_before": 1582,
+          "score_after": 1582,
+          "detected_tops": [
+            {
+              "top": 15.1,
+              "tier": 1,
+              "x": 14.0,
+              "center_y": 28.1
+            },
+            {
+              "top": 20.4,
+              "tier": 10,
+              "x": 87.3,
+              "center_y": 101.4
+            },
+            {
+              "top": 166.4,
+              "tier": 1,
+              "x": 394.4,
+              "center_y": 179.4
+            },
+            {
+              "top": 172.9,
+              "tier": 8,
+              "x": 157.5,
+              "center_y": 230.9
+            }
+          ],
+          "predicted": {
+            "points": 141,
+            "top": 120.03438868592599,
+            "clearance": 109.03438868592599,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05064927878048904,
+          "candidates": [
+            {
+              "action": 14,
+              "physics_term": 10.773634863975934,
+              "risk_term": -0.0,
+              "ppo_term": -0.05064927878048904,
+              "combined": 10.722985585195445,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 13,
+              "physics_term": 10.777412189482792,
+              "risk_term": -0.0,
+              "ppo_term": -0.4087539238469738,
+              "combined": 10.368658265635819,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 11,
+              "physics_term": 9.551547327866983,
+              "risk_term": -0.06524136333259857,
+              "ppo_term": -0.6976960369829561,
+              "combined": 8.788609927551429,
+              "overflow_risk": 0.032620681666299285,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 12,
+              "physics_term": 9.453738121209065,
+              "risk_term": -0.199017886020837,
+              "ppo_term": -1.0071404601136267,
+              "combined": 8.247579775074602,
+              "overflow_risk": 0.0995089430104185,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 10.773634863975934,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 169,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 5,
+          "next_tier": 5,
+          "detections": 22,
+          "coverage": 0.9991288968666684,
+          "score_before": 1582,
+          "score_after": 1597,
+          "detected_tops": [
+            {
+              "top": 13.5,
+              "tier": 1,
+              "x": 14.0,
+              "center_y": 26.5
+            },
+            {
+              "top": 20.4,
+              "tier": 10,
+              "x": 87.3,
+              "center_y": 101.4
+            },
+            {
+              "top": 168.0,
+              "tier": 1,
+              "x": 394.4,
+              "center_y": 181.0
+            },
+            {
+              "top": 172.9,
+              "tier": 8,
+              "x": 157.5,
+              "center_y": 230.9
+            }
+          ],
+          "predicted": {
+            "points": 60,
+            "top": 55.64405100095925,
+            "clearance": 44.64405100095925,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05066254727837708,
+          "candidates": [
+            {
+              "action": 11,
+              "physics_term": 8.655340061653085,
+              "risk_term": -0.0,
+              "ppo_term": -0.6969705345945949,
+              "combined": 7.95836952705849,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 8.471623627372209,
+              "risk_term": -0.0,
+              "ppo_term": -0.05066254727837708,
+              "combined": 8.420961080093832,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 13,
+              "physics_term": 8.052567699797594,
+              "risk_term": -0.0,
+              "ppo_term": -0.41045507368918177,
+              "combined": 7.642112626108412,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 8,
+              "physics_term": 7.859823018733763,
+              "risk_term": -0.0,
+              "ppo_term": -0.7434293603187715,
+              "combined": 7.116393658414992,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 8.471623627372209,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 170,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 5,
+          "next_tier": 1,
+          "detections": 22,
+          "coverage": 0.9990975660066007,
+          "score_before": 1597,
+          "score_after": 1597,
+          "detected_tops": [
+            {
+              "top": 15.1,
+              "tier": 1,
+              "x": 14.0,
+              "center_y": 28.1
+            },
+            {
+              "top": 22.0,
+              "tier": 10,
+              "x": 87.3,
+              "center_y": 103.0
+            },
+            {
+              "top": 146.1,
+              "tier": 1,
+              "x": 394.4,
+              "center_y": 159.1
+            },
+            {
+              "top": 167.6,
+              "tier": 6,
+              "x": 363.2,
+              "center_y": 210.6
+            }
+          ],
+          "predicted": {
+            "points": 67,
+            "top": 38.4716645572221,
+            "clearance": 27.4716645572221,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05080622284081478,
+          "candidates": [
+            {
+              "action": 11,
+              "physics_term": 7.59979337336044,
+              "risk_term": -0.16161898472004715,
+              "ppo_term": -0.6965410568369231,
+              "combined": 6.741633331803469,
+              "overflow_risk": 0.08080949236002358,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 14,
+              "physics_term": 6.813750341589539,
+              "risk_term": -0.0,
+              "ppo_term": -0.05080622284081478,
+              "combined": 6.762944118748724,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 9,
+              "physics_term": 7.188347216698557,
+              "risk_term": -0.20250995536384656,
+              "ppo_term": -0.9994594457785333,
+              "combined": 5.986377815556177,
+              "overflow_risk": 0.10125497768192328,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 12,
+              "physics_term": 7.190805768987545,
+              "risk_term": -0.3414803590965055,
+              "ppo_term": -1.00576313368691,
+              "combined": 5.84356227620413,
+              "overflow_risk": 0.17074017954825274,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 6.813750341589539,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 171,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 1,
+          "next_tier": 4,
+          "detections": 23,
+          "coverage": 0.9991321596826184,
+          "score_before": 1597,
+          "score_after": 1598,
+          "detected_tops": [
+            {
+              "top": 13.5,
+              "tier": 1,
+              "x": 12.5,
+              "center_y": 26.5
+            },
+            {
+              "top": 22.0,
+              "tier": 10,
+              "x": 87.3,
+              "center_y": 103.0
+            },
+            {
+              "top": 146.1,
+              "tier": 1,
+              "x": 392.9,
+              "center_y": 159.1
+            },
+            {
+              "top": 155.8,
+              "tier": 5,
+              "x": 290.0,
+              "center_y": 188.8
+            }
+          ],
+          "predicted": {
+            "points": 68,
+            "top": 30.406626465453996,
+            "clearance": 19.406626465453996,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.0510891282996503,
+          "candidates": [
+            {
+              "action": 14,
+              "physics_term": 7.803632375852851,
+              "risk_term": -0.062532546033946,
+              "ppo_term": -0.0510891282996503,
+              "combined": 7.690010701519255,
+              "overflow_risk": 0.031266273016973,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 13,
+              "physics_term": 7.2395448870368435,
+              "risk_term": -0.8234110940028214,
+              "ppo_term": -0.40807544500076925,
+              "combined": 6.008058348033253,
+              "overflow_risk": 0.4117055470014107,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 1,
+              "physics_term": 7.876627634479068,
+              "risk_term": -0.1362421520088414,
+              "ppo_term": -1.3930686346232868,
+              "combined": 6.34731684784694,
+              "overflow_risk": 0.0681210760044207,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 11,
+              "physics_term": 6.9996095770209,
+              "risk_term": -0.21630503326892137,
+              "ppo_term": -0.6960697944751776,
+              "combined": 6.087234749276801,
+              "overflow_risk": 0.10815251663446068,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 7.803632375852851,
+          "risk_term": -0.062532546033946,
+          "overflow_risk": 0.031266273016973,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 172,
+          "action": 7,
+          "aim": 8,
+          "current_tier": 4,
+          "next_tier": 1,
+          "detections": 23,
+          "coverage": 0.999134712848278,
+          "score_before": 1598,
+          "score_after": 1672,
+          "detected_tops": [
+            {
+              "top": 13.5,
+              "tier": 1,
+              "x": 12.5,
+              "center_y": 26.5
+            },
+            {
+              "top": 22.0,
+              "tier": 10,
+              "x": 87.3,
+              "center_y": 103.0
+            },
+            {
+              "top": 141.6,
+              "tier": 2,
+              "x": 391.3,
+              "center_y": 157.6
+            },
+            {
+              "top": 155.8,
+              "tier": 5,
+              "x": 290.0,
+              "center_y": 188.8
+            }
+          ],
+          "predicted": {
+            "points": 141,
+            "top": 60.53428891862575,
+            "clearance": 49.53428891862575,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -1.0120247067905503,
+          "candidates": [
+            {
+              "action": 8,
+              "physics_term": 10.430484385826615,
+              "risk_term": -0.0,
+              "ppo_term": -0.7440758056712825,
+              "combined": 9.686408580155332,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 9,
+              "physics_term": 10.498590328144084,
+              "risk_term": -0.0,
+              "ppo_term": -0.9994709288008775,
+              "combined": 9.499119399343208,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 7,
+              "physics_term": 10.800439327425888,
+              "risk_term": -0.0,
+              "ppo_term": -1.0120247067905503,
+              "combined": 9.788414620635338,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 4,
+              "physics_term": 10.085015642298899,
+              "risk_term": -0.0,
+              "ppo_term": -1.4684721195261061,
+              "combined": 8.616543522772792,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 10.800439327425888,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 173,
+          "action": 2,
+          "aim": 3,
+          "current_tier": 1,
+          "next_tier": 5,
+          "detections": 20,
+          "coverage": 0.9990181639666176,
+          "score_before": 1672,
+          "score_after": 1673,
+          "detected_tops": [
+            {
+              "top": 14.2,
+              "tier": 10,
+              "x": 87.3,
+              "center_y": 95.2
+            },
+            {
+              "top": 15.1,
+              "tier": 1,
+              "x": 15.6,
+              "center_y": 28.1
+            },
+            {
+              "top": 169.8,
+              "tier": 8,
+              "x": 149.7,
+              "center_y": 227.8
+            },
+            {
+              "top": 213.4,
+              "tier": 2,
+              "x": 391.3,
+              "center_y": 229.4
+            }
+          ],
+          "predicted": {
+            "points": 71,
+            "top": 67.54887064951185,
+            "clearance": 56.548870649511855,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -1.1966356560624758,
+          "candidates": [
+            {
+              "action": 2,
+              "physics_term": 7.607399999373023,
+              "risk_term": -0.0,
+              "ppo_term": -1.1966356560624758,
+              "combined": 6.410764343310547,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 5,
+              "physics_term": 6.328895519451902,
+              "risk_term": -0.0,
+              "ppo_term": -1.1888879047063539,
+              "combined": 5.1400076147455485,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 4,
+              "physics_term": 6.099690024032215,
+              "risk_term": -0.0,
+              "ppo_term": -1.4734799495730042,
+              "combined": 4.626210074459211,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 3,
+              "physics_term": 5.724675089126962,
+              "risk_term": -0.0,
+              "ppo_term": -1.471218993558458,
+              "combined": 4.253456095568504,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 7.607399999373023,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        },
+        {
+          "drop": 174,
+          "action": 3,
+          "aim": 4,
+          "current_tier": 5,
+          "next_tier": 2,
+          "detections": 19,
+          "coverage": 0.9971706556572452,
+          "score_before": 1673,
+          "score_after": 1673,
+          "detected_tops": [
+            {
+              "top": 14.2,
+              "tier": 10,
+              "x": 87.3,
+              "center_y": 95.2
+            },
+            {
+              "top": 169.8,
+              "tier": 8,
+              "x": 149.7,
+              "center_y": 227.8
+            },
+            {
+              "top": 214.9,
+              "tier": 2,
+              "x": 391.3,
+              "center_y": 230.9
+            },
+            {
+              "top": 227.5,
+              "tier": 8,
+              "x": 333.6,
+              "center_y": 285.5
+            }
+          ],
+          "predicted": {
+            "points": 39,
+            "top": 77.11004559312033,
+            "clearance": 66.11004559312033,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -1.402552601255866,
+          "candidates": [
+            {
+              "action": 2,
+              "physics_term": 5.602078747664537,
+              "risk_term": -0.2520824823576751,
+              "ppo_term": -1.1399588543440076,
+              "combined": 4.210037410962855,
+              "overflow_risk": 0.12604124117883755,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 3,
+              "physics_term": 5.7808350543701374,
+              "risk_term": -0.0,
+              "ppo_term": -1.402552601255866,
+              "combined": 4.378282453114272,
+              "overflow_risk": 0.0,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 0,
+              "physics_term": 5.405366996146022,
+              "risk_term": -0.6487166993114982,
+              "ppo_term": -1.3018630911986526,
+              "combined": 3.454787205635871,
+              "overflow_risk": 0.3243583496557491,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            },
+            {
+              "action": 1,
+              "physics_term": 5.404814164408016,
+              "risk_term": -0.6819700216872401,
+              "ppo_term": -1.3334491591283677,
+              "combined": 3.389394983592408,
+              "overflow_risk": 0.34098501084362004,
+              "scenarios_overflowing": 0,
+              "scenarios": 7,
+              "nominal_overflow": false
+            }
+          ],
+          "physics_term": 5.7808350543701374,
+          "risk_term": -0.0,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false
+        }
+      ]
+    },
+    "archived-hybrid-1725": {
+      "strategy": "hybrid",
+      "outcome": "game over",
+      "final_score": 1725,
+      "drops": 188,
+      "ledger": [
+        {
+          "drop": 179,
+          "action": 13,
+          "aim": 14,
+          "current_tier": 3,
+          "next_tier": 5,
+          "detections": 24,
+          "coverage": 0.956470063883524,
+          "score_before": 1586,
+          "score_after": 1586,
+          "detected_tops": [
+            {
+              "top": 77.8,
+              "tier": 5,
+              "x": 336.7,
+              "center_y": 110.8
+            },
+            {
+              "top": 109.6,
+              "tier": 7,
+              "x": 265.0,
+              "center_y": 157.6
+            },
+            {
+              "top": 133.7,
+              "tier": 1,
+              "x": 377.3,
+              "center_y": 146.7
+            },
+            {
+              "top": 146.5,
+              "tier": 3,
+              "x": 346.1,
+              "center_y": 168.5
+            }
+          ],
+          "predicted": {
+            "points": 108,
+            "top": 168.2957245930822,
+            "clearance": 157.2957245930822,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.40581724766567184,
+          "physics_term": 13.110001925460038,
+          "risk_term": null,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false,
+          "note": "hybrid: overflow enters the physics term as the -8 rank penalty; no scenarios"
+        },
+        {
+          "drop": 180,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 5,
+          "next_tier": 4,
+          "detections": 24,
+          "coverage": 0.9529628999732743,
+          "score_before": 1586,
+          "score_after": 1601,
+          "detected_tops": [
+            {
+              "top": 82.5,
+              "tier": 5,
+              "x": 324.3,
+              "center_y": 115.5
+            },
+            {
+              "top": 91.9,
+              "tier": 3,
+              "x": 385.1,
+              "center_y": 113.9
+            },
+            {
+              "top": 104.9,
+              "tier": 7,
+              "x": 246.3,
+              "center_y": 152.9
+            },
+            {
+              "top": 145.0,
+              "tier": 3,
+              "x": 347.6,
+              "center_y": 167.0
+            }
+          ],
+          "predicted": {
+            "points": 157,
+            "top": 178.43291980402432,
+            "clearance": 167.43291980402432,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05115581044708526,
+          "physics_term": 15.28517812535409,
+          "risk_term": null,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false,
+          "note": "hybrid: overflow enters the physics term as the -8 rank penalty; no scenarios"
+        },
+        {
+          "drop": 181,
+          "action": 11,
+          "aim": 12,
+          "current_tier": 4,
+          "next_tier": 4,
+          "detections": 25,
+          "coverage": 0.9766258471049816,
+          "score_before": 1601,
+          "score_after": 1611,
+          "detected_tops": [
+            {
+              "top": 49.1,
+              "tier": 6,
+              "x": 319.6,
+              "center_y": 92.1
+            },
+            {
+              "top": 93.5,
+              "tier": 3,
+              "x": 383.5,
+              "center_y": 115.5
+            },
+            {
+              "top": 103.3,
+              "tier": 7,
+              "x": 244.8,
+              "center_y": 151.3
+            },
+            {
+              "top": 140.3,
+              "tier": 3,
+              "x": 352.3,
+              "center_y": 162.3
+            }
+          ],
+          "predicted": {
+            "points": 162,
+            "top": 172.27346243849078,
+            "clearance": 161.27346243849078,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.696735125847451,
+          "physics_term": 16.12092380683035,
+          "risk_term": null,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false,
+          "note": "hybrid: overflow enters the physics term as the -8 rank penalty; no scenarios"
+        },
+        {
+          "drop": 182,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 4,
+          "next_tier": 2,
+          "detections": 22,
+          "coverage": 0.9924848995645456,
+          "score_before": 1611,
+          "score_after": 1617,
+          "detected_tops": [
+            {
+              "top": 39.7,
+              "tier": 6,
+              "x": 322.7,
+              "center_y": 82.7
+            },
+            {
+              "top": 93.5,
+              "tier": 3,
+              "x": 383.5,
+              "center_y": 115.5
+            },
+            {
+              "top": 108.0,
+              "tier": 7,
+              "x": 261.9,
+              "center_y": 156.0
+            },
+            {
+              "top": 141.8,
+              "tier": 3,
+              "x": 347.6,
+              "center_y": 163.8
+            }
+          ],
+          "predicted": {
+            "points": 80,
+            "top": 121.86645310869008,
+            "clearance": 110.86645310869008,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.051358610259967574,
+          "physics_term": 8.952724136381836,
+          "risk_term": null,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false,
+          "note": "hybrid: overflow enters the physics term as the -8 rank penalty; no scenarios"
+        },
+        {
+          "drop": 183,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 2,
+          "next_tier": 3,
+          "detections": 22,
+          "coverage": 0.992516218721038,
+          "score_before": 1617,
+          "score_after": 1694,
+          "detected_tops": [
+            {
+              "top": 35.0,
+              "tier": 6,
+              "x": 318.0,
+              "center_y": 78.0
+            },
+            {
+              "top": 84.2,
+              "tier": 4,
+              "x": 381.9,
+              "center_y": 109.2
+            },
+            {
+              "top": 108.0,
+              "tier": 7,
+              "x": 261.9,
+              "center_y": 156.0
+            },
+            {
+              "top": 137.3,
+              "tier": 4,
+              "x": 349.2,
+              "center_y": 162.3
+            }
+          ],
+          "predicted": {
+            "points": 92,
+            "top": 164.60225470871143,
+            "clearance": 153.60225470871143,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05129893193769829,
+          "physics_term": 10.144262743576924,
+          "risk_term": null,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false,
+          "note": "hybrid: overflow enters the physics term as the -8 rank penalty; no scenarios"
+        },
+        {
+          "drop": 184,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 3,
+          "next_tier": 5,
+          "detections": 19,
+          "coverage": 0.9956631339278454,
+          "score_before": 1694,
+          "score_after": 1725,
+          "detected_tops": [
+            {
+              "top": 98.0,
+              "tier": 8,
+              "x": 297.8,
+              "center_y": 156.0
+            },
+            {
+              "top": 116.5,
+              "tier": 1,
+              "x": 392.9,
+              "center_y": 129.5
+            },
+            {
+              "top": 146.5,
+              "tier": 3,
+              "x": 383.5,
+              "center_y": 168.5
+            },
+            {
+              "top": 160.6,
+              "tier": 3,
+              "x": 193.3,
+              "center_y": 182.6
+            }
+          ],
+          "predicted": {
+            "points": 31,
+            "top": 145.61706693363607,
+            "clearance": 134.61706693363607,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05887019456779104,
+          "physics_term": 6.353941870825956,
+          "risk_term": null,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false,
+          "note": "hybrid: overflow enters the physics term as the -8 rank penalty; no scenarios"
+        },
+        {
+          "drop": 185,
+          "action": 13,
+          "aim": 14,
+          "current_tier": 5,
+          "next_tier": 4,
+          "detections": 18,
+          "coverage": 0.9999447879858657,
+          "score_before": 1725,
+          "score_after": 1725,
+          "detected_tops": [
+            {
+              "top": 112.1,
+              "tier": 8,
+              "x": 314.9,
+              "center_y": 170.1
+            },
+            {
+              "top": 162.1,
+              "tier": 3,
+              "x": 190.2,
+              "center_y": 184.1
+            },
+            {
+              "top": 171.4,
+              "tier": 5,
+              "x": 137.2,
+              "center_y": 204.4
+            },
+            {
+              "top": 174.6,
+              "tier": 3,
+              "x": 79.5,
+              "center_y": 196.6
+            }
+          ],
+          "predicted": {
+            "points": 4,
+            "top": 97.2089572523841,
+            "clearance": 86.2089572523841,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.38436668143287606,
+          "physics_term": 3.3338148963319583,
+          "risk_term": null,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false,
+          "note": "hybrid: overflow enters the physics term as the -8 rank penalty; no scenarios"
+        },
+        {
+          "drop": 186,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 4,
+          "next_tier": 1,
+          "detections": 19,
+          "coverage": 0.9999735225587799,
+          "score_before": 1725,
+          "score_after": 1725,
+          "detected_tops": [
+            {
+              "top": 59.1,
+              "tier": 5,
+              "x": 375.7,
+              "center_y": 92.1
+            },
+            {
+              "top": 113.6,
+              "tier": 8,
+              "x": 314.9,
+              "center_y": 171.6
+            },
+            {
+              "top": 162.1,
+              "tier": 3,
+              "x": 190.2,
+              "center_y": 184.1
+            },
+            {
+              "top": 173.0,
+              "tier": 5,
+              "x": 137.2,
+              "center_y": 206.0
+            }
+          ],
+          "predicted": {
+            "points": 4,
+            "top": 101.56518374102515,
+            "clearance": 90.56518374102515,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.0583443599747571,
+          "physics_term": 3.345670670034603,
+          "risk_term": null,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false,
+          "note": "hybrid: overflow enters the physics term as the -8 rank penalty; no scenarios"
+        },
+        {
+          "drop": 187,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 1,
+          "next_tier": 5,
+          "detections": 20,
+          "coverage": 0.999974144840603,
+          "score_before": 1725,
+          "score_after": 1725,
+          "detected_tops": [
+            {
+              "top": 12.4,
+              "tier": 4,
+              "x": 383.5,
+              "center_y": 37.4
+            },
+            {
+              "top": 60.6,
+              "tier": 5,
+              "x": 375.7,
+              "center_y": 93.6
+            },
+            {
+              "top": 113.6,
+              "tier": 8,
+              "x": 313.3,
+              "center_y": 171.6
+            },
+            {
+              "top": 162.1,
+              "tier": 3,
+              "x": 190.2,
+              "center_y": 184.1
+            }
+          ],
+          "predicted": {
+            "points": 0,
+            "top": 139.66448407845388,
+            "clearance": 128.66448407845388,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05040478311513741,
+          "physics_term": 0.05363255333824096,
+          "risk_term": null,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false,
+          "note": "hybrid: overflow enters the physics term as the -8 rank penalty; no scenarios"
+        },
+        {
+          "drop": 188,
+          "action": 14,
+          "aim": 15,
+          "current_tier": 5,
+          "next_tier": 2,
+          "detections": 20,
+          "coverage": 0.999974136816242,
+          "score_before": 1725,
+          "score_after": 1725,
+          "detected_tops": [
+            {
+              "top": 12.4,
+              "tier": 4,
+              "x": 381.9,
+              "center_y": 37.4
+            },
+            {
+              "top": 62.2,
+              "tier": 5,
+              "x": 375.7,
+              "center_y": 95.2
+            },
+            {
+              "top": 113.6,
+              "tier": 8,
+              "x": 311.8,
+              "center_y": 171.6
+            },
+            {
+              "top": 162.1,
+              "tier": 3,
+              "x": 190.2,
+              "center_y": 184.1
+            }
+          ],
+          "predicted": {
+            "points": 4,
+            "top": 133.4373699577661,
+            "clearance": 122.4373699577661,
+            "overflow": false
+          },
+          "surviving_actions_nominal": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "ppo_term": -0.05051157795655852,
+          "physics_term": 3.459268811883255,
+          "risk_term": null,
+          "overflow_risk": 0.0,
+          "all_scenarios_overflow": false,
+          "safer_candidate_available": false,
+          "note": "hybrid: overflow enters the physics term as the -8 rank penalty; no scenarios"
+        }
+      ]
+    }
+  }
+}
