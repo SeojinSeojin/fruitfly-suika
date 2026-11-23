@@ -59,7 +59,10 @@ def continuation(board, count, current, upcoming):
 def settle_exact(board, count, fruit, action, physics):
     radius = TRANSFER_RADII[fruit]
     x = radius+(TRANSFER_WIDTH-2*radius)*AIMS[action]
-    board[count] = x,-25.,0.,0.,fruit
+    board[count,0] = x
+    board[count,1] = -25.
+    board[count,2] = board[count,3] = 0.
+    board[count,4] = fruit
     n, gain = count+1,0
     for _ in range(80):
         n, reward = tick(board,n,TRANSFER_WIDTH,TRANSFER_RADII,*physics)
