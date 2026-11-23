@@ -1,0 +1,90 @@
+[
+  {
+    "kind": "compact",
+    "input": "reconstructed",
+    "profile": "clean",
+    "groups": 115,
+    "pair_accuracy": 0.5124183297157288,
+    "weighted_accuracy": 0.5161176323890686,
+    "winner_match": 0.21739130434782608,
+    "mean_regret_points": 28.005799651145935,
+    "difference_vs_robust_points": -3.220289573073387
+  },
+  {
+    "kind": "compact",
+    "input": "reconstructed",
+    "profile": "joint",
+    "groups": 111,
+    "pair_accuracy": 0.5202879309654236,
+    "weighted_accuracy": 0.5236247777938843,
+    "winner_match": 0.1891891891891892,
+    "mean_regret_points": 30.84684908390045,
+    "difference_vs_robust_points": -1.8858857452869415
+  },
+  {
+    "kind": "compact",
+    "input": "exact",
+    "profile": "clean",
+    "groups": 115,
+    "pair_accuracy": 0.5117647051811218,
+    "weighted_accuracy": 0.5282424092292786,
+    "winner_match": 0.1565217391304348,
+    "mean_regret_points": 26.159420609474182,
+    "difference_vs_robust_points": -1.3739131391048431
+  },
+  {
+    "kind": "compact",
+    "input": "exact",
+    "profile": "joint",
+    "groups": 111,
+    "pair_accuracy": 0.503926694393158,
+    "weighted_accuracy": 0.5246139764785767,
+    "winner_match": 0.13513513513513514,
+    "mean_regret_points": 29.438436031341553,
+    "difference_vs_robust_points": -0.4774774890393019
+  },
+  {
+    "kind": "flywire",
+    "input": "reconstructed",
+    "profile": "clean",
+    "groups": 115,
+    "pair_accuracy": 0.48562091588974,
+    "weighted_accuracy": 0.48954838514328003,
+    "winner_match": 0.1826086956521739,
+    "mean_regret_points": 26.330435276031494,
+    "difference_vs_robust_points": -1.5449283644557
+  },
+  {
+    "kind": "flywire",
+    "input": "reconstructed",
+    "profile": "joint",
+    "groups": 111,
+    "pair_accuracy": 0.4810209572315216,
+    "weighted_accuracy": 0.47880977392196655,
+    "winner_match": 0.16216216216216217,
+    "mean_regret_points": 33.74474346637726,
+    "difference_vs_robust_points": -4.783783480525017
+  },
+  {
+    "kind": "flywire",
+    "input": "exact",
+    "profile": "clean",
+    "groups": 115,
+    "pair_accuracy": 0.48235294222831726,
+    "weighted_accuracy": 0.48395612835884094,
+    "winner_match": 0.1565217391304348,
+    "mean_regret_points": 26.359421014785767,
+    "difference_vs_robust_points": -1.5739129856228828
+  },
+  {
+    "kind": "flywire",
+    "input": "exact",
+    "profile": "joint",
+    "groups": 111,
+    "pair_accuracy": 0.4803664982318878,
+    "weighted_accuracy": 0.4716144800186157,
+    "winner_match": 0.15315315315315314,
+    "mean_regret_points": 32.3453426361084,
+    "difference_vs_robust_points": -3.384384512901306
+  }
+]

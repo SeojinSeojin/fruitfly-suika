@@ -1,0 +1,194 @@
+{
+  "seconds": 4.730392235040199,
+  "epochs": [
+    {
+      "epoch": 1,
+      "groups": 139,
+      "pair_accuracy": 0.508583664894104,
+      "weighted_accuracy": 0.5003023147583008,
+      "winner_match": 0.15827338129496402,
+      "mean_regret_points": 24.306954443454742,
+      "difference_vs_robust_points": 3.4340526908636093
+    },
+    {
+      "epoch": 2,
+      "groups": 139,
+      "pair_accuracy": 0.5048283338546753,
+      "weighted_accuracy": 0.49444112181663513,
+      "winner_match": 0.1366906474820144,
+      "mean_regret_points": 25.762590765953064,
+      "difference_vs_robust_points": 1.9784167408943176
+    },
+    {
+      "epoch": 3,
+      "groups": 139,
+      "pair_accuracy": 0.5021459460258484,
+      "weighted_accuracy": 0.487618625164032,
+      "winner_match": 0.15827338129496402,
+      "mean_regret_points": 24.55395758152008,
+      "difference_vs_robust_points": 3.187049925327301
+    },
+    {
+      "epoch": 4,
+      "groups": 139,
+      "pair_accuracy": 0.504291832447052,
+      "weighted_accuracy": 0.4915551543235779,
+      "winner_match": 0.17266187050359713,
+      "mean_regret_points": 24.016785621643066,
+      "difference_vs_robust_points": 3.724219650030136
+    },
+    {
+      "epoch": 5,
+      "groups": 139,
+      "pair_accuracy": 0.5021459460258484,
+      "weighted_accuracy": 0.48590314388275146,
+      "winner_match": 0.17266187050359713,
+      "mean_regret_points": 24.851317703723907,
+      "difference_vs_robust_points": 2.88968738168478
+    },
+    {
+      "epoch": 6,
+      "groups": 139,
+      "pair_accuracy": 0.5010729432106018,
+      "weighted_accuracy": 0.4833908975124359,
+      "winner_match": 0.15827338129496402,
+      "mean_regret_points": 26.282969117164612,
+      "difference_vs_robust_points": 1.4580328948795795
+    },
+    {
+      "epoch": 7,
+      "groups": 139,
+      "pair_accuracy": 0.5118025541305542,
+      "weighted_accuracy": 0.5005235075950623,
+      "winner_match": 0.1510791366906475,
+      "mean_regret_points": 24.477219581604004,
+      "difference_vs_robust_points": 3.2637882977724075
+    },
+    {
+      "epoch": 8,
+      "groups": 139,
+      "pair_accuracy": 0.5107296109199524,
+      "weighted_accuracy": 0.4920820891857147,
+      "winner_match": 0.15827338129496402,
+      "mean_regret_points": 25.21822452545166,
+      "difference_vs_robust_points": 2.522781491279602
+    },
+    {
+      "epoch": 9,
+      "groups": 139,
+      "pair_accuracy": 0.5096566677093506,
+      "weighted_accuracy": 0.4903387725353241,
+      "winner_match": 0.1510791366906475,
+      "mean_regret_points": 25.752997398376465,
+      "difference_vs_robust_points": 1.9880091771483421
+    },
+    {
+      "epoch": 10,
+      "groups": 139,
+      "pair_accuracy": 0.5053648352622986,
+      "weighted_accuracy": 0.4868408739566803,
+      "winner_match": 0.14388489208633093,
+      "mean_regret_points": 26.47481858730316,
+      "difference_vs_robust_points": 1.266186684370041
+    },
+    {
+      "epoch": 11,
+      "groups": 139,
+      "pair_accuracy": 0.516094446182251,
+      "weighted_accuracy": 0.498325377702713,
+      "winner_match": 0.1510791366906475,
+      "mean_regret_points": 25.66186785697937,
+      "difference_vs_robust_points": 2.079136297106743
+    },
+    {
+      "epoch": 12,
+      "groups": 139,
+      "pair_accuracy": 0.5182403326034546,
+      "weighted_accuracy": 0.49994799494743347,
+      "winner_match": 0.15827338129496402,
+      "mean_regret_points": 24.77697730064392,
+      "difference_vs_robust_points": 2.9640279710292816
+    },
+    {
+      "epoch": 13,
+      "groups": 139,
+      "pair_accuracy": 0.5311158895492554,
+      "weighted_accuracy": 0.5129444003105164,
+      "winner_match": 0.15827338129496402,
+      "mean_regret_points": 24.13908839225769,
+      "difference_vs_robust_points": 3.601917251944542
+    },
+    {
+      "epoch": 14,
+      "groups": 139,
+      "pair_accuracy": 0.5257510542869568,
+      "weighted_accuracy": 0.5077227354049683,
+      "winner_match": 0.15827338129496402,
+      "mean_regret_points": 24.095922708511353,
+      "difference_vs_robust_points": 3.6450833082199097
+    },
+    {
+      "epoch": 15,
+      "groups": 139,
+      "pair_accuracy": 0.5241416096687317,
+      "weighted_accuracy": 0.5078818202018738,
+      "winner_match": 0.16546762589928057,
+      "mean_regret_points": 24.441245198249817,
+      "difference_vs_robust_points": 3.2997597008943558
+    },
+    {
+      "epoch": 16,
+      "groups": 139,
+      "pair_accuracy": 0.5219957232475281,
+      "weighted_accuracy": 0.5059652924537659,
+      "winner_match": 0.16546762589928057,
+      "mean_regret_points": 24.486809968948364,
+      "difference_vs_robust_points": 3.254196047782898
+    },
+    {
+      "epoch": 17,
+      "groups": 139,
+      "pair_accuracy": 0.5193132758140564,
+      "weighted_accuracy": 0.49963951110839844,
+      "winner_match": 0.1366906474820144,
+      "mean_regret_points": 26.434051990509033,
+      "difference_vs_robust_points": 1.306954212486744
+    },
+    {
+      "epoch": 18,
+      "groups": 139,
+      "pair_accuracy": 0.5193132758140564,
+      "weighted_accuracy": 0.5018811821937561,
+      "winner_match": 0.16546762589928057,
+      "mean_regret_points": 25.143885612487793,
+      "difference_vs_robust_points": 2.5971220806241035
+    },
+    {
+      "epoch": 19,
+      "groups": 139,
+      "pair_accuracy": 0.5278970003128052,
+      "weighted_accuracy": 0.5073524713516235,
+      "winner_match": 0.16546762589928057,
+      "mean_regret_points": 24.640287458896637,
+      "difference_vs_robust_points": 3.10071911662817
+    },
+    {
+      "epoch": 20,
+      "groups": 139,
+      "pair_accuracy": 0.5262875556945801,
+      "weighted_accuracy": 0.5078911781311035,
+      "winner_match": 0.1510791366906475,
+      "mean_regret_points": 25.369304418563843,
+      "difference_vs_robust_points": 2.371702529489994
+    }
+  ],
+  "selected": {
+    "epoch": 4,
+    "groups": 139,
+    "pair_accuracy": 0.504291832447052,
+    "weighted_accuracy": 0.4915551543235779,
+    "winner_match": 0.17266187050359713,
+    "mean_regret_points": 24.016785621643066,
+    "difference_vs_robust_points": 3.724219650030136
+  }
+}
