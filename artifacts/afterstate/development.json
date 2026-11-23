@@ -1,0 +1,1431 @@
+{
+  "seeds": [
+    20270601,
+    20270602,
+    20270603,
+    20270604,
+    20270605,
+    20270606,
+    20270607,
+    20270608
+  ],
+  "selected": {
+    "C": [
+      0.5,
+      70.0
+    ],
+    "D": [
+      0.5,
+      70.0
+    ]
+  },
+  "results": {
+    "C": [
+      {
+        "weights": [
+          0.5,
+          70.0
+        ],
+        "mean": 2752.25
+      },
+      {
+        "weights": [
+          1.0,
+          100.0
+        ],
+        "mean": 2718.125
+      },
+      {
+        "weights": [
+          2.0,
+          160.0
+        ],
+        "mean": 2743.375
+      },
+      {
+        "weights": [
+          4.0,
+          240.0
+        ],
+        "mean": 2284.125
+      }
+    ],
+    "D": [
+      {
+        "weights": [
+          0.5,
+          70.0
+        ],
+        "mean": 2898.5
+      },
+      {
+        "weights": [
+          1.0,
+          100.0
+        ],
+        "mean": 2670.75
+      },
+      {
+        "weights": [
+          2.0,
+          160.0
+        ],
+        "mean": 2551.25
+      },
+      {
+        "weights": [
+          4.0,
+          240.0
+        ],
+        "mean": 2444.625
+      }
+    ]
+  },
+  "rows": [
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270601,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 2794,
+        "highest": 9,
+        "length": 288,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2794,
+        "highest": 9,
+        "length": 288,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270601,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 2436,
+        "highest": 9,
+        "length": 256,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2436,
+        "highest": 9,
+        "length": 256,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270601,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 3080,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3239,
+        "highest": 10,
+        "length": 315,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270601,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2118,
+        "highest": 9,
+        "length": 227,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2118,
+        "highest": 9,
+        "length": 227,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270601,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 3099,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3664,
+        "highest": 10,
+        "length": 356,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270601,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 2887,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 2999,
+        "highest": 10,
+        "length": 312,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270601,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 2583,
+        "highest": 10,
+        "length": 259,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2583,
+        "highest": 10,
+        "length": 259,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270601,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2942,
+        "highest": 9,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 2957,
+        "highest": 9,
+        "length": 301,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270602,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 3092,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3489,
+        "highest": 10,
+        "length": 352,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270602,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 2947,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3239,
+        "highest": 10,
+        "length": 332,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270602,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 2905,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3281,
+        "highest": 10,
+        "length": 340,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270602,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2825,
+        "highest": 9,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 2844,
+        "highest": 9,
+        "length": 306,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270602,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 2455,
+        "highest": 9,
+        "length": 263,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2455,
+        "highest": 9,
+        "length": 263,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270602,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 2804,
+        "highest": 9,
+        "length": 299,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2804,
+        "highest": 9,
+        "length": 299,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270602,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 3082,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3285,
+        "highest": 10,
+        "length": 330,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270602,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2709,
+        "highest": 10,
+        "length": 281,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2709,
+        "highest": 10,
+        "length": 281,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270603,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 3066,
+        "highest": 10,
+        "length": 288,
+        "overflow": true
+      },
+      "extended": {
+        "score": 3066,
+        "highest": 10,
+        "length": 288,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270603,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 3211,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3670,
+        "highest": 10,
+        "length": 361,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270603,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 1852,
+        "highest": 9,
+        "length": 191,
+        "overflow": true
+      },
+      "extended": {
+        "score": 1852,
+        "highest": 9,
+        "length": 191,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270603,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2227,
+        "highest": 9,
+        "length": 233,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2227,
+        "highest": 9,
+        "length": 233,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270603,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 3069,
+        "highest": 10,
+        "length": 296,
+        "overflow": true
+      },
+      "extended": {
+        "score": 3069,
+        "highest": 10,
+        "length": 296,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270603,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 2000,
+        "highest": 9,
+        "length": 214,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2000,
+        "highest": 9,
+        "length": 214,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270603,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 3130,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3298,
+        "highest": 10,
+        "length": 326,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270603,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2068,
+        "highest": 9,
+        "length": 226,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2068,
+        "highest": 9,
+        "length": 226,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270604,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 3102,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3428,
+        "highest": 10,
+        "length": 352,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270604,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 2983,
+        "highest": 10,
+        "length": 297,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2983,
+        "highest": 10,
+        "length": 297,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270604,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 3209,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3654,
+        "highest": 10,
+        "length": 363,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270604,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2265,
+        "highest": 9,
+        "length": 254,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2265,
+        "highest": 9,
+        "length": 254,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270604,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 3045,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3144,
+        "highest": 10,
+        "length": 319,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270604,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 2984,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3076,
+        "highest": 10,
+        "length": 310,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270604,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 3179,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4035,
+        "highest": 10,
+        "length": 387,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270604,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2485,
+        "highest": 9,
+        "length": 271,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2485,
+        "highest": 9,
+        "length": 271,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270605,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 2012,
+        "highest": 9,
+        "length": 223,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2012,
+        "highest": 9,
+        "length": 223,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270605,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 3146,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3199,
+        "highest": 10,
+        "length": 304,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270605,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 2356,
+        "highest": 9,
+        "length": 257,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2356,
+        "highest": 9,
+        "length": 257,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270605,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 3196,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3215,
+        "highest": 10,
+        "length": 314,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270605,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 3282,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3413,
+        "highest": 10,
+        "length": 326,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270605,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 2014,
+        "highest": 9,
+        "length": 212,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2014,
+        "highest": 9,
+        "length": 212,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270605,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 1977,
+        "highest": 9,
+        "length": 226,
+        "overflow": true
+      },
+      "extended": {
+        "score": 1977,
+        "highest": 9,
+        "length": 226,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270605,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2663,
+        "highest": 10,
+        "length": 270,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2663,
+        "highest": 10,
+        "length": 270,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270606,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 1582,
+        "highest": 9,
+        "length": 178,
+        "overflow": true
+      },
+      "extended": {
+        "score": 1582,
+        "highest": 9,
+        "length": 178,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270606,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 2167,
+        "highest": 9,
+        "length": 224,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2167,
+        "highest": 9,
+        "length": 224,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270606,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 3007,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3523,
+        "highest": 10,
+        "length": 367,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270606,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2080,
+        "highest": 9,
+        "length": 232,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2080,
+        "highest": 9,
+        "length": 232,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270606,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 2415,
+        "highest": 9,
+        "length": 255,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2415,
+        "highest": 9,
+        "length": 255,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270606,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 2393,
+        "highest": 9,
+        "length": 261,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2393,
+        "highest": 9,
+        "length": 261,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270606,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 2112,
+        "highest": 9,
+        "length": 224,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2112,
+        "highest": 9,
+        "length": 224,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270606,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2048,
+        "highest": 9,
+        "length": 213,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2048,
+        "highest": 9,
+        "length": 213,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270607,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 3285,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3585,
+        "highest": 10,
+        "length": 333,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270607,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 3167,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3437,
+        "highest": 10,
+        "length": 319,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270607,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 3058,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3366,
+        "highest": 10,
+        "length": 323,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270607,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2122,
+        "highest": 9,
+        "length": 231,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2122,
+        "highest": 9,
+        "length": 231,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270607,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 2736,
+        "highest": 10,
+        "length": 265,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2736,
+        "highest": 10,
+        "length": 265,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270607,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 3200,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3513,
+        "highest": 10,
+        "length": 327,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270607,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 2350,
+        "highest": 9,
+        "length": 248,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2350,
+        "highest": 9,
+        "length": 248,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270607,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2035,
+        "highest": 9,
+        "length": 221,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2035,
+        "highest": 9,
+        "length": 221,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270608,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 3085,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3380,
+        "highest": 10,
+        "length": 342,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270608,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 1688,
+        "highest": 9,
+        "length": 192,
+        "overflow": true
+      },
+      "extended": {
+        "score": 1688,
+        "highest": 9,
+        "length": 192,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270608,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 2480,
+        "highest": 9,
+        "length": 260,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2480,
+        "highest": 9,
+        "length": 260,
+        "overflow": true
+      }
+    },
+    {
+      "method": "C",
+      "profile": "joint",
+      "seed": 20270608,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 1440,
+        "highest": 8,
+        "length": 185,
+        "overflow": true
+      },
+      "extended": {
+        "score": 1440,
+        "highest": 8,
+        "length": 185,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270608,
+      "weights": [
+        0.5,
+        70.0
+      ],
+      "common": {
+        "score": 3087,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3236,
+        "highest": 10,
+        "length": 331,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270608,
+      "weights": [
+        1.0,
+        100.0
+      ],
+      "common": {
+        "score": 3084,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3327,
+        "highest": 10,
+        "length": 329,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270608,
+      "weights": [
+        2.0,
+        160.0
+      ],
+      "common": {
+        "score": 1997,
+        "highest": 9,
+        "length": 216,
+        "overflow": true
+      },
+      "extended": {
+        "score": 1997,
+        "highest": 9,
+        "length": 216,
+        "overflow": true
+      }
+    },
+    {
+      "method": "D",
+      "profile": "joint",
+      "seed": 20270608,
+      "weights": [
+        4.0,
+        240.0
+      ],
+      "common": {
+        "score": 2607,
+        "highest": 10,
+        "length": 256,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2607,
+        "highest": 10,
+        "length": 256,
+        "overflow": true
+      }
+    }
+  ],
+  "seconds": 26.76398461300414
+}
