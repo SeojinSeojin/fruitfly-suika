@@ -1,0 +1,13 @@
+{
+  "base": "712f08160696ef807e2e1746536617e77737d35c",
+  "tracking_development_seeds_inclusive": [20271501, 20271504],
+  "joint_held_out_seeds_inclusive": [20271601, 20271624],
+  "clean_held_out_seeds_inclusive": [20271601, 20271612],
+  "exact_state_seeds_inclusive": [20271601, 20271606],
+  "showcase": 20271601,
+  "showcase_profile": "joint",
+  "rollouts_per_decision": 18,
+  "live_selection": "Largest held-out joint extended mean among four rollout variants, if greater than robust.",
+  "live_attempts_if_selected": 3,
+  "live_wall_seconds_each": 1500
+}
