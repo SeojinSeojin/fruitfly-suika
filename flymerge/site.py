@@ -159,14 +159,23 @@ def hand_pixels(pixels, box):
     return pixels[y0-104:y0+12, left:x1+60], left
 
 
-def ready(page, detect, box, deadline):
+def settling_frame(page, window):
+    start = time.monotonic()
+    image = screenshot(page)
+    if window is not None:
+        window.append(((start+time.monotonic())/2,image))
+        del window[:-3]
+    return image
+
+
+def ready(page, detect, box, deadline, window=None):
     previous = None
     last_find = None
     quiet = 0
     while time.monotonic() < deadline:
         if page.locator('#restart-game').is_visible():
             return None, None, 'game over'
-        pixels = screenshot(page)
+        pixels = settling_frame(page,window)
         x0, y0, x1, y1 = box
         board = cv2.resize(pixels[y0+12:y1, x0:x1], (132, 142), interpolation=cv2.INTER_AREA)
         hand, _ = hand_pixels(pixels, box)
@@ -182,14 +191,14 @@ def ready(page, detect, box, deadline):
     return None, last_find, ('board stability timed out' if last_find else 'visible current fruit timed out')
 
 
-def recover_ready(page, vision, box, background, limit):
+def recover_ready(page, vision, box, background, limit, window=None):
     """Confirm a ready fruit and stable centers when sprite animation trips pixel gating."""
     x0, y0, x1, y1 = box
     last = None
     while time.monotonic() < limit:
         if page.locator('#restart-game').is_visible():
             return None, None, 'game over'
-        pixels = screenshot(page)
+        pixels = settling_frame(page,window)
         hand_image, _ = hand_pixels(pixels, box)
         hand = vision.match(hand_image, range(5), (.64,.68,.72), (0,), .047)
         if hand:
@@ -270,7 +279,7 @@ def run(args):
 
         scorer = restore_scorer(args.afterstate_checkpoint,graph)
     rollout_models = None
-    if args.rollout_mode:
+    if args.rollout_mode or args.state_mode:
         from .afterstate_model import restore_scorer
 
         rollout_models = {k:restore_scorer(Path('artifacts/afterstate')/f'{k}.pt',graph)
@@ -292,6 +301,12 @@ def run(args):
     if rollout_models:
         result.update(strategy=f'rollout-{args.rollout_mode}',rollout_mode=args.rollout_mode,
                       activity_input='pre-drop observation diagnostic',vision_workers=args.vision_workers)
+    config = None
+    if args.state_mode:
+        config = json.loads(args.state_config.read_text())
+        result.update(strategy=f'state-{args.state_mode}',state_config=str(args.state_config),
+                      state_mode=args.state_mode,activity_input='pre-drop observation diagnostic')
+    window = [] if args.state_mode in ('tracking','both') else None
     decisions = []
     try:
         with sync_playwright() as p:
@@ -307,7 +322,7 @@ def run(args):
             x, y, w, h = (bounds[k] for k in ('x','y','width','height'))
             box = tuple(round(v) for v in (x+.083*w, y+.164*h, x+.919*w, y+.973*h))
             x0,y0,x1,y1 = box
-            pixels, hand, error = ready(page, vision, box, min(deadline, time.monotonic()+14))
+            pixels, hand, error = ready(page, vision, box, min(deadline, time.monotonic()+14),window)
             if error:
                 page.screenshot(path=str(args.out/'paused.png'))
                 result['outcome'] = error
@@ -322,7 +337,7 @@ def run(args):
                     if coverage >= .86 or time.monotonic() >= deadline:
                         break
                     page.wait_for_timeout(220)
-                    pixels = screenshot(page)
+                    pixels = settling_frame(page,window)
                     detected, coverage = vision.board(pixels[y0:y1,x0:x1], background)
                 if coverage < .86:
                     result['outcome'] = f'paused on unreliable board detection ({coverage:.1%} explained foreground)'
@@ -335,7 +350,21 @@ def run(args):
                 next_tier = nxt[3] if nxt else -1
                 current = hand[3]
                 observation = observe([d[:3] for d in detected], current, next_tier)
-                if rollout_models:
+                if args.state_mode:
+                    from .state_search import decide as state_decide
+                    from .state_estimation import fruits_from_obs
+
+                    history = []
+                    if window:
+                        reference_time = window[-1][0]
+                        for captured, prior in window[:-1]:
+                            found, quality = vision.board(prior[y0:y1,x0:x1],background,fast=True)
+                            if quality >= .86:
+                                history.append((captured-reference_time,[r[:3] for r in found]))
+                    history.append((0.,fruits_from_obs(observation)))
+                    action, trace = state_decide(observation,history,model,rollout_models,args.state_mode,
+                                                args.action_seed,len(decisions)+1,config,trace=True)
+                elif rollout_models:
                     from .rollout_eval import rng_for
                     from .rollout_transfer import choose
 
@@ -399,9 +428,11 @@ def run(args):
                 decisions.append(decision)
                 result['completed_drops'] = len(decisions)
                 page.wait_for_timeout(750)
-                pixels, hand, error = ready(page, vision, box, min(deadline, time.monotonic()+18))
+                if window is not None:
+                    window.clear()
+                pixels, hand, error = ready(page, vision, box, min(deadline, time.monotonic()+18),window)
                 if args.until_game_over and error in ('board stability timed out', 'visible current fruit timed out'):
-                    pixels, hand, error = recover_ready(page, vision, box, background, min(deadline,time.monotonic()+70))
+                    pixels, hand, error = recover_ready(page, vision, box, background, min(deadline,time.monotonic()+70),window)
                 score = integer_text(page, '#final-score' if error == 'game over' else '#currentScore')
                 decision['score'] = result['final_score'] = score
                 if error:
@@ -436,6 +467,8 @@ if __name__ == '__main__':
     parser.add_argument('--cache', type=Path, default=Path('data/site'))
     parser.add_argument('--out', type=Path, default=Path('artifacts/demo'))
     parser.add_argument('--replay-key', default='website')
+    parser.add_argument('--state-mode',choices=['current','tracking','physics','both'])
+    parser.add_argument('--state-config',type=Path,default=Path('artifacts/state-estimation/frozen.json'))
     parser.add_argument('--rollout-mode',choices=['fixed','adaptive'])
     parser.add_argument('--vision-workers',type=int,default=8)
     parser.add_argument('--wall-seconds',type=int)
@@ -449,7 +482,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if args.vision_workers < 1:
         parser.error('--vision-workers must be positive')
-    if args.rollout_mode and args.afterstate_checkpoint:
+    if sum(map(bool,(args.rollout_mode,args.afterstate_checkpoint,args.state_mode))) > 1:
         parser.error('Select one action scorer')
     if args.wall_seconds is not None and args.wall_seconds <= 0:
         parser.error('--wall-seconds must be positive')
