@@ -149,8 +149,8 @@ def shortlist(policy, models, obs, seed):
     robust,_ = policy.decide(obs,np.random.default_rng(seed),'robust',trace=False)
     compact,_ = models['compact'].decide(obs,.5,70.)
     fly,_ = models['flywire'].decide(obs,.5,70.)
-    immediate = drop_values(obs)
-    order = np.argsort(-immediate,kind='stable')
+    physics_values = drop_values(obs)
+    order = np.argsort(-physics_values,kind='stable')
     return robust,list(dict.fromkeys([robust,compact,fly,*map(int,order)]))[:6]
 
 
@@ -220,6 +220,25 @@ def winner(rows):
     return max(rows,key=lambda row:(row['value'],-row['action']))['action']
 
 
+def diagnostic(audits):
+    result = {}
+    for profile in ('all','clean','joint'):
+        group = [r for r in audits if profile=='all' or r['profile']==profile]
+        advantages = []
+        for row in group:
+            initial = {r['action']:r['value'] for r in row['candidates']}
+            replica = {r['action']:r['value'] for r in row['independent']}
+            selected, reference = winner(row['candidates']),row['baseline']
+            advantages.append((initial[selected]-initial[reference],replica[selected]-replica[reference]))
+        result[profile] = dict(boards=len(group),
+             selected_over_robust_same_rollout=mean(a for a,_ in advantages),
+             selected_over_robust_independent_rollout=mean(b for _,b in advantages),
+             predicted_gain_lost=sum(a>0 and b<0 for a,b in advantages),
+             crowded_20_plus=sum(r['fruits']>=20 for r in group),
+             high_center_below_80_px_y=sum(r['highest_center']<80 for r in group))
+    return result
+
+
 def main(workers):
     start = time.perf_counter()
     with ProcessPoolExecutor(max_workers=workers) as pool:
@@ -246,6 +265,8 @@ def main(workers):
     json_file(ROOT/'teacher-results.json',dict(audit=audit,summary=rows,latency_ms=latency,
               trained_ranker_eligible=threshold,workers=workers,seconds=time.perf_counter()-start,
               episodes=[{k:v for k,v in row.items() if k!='decisions'} for pair in games for row in pair]))
+    json_file(ROOT/'teacher-diagnostics.json',diagnostic(audits))
+    Path('runs').mkdir(exist_ok=True)
     with gzip.open(Path('runs')/'teacher-ledger.json.gz','wt') as f:
         json.dump(dict(audit=audits,games=games),f,separators=(',',':'))
     with gzip.open(ROOT/'showcase-ledger.json.gz','wt') as f:

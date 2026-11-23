@@ -1,0 +1,26 @@
+{
+  "all": {
+    "boards": 184,
+    "selected_over_robust_same_rollout": 33.188405797101446,
+    "selected_over_robust_independent_rollout": 12.034420289855074,
+    "predicted_gain_lost": 58,
+    "crowded_20_plus": 26,
+    "high_center_below_80_px_y": 3
+  },
+  "clean": {
+    "boards": 94,
+    "selected_over_robust_same_rollout": 31.56382978723404,
+    "selected_over_robust_independent_rollout": 6.769503546099291,
+    "predicted_gain_lost": 33,
+    "crowded_20_plus": 10,
+    "high_center_below_80_px_y": 0
+  },
+  "joint": {
+    "boards": 90,
+    "selected_over_robust_same_rollout": 34.885185185185186,
+    "selected_over_robust_independent_rollout": 17.533333333333335,
+    "predicted_gain_lost": 25,
+    "crowded_20_plus": 16,
+    "high_center_below_80_px_y": 3
+  }
+}
