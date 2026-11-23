@@ -1,0 +1,2479 @@
+{
+  "motion": {
+    "clean": {
+      "tracks": 2319,
+      "median_p95_px": [
+        0.523767411650681,
+        20.005604823195224
+      ],
+      "fraction_at_most_2px": 0.6752910737386805
+    },
+    "joint": {
+      "tracks": 2760,
+      "median_p95_px": [
+        0.4061315085446297,
+        17.471893789511903
+      ],
+      "fraction_at_most_2px": 0.7213768115942029
+    }
+  },
+  "summary": [
+    {
+      "profile": "clean",
+      "method": "robust",
+      "boards": 27,
+      "regret": 20.80246913580247,
+      "exact_action_matches": 6
+    },
+    {
+      "profile": "clean",
+      "method": "current",
+      "boards": 27,
+      "regret": 26.06172839506173,
+      "exact_action_matches": 8
+    },
+    {
+      "profile": "clean",
+      "method": "tracking",
+      "boards": 27,
+      "regret": 18.37037037037037,
+      "exact_action_matches": 9
+    },
+    {
+      "profile": "clean",
+      "method": "physics",
+      "boards": 27,
+      "regret": 16.691358024691358,
+      "exact_action_matches": 8
+    },
+    {
+      "profile": "clean",
+      "method": "both",
+      "boards": 27,
+      "regret": 18.320987654320987,
+      "exact_action_matches": 7
+    },
+    {
+      "profile": "joint",
+      "method": "robust",
+      "boards": 26,
+      "regret": 29.064102564102566,
+      "exact_action_matches": 6
+    },
+    {
+      "profile": "joint",
+      "method": "current",
+      "boards": 26,
+      "regret": 41.23076923076923,
+      "exact_action_matches": 5
+    },
+    {
+      "profile": "joint",
+      "method": "tracking",
+      "boards": 26,
+      "regret": 34.1025641025641,
+      "exact_action_matches": 6
+    },
+    {
+      "profile": "joint",
+      "method": "physics",
+      "boards": 26,
+      "regret": 42.20512820512821,
+      "exact_action_matches": 4
+    },
+    {
+      "profile": "joint",
+      "method": "both",
+      "boards": 26,
+      "regret": 45.06410256410257,
+      "exact_action_matches": 3
+    }
+  ],
+  "rows": [
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 15,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 15,
+      "method": "current",
+      "action": 2,
+      "exact_action": 14,
+      "regret": 21.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 15,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 15,
+      "method": "physics",
+      "action": 2,
+      "exact_action": 14,
+      "regret": 21.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 15,
+      "method": "both",
+      "action": 1,
+      "exact_action": 14,
+      "regret": 14.666666666666657
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 80,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 11,
+      "regret": 2.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 80,
+      "method": "current",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 80,
+      "method": "tracking",
+      "action": 13,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 80,
+      "method": "physics",
+      "action": 14,
+      "exact_action": 11,
+      "regret": 2.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 80,
+      "method": "both",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 160,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 13,
+      "regret": 23.666666666666686
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 160,
+      "method": "current",
+      "action": 11,
+      "exact_action": 13,
+      "regret": 49.66666666666667
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 160,
+      "method": "tracking",
+      "action": 12,
+      "exact_action": 13,
+      "regret": 40.66666666666667
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 160,
+      "method": "physics",
+      "action": 6,
+      "exact_action": 13,
+      "regret": 10.666666666666686
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 160,
+      "method": "both",
+      "action": 12,
+      "exact_action": 13,
+      "regret": 40.66666666666667
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 240,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 13,
+      "regret": 40.666666666666686
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 240,
+      "method": "current",
+      "action": 4,
+      "exact_action": 13,
+      "regret": 29.666666666666686
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 240,
+      "method": "tracking",
+      "action": 3,
+      "exact_action": 13,
+      "regret": 74.33333333333334
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 240,
+      "method": "physics",
+      "action": 4,
+      "exact_action": 13,
+      "regret": 29.666666666666686
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 240,
+      "method": "both",
+      "action": 13,
+      "exact_action": 13,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 295,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 295,
+      "method": "current",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 295,
+      "method": "tracking",
+      "action": 10,
+      "exact_action": 11,
+      "regret": 4.666666666666686
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 295,
+      "method": "physics",
+      "action": 10,
+      "exact_action": 11,
+      "regret": 4.666666666666686
+    },
+    {
+      "profile": "clean",
+      "seed": 20271601,
+      "drop": 295,
+      "method": "both",
+      "action": 10,
+      "exact_action": 11,
+      "regret": 4.666666666666686
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 15,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 3,
+      "regret": 20.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 15,
+      "method": "current",
+      "action": 11,
+      "exact_action": 3,
+      "regret": 23.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 15,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 3,
+      "regret": 20.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 15,
+      "method": "physics",
+      "action": 1,
+      "exact_action": 3,
+      "regret": 16.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 15,
+      "method": "both",
+      "action": 14,
+      "exact_action": 3,
+      "regret": 20.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 80,
+      "method": "robust",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 80,
+      "method": "current",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 80,
+      "method": "tracking",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 80,
+      "method": "physics",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 80,
+      "method": "both",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 160,
+      "method": "robust",
+      "action": 13,
+      "exact_action": 5,
+      "regret": 38.66666666666666
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 160,
+      "method": "current",
+      "action": 0,
+      "exact_action": 5,
+      "regret": 92.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 160,
+      "method": "tracking",
+      "action": 13,
+      "exact_action": 5,
+      "regret": 38.66666666666666
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 160,
+      "method": "physics",
+      "action": 6,
+      "exact_action": 5,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271602,
+      "drop": 160,
+      "method": "both",
+      "action": 5,
+      "exact_action": 5,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 15,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 15,
+      "method": "current",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 15,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 15,
+      "method": "physics",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 15,
+      "method": "both",
+      "action": 1,
+      "exact_action": 14,
+      "regret": 2.333333333333343
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 80,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 11,
+      "regret": 46.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 80,
+      "method": "current",
+      "action": 10,
+      "exact_action": 11,
+      "regret": 57.99999999999997
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 80,
+      "method": "tracking",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 80,
+      "method": "physics",
+      "action": 13,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 80,
+      "method": "both",
+      "action": 10,
+      "exact_action": 11,
+      "regret": 57.99999999999997
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 160,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 4,
+      "regret": 102.33333333333331
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 160,
+      "method": "current",
+      "action": 11,
+      "exact_action": 4,
+      "regret": 86.99999999999997
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 160,
+      "method": "tracking",
+      "action": 4,
+      "exact_action": 4,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 160,
+      "method": "physics",
+      "action": 13,
+      "exact_action": 4,
+      "regret": 43.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 160,
+      "method": "both",
+      "action": 12,
+      "exact_action": 4,
+      "regret": 86.99999999999997
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 240,
+      "method": "robust",
+      "action": 13,
+      "exact_action": 13,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 240,
+      "method": "current",
+      "action": 4,
+      "exact_action": 13,
+      "regret": 6.333333333333371
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 240,
+      "method": "tracking",
+      "action": 8,
+      "exact_action": 13,
+      "regret": 6.333333333333371
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 240,
+      "method": "physics",
+      "action": 8,
+      "exact_action": 13,
+      "regret": 6.333333333333371
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 240,
+      "method": "both",
+      "action": 6,
+      "exact_action": 13,
+      "regret": 4.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 295,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 5,
+      "regret": 28.66666666666667
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 295,
+      "method": "current",
+      "action": 10,
+      "exact_action": 5,
+      "regret": 28.000000000000014
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 295,
+      "method": "tracking",
+      "action": 5,
+      "exact_action": 5,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 295,
+      "method": "physics",
+      "action": 13,
+      "exact_action": 5,
+      "regret": 34.66666666666667
+    },
+    {
+      "profile": "clean",
+      "seed": 20271603,
+      "drop": 295,
+      "method": "both",
+      "action": 13,
+      "exact_action": 5,
+      "regret": 34.66666666666667
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 15,
+      "method": "robust",
+      "action": 8,
+      "exact_action": 4,
+      "regret": 14.666666666666686
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 15,
+      "method": "current",
+      "action": 4,
+      "exact_action": 4,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 15,
+      "method": "tracking",
+      "action": 4,
+      "exact_action": 4,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 15,
+      "method": "physics",
+      "action": 4,
+      "exact_action": 4,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 15,
+      "method": "both",
+      "action": 4,
+      "exact_action": 4,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 80,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 6,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 80,
+      "method": "current",
+      "action": 6,
+      "exact_action": 6,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 80,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 6,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 80,
+      "method": "physics",
+      "action": 1,
+      "exact_action": 6,
+      "regret": 31.333333333333343
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 80,
+      "method": "both",
+      "action": 8,
+      "exact_action": 6,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 160,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 11,
+      "regret": 26.666666666666657
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 160,
+      "method": "current",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 160,
+      "method": "tracking",
+      "action": 8,
+      "exact_action": 11,
+      "regret": 32.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 160,
+      "method": "physics",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 160,
+      "method": "both",
+      "action": 8,
+      "exact_action": 11,
+      "regret": 32.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 240,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 7,
+      "regret": 15.666666666666671
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 240,
+      "method": "current",
+      "action": 14,
+      "exact_action": 7,
+      "regret": 15.666666666666671
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 240,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 7,
+      "regret": 15.666666666666671
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 240,
+      "method": "physics",
+      "action": 14,
+      "exact_action": 7,
+      "regret": 15.666666666666671
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 240,
+      "method": "both",
+      "action": 14,
+      "exact_action": 7,
+      "regret": 15.666666666666671
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 295,
+      "method": "robust",
+      "action": 13,
+      "exact_action": 13,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 295,
+      "method": "current",
+      "action": 7,
+      "exact_action": 13,
+      "regret": 103.33333333333333
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 295,
+      "method": "tracking",
+      "action": 7,
+      "exact_action": 13,
+      "regret": 103.33333333333333
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 295,
+      "method": "physics",
+      "action": 0,
+      "exact_action": 13,
+      "regret": 80.66666666666666
+    },
+    {
+      "profile": "clean",
+      "seed": 20271604,
+      "drop": 295,
+      "method": "both",
+      "action": 9,
+      "exact_action": 13,
+      "regret": 5.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 15,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 7,
+      "regret": 8.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 15,
+      "method": "current",
+      "action": 4,
+      "exact_action": 7,
+      "regret": 17.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 15,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 7,
+      "regret": 8.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 15,
+      "method": "physics",
+      "action": 3,
+      "exact_action": 7,
+      "regret": 14.666666666666657
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 15,
+      "method": "both",
+      "action": 0,
+      "exact_action": 7,
+      "regret": 23.666666666666657
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 80,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 6,
+      "regret": 36.66666666666666
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 80,
+      "method": "current",
+      "action": 7,
+      "exact_action": 6,
+      "regret": 29.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 80,
+      "method": "tracking",
+      "action": 1,
+      "exact_action": 6,
+      "regret": 5.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 80,
+      "method": "physics",
+      "action": 3,
+      "exact_action": 6,
+      "regret": 29.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 80,
+      "method": "both",
+      "action": 1,
+      "exact_action": 6,
+      "regret": 5.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 160,
+      "method": "robust",
+      "action": 4,
+      "exact_action": 9,
+      "regret": 34.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 160,
+      "method": "current",
+      "action": 9,
+      "exact_action": 9,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 160,
+      "method": "tracking",
+      "action": 10,
+      "exact_action": 9,
+      "regret": 53.66666666666666
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 160,
+      "method": "physics",
+      "action": 6,
+      "exact_action": 9,
+      "regret": 49.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 160,
+      "method": "both",
+      "action": 4,
+      "exact_action": 9,
+      "regret": 34.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 240,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 7,
+      "regret": 21.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 240,
+      "method": "current",
+      "action": 14,
+      "exact_action": 7,
+      "regret": 21.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 240,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 7,
+      "regret": 21.333333333333314
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 240,
+      "method": "physics",
+      "action": 7,
+      "exact_action": 7,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271605,
+      "drop": 240,
+      "method": "both",
+      "action": 7,
+      "exact_action": 7,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 15,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 0,
+      "regret": 5.666666666666657
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 15,
+      "method": "current",
+      "action": 14,
+      "exact_action": 0,
+      "regret": 5.666666666666657
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 15,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 0,
+      "regret": 5.666666666666657
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 15,
+      "method": "physics",
+      "action": 0,
+      "exact_action": 0,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 15,
+      "method": "both",
+      "action": 14,
+      "exact_action": 0,
+      "regret": 5.666666666666657
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 80,
+      "method": "robust",
+      "action": 8,
+      "exact_action": 4,
+      "regret": 29.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 80,
+      "method": "current",
+      "action": 10,
+      "exact_action": 4,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 80,
+      "method": "tracking",
+      "action": 9,
+      "exact_action": 4,
+      "regret": 30.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 80,
+      "method": "physics",
+      "action": 10,
+      "exact_action": 4,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 80,
+      "method": "both",
+      "action": 6,
+      "exact_action": 4,
+      "regret": 46.33333333333334
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 160,
+      "method": "robust",
+      "action": 6,
+      "exact_action": 3,
+      "regret": 9.333333333333343
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 160,
+      "method": "current",
+      "action": 6,
+      "exact_action": 3,
+      "regret": 9.333333333333343
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 160,
+      "method": "tracking",
+      "action": 3,
+      "exact_action": 3,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 160,
+      "method": "physics",
+      "action": 3,
+      "exact_action": 3,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 160,
+      "method": "both",
+      "action": 7,
+      "exact_action": 3,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 240,
+      "method": "robust",
+      "action": 11,
+      "exact_action": 9,
+      "regret": 57.99999999999997
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 240,
+      "method": "current",
+      "action": 10,
+      "exact_action": 9,
+      "regret": 60.99999999999997
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 240,
+      "method": "tracking",
+      "action": 9,
+      "exact_action": 9,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 240,
+      "method": "physics",
+      "action": 10,
+      "exact_action": 9,
+      "regret": 60.99999999999997
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 240,
+      "method": "both",
+      "action": 10,
+      "exact_action": 9,
+      "regret": 60.99999999999997
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 295,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 295,
+      "method": "current",
+      "action": 9,
+      "exact_action": 14,
+      "regret": 46.33333333333334
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 295,
+      "method": "tracking",
+      "action": 3,
+      "exact_action": 14,
+      "regret": 36.33333333333334
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 295,
+      "method": "physics",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "clean",
+      "seed": 20271606,
+      "drop": 295,
+      "method": "both",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 15,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 12,
+      "regret": 33.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 15,
+      "method": "current",
+      "action": 12,
+      "exact_action": 12,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 15,
+      "method": "tracking",
+      "action": 12,
+      "exact_action": 12,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 15,
+      "method": "physics",
+      "action": 14,
+      "exact_action": 12,
+      "regret": 33.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 15,
+      "method": "both",
+      "action": 14,
+      "exact_action": 12,
+      "regret": 33.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 80,
+      "method": "robust",
+      "action": 8,
+      "exact_action": 3,
+      "regret": 43.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 80,
+      "method": "current",
+      "action": 3,
+      "exact_action": 3,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 80,
+      "method": "tracking",
+      "action": 7,
+      "exact_action": 3,
+      "regret": 74.00000000000003
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 80,
+      "method": "physics",
+      "action": 6,
+      "exact_action": 3,
+      "regret": 67.00000000000003
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 80,
+      "method": "both",
+      "action": 3,
+      "exact_action": 3,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 160,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 12,
+      "regret": 39.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 160,
+      "method": "current",
+      "action": 8,
+      "exact_action": 12,
+      "regret": 19.666666666666686
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 160,
+      "method": "tracking",
+      "action": 12,
+      "exact_action": 12,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 160,
+      "method": "physics",
+      "action": 7,
+      "exact_action": 12,
+      "regret": 18.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 160,
+      "method": "both",
+      "action": 11,
+      "exact_action": 12,
+      "regret": 21.666666666666686
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 240,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 9,
+      "regret": 16.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 240,
+      "method": "current",
+      "action": 9,
+      "exact_action": 9,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 240,
+      "method": "tracking",
+      "action": 9,
+      "exact_action": 9,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 240,
+      "method": "physics",
+      "action": 11,
+      "exact_action": 9,
+      "regret": 35.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271601,
+      "drop": 240,
+      "method": "both",
+      "action": 11,
+      "exact_action": 9,
+      "regret": 35.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 15,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 8,
+      "regret": 7.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 15,
+      "method": "current",
+      "action": 2,
+      "exact_action": 8,
+      "regret": 33.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 15,
+      "method": "tracking",
+      "action": 11,
+      "exact_action": 8,
+      "regret": 25.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 15,
+      "method": "physics",
+      "action": 0,
+      "exact_action": 8,
+      "regret": 32.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 15,
+      "method": "both",
+      "action": 0,
+      "exact_action": 8,
+      "regret": 32.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 80,
+      "method": "robust",
+      "action": 11,
+      "exact_action": 11,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 80,
+      "method": "current",
+      "action": 9,
+      "exact_action": 11,
+      "regret": 65.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 80,
+      "method": "tracking",
+      "action": 12,
+      "exact_action": 11,
+      "regret": 6.666666666666686
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 80,
+      "method": "physics",
+      "action": 0,
+      "exact_action": 11,
+      "regret": 37.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 80,
+      "method": "both",
+      "action": 0,
+      "exact_action": 11,
+      "regret": 37.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 160,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 160,
+      "method": "current",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 160,
+      "method": "tracking",
+      "action": 4,
+      "exact_action": 14,
+      "regret": 28.666666666666657
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 160,
+      "method": "physics",
+      "action": 7,
+      "exact_action": 14,
+      "regret": 38.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 160,
+      "method": "both",
+      "action": 4,
+      "exact_action": 14,
+      "regret": 28.666666666666657
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 240,
+      "method": "robust",
+      "action": 12,
+      "exact_action": 0,
+      "regret": 65.33333333333333
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 240,
+      "method": "current",
+      "action": 12,
+      "exact_action": 0,
+      "regret": 65.33333333333333
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 240,
+      "method": "tracking",
+      "action": 13,
+      "exact_action": 0,
+      "regret": 38.66666666666666
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 240,
+      "method": "physics",
+      "action": 14,
+      "exact_action": 0,
+      "regret": 8.666666666666657
+    },
+    {
+      "profile": "joint",
+      "seed": 20271602,
+      "drop": 240,
+      "method": "both",
+      "action": 13,
+      "exact_action": 0,
+      "regret": 38.66666666666666
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 15,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 11,
+      "regret": 21.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 15,
+      "method": "current",
+      "action": 2,
+      "exact_action": 11,
+      "regret": 6.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 15,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 11,
+      "regret": 21.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 15,
+      "method": "physics",
+      "action": 14,
+      "exact_action": 11,
+      "regret": 21.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 15,
+      "method": "both",
+      "action": 14,
+      "exact_action": 11,
+      "regret": 21.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 80,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 6,
+      "regret": 58.333333333333314
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 80,
+      "method": "current",
+      "action": 2,
+      "exact_action": 6,
+      "regret": 16.333333333333314
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 80,
+      "method": "tracking",
+      "action": 2,
+      "exact_action": 6,
+      "regret": 16.333333333333314
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 80,
+      "method": "physics",
+      "action": 2,
+      "exact_action": 6,
+      "regret": 16.333333333333314
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 80,
+      "method": "both",
+      "action": 2,
+      "exact_action": 6,
+      "regret": 16.333333333333314
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 160,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 160,
+      "method": "current",
+      "action": 10,
+      "exact_action": 14,
+      "regret": 157.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 160,
+      "method": "tracking",
+      "action": 12,
+      "exact_action": 14,
+      "regret": 174.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 160,
+      "method": "physics",
+      "action": 10,
+      "exact_action": 14,
+      "regret": 157.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 160,
+      "method": "both",
+      "action": 12,
+      "exact_action": 14,
+      "regret": 174.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 240,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 3,
+      "regret": 70.66666666666669
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 240,
+      "method": "current",
+      "action": 14,
+      "exact_action": 3,
+      "regret": 70.66666666666669
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 240,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 3,
+      "regret": 70.66666666666669
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 240,
+      "method": "physics",
+      "action": 14,
+      "exact_action": 3,
+      "regret": 70.66666666666669
+    },
+    {
+      "profile": "joint",
+      "seed": 20271603,
+      "drop": 240,
+      "method": "both",
+      "action": 3,
+      "exact_action": 3,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 15,
+      "method": "robust",
+      "action": 8,
+      "exact_action": 7,
+      "regret": 4.666666666666657
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 15,
+      "method": "current",
+      "action": 7,
+      "exact_action": 7,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 15,
+      "method": "tracking",
+      "action": 7,
+      "exact_action": 7,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 15,
+      "method": "physics",
+      "action": 7,
+      "exact_action": 7,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 15,
+      "method": "both",
+      "action": 8,
+      "exact_action": 7,
+      "regret": 4.666666666666657
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 80,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 5,
+      "regret": 16.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 80,
+      "method": "current",
+      "action": 7,
+      "exact_action": 5,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 80,
+      "method": "tracking",
+      "action": 8,
+      "exact_action": 5,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 80,
+      "method": "physics",
+      "action": 7,
+      "exact_action": 5,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 80,
+      "method": "both",
+      "action": 7,
+      "exact_action": 5,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 160,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 9,
+      "regret": 12.000000000000014
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 160,
+      "method": "current",
+      "action": 7,
+      "exact_action": 9,
+      "regret": 26.000000000000014
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 160,
+      "method": "tracking",
+      "action": 5,
+      "exact_action": 9,
+      "regret": 16.000000000000014
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 160,
+      "method": "physics",
+      "action": 14,
+      "exact_action": 9,
+      "regret": 12.000000000000014
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 160,
+      "method": "both",
+      "action": 14,
+      "exact_action": 9,
+      "regret": 12.000000000000014
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 240,
+      "method": "robust",
+      "action": 12,
+      "exact_action": 11,
+      "regret": 62.333333333333314
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 240,
+      "method": "current",
+      "action": 3,
+      "exact_action": 11,
+      "regret": 130.99999999999997
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 240,
+      "method": "tracking",
+      "action": 3,
+      "exact_action": 11,
+      "regret": 130.99999999999997
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 240,
+      "method": "physics",
+      "action": 0,
+      "exact_action": 11,
+      "regret": 168.33333333333331
+    },
+    {
+      "profile": "joint",
+      "seed": 20271604,
+      "drop": 240,
+      "method": "both",
+      "action": 0,
+      "exact_action": 11,
+      "regret": 168.33333333333331
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 15,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 15,
+      "method": "current",
+      "action": 2,
+      "exact_action": 14,
+      "regret": 32.66666666666666
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 15,
+      "method": "tracking",
+      "action": 2,
+      "exact_action": 14,
+      "regret": 32.66666666666666
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 15,
+      "method": "physics",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 15,
+      "method": "both",
+      "action": 2,
+      "exact_action": 14,
+      "regret": 32.66666666666666
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 80,
+      "method": "robust",
+      "action": 8,
+      "exact_action": 0,
+      "regret": 59.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 80,
+      "method": "current",
+      "action": 6,
+      "exact_action": 0,
+      "regret": 48.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 80,
+      "method": "tracking",
+      "action": 8,
+      "exact_action": 0,
+      "regret": 59.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 80,
+      "method": "physics",
+      "action": 6,
+      "exact_action": 0,
+      "regret": 48.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 80,
+      "method": "both",
+      "action": 9,
+      "exact_action": 0,
+      "regret": 48.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 160,
+      "method": "robust",
+      "action": 2,
+      "exact_action": 2,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 160,
+      "method": "current",
+      "action": 0,
+      "exact_action": 2,
+      "regret": 10.666666666666686
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 160,
+      "method": "tracking",
+      "action": 0,
+      "exact_action": 2,
+      "regret": 10.666666666666686
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 160,
+      "method": "physics",
+      "action": 0,
+      "exact_action": 2,
+      "regret": 10.666666666666686
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 160,
+      "method": "both",
+      "action": 6,
+      "exact_action": 2,
+      "regret": 15.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 240,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 8,
+      "regret": 12.666666666666686
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 240,
+      "method": "current",
+      "action": 11,
+      "exact_action": 8,
+      "regret": 14.666666666666686
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 240,
+      "method": "tracking",
+      "action": 10,
+      "exact_action": 8,
+      "regret": 9.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 240,
+      "method": "physics",
+      "action": 13,
+      "exact_action": 8,
+      "regret": 12.666666666666686
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 240,
+      "method": "both",
+      "action": 10,
+      "exact_action": 8,
+      "regret": 9.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 295,
+      "method": "robust",
+      "action": 5,
+      "exact_action": 3,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 295,
+      "method": "current",
+      "action": 4,
+      "exact_action": 3,
+      "regret": 1.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 295,
+      "method": "tracking",
+      "action": 3,
+      "exact_action": 3,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 295,
+      "method": "physics",
+      "action": 3,
+      "exact_action": 3,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271605,
+      "drop": 295,
+      "method": "both",
+      "action": 3,
+      "exact_action": 3,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 15,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 14,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 15,
+      "method": "current",
+      "action": 0,
+      "exact_action": 14,
+      "regret": 17.333333333333314
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 15,
+      "method": "tracking",
+      "action": 0,
+      "exact_action": 14,
+      "regret": 17.333333333333314
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 15,
+      "method": "physics",
+      "action": 1,
+      "exact_action": 14,
+      "regret": 14.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 15,
+      "method": "both",
+      "action": 1,
+      "exact_action": 14,
+      "regret": 14.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 80,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 6,
+      "regret": 17.666666666666657
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 80,
+      "method": "current",
+      "action": 14,
+      "exact_action": 6,
+      "regret": 17.666666666666657
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 80,
+      "method": "tracking",
+      "action": 0,
+      "exact_action": 6,
+      "regret": 26.999999999999986
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 80,
+      "method": "physics",
+      "action": 11,
+      "exact_action": 6,
+      "regret": 7.666666666666657
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 80,
+      "method": "both",
+      "action": 11,
+      "exact_action": 6,
+      "regret": 7.666666666666657
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 160,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 13,
+      "regret": 18.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 160,
+      "method": "current",
+      "action": 7,
+      "exact_action": 13,
+      "regret": 50.66666666666666
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 160,
+      "method": "tracking",
+      "action": 14,
+      "exact_action": 13,
+      "regret": 18.333333333333343
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 160,
+      "method": "physics",
+      "action": 13,
+      "exact_action": 13,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 160,
+      "method": "both",
+      "action": 12,
+      "exact_action": 13,
+      "regret": 53.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 240,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 13,
+      "regret": 52.33333333333334
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 240,
+      "method": "current",
+      "action": 1,
+      "exact_action": 13,
+      "regret": 109.66666666666669
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 240,
+      "method": "tracking",
+      "action": 1,
+      "exact_action": 13,
+      "regret": 109.66666666666669
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 240,
+      "method": "physics",
+      "action": 1,
+      "exact_action": 13,
+      "regret": 109.66666666666669
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 240,
+      "method": "both",
+      "action": 1,
+      "exact_action": 13,
+      "regret": 109.66666666666669
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 295,
+      "method": "robust",
+      "action": 14,
+      "exact_action": 0,
+      "regret": 145.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 295,
+      "method": "current",
+      "action": 13,
+      "exact_action": 0,
+      "regret": 179.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 295,
+      "method": "tracking",
+      "action": 0,
+      "exact_action": 0,
+      "regret": 0.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 295,
+      "method": "physics",
+      "action": 13,
+      "exact_action": 0,
+      "regret": 179.0
+    },
+    {
+      "profile": "joint",
+      "seed": 20271606,
+      "drop": 295,
+      "method": "both",
+      "action": 3,
+      "exact_action": 0,
+      "regret": 258.0
+    }
+  ]
+}
