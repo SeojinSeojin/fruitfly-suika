@@ -1,0 +1,7778 @@
+{
+  "phase": "evaluate",
+  "seeds": [
+    20271401,
+    20271402,
+    20271403,
+    20271404,
+    20271405,
+    20271406,
+    20271407,
+    20271408,
+    20271409,
+    20271410,
+    20271411,
+    20271412,
+    20271413,
+    20271414,
+    20271415,
+    20271416,
+    20271417,
+    20271418,
+    20271419,
+    20271420,
+    20271421,
+    20271422,
+    20271423,
+    20271424
+  ],
+  "workers": 12,
+  "selected": "fixed",
+  "live_eligible": false,
+  "summary": [
+    {
+      "profile": "clean",
+      "method": "robust",
+      "horizon": "common",
+      "episodes": 24,
+      "mean": 3087.4583333333335,
+      "robust_mean": 3087.4583333333335,
+      "delta": 0,
+      "wins": 0,
+      "ties": 24,
+      "losses": 0,
+      "above_3000": 19,
+      "cap_seeds": [
+        20271401,
+        20271405,
+        20271406,
+        20271407,
+        20271408,
+        20271409,
+        20271410,
+        20271412,
+        20271413,
+        20271415,
+        20271416,
+        20271417,
+        20271418,
+        20271419,
+        20271420,
+        20271421,
+        20271422,
+        20271423,
+        20271424
+      ],
+      "latency_ms": [
+        8.7867885,
+        20.54003345
+      ]
+    },
+    {
+      "profile": "clean",
+      "method": "robust",
+      "horizon": "extended",
+      "episodes": 24,
+      "mean": 3626.5,
+      "robust_mean": 3626.5,
+      "delta": 0,
+      "wins": 0,
+      "ties": 24,
+      "losses": 0,
+      "above_3000": 21,
+      "cap_seeds": [
+        20271409
+      ],
+      "latency_ms": [
+        9.740216,
+        25.865569449999995
+      ]
+    },
+    {
+      "profile": "clean",
+      "method": "fixed",
+      "horizon": "common",
+      "episodes": 24,
+      "mean": 3099.75,
+      "robust_mean": 3087.4583333333335,
+      "delta": 12.291666666666666,
+      "wins": 11,
+      "ties": 0,
+      "losses": 13,
+      "above_3000": 20,
+      "cap_seeds": [
+        20271401,
+        20271402,
+        20271403,
+        20271404,
+        20271405,
+        20271407,
+        20271408,
+        20271409,
+        20271410,
+        20271411,
+        20271413,
+        20271414,
+        20271415,
+        20271416,
+        20271417,
+        20271418,
+        20271419,
+        20271420,
+        20271421,
+        20271422,
+        20271423,
+        20271424
+      ],
+      "latency_ms": [
+        163.901484,
+        358.9683343
+      ]
+    },
+    {
+      "profile": "clean",
+      "method": "fixed",
+      "horizon": "extended",
+      "episodes": 24,
+      "mean": 3723.7916666666665,
+      "robust_mean": 3626.5,
+      "delta": 97.29166666666667,
+      "wins": 13,
+      "ties": 0,
+      "losses": 11,
+      "above_3000": 22,
+      "cap_seeds": [
+        20271408,
+        20271414
+      ],
+      "latency_ms": [
+        182.719063,
+        388.89087724999996
+      ]
+    },
+    {
+      "profile": "clean",
+      "method": "exact",
+      "horizon": "common",
+      "episodes": 6,
+      "mean": 3202.6666666666665,
+      "robust_mean": 2973.3333333333335,
+      "delta": 229.33333333333334,
+      "wins": 3,
+      "ties": 0,
+      "losses": 3,
+      "above_3000": 6,
+      "cap_seeds": [
+        20271401,
+        20271402,
+        20271403,
+        20271404,
+        20271405,
+        20271406
+      ],
+      "latency_ms": [
+        156.654777,
+        284.51244419999995
+      ]
+    },
+    {
+      "profile": "clean",
+      "method": "exact",
+      "horizon": "extended",
+      "episodes": 6,
+      "mean": 4657.666666666667,
+      "robust_mean": 3344.1666666666665,
+      "delta": 1313.5,
+      "wins": 5,
+      "ties": 0,
+      "losses": 1,
+      "above_3000": 6,
+      "cap_seeds": [
+        20271401,
+        20271402,
+        20271404
+      ],
+      "latency_ms": [
+        181.451949,
+        345.4812942
+      ]
+    },
+    {
+      "profile": "joint",
+      "method": "robust",
+      "horizon": "common",
+      "episodes": 24,
+      "mean": 2883.125,
+      "robust_mean": 2883.125,
+      "delta": 0,
+      "wins": 0,
+      "ties": 24,
+      "losses": 0,
+      "above_3000": 12,
+      "cap_seeds": [
+        20271401,
+        20271403,
+        20271407,
+        20271409,
+        20271410,
+        20271412,
+        20271413,
+        20271414,
+        20271415,
+        20271416,
+        20271418,
+        20271419,
+        20271421,
+        20271423
+      ],
+      "latency_ms": [
+        9.32919,
+        24.120030749999994
+      ]
+    },
+    {
+      "profile": "joint",
+      "method": "robust",
+      "horizon": "extended",
+      "episodes": 24,
+      "mean": 3047.9166666666665,
+      "robust_mean": 3047.9166666666665,
+      "delta": 0,
+      "wins": 0,
+      "ties": 24,
+      "losses": 0,
+      "above_3000": 15,
+      "cap_seeds": [],
+      "latency_ms": [
+        9.83175,
+        26.02740759999999
+      ]
+    },
+    {
+      "profile": "joint",
+      "method": "fixed",
+      "horizon": "common",
+      "episodes": 24,
+      "mean": 2688.9166666666665,
+      "robust_mean": 2883.125,
+      "delta": -194.20833333333334,
+      "wins": 9,
+      "ties": 0,
+      "losses": 15,
+      "above_3000": 8,
+      "cap_seeds": [
+        20271402,
+        20271403,
+        20271405,
+        20271407,
+        20271408,
+        20271409,
+        20271416,
+        20271418,
+        20271419,
+        20271421,
+        20271422,
+        20271424
+      ],
+      "latency_ms": [
+        182.18236000000002,
+        411.80258994999997
+      ]
+    },
+    {
+      "profile": "joint",
+      "method": "fixed",
+      "horizon": "extended",
+      "episodes": 24,
+      "mean": 2928.25,
+      "robust_mean": 3047.9166666666665,
+      "delta": -119.66666666666667,
+      "wins": 11,
+      "ties": 0,
+      "losses": 13,
+      "above_3000": 12,
+      "cap_seeds": [],
+      "latency_ms": [
+        190.509162,
+        422.373968
+      ]
+    },
+    {
+      "profile": "joint",
+      "method": "exact",
+      "horizon": "common",
+      "episodes": 6,
+      "mean": 3184.6666666666665,
+      "robust_mean": 2663.5,
+      "delta": 521.1666666666666,
+      "wins": 5,
+      "ties": 0,
+      "losses": 1,
+      "above_3000": 6,
+      "cap_seeds": [
+        20271401,
+        20271402,
+        20271403,
+        20271404,
+        20271405,
+        20271406
+      ],
+      "latency_ms": [
+        401.305841,
+        580.45481805
+      ]
+    },
+    {
+      "profile": "joint",
+      "method": "exact",
+      "horizon": "extended",
+      "episodes": 6,
+      "mean": 4639.5,
+      "robust_mean": 2743.6666666666665,
+      "delta": 1895.8333333333333,
+      "wins": 6,
+      "ties": 0,
+      "losses": 0,
+      "above_3000": 6,
+      "cap_seeds": [
+        20271401,
+        20271402,
+        20271404
+      ],
+      "latency_ms": [
+        421.520032,
+        623.756997
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "seed": 20271401,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3203,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4070,
+        "highest": 10,
+        "length": 397,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271401,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3156,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3423,
+        "highest": 10,
+        "length": 349,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271401,
+      "method": "exact",
+      "profile": "clean",
+      "common": {
+        "score": 3158,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4888,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271402,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 2712,
+        "highest": 9,
+        "length": 282,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2712,
+        "highest": 9,
+        "length": 282,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271402,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3060,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3294,
+        "highest": 10,
+        "length": 330,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271402,
+      "method": "exact",
+      "profile": "clean",
+      "common": {
+        "score": 3065,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4821,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271403,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3050,
+        "highest": 10,
+        "length": 285,
+        "overflow": true
+      },
+      "extended": {
+        "score": 3050,
+        "highest": 10,
+        "length": 285,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271403,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3229,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3770,
+        "highest": 10,
+        "length": 347,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271403,
+      "method": "exact",
+      "profile": "clean",
+      "common": {
+        "score": 3293,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4702,
+        "highest": 10,
+        "length": 448,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271404,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 2302,
+        "highest": 9,
+        "length": 225,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2302,
+        "highest": 9,
+        "length": 225,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271404,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3208,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3767,
+        "highest": 10,
+        "length": 368,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271404,
+      "method": "exact",
+      "profile": "clean",
+      "common": {
+        "score": 3302,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4979,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271405,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3303,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3936,
+        "highest": 10,
+        "length": 378,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271405,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3188,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3793,
+        "highest": 10,
+        "length": 370,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271405,
+      "method": "exact",
+      "profile": "clean",
+      "common": {
+        "score": 3196,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3923,
+        "highest": 10,
+        "length": 381,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271406,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3270,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3995,
+        "highest": 10,
+        "length": 380,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271406,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3118,
+        "highest": 10,
+        "length": 299,
+        "overflow": true
+      },
+      "extended": {
+        "score": 3118,
+        "highest": 10,
+        "length": 299,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271406,
+      "method": "exact",
+      "profile": "clean",
+      "common": {
+        "score": 3202,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4633,
+        "highest": 10,
+        "length": 426,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271407,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3104,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3339,
+        "highest": 10,
+        "length": 328,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271407,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3093,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3846,
+        "highest": 10,
+        "length": 387,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271408,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3075,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3967,
+        "highest": 10,
+        "length": 391,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271408,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3156,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4569,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271409,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3057,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4752,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271409,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 2773,
+        "highest": 9,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 2773,
+        "highest": 9,
+        "length": 302,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271410,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3256,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3879,
+        "highest": 10,
+        "length": 364,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271410,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3217,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3880,
+        "highest": 10,
+        "length": 357,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271411,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 2902,
+        "highest": 10,
+        "length": 259,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2902,
+        "highest": 10,
+        "length": 259,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271411,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3284,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4630,
+        "highest": 10,
+        "length": 436,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271412,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3231,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3785,
+        "highest": 10,
+        "length": 365,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271412,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 2547,
+        "highest": 10,
+        "length": 256,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2547,
+        "highest": 10,
+        "length": 256,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271413,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3183,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3910,
+        "highest": 10,
+        "length": 353,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271413,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3291,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4508,
+        "highest": 10,
+        "length": 420,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271414,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3096,
+        "highest": 10,
+        "length": 291,
+        "overflow": true
+      },
+      "extended": {
+        "score": 3096,
+        "highest": 10,
+        "length": 291,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271414,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3144,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4620,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271415,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 2991,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4010,
+        "highest": 10,
+        "length": 381,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271415,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3123,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3982,
+        "highest": 10,
+        "length": 382,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271416,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3111,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4198,
+        "highest": 10,
+        "length": 415,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271416,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3086,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3802,
+        "highest": 10,
+        "length": 377,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271417,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3271,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3880,
+        "highest": 10,
+        "length": 376,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271417,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3156,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3906,
+        "highest": 10,
+        "length": 381,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271418,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3223,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3402,
+        "highest": 10,
+        "length": 319,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271418,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3252,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3590,
+        "highest": 10,
+        "length": 339,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271419,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3079,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3229,
+        "highest": 10,
+        "length": 320,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271419,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3054,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3897,
+        "highest": 10,
+        "length": 398,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271420,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3331,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3637,
+        "highest": 10,
+        "length": 344,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271420,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3231,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3481,
+        "highest": 10,
+        "length": 325,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271421,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3159,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4081,
+        "highest": 10,
+        "length": 380,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271421,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 2931,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4235,
+        "highest": 10,
+        "length": 409,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271422,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 2936,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3614,
+        "highest": 10,
+        "length": 374,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271422,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3049,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3248,
+        "highest": 10,
+        "length": 331,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271423,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3192,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3848,
+        "highest": 10,
+        "length": 364,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271423,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 2983,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3428,
+        "highest": 10,
+        "length": 334,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271424,
+      "method": "robust",
+      "profile": "clean",
+      "common": {
+        "score": 3062,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3442,
+        "highest": 10,
+        "length": 331,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271424,
+      "method": "fixed",
+      "profile": "clean",
+      "common": {
+        "score": 3065,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3264,
+        "highest": 10,
+        "length": 325,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271401,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3187,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3599,
+        "highest": 10,
+        "length": 351,
+        "overflow": true
+      },
+      "decisions": [
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 0
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 0
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 0
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 6
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 9
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 15
+        },
+        {
+          "action": 11,
+          "gain": 25.0,
+          "score": 40
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 40
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 50
+        },
+        {
+          "action": 14,
+          "gain": 36.0,
+          "score": 86
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 86
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 89
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 95
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 95
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 95
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 101
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 102
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 102
+        },
+        {
+          "action": 13,
+          "gain": 10.0,
+          "score": 112
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 112
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 112
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 113
+        },
+        {
+          "action": 13,
+          "gain": 18.0,
+          "score": 131
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 137
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 147
+        },
+        {
+          "action": 6,
+          "gain": 10.0,
+          "score": 157
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 157
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 157
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 157
+        },
+        {
+          "action": 14,
+          "gain": 36.0,
+          "score": 193
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 194
+        },
+        {
+          "action": 7,
+          "gain": 15.0,
+          "score": 209
+        },
+        {
+          "action": 11,
+          "gain": 16.0,
+          "score": 225
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 225
+        },
+        {
+          "action": 11,
+          "gain": 6.0,
+          "score": 231
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 237
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 237
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 237
+        },
+        {
+          "action": 3,
+          "gain": 64.0,
+          "score": 301
+        },
+        {
+          "action": 6,
+          "gain": 15.0,
+          "score": 316
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 326
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 326
+        },
+        {
+          "action": 8,
+          "gain": 10.0,
+          "score": 336
+        },
+        {
+          "action": 6,
+          "gain": 100.0,
+          "score": 436
+        },
+        {
+          "action": 11,
+          "gain": 6.0,
+          "score": 442
+        },
+        {
+          "action": 2,
+          "gain": 6.0,
+          "score": 448
+        },
+        {
+          "action": 11,
+          "gain": 25.0,
+          "score": 473
+        },
+        {
+          "action": 14,
+          "gain": 4.0,
+          "score": 477
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 477
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 477
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 478
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 478
+        },
+        {
+          "action": 11,
+          "gain": 36.0,
+          "score": 514
+        },
+        {
+          "action": 14,
+          "gain": 9.0,
+          "score": 523
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 523
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 538
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 539
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 539
+        },
+        {
+          "action": 8,
+          "gain": 10.0,
+          "score": 549
+        },
+        {
+          "action": 8,
+          "gain": 64.0,
+          "score": 613
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 619
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 619
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 619
+        },
+        {
+          "action": 14,
+          "gain": 19.0,
+          "score": 638
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 638
+        },
+        {
+          "action": 2,
+          "gain": 10.0,
+          "score": 648
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 648
+        },
+        {
+          "action": 14,
+          "gain": 7.0,
+          "score": 655
+        },
+        {
+          "action": 11,
+          "gain": 15.0,
+          "score": 670
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 670
+        },
+        {
+          "action": 14,
+          "gain": 4.0,
+          "score": 674
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 674
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 674
+        },
+        {
+          "action": 14,
+          "gain": 52.0,
+          "score": 726
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 726
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 726
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 726
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 726
+        },
+        {
+          "action": 14,
+          "gain": 25.0,
+          "score": 751
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 751
+        },
+        {
+          "action": 8,
+          "gain": 15.0,
+          "score": 766
+        },
+        {
+          "action": 11,
+          "gain": 6.0,
+          "score": 772
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 775
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 775
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 775
+        },
+        {
+          "action": 13,
+          "gain": 10.0,
+          "score": 785
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 785
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 785
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 785
+        },
+        {
+          "action": 8,
+          "gain": 146.0,
+          "score": 931
+        },
+        {
+          "action": 13,
+          "gain": 9.0,
+          "score": 940
+        },
+        {
+          "action": 14,
+          "gain": 25.0,
+          "score": 965
+        },
+        {
+          "action": 8,
+          "gain": 21.0,
+          "score": 986
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 986
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 996
+        },
+        {
+          "action": 11,
+          "gain": 6.0,
+          "score": 1002
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1002
+        },
+        {
+          "action": 14,
+          "gain": 4.0,
+          "score": 1006
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1006
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 1021
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1021
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1021
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1021
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 1022
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1022
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 1022
+        },
+        {
+          "action": 11,
+          "gain": 31.0,
+          "score": 1053
+        },
+        {
+          "action": 2,
+          "gain": 24.0,
+          "score": 1077
+        },
+        {
+          "action": 2,
+          "gain": 6.0,
+          "score": 1083
+        },
+        {
+          "action": 0,
+          "gain": 15.0,
+          "score": 1098
+        },
+        {
+          "action": 11,
+          "gain": 10.0,
+          "score": 1108
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1108
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 1111
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 1117
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1117
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 1120
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 1120
+        },
+        {
+          "action": 14,
+          "gain": 31.0,
+          "score": 1151
+        },
+        {
+          "action": 0,
+          "gain": 10.0,
+          "score": 1161
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1161
+        },
+        {
+          "action": 0,
+          "gain": 36.0,
+          "score": 1197
+        },
+        {
+          "action": 14,
+          "gain": 28.0,
+          "score": 1225
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1225
+        },
+        {
+          "action": 2,
+          "gain": 6.0,
+          "score": 1231
+        },
+        {
+          "action": 5,
+          "gain": 10.0,
+          "score": 1241
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 1242
+        },
+        {
+          "action": 14,
+          "gain": 18.0,
+          "score": 1260
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1260
+        },
+        {
+          "action": 0,
+          "gain": 1.0,
+          "score": 1261
+        },
+        {
+          "action": 14,
+          "gain": 34.0,
+          "score": 1295
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1295
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1295
+        },
+        {
+          "action": 14,
+          "gain": 49.0,
+          "score": 1344
+        },
+        {
+          "action": 0,
+          "gain": 36.0,
+          "score": 1380
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 1386
+        },
+        {
+          "action": 0,
+          "gain": 3.0,
+          "score": 1389
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1389
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1389
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 1404
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 1404
+        },
+        {
+          "action": 13,
+          "gain": 6.0,
+          "score": 1410
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1410
+        },
+        {
+          "action": 14,
+          "gain": 7.0,
+          "score": 1417
+        },
+        {
+          "action": 0,
+          "gain": 62.0,
+          "score": 1479
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 1479
+        },
+        {
+          "action": 2,
+          "gain": 1.0,
+          "score": 1480
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1480
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 1483
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 1489
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1489
+        },
+        {
+          "action": 14,
+          "gain": 31.0,
+          "score": 1520
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1520
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 1523
+        },
+        {
+          "action": 14,
+          "gain": 16.0,
+          "score": 1539
+        },
+        {
+          "action": 5,
+          "gain": 3.0,
+          "score": 1542
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1542
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1542
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1542
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 1545
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1545
+        },
+        {
+          "action": 2,
+          "gain": 16.0,
+          "score": 1561
+        },
+        {
+          "action": 2,
+          "gain": 36.0,
+          "score": 1597
+        },
+        {
+          "action": 14,
+          "gain": 36.0,
+          "score": 1633
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1633
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1633
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 1634
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1634
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 1634
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1634
+        },
+        {
+          "action": 14,
+          "gain": 34.0,
+          "score": 1668
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 1683
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1683
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1683
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 1684
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1684
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1684
+        },
+        {
+          "action": 14,
+          "gain": 46.0,
+          "score": 1730
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1730
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1730
+        },
+        {
+          "action": 6,
+          "gain": 15.0,
+          "score": 1745
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1745
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1745
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1745
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 1746
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 1756
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 1759
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1759
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1759
+        },
+        {
+          "action": 14,
+          "gain": 19.0,
+          "score": 1778
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1778
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1778
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 1779
+        },
+        {
+          "action": 11,
+          "gain": 25.0,
+          "score": 1804
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 1807
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1807
+        },
+        {
+          "action": 13,
+          "gain": 36.0,
+          "score": 1843
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1843
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1843
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 1844
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1844
+        },
+        {
+          "action": 6,
+          "gain": 10.0,
+          "score": 1854
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1854
+        },
+        {
+          "action": 14,
+          "gain": 27.0,
+          "score": 1881
+        },
+        {
+          "action": 14,
+          "gain": 4.0,
+          "score": 1885
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1885
+        },
+        {
+          "action": 6,
+          "gain": 60.0,
+          "score": 1945
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1945
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1945
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1945
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 1945
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 1946
+        },
+        {
+          "action": 2,
+          "gain": 15.0,
+          "score": 1961
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 1961
+        },
+        {
+          "action": 14,
+          "gain": 9.0,
+          "score": 1970
+        },
+        {
+          "action": 1,
+          "gain": 190.0,
+          "score": 2160
+        },
+        {
+          "action": 14,
+          "gain": 14.0,
+          "score": 2174
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 2174
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2174
+        },
+        {
+          "action": 5,
+          "gain": 64.0,
+          "score": 2238
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2238
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2238
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2238
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 2241
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 2247
+        },
+        {
+          "action": 8,
+          "gain": 10.0,
+          "score": 2257
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 2257
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 2263
+        },
+        {
+          "action": 6,
+          "gain": 1.0,
+          "score": 2264
+        },
+        {
+          "action": 14,
+          "gain": 25.0,
+          "score": 2289
+        },
+        {
+          "action": 14,
+          "gain": 34.0,
+          "score": 2323
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2323
+        },
+        {
+          "action": 6,
+          "gain": 3.0,
+          "score": 2326
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 2326
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2326
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2326
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2326
+        },
+        {
+          "action": 14,
+          "gain": 22.0,
+          "score": 2348
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2348
+        },
+        {
+          "action": 13,
+          "gain": 3.0,
+          "score": 2351
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 2351
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2351
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 2361
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 2376
+        },
+        {
+          "action": 0,
+          "gain": 3.0,
+          "score": 2379
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2379
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 2382
+        },
+        {
+          "action": 8,
+          "gain": 52.0,
+          "score": 2434
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2434
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 2444
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2444
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2444
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 2445
+        },
+        {
+          "action": 14,
+          "gain": 18.0,
+          "score": 2463
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2463
+        },
+        {
+          "action": 13,
+          "gain": 10.0,
+          "score": 2473
+        },
+        {
+          "action": 14,
+          "gain": 189.0,
+          "score": 2662
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 2668
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2668
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 2683
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 2693
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2693
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2693
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 2708
+        },
+        {
+          "action": 11,
+          "gain": 10.0,
+          "score": 2718
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 2721
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 2727
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 2727
+        },
+        {
+          "action": 12,
+          "gain": 16.0,
+          "score": 2743
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 2743
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2743
+        },
+        {
+          "action": 4,
+          "gain": 36.0,
+          "score": 2779
+        },
+        {
+          "action": 0,
+          "gain": 119.0,
+          "score": 2898
+        },
+        {
+          "action": 14,
+          "gain": 9.0,
+          "score": 2907
+        },
+        {
+          "action": 5,
+          "gain": 16.0,
+          "score": 2923
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2923
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2923
+        },
+        {
+          "action": 0,
+          "gain": 37.0,
+          "score": 2960
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2960
+        },
+        {
+          "action": 0,
+          "gain": 10.0,
+          "score": 2970
+        },
+        {
+          "action": 2,
+          "gain": 3.0,
+          "score": 2973
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 2973
+        },
+        {
+          "action": 8,
+          "gain": 3.0,
+          "score": 2976
+        },
+        {
+          "action": 8,
+          "gain": 15.0,
+          "score": 2991
+        },
+        {
+          "action": 14,
+          "gain": 25.0,
+          "score": 3016
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 3017
+        },
+        {
+          "action": 14,
+          "gain": 68.0,
+          "score": 3085
+        },
+        {
+          "action": 2,
+          "gain": 6.0,
+          "score": 3091
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 3091
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3091
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 3094
+        },
+        {
+          "action": 11,
+          "gain": 15.0,
+          "score": 3109
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3109
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3109
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 3109
+        },
+        {
+          "action": 14,
+          "gain": 16.0,
+          "score": 3125
+        },
+        {
+          "action": 11,
+          "gain": 1.0,
+          "score": 3126
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3126
+        },
+        {
+          "action": 14,
+          "gain": 25.0,
+          "score": 3151
+        },
+        {
+          "action": 6,
+          "gain": 36.0,
+          "score": 3187
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3187
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 3188
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3188
+        },
+        {
+          "action": 14,
+          "gain": 9.0,
+          "score": 3197
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3197
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3197
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 3198
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3198
+        },
+        {
+          "action": 14,
+          "gain": 25.0,
+          "score": 3223
+        },
+        {
+          "action": 14,
+          "gain": 25.0,
+          "score": 3248
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3248
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 3258
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3258
+        },
+        {
+          "action": 14,
+          "gain": 28.0,
+          "score": 3286
+        },
+        {
+          "action": 13,
+          "gain": 3.0,
+          "score": 3289
+        },
+        {
+          "action": 14,
+          "gain": 16.0,
+          "score": 3305
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 3311
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 3321
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3321
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 3336
+        },
+        {
+          "action": 13,
+          "gain": 15.0,
+          "score": 3351
+        },
+        {
+          "action": 14,
+          "gain": 27.0,
+          "score": 3378
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3378
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3378
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 3378
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3378
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3378
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 3378
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3378
+        },
+        {
+          "action": 14,
+          "gain": 35.0,
+          "score": 3413
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 3423
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 3423
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 3426
+        },
+        {
+          "action": 8,
+          "gain": 36.0,
+          "score": 3462
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3462
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3462
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 3463
+        },
+        {
+          "action": 13,
+          "gain": 43.0,
+          "score": 3506
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3506
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 3512
+        },
+        {
+          "action": 14,
+          "gain": 4.0,
+          "score": 3516
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 3516
+        },
+        {
+          "action": 14,
+          "gain": 16.0,
+          "score": 3532
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3532
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3532
+        },
+        {
+          "action": 14,
+          "gain": 46.0,
+          "score": 3578
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3578
+        },
+        {
+          "action": 11,
+          "gain": 6.0,
+          "score": 3584
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3584
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3584
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 3599
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3599
+        }
+      ]
+    },
+    {
+      "seed": 20271401,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2772,
+        "highest": 10,
+        "length": 292,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2772,
+        "highest": 10,
+        "length": 292,
+        "overflow": true
+      },
+      "decisions": [
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 0
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 0
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 0
+        },
+        {
+          "action": 13,
+          "gain": 6.0,
+          "score": 6
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 6
+        },
+        {
+          "action": 5,
+          "gain": 3.0,
+          "score": 9
+        },
+        {
+          "action": 10,
+          "gain": 15.0,
+          "score": 24
+        },
+        {
+          "action": 12,
+          "gain": 10.0,
+          "score": 34
+        },
+        {
+          "action": 4,
+          "gain": 6.0,
+          "score": 40
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 40
+        },
+        {
+          "action": 2,
+          "gain": 10.0,
+          "score": 50
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 50
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 50
+        },
+        {
+          "action": 9,
+          "gain": 9.0,
+          "score": 59
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 59
+        },
+        {
+          "action": 7,
+          "gain": 6.0,
+          "score": 65
+        },
+        {
+          "action": 14,
+          "gain": 25.0,
+          "score": 90
+        },
+        {
+          "action": 3,
+          "gain": 21.0,
+          "score": 111
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 111
+        },
+        {
+          "action": 4,
+          "gain": 15.0,
+          "score": 126
+        },
+        {
+          "action": 1,
+          "gain": 3.0,
+          "score": 129
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 130
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 130
+        },
+        {
+          "action": 0,
+          "gain": 6.0,
+          "score": 136
+        },
+        {
+          "action": 0,
+          "gain": 25.0,
+          "score": 161
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 161
+        },
+        {
+          "action": 2,
+          "gain": 10.0,
+          "score": 171
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 171
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 171
+        },
+        {
+          "action": 3,
+          "gain": 37.0,
+          "score": 208
+        },
+        {
+          "action": 12,
+          "gain": 28.0,
+          "score": 236
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 236
+        },
+        {
+          "action": 12,
+          "gain": 6.0,
+          "score": 242
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 242
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 242
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 242
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 242
+        },
+        {
+          "action": 13,
+          "gain": 10.0,
+          "score": 252
+        },
+        {
+          "action": 12,
+          "gain": 15.0,
+          "score": 267
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 267
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 267
+        },
+        {
+          "action": 0,
+          "gain": 36.0,
+          "score": 303
+        },
+        {
+          "action": 1,
+          "gain": 10.0,
+          "score": 313
+        },
+        {
+          "action": 5,
+          "gain": 15.0,
+          "score": 328
+        },
+        {
+          "action": 7,
+          "gain": 6.0,
+          "score": 334
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 334
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 334
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 334
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 334
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 334
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 335
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 335
+        },
+        {
+          "action": 12,
+          "gain": 39.0,
+          "score": 374
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 374
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 374
+        },
+        {
+          "action": 13,
+          "gain": 15.0,
+          "score": 389
+        },
+        {
+          "action": 10,
+          "gain": 4.0,
+          "score": 393
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 393
+        },
+        {
+          "action": 3,
+          "gain": 10.0,
+          "score": 403
+        },
+        {
+          "action": 5,
+          "gain": 103.0,
+          "score": 506
+        },
+        {
+          "action": 4,
+          "gain": 16.0,
+          "score": 522
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 523
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 523
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 523
+        },
+        {
+          "action": 8,
+          "gain": 6.0,
+          "score": 529
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 529
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 529
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 529
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 529
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 529
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 529
+        },
+        {
+          "action": 8,
+          "gain": 15.0,
+          "score": 544
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 544
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 544
+        },
+        {
+          "action": 10,
+          "gain": 16.0,
+          "score": 560
+        },
+        {
+          "action": 5,
+          "gain": 57.0,
+          "score": 617
+        },
+        {
+          "action": 9,
+          "gain": 1.0,
+          "score": 618
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 618
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 618
+        },
+        {
+          "action": 13,
+          "gain": 114.0,
+          "score": 732
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 732
+        },
+        {
+          "action": 4,
+          "gain": 6.0,
+          "score": 738
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 738
+        },
+        {
+          "action": 3,
+          "gain": 3.0,
+          "score": 741
+        },
+        {
+          "action": 2,
+          "gain": 36.0,
+          "score": 777
+        },
+        {
+          "action": 13,
+          "gain": 119.0,
+          "score": 896
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 896
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 896
+        },
+        {
+          "action": 9,
+          "gain": 1.0,
+          "score": 897
+        },
+        {
+          "action": 11,
+          "gain": 15.0,
+          "score": 912
+        },
+        {
+          "action": 2,
+          "gain": 9.0,
+          "score": 921
+        },
+        {
+          "action": 12,
+          "gain": 25.0,
+          "score": 946
+        },
+        {
+          "action": 4,
+          "gain": 6.0,
+          "score": 952
+        },
+        {
+          "action": 5,
+          "gain": 10.0,
+          "score": 962
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 962
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 962
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 962
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 962
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 962
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 962
+        },
+        {
+          "action": 13,
+          "gain": 36.0,
+          "score": 998
+        },
+        {
+          "action": 8,
+          "gain": 1.0,
+          "score": 999
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 999
+        },
+        {
+          "action": 13,
+          "gain": 83.0,
+          "score": 1082
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 1082
+        },
+        {
+          "action": 11,
+          "gain": 10.0,
+          "score": 1092
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1092
+        },
+        {
+          "action": 13,
+          "gain": 16.0,
+          "score": 1108
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 1108
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 1108
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 1108
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 1108
+        },
+        {
+          "action": 4,
+          "gain": 3.0,
+          "score": 1111
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1111
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1111
+        },
+        {
+          "action": 5,
+          "gain": 19.0,
+          "score": 1130
+        },
+        {
+          "action": 8,
+          "gain": 15.0,
+          "score": 1145
+        },
+        {
+          "action": 12,
+          "gain": 16.0,
+          "score": 1161
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 1161
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 1161
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 1176
+        },
+        {
+          "action": 2,
+          "gain": 25.0,
+          "score": 1201
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 1201
+        },
+        {
+          "action": 4,
+          "gain": 16.0,
+          "score": 1217
+        },
+        {
+          "action": 5,
+          "gain": 21.0,
+          "score": 1238
+        },
+        {
+          "action": 11,
+          "gain": 5.0,
+          "score": 1243
+        },
+        {
+          "action": 14,
+          "gain": 39.0,
+          "score": 1282
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 1282
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1282
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1282
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1282
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 1282
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1282
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 1282
+        },
+        {
+          "action": 13,
+          "gain": 6.0,
+          "score": 1288
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 1288
+        },
+        {
+          "action": 12,
+          "gain": 25.0,
+          "score": 1313
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 1313
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1313
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1313
+        },
+        {
+          "action": 12,
+          "gain": 7.0,
+          "score": 1320
+        },
+        {
+          "action": 5,
+          "gain": 39.0,
+          "score": 1359
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 1359
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 1359
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 1359
+        },
+        {
+          "action": 14,
+          "gain": 28.0,
+          "score": 1387
+        },
+        {
+          "action": 11,
+          "gain": 62.0,
+          "score": 1449
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 1449
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1449
+        },
+        {
+          "action": 10,
+          "gain": 3.0,
+          "score": 1452
+        },
+        {
+          "action": 13,
+          "gain": 40.0,
+          "score": 1492
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 1492
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1492
+        },
+        {
+          "action": 11,
+          "gain": 31.0,
+          "score": 1523
+        },
+        {
+          "action": 5,
+          "gain": 13.0,
+          "score": 1536
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1536
+        },
+        {
+          "action": 11,
+          "gain": 6.0,
+          "score": 1542
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1542
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 1545
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1545
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 1545
+        },
+        {
+          "action": 12,
+          "gain": 15.0,
+          "score": 1560
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 1570
+        },
+        {
+          "action": 14,
+          "gain": 31.0,
+          "score": 1601
+        },
+        {
+          "action": 6,
+          "gain": 80.0,
+          "score": 1681
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1681
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1681
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 1681
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1681
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1681
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 1681
+        },
+        {
+          "action": 9,
+          "gain": 15.0,
+          "score": 1696
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 1696
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 1696
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1696
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 1696
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 1696
+        },
+        {
+          "action": 3,
+          "gain": 46.0,
+          "score": 1742
+        },
+        {
+          "action": 1,
+          "gain": 1.0,
+          "score": 1743
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 1743
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 1743
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 1743
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 1743
+        },
+        {
+          "action": 0,
+          "gain": 10.0,
+          "score": 1753
+        },
+        {
+          "action": 11,
+          "gain": 35.0,
+          "score": 1788
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 1788
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 1788
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 1788
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1788
+        },
+        {
+          "action": 9,
+          "gain": 253.0,
+          "score": 2041
+        },
+        {
+          "action": 6,
+          "gain": 1.0,
+          "score": 2042
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 2042
+        },
+        {
+          "action": 10,
+          "gain": 25.0,
+          "score": 2067
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 2067
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 2067
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 2067
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 2067
+        },
+        {
+          "action": 13,
+          "gain": 6.0,
+          "score": 2073
+        },
+        {
+          "action": 8,
+          "gain": 4.0,
+          "score": 2077
+        },
+        {
+          "action": 13,
+          "gain": 10.0,
+          "score": 2087
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2087
+        },
+        {
+          "action": 8,
+          "gain": 36.0,
+          "score": 2123
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2123
+        },
+        {
+          "action": 11,
+          "gain": 29.0,
+          "score": 2152
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 2152
+        },
+        {
+          "action": 13,
+          "gain": 6.0,
+          "score": 2158
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 2158
+        },
+        {
+          "action": 14,
+          "gain": 4.0,
+          "score": 2162
+        },
+        {
+          "action": 10,
+          "gain": 41.0,
+          "score": 2203
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 2203
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 2203
+        },
+        {
+          "action": 13,
+          "gain": 36.0,
+          "score": 2239
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2239
+        },
+        {
+          "action": 12,
+          "gain": 4.0,
+          "score": 2243
+        },
+        {
+          "action": 1,
+          "gain": 11.0,
+          "score": 2254
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2254
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 2254
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 2254
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 2254
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2254
+        },
+        {
+          "action": 8,
+          "gain": 6.0,
+          "score": 2260
+        },
+        {
+          "action": 0,
+          "gain": 10.0,
+          "score": 2270
+        },
+        {
+          "action": 7,
+          "gain": 15.0,
+          "score": 2285
+        },
+        {
+          "action": 0,
+          "gain": 3.0,
+          "score": 2288
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 2288
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 2288
+        },
+        {
+          "action": 13,
+          "gain": 6.0,
+          "score": 2294
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 2294
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 2294
+        },
+        {
+          "action": 11,
+          "gain": 1.0,
+          "score": 2295
+        },
+        {
+          "action": 8,
+          "gain": 10.0,
+          "score": 2305
+        },
+        {
+          "action": 14,
+          "gain": 18.0,
+          "score": 2323
+        },
+        {
+          "action": 2,
+          "gain": 16.0,
+          "score": 2339
+        },
+        {
+          "action": 1,
+          "gain": 36.0,
+          "score": 2375
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2375
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2375
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2375
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2375
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2375
+        },
+        {
+          "action": 13,
+          "gain": 34.0,
+          "score": 2409
+        },
+        {
+          "action": 10,
+          "gain": 52.0,
+          "score": 2461
+        },
+        {
+          "action": 11,
+          "gain": 10.0,
+          "score": 2471
+        },
+        {
+          "action": 10,
+          "gain": 15.0,
+          "score": 2486
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 2486
+        },
+        {
+          "action": 8,
+          "gain": 21.0,
+          "score": 2507
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 2507
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 2507
+        },
+        {
+          "action": 8,
+          "gain": 10.0,
+          "score": 2517
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 2517
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2517
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 2517
+        },
+        {
+          "action": 9,
+          "gain": 4.0,
+          "score": 2521
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 2521
+        },
+        {
+          "action": 5,
+          "gain": 15.0,
+          "score": 2536
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 2536
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 2536
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 2536
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 2536
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 2536
+        },
+        {
+          "action": 6,
+          "gain": 46.0,
+          "score": 2582
+        },
+        {
+          "action": 7,
+          "gain": 9.0,
+          "score": 2591
+        },
+        {
+          "action": 8,
+          "gain": 25.0,
+          "score": 2616
+        },
+        {
+          "action": 1,
+          "gain": 15.0,
+          "score": 2631
+        },
+        {
+          "action": 9,
+          "gain": 10.0,
+          "score": 2641
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 2644
+        },
+        {
+          "action": 13,
+          "gain": 6.0,
+          "score": 2650
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 2650
+        },
+        {
+          "action": 9,
+          "gain": 6.0,
+          "score": 2656
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 2656
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2656
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 2656
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 2656
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 2656
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 2656
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2656
+        },
+        {
+          "action": 6,
+          "gain": 25.0,
+          "score": 2681
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 2681
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 2681
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2681
+        },
+        {
+          "action": 9,
+          "gain": 3.0,
+          "score": 2684
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 2684
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2684
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2684
+        },
+        {
+          "action": 9,
+          "gain": 46.0,
+          "score": 2730
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 2730
+        },
+        {
+          "action": 11,
+          "gain": 9.0,
+          "score": 2739
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 2739
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2739
+        },
+        {
+          "action": 7,
+          "gain": 9.0,
+          "score": 2748
+        },
+        {
+          "action": 8,
+          "gain": 9.0,
+          "score": 2757
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 2757
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 2772
+        }
+      ]
+    },
+    {
+      "seed": 20271401,
+      "method": "exact",
+      "profile": "joint",
+      "common": {
+        "score": 3089,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4715,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      },
+      "decisions": [
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 0
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 0
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 0
+        },
+        {
+          "action": 1,
+          "gain": 6.0,
+          "score": 6
+        },
+        {
+          "action": 4,
+          "gain": 3.0,
+          "score": 9
+        },
+        {
+          "action": 1,
+          "gain": 6.0,
+          "score": 15
+        },
+        {
+          "action": 5,
+          "gain": 15.0,
+          "score": 30
+        },
+        {
+          "action": 3,
+          "gain": 10.0,
+          "score": 40
+        },
+        {
+          "action": 6,
+          "gain": 10.0,
+          "score": 50
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 50
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 50
+        },
+        {
+          "action": 2,
+          "gain": 3.0,
+          "score": 53
+        },
+        {
+          "action": 3,
+          "gain": 6.0,
+          "score": 59
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 59
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 59
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 59
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 59
+        },
+        {
+          "action": 4,
+          "gain": 1.0,
+          "score": 60
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 60
+        },
+        {
+          "action": 5,
+          "gain": 15.0,
+          "score": 75
+        },
+        {
+          "action": 5,
+          "gain": 3.0,
+          "score": 78
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 78
+        },
+        {
+          "action": 7,
+          "gain": 15.0,
+          "score": 93
+        },
+        {
+          "action": 3,
+          "gain": 16.0,
+          "score": 109
+        },
+        {
+          "action": 3,
+          "gain": 46.0,
+          "score": 155
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 155
+        },
+        {
+          "action": 6,
+          "gain": 10.0,
+          "score": 165
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 165
+        },
+        {
+          "action": 10,
+          "gain": 6.0,
+          "score": 171
+        },
+        {
+          "action": 6,
+          "gain": 64.0,
+          "score": 235
+        },
+        {
+          "action": 8,
+          "gain": 4.0,
+          "score": 239
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 245
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 245
+        },
+        {
+          "action": 7,
+          "gain": 16.0,
+          "score": 261
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 261
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 261
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 261
+        },
+        {
+          "action": 9,
+          "gain": 1.0,
+          "score": 262
+        },
+        {
+          "action": 12,
+          "gain": 36.0,
+          "score": 298
+        },
+        {
+          "action": 5,
+          "gain": 15.0,
+          "score": 313
+        },
+        {
+          "action": 9,
+          "gain": 10.0,
+          "score": 323
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 323
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 323
+        },
+        {
+          "action": 7,
+          "gain": 36.0,
+          "score": 359
+        },
+        {
+          "action": 0,
+          "gain": 16.0,
+          "score": 375
+        },
+        {
+          "action": 1,
+          "gain": 28.0,
+          "score": 403
+        },
+        {
+          "action": 9,
+          "gain": 46.0,
+          "score": 449
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 449
+        },
+        {
+          "action": 12,
+          "gain": 15.0,
+          "score": 464
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 464
+        },
+        {
+          "action": 0,
+          "gain": 10.0,
+          "score": 474
+        },
+        {
+          "action": 13,
+          "gain": 1.0,
+          "score": 475
+        },
+        {
+          "action": 0,
+          "gain": 15.0,
+          "score": 490
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 490
+        },
+        {
+          "action": 11,
+          "gain": 3.0,
+          "score": 493
+        },
+        {
+          "action": 8,
+          "gain": 36.0,
+          "score": 529
+        },
+        {
+          "action": 3,
+          "gain": 4.0,
+          "score": 533
+        },
+        {
+          "action": 8,
+          "gain": 6.0,
+          "score": 539
+        },
+        {
+          "action": 0,
+          "gain": 10.0,
+          "score": 549
+        },
+        {
+          "action": 0,
+          "gain": 36.0,
+          "score": 585
+        },
+        {
+          "action": 3,
+          "gain": 6.0,
+          "score": 591
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 591
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 591
+        },
+        {
+          "action": 10,
+          "gain": 9.0,
+          "score": 600
+        },
+        {
+          "action": 0,
+          "gain": 10.0,
+          "score": 610
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 610
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 610
+        },
+        {
+          "action": 1,
+          "gain": 17.0,
+          "score": 627
+        },
+        {
+          "action": 3,
+          "gain": 15.0,
+          "score": 642
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 642
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 642
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 642
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 642
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 657
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 657
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 657
+        },
+        {
+          "action": 6,
+          "gain": 1.0,
+          "score": 658
+        },
+        {
+          "action": 3,
+          "gain": 9.0,
+          "score": 667
+        },
+        {
+          "action": 3,
+          "gain": 10.0,
+          "score": 677
+        },
+        {
+          "action": 3,
+          "gain": 64.0,
+          "score": 741
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 741
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 741
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 741
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 741
+        },
+        {
+          "action": 8,
+          "gain": 80.0,
+          "score": 821
+        },
+        {
+          "action": 6,
+          "gain": 25.0,
+          "score": 846
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 846
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 846
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 846
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 846
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 846
+        },
+        {
+          "action": 11,
+          "gain": 12.0,
+          "score": 858
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 858
+        },
+        {
+          "action": 5,
+          "gain": 91.0,
+          "score": 949
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 949
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 949
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 949
+        },
+        {
+          "action": 13,
+          "gain": 1.0,
+          "score": 950
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 950
+        },
+        {
+          "action": 3,
+          "gain": 36.0,
+          "score": 986
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 986
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 986
+        },
+        {
+          "action": 8,
+          "gain": 3.0,
+          "score": 989
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 989
+        },
+        {
+          "action": 12,
+          "gain": 6.0,
+          "score": 995
+        },
+        {
+          "action": 12,
+          "gain": 1.0,
+          "score": 996
+        },
+        {
+          "action": 1,
+          "gain": 9.0,
+          "score": 1005
+        },
+        {
+          "action": 2,
+          "gain": 26.0,
+          "score": 1031
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 1031
+        },
+        {
+          "action": 8,
+          "gain": 64.0,
+          "score": 1095
+        },
+        {
+          "action": 0,
+          "gain": 31.0,
+          "score": 1126
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1126
+        },
+        {
+          "action": 7,
+          "gain": 1.0,
+          "score": 1127
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1127
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 1127
+        },
+        {
+          "action": 1,
+          "gain": 3.0,
+          "score": 1130
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1130
+        },
+        {
+          "action": 4,
+          "gain": 16.0,
+          "score": 1146
+        },
+        {
+          "action": 2,
+          "gain": 62.0,
+          "score": 1208
+        },
+        {
+          "action": 1,
+          "gain": 6.0,
+          "score": 1214
+        },
+        {
+          "action": 6,
+          "gain": 15.0,
+          "score": 1229
+        },
+        {
+          "action": 0,
+          "gain": 10.0,
+          "score": 1239
+        },
+        {
+          "action": 1,
+          "gain": 36.0,
+          "score": 1275
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 1275
+        },
+        {
+          "action": 10,
+          "gain": 28.0,
+          "score": 1303
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 1303
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 1303
+        },
+        {
+          "action": 5,
+          "gain": 9.0,
+          "score": 1312
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 1312
+        },
+        {
+          "action": 13,
+          "gain": 39.0,
+          "score": 1351
+        },
+        {
+          "action": 13,
+          "gain": 14.0,
+          "score": 1365
+        },
+        {
+          "action": 5,
+          "gain": 21.0,
+          "score": 1386
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1386
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1386
+        },
+        {
+          "action": 12,
+          "gain": 16.0,
+          "score": 1402
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 1402
+        },
+        {
+          "action": 9,
+          "gain": 36.0,
+          "score": 1438
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 1438
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 1438
+        },
+        {
+          "action": 5,
+          "gain": 16.0,
+          "score": 1454
+        },
+        {
+          "action": 10,
+          "gain": 9.0,
+          "score": 1463
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 1463
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 1463
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1463
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 1463
+        },
+        {
+          "action": 11,
+          "gain": 1.0,
+          "score": 1464
+        },
+        {
+          "action": 9,
+          "gain": 3.0,
+          "score": 1467
+        },
+        {
+          "action": 9,
+          "gain": 16.0,
+          "score": 1483
+        },
+        {
+          "action": 1,
+          "gain": 3.0,
+          "score": 1486
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 1492
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1492
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1492
+        },
+        {
+          "action": 14,
+          "gain": 77.0,
+          "score": 1569
+        },
+        {
+          "action": 12,
+          "gain": 16.0,
+          "score": 1585
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 1585
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 1585
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1585
+        },
+        {
+          "action": 0,
+          "gain": 22.0,
+          "score": 1607
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1607
+        },
+        {
+          "action": 12,
+          "gain": 15.0,
+          "score": 1622
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1622
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 1622
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 1622
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 1622
+        },
+        {
+          "action": 6,
+          "gain": 39.0,
+          "score": 1661
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 1661
+        },
+        {
+          "action": 13,
+          "gain": 10.0,
+          "score": 1671
+        },
+        {
+          "action": 13,
+          "gain": 7.0,
+          "score": 1678
+        },
+        {
+          "action": 8,
+          "gain": 10.0,
+          "score": 1688
+        },
+        {
+          "action": 7,
+          "gain": 15.0,
+          "score": 1703
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 1703
+        },
+        {
+          "action": 8,
+          "gain": 200.0,
+          "score": 1903
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 1903
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 1903
+        },
+        {
+          "action": 9,
+          "gain": 4.0,
+          "score": 1907
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 1907
+        },
+        {
+          "action": 3,
+          "gain": 25.0,
+          "score": 1932
+        },
+        {
+          "action": 12,
+          "gain": 10.0,
+          "score": 1942
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 1942
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 1942
+        },
+        {
+          "action": 11,
+          "gain": 21.0,
+          "score": 1963
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 1973
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 1973
+        },
+        {
+          "action": 13,
+          "gain": 1.0,
+          "score": 1974
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 1974
+        },
+        {
+          "action": 12,
+          "gain": 3.0,
+          "score": 1977
+        },
+        {
+          "action": 3,
+          "gain": 3.0,
+          "score": 1980
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 1980
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1980
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 1980
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 1980
+        },
+        {
+          "action": 0,
+          "gain": 56.0,
+          "score": 2036
+        },
+        {
+          "action": 9,
+          "gain": 10.0,
+          "score": 2046
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 2046
+        },
+        {
+          "action": 3,
+          "gain": 10.0,
+          "score": 2056
+        },
+        {
+          "action": 1,
+          "gain": 36.0,
+          "score": 2092
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 2092
+        },
+        {
+          "action": 5,
+          "gain": 6.0,
+          "score": 2098
+        },
+        {
+          "action": 11,
+          "gain": 1.0,
+          "score": 2099
+        },
+        {
+          "action": 5,
+          "gain": 10.0,
+          "score": 2109
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 2109
+        },
+        {
+          "action": 0,
+          "gain": 15.0,
+          "score": 2124
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 2124
+        },
+        {
+          "action": 8,
+          "gain": 1.0,
+          "score": 2125
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 2125
+        },
+        {
+          "action": 4,
+          "gain": 6.0,
+          "score": 2131
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2131
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 2131
+        },
+        {
+          "action": 11,
+          "gain": 4.0,
+          "score": 2135
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2135
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 2135
+        },
+        {
+          "action": 4,
+          "gain": 15.0,
+          "score": 2150
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 2150
+        },
+        {
+          "action": 4,
+          "gain": 22.0,
+          "score": 2172
+        },
+        {
+          "action": 11,
+          "gain": 37.0,
+          "score": 2209
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 2209
+        },
+        {
+          "action": 13,
+          "gain": 34.0,
+          "score": 2243
+        },
+        {
+          "action": 9,
+          "gain": 1.0,
+          "score": 2244
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 2245
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 2245
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 2245
+        },
+        {
+          "action": 14,
+          "gain": 55.0,
+          "score": 2300
+        },
+        {
+          "action": 7,
+          "gain": 28.0,
+          "score": 2328
+        },
+        {
+          "action": 0,
+          "gain": 3.0,
+          "score": 2331
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 2331
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 2331
+        },
+        {
+          "action": 12,
+          "gain": 6.0,
+          "score": 2337
+        },
+        {
+          "action": 1,
+          "gain": 1.0,
+          "score": 2338
+        },
+        {
+          "action": 8,
+          "gain": 10.0,
+          "score": 2348
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 2351
+        },
+        {
+          "action": 1,
+          "gain": 16.0,
+          "score": 2367
+        },
+        {
+          "action": 14,
+          "gain": 15.0,
+          "score": 2382
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 2382
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 2382
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 2382
+        },
+        {
+          "action": 14,
+          "gain": 26.0,
+          "score": 2408
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2408
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 2408
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 2408
+        },
+        {
+          "action": 7,
+          "gain": 34.0,
+          "score": 2442
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 2442
+        },
+        {
+          "action": 0,
+          "gain": 10.0,
+          "score": 2452
+        },
+        {
+          "action": 7,
+          "gain": 36.0,
+          "score": 2488
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 2488
+        },
+        {
+          "action": 3,
+          "gain": 3.0,
+          "score": 2491
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2491
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2491
+        },
+        {
+          "action": 11,
+          "gain": 10.0,
+          "score": 2501
+        },
+        {
+          "action": 12,
+          "gain": 3.0,
+          "score": 2504
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 2504
+        },
+        {
+          "action": 0,
+          "gain": 3.0,
+          "score": 2507
+        },
+        {
+          "action": 6,
+          "gain": 1.0,
+          "score": 2508
+        },
+        {
+          "action": 8,
+          "gain": 36.0,
+          "score": 2544
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 2544
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 2544
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 2544
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 2544
+        },
+        {
+          "action": 5,
+          "gain": 28.0,
+          "score": 2572
+        },
+        {
+          "action": 2,
+          "gain": 15.0,
+          "score": 2587
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 2587
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 2587
+        },
+        {
+          "action": 1,
+          "gain": 10.0,
+          "score": 2597
+        },
+        {
+          "action": 9,
+          "gain": 16.0,
+          "score": 2613
+        },
+        {
+          "action": 3,
+          "gain": 36.0,
+          "score": 2649
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 2649
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 2649
+        },
+        {
+          "action": 1,
+          "gain": 6.0,
+          "score": 2655
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 2655
+        },
+        {
+          "action": 1,
+          "gain": 31.0,
+          "score": 2686
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 2686
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 2686
+        },
+        {
+          "action": 1,
+          "gain": 10.0,
+          "score": 2696
+        },
+        {
+          "action": 1,
+          "gain": 64.0,
+          "score": 2760
+        },
+        {
+          "action": 14,
+          "gain": 3.0,
+          "score": 2763
+        },
+        {
+          "action": 0,
+          "gain": 64.0,
+          "score": 2827
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 2827
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2827
+        },
+        {
+          "action": 6,
+          "gain": 6.0,
+          "score": 2833
+        },
+        {
+          "action": 3,
+          "gain": 82.0,
+          "score": 2915
+        },
+        {
+          "action": 7,
+          "gain": 10.0,
+          "score": 2925
+        },
+        {
+          "action": 4,
+          "gain": 3.0,
+          "score": 2928
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 2928
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 2928
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 2928
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 2928
+        },
+        {
+          "action": 4,
+          "gain": 19.0,
+          "score": 2947
+        },
+        {
+          "action": 14,
+          "gain": 10.0,
+          "score": 2957
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 2957
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 2957
+        },
+        {
+          "action": 8,
+          "gain": 3.0,
+          "score": 2960
+        },
+        {
+          "action": 12,
+          "gain": 15.0,
+          "score": 2975
+        },
+        {
+          "action": 6,
+          "gain": 15.0,
+          "score": 2990
+        },
+        {
+          "action": 12,
+          "gain": 6.0,
+          "score": 2996
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2996
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 2996
+        },
+        {
+          "action": 11,
+          "gain": 83.0,
+          "score": 3079
+        },
+        {
+          "action": 7,
+          "gain": 10.0,
+          "score": 3089
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 3089
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 3089
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3089
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 3089
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 3089
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3089
+        },
+        {
+          "action": 14,
+          "gain": 31.0,
+          "score": 3120
+        },
+        {
+          "action": 14,
+          "gain": 4.0,
+          "score": 3124
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 3124
+        },
+        {
+          "action": 14,
+          "gain": 37.0,
+          "score": 3161
+        },
+        {
+          "action": 0,
+          "gain": 10.0,
+          "score": 3171
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 3171
+        },
+        {
+          "action": 14,
+          "gain": 11.0,
+          "score": 3182
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 3182
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 3182
+        },
+        {
+          "action": 10,
+          "gain": 74.0,
+          "score": 3256
+        },
+        {
+          "action": 14,
+          "gain": 6.0,
+          "score": 3262
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 3262
+        },
+        {
+          "action": 13,
+          "gain": 16.0,
+          "score": 3278
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3278
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 3278
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 3278
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 3278
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 3278
+        },
+        {
+          "action": 2,
+          "gain": 25.0,
+          "score": 3303
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 3303
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 3303
+        },
+        {
+          "action": 2,
+          "gain": 15.0,
+          "score": 3318
+        },
+        {
+          "action": 1,
+          "gain": 52.0,
+          "score": 3370
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 3370
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 3370
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 3370
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 3370
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 3370
+        },
+        {
+          "action": 11,
+          "gain": 0.0,
+          "score": 3370
+        },
+        {
+          "action": 9,
+          "gain": 9.0,
+          "score": 3379
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 3379
+        },
+        {
+          "action": 9,
+          "gain": 56.0,
+          "score": 3435
+        },
+        {
+          "action": 5,
+          "gain": 4.0,
+          "score": 3439
+        },
+        {
+          "action": 2,
+          "gain": 36.0,
+          "score": 3475
+        },
+        {
+          "action": 5,
+          "gain": 16.0,
+          "score": 3491
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 3491
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 3491
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 3491
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 3491
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 3491
+        },
+        {
+          "action": 1,
+          "gain": 0.0,
+          "score": 3491
+        },
+        {
+          "action": 6,
+          "gain": 81.0,
+          "score": 3572
+        },
+        {
+          "action": 11,
+          "gain": 44.0,
+          "score": 3616
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3616
+        },
+        {
+          "action": 0,
+          "gain": 1.0,
+          "score": 3617
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 3617
+        },
+        {
+          "action": 0,
+          "gain": 15.0,
+          "score": 3632
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 3632
+        },
+        {
+          "action": 1,
+          "gain": 3.0,
+          "score": 3635
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 3635
+        },
+        {
+          "action": 11,
+          "gain": 48.0,
+          "score": 3683
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 3683
+        },
+        {
+          "action": 9,
+          "gain": 15.0,
+          "score": 3698
+        },
+        {
+          "action": 0,
+          "gain": 1.0,
+          "score": 3699
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 3699
+        },
+        {
+          "action": 8,
+          "gain": 95.0,
+          "score": 3794
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 3794
+        },
+        {
+          "action": 14,
+          "gain": 70.0,
+          "score": 3864
+        },
+        {
+          "action": 6,
+          "gain": 6.0,
+          "score": 3870
+        },
+        {
+          "action": 7,
+          "gain": 0.0,
+          "score": 3870
+        },
+        {
+          "action": 14,
+          "gain": 55.0,
+          "score": 3925
+        },
+        {
+          "action": 14,
+          "gain": 7.0,
+          "score": 3932
+        },
+        {
+          "action": 7,
+          "gain": 55.0,
+          "score": 3987
+        },
+        {
+          "action": 12,
+          "gain": 3.0,
+          "score": 3990
+        },
+        {
+          "action": 12,
+          "gain": 16.0,
+          "score": 4006
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 4006
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 4006
+        },
+        {
+          "action": 2,
+          "gain": 10.0,
+          "score": 4016
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 4016
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 4016
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 4016
+        },
+        {
+          "action": 8,
+          "gain": 16.0,
+          "score": 4032
+        },
+        {
+          "action": 12,
+          "gain": 15.0,
+          "score": 4047
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 4047
+        },
+        {
+          "action": 0,
+          "gain": 25.0,
+          "score": 4072
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 4072
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 4072
+        },
+        {
+          "action": 3,
+          "gain": 10.0,
+          "score": 4082
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 4082
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 4082
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 4082
+        },
+        {
+          "action": 2,
+          "gain": 6.0,
+          "score": 4088
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 4088
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 4088
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 4088
+        },
+        {
+          "action": 9,
+          "gain": 15.0,
+          "score": 4103
+        },
+        {
+          "action": 1,
+          "gain": 9.0,
+          "score": 4112
+        },
+        {
+          "action": 6,
+          "gain": 1.0,
+          "score": 4113
+        },
+        {
+          "action": 6,
+          "gain": 15.0,
+          "score": 4128
+        },
+        {
+          "action": 2,
+          "gain": 1.0,
+          "score": 4129
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 4129
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 4129
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 4129
+        },
+        {
+          "action": 4,
+          "gain": 10.0,
+          "score": 4139
+        },
+        {
+          "action": 9,
+          "gain": 1.0,
+          "score": 4140
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 4140
+        },
+        {
+          "action": 12,
+          "gain": 3.0,
+          "score": 4143
+        },
+        {
+          "action": 1,
+          "gain": 36.0,
+          "score": 4179
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 4179
+        },
+        {
+          "action": 14,
+          "gain": 0.0,
+          "score": 4179
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 4179
+        },
+        {
+          "action": 10,
+          "gain": 42.0,
+          "score": 4221
+        },
+        {
+          "action": 7,
+          "gain": 10.0,
+          "score": 4231
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 4231
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 4231
+        },
+        {
+          "action": 8,
+          "gain": 0.0,
+          "score": 4231
+        },
+        {
+          "action": 5,
+          "gain": 10.0,
+          "score": 4241
+        },
+        {
+          "action": 10,
+          "gain": 15.0,
+          "score": 4256
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 4256
+        },
+        {
+          "action": 2,
+          "gain": 6.0,
+          "score": 4262
+        },
+        {
+          "action": 1,
+          "gain": 46.0,
+          "score": 4308
+        },
+        {
+          "action": 0,
+          "gain": 1.0,
+          "score": 4309
+        },
+        {
+          "action": 0,
+          "gain": 0.0,
+          "score": 4309
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 4309
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 4309
+        },
+        {
+          "action": 4,
+          "gain": 15.0,
+          "score": 4324
+        },
+        {
+          "action": 3,
+          "gain": 0.0,
+          "score": 4324
+        },
+        {
+          "action": 4,
+          "gain": 6.0,
+          "score": 4330
+        },
+        {
+          "action": 0,
+          "gain": 74.0,
+          "score": 4404
+        },
+        {
+          "action": 3,
+          "gain": 3.0,
+          "score": 4407
+        },
+        {
+          "action": 10,
+          "gain": 6.0,
+          "score": 4413
+        },
+        {
+          "action": 7,
+          "gain": 10.0,
+          "score": 4423
+        },
+        {
+          "action": 12,
+          "gain": 0.0,
+          "score": 4423
+        },
+        {
+          "action": 7,
+          "gain": 64.0,
+          "score": 4487
+        },
+        {
+          "action": 5,
+          "gain": 3.0,
+          "score": 4490
+        },
+        {
+          "action": 14,
+          "gain": 90.0,
+          "score": 4580
+        },
+        {
+          "action": 13,
+          "gain": 6.0,
+          "score": 4586
+        },
+        {
+          "action": 10,
+          "gain": 0.0,
+          "score": 4586
+        },
+        {
+          "action": 12,
+          "gain": 13.0,
+          "score": 4599
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 4599
+        },
+        {
+          "action": 13,
+          "gain": 0.0,
+          "score": 4599
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 4599
+        },
+        {
+          "action": 4,
+          "gain": 25.0,
+          "score": 4624
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 4624
+        },
+        {
+          "action": 9,
+          "gain": 0.0,
+          "score": 4624
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 4624
+        },
+        {
+          "action": 6,
+          "gain": 0.0,
+          "score": 4624
+        },
+        {
+          "action": 4,
+          "gain": 24.0,
+          "score": 4648
+        },
+        {
+          "action": 7,
+          "gain": 10.0,
+          "score": 4658
+        },
+        {
+          "action": 14,
+          "gain": 1.0,
+          "score": 4659
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 4659
+        },
+        {
+          "action": 2,
+          "gain": 0.0,
+          "score": 4659
+        },
+        {
+          "action": 9,
+          "gain": 1.0,
+          "score": 4660
+        },
+        {
+          "action": 3,
+          "gain": 52.0,
+          "score": 4712
+        },
+        {
+          "action": 4,
+          "gain": 0.0,
+          "score": 4712
+        },
+        {
+          "action": 3,
+          "gain": 3.0,
+          "score": 4715
+        },
+        {
+          "action": 5,
+          "gain": 0.0,
+          "score": 4715
+        }
+      ]
+    },
+    {
+      "seed": 20271402,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 2762,
+        "highest": 10,
+        "length": 280,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2762,
+        "highest": 10,
+        "length": 280,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271402,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 3217,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4200,
+        "highest": 10,
+        "length": 398,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271402,
+      "method": "exact",
+      "profile": "joint",
+      "common": {
+        "score": 3221,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4870,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271403,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3147,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3216,
+        "highest": 10,
+        "length": 314,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271403,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 3104,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3296,
+        "highest": 10,
+        "length": 318,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271403,
+      "method": "exact",
+      "profile": "joint",
+      "common": {
+        "score": 3312,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4185,
+        "highest": 10,
+        "length": 394,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271404,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 1859,
+        "highest": 9,
+        "length": 199,
+        "overflow": true
+      },
+      "extended": {
+        "score": 1859,
+        "highest": 9,
+        "length": 199,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271404,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 1933,
+        "highest": 9,
+        "length": 208,
+        "overflow": true
+      },
+      "extended": {
+        "score": 1933,
+        "highest": 9,
+        "length": 208,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271404,
+      "method": "exact",
+      "profile": "joint",
+      "common": {
+        "score": 3171,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4924,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271405,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 2086,
+        "highest": 9,
+        "length": 221,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2086,
+        "highest": 9,
+        "length": 221,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271405,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 3057,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3553,
+        "highest": 10,
+        "length": 345,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271405,
+      "method": "exact",
+      "profile": "joint",
+      "common": {
+        "score": 3168,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4578,
+        "highest": 10,
+        "length": 434,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271406,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 2940,
+        "highest": 10,
+        "length": 281,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2940,
+        "highest": 10,
+        "length": 281,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271406,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2257,
+        "highest": 9,
+        "length": 244,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2257,
+        "highest": 9,
+        "length": 244,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271406,
+      "method": "exact",
+      "profile": "joint",
+      "common": {
+        "score": 3147,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4565,
+        "highest": 10,
+        "length": 432,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271407,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3128,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3189,
+        "highest": 10,
+        "length": 316,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271407,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 3018,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3224,
+        "highest": 10,
+        "length": 328,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271408,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 2961,
+        "highest": 10,
+        "length": 291,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2961,
+        "highest": 10,
+        "length": 291,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271408,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2950,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3956,
+        "highest": 10,
+        "length": 383,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271409,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 2946,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3461,
+        "highest": 10,
+        "length": 349,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271409,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2948,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3236,
+        "highest": 10,
+        "length": 326,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271410,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3036,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3107,
+        "highest": 10,
+        "length": 308,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271410,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2383,
+        "highest": 9,
+        "length": 253,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2383,
+        "highest": 9,
+        "length": 253,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271411,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3130,
+        "highest": 10,
+        "length": 290,
+        "overflow": true
+      },
+      "extended": {
+        "score": 3130,
+        "highest": 10,
+        "length": 290,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271411,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2214,
+        "highest": 9,
+        "length": 228,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2214,
+        "highest": 9,
+        "length": 228,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271412,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3207,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3461,
+        "highest": 10,
+        "length": 333,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271412,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2986,
+        "highest": 10,
+        "length": 292,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2986,
+        "highest": 10,
+        "length": 292,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271413,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3206,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3252,
+        "highest": 10,
+        "length": 307,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271413,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2137,
+        "highest": 9,
+        "length": 219,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2137,
+        "highest": 9,
+        "length": 219,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271414,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3229,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3542,
+        "highest": 10,
+        "length": 346,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271414,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2004,
+        "highest": 9,
+        "length": 217,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2004,
+        "highest": 9,
+        "length": 217,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271415,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 2969,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3206,
+        "highest": 10,
+        "length": 316,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271415,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2221,
+        "highest": 9,
+        "length": 252,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2221,
+        "highest": 9,
+        "length": 252,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271416,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3061,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3668,
+        "highest": 10,
+        "length": 362,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271416,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 3068,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3496,
+        "highest": 10,
+        "length": 347,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271417,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 2778,
+        "highest": 10,
+        "length": 276,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2778,
+        "highest": 10,
+        "length": 276,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271417,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2894,
+        "highest": 10,
+        "length": 287,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2894,
+        "highest": 10,
+        "length": 287,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271418,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3169,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3681,
+        "highest": 10,
+        "length": 348,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271418,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2974,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3330,
+        "highest": 10,
+        "length": 330,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271419,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 2899,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3013,
+        "highest": 10,
+        "length": 320,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271419,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2892,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3160,
+        "highest": 10,
+        "length": 318,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271420,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 2571,
+        "highest": 10,
+        "length": 234,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2571,
+        "highest": 10,
+        "length": 234,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271420,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 1668,
+        "highest": 9,
+        "length": 183,
+        "overflow": true
+      },
+      "extended": {
+        "score": 1668,
+        "highest": 9,
+        "length": 183,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271421,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3022,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3042,
+        "highest": 10,
+        "length": 303,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271421,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 3133,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3584,
+        "highest": 10,
+        "length": 353,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271422,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 2825,
+        "highest": 10,
+        "length": 287,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2825,
+        "highest": 10,
+        "length": 287,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271422,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 3098,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3884,
+        "highest": 10,
+        "length": 402,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271423,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 3091,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3815,
+        "highest": 10,
+        "length": 374,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271423,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 2486,
+        "highest": 9,
+        "length": 267,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2486,
+        "highest": 9,
+        "length": 267,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271424,
+      "method": "robust",
+      "profile": "joint",
+      "common": {
+        "score": 1986,
+        "highest": 9,
+        "length": 221,
+        "overflow": true
+      },
+      "extended": {
+        "score": 1986,
+        "highest": 9,
+        "length": 221,
+        "overflow": true
+      },
+      "decisions": []
+    },
+    {
+      "seed": 20271424,
+      "method": "fixed",
+      "profile": "joint",
+      "common": {
+        "score": 3120,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3404,
+        "highest": 10,
+        "length": 347,
+        "overflow": true
+      },
+      "decisions": []
+    }
+  ],
+  "within_board_repeat": [],
+  "budget": {
+    "fixed": {
+      "mean": 18,
+      "maximum": 18
+    }
+  },
+  "seconds": 454.7154839860159,
+  "exact_seeds": [
+    20271401,
+    20271402,
+    20271403,
+    20271404,
+    20271405,
+    20271406
+  ]
+}

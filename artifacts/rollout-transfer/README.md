@@ -19,3 +19,44 @@ Six fresh development fruit seeds were played under both clean and joint profile
 ## Matched diagnostic forecasts
 
 On 45 boards from the first six held-out fruit seeds under each profile, the diagnostic holds candidates and hypothetical fruit sequences fixed and changes only the simulated starting state and physics. In clean games, using the true board and velocities changed 15 of 23 winners. In joint games it changed 19 of 22. Switching that exact board to the episode's actual physics changed 18 of 22 joint winners again. In joint games mean utility regret against the exact-board, actual-physics forecast shrank from 31.4 to 26.8 points with the true starting board alone. These measurements use local counterfactuals. [Matched state and physics diagnostic](diagnostics.json)
+
+## Held-out paired evaluation
+
+The full comparison uses 24 fresh fruit sequences per profile, paired across robust and the frozen fixed reconstructed planner. The rows at 300 are snapshots of the same episodes that run through overflow or 450 drops. The rightmost column counts games alive at that horizon. Latency includes candidate selection and the rollout calculation, after warming each method before timing. The 12-worker held-out run took 455 seconds.
+
+| Profile and horizon | Robust | Reconstructed | Paired change | Rollout wins / ties / losses | Above 3,000, robust / rollout | Alive at cap, robust / rollout |
+| --- | ---: | ---: | ---: | --- | --- | --- |
+| Clean, 300 | 3,087.5 | 3,099.8 | +12.3 | 11 / 0 / 13 | 19/24 / 20/24 | 19 / 22 |
+| Clean, 450 | 3,626.5 | 3,723.8 | +97.3 | 13 / 0 / 11 | 21/24 / 22/24 | 1 / 2 |
+| Joint, 300 | 2,883.1 | 2,688.9 | −194.2 | 9 / 0 / 15 | 12/24 / 8/24 | 14 / 12 |
+| Joint, 450 | 3,047.9 | 2,928.3 | −119.7 | 11 / 0 / 13 | 15/24 / 12/24 | 0 / 0 |
+
+On the primary joint extended metric, robust took **9.8 ms median / 26.0 ms p95** and reconstructed search took **190.5 ms / 422.4 ms**. On the clean extended metric the times were 9.7 / 25.9 ms and 182.7 / 388.9 ms. Reconstructed search used exactly 18 branches per timed decision. [Episode data and cap seeds](results.json)
+
+### Exact-state matching subset
+
+The original exact-state teacher ran on the first six held-out seeds per profile. The table compares all three methods on those same seeds. The exact-state teacher has access to the true starting positions, velocities, dynamics and visible-preview state and uses the previous teacher's own joint vision rollout path. The matched forecast audit above isolates changes to starting state and physics with identical hypothetical tails.
+
+| Profile and horizon | Robust | Reconstructed | Exact |
+| --- | ---: | ---: | ---: |
+| Clean, 300 | 2,973.3 | 3,159.8 | 3,202.7 |
+| Clean, 450 | 3,344.2 | 3,527.5 | 4,657.7 |
+| Joint, 300 | 2,663.5 | 2,723.3 | 3,184.7 |
+| Joint, 450 | 2,743.7 | 3,001.8 | 4,639.5 |
+
+The joint exact-state teacher beat robust on all six extended pairs and three exact-state episodes reached the 450-drop cap alive. Exact-state access therefore preserved most of the teacher's usable advantage under perturbations. The six-seed reconstructed subset was positive, while the full 24-seed paired effect was negative. The matched forecasts found both starting-board mismatch and dynamics mismatch. A practical next test is to measure transfer with motion tracked over multiple screenshots and physics sampled during search, checking each change against the same exact-state reference.
+
+The live gate required a positive mean change on the **full held-out joint extended evaluation**. Reconstructed search fell short, so **zero website attempts were run**. The 3,000-point website threshold remains unverified.
+
+## Reproduce
+
+```bash
+.venv/bin/python -m flymerge.rollout_eval develop --workers 12
+.venv/bin/python -m flymerge.rollout_eval evaluate --workers 12
+.venv/bin/python -m flymerge.rollout_diagnostics
+.venv/bin/python -m flymerge.rollout_video
+.venv/bin/python -m flymerge.rollout_video --verify
+.venv/bin/python -m unittest discover -s tests -v
+```
+
+The browser adapter exposes `--rollout-mode fixed` and `adaptive`. The gated live runner allows natural game over within 1,500 seconds per attempt and uses the existing screenshot and aim checks. The predeclared showcase seed is 20271401 with the joint profile.
