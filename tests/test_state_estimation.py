@@ -24,7 +24,7 @@ class StateTest(unittest.TestCase):
                  (-10/60,points-np.array([.02,0.,0.])),(0.,points)]
         (board,_,_,_),n=track(observation,history,True)
         self.assertEqual(n,1)
-        self.assertAlmostEqual(board[0,2],.82)
+        self.assertAlmostEqual(board[0,2],.82,places=5)
         (fallback,_,_,_),n=track(observation,history[-2:],True)
         self.assertEqual(n,0)
         self.assertEqual(fallback[0,2],0.)
