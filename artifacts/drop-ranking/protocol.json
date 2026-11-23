@@ -1,0 +1,11 @@
+{
+  "base": "bc06ddac9f3d16d7144f510cae3e9dae2f6bf6cb",
+  "horizon": 20,
+  "shared_future_sequences": 3,
+  "overflow_penalty": 150,
+  "continue_training_gate": "At least +100 mean points versus robust at 300 drops and a majority of paired clean development wins",
+  "audit_seed_range_inclusive": [20270801, 20270808],
+  "development_seed_range_inclusive": [20270901, 20270912],
+  "teacher_showcase_seed": 20270901,
+  "candidate_count": 6
+}
