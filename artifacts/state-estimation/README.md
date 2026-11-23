@@ -52,3 +52,7 @@ The 12-worker run took 16 minutes 48 seconds on the 16-core Intel Haswell host. 
 The best joint rollout variant used physics sampling. Its 3,042-point mean was 182 points below robust, so the website selection gate stayed closed and this experiment has no live scores. Center tracking raised the current rollout's extended mean by 150 points on joint boards. Combining the changes gave up those gains. On the six paired joint diagnostic seeds, tracking led the reconstructed runs at 3,034 points. Robust scored 3,203 and exact-state rollout scored 4,429. The exact-state method has access to local simulator information unavailable to the browser.
 
 [Per-episode results](results.json) include paired statistics at both horizons, cap seeds, and the decisions from the preselected replay.
+
+## Replay
+
+Open the [interactive replay](index.html) from a local checkout or play the [side-by-side MP4](comparison.mp4). The preselected joint seed `20271601` ended by overflow in both lanes. Robust scored 3,057 in 292 drops, and physics sampling scored 3,130 in 306 drops. The tracked-center overlay is diagnostic for this physics-only lane. The [manifest](comparison.json) identifies the checkpoint and playback timing.
