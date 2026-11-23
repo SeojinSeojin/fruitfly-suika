@@ -22,3 +22,33 @@ Run from the repository root with the existing CPU environment and frozen checkp
 ```
 
 When the held-out joint extended mean exceeds robust, `bash flymerge/run-state-live.sh` launches three headed browser attempts, each capped at 1,500 seconds.
+
+## Held-out results
+
+The 12-worker run took 16 minutes 48 seconds on the 16-core Intel Haswell host. Games use 24 joint and 12 clean fruit seeds, with six exact-state games per profile. The extended endpoint is natural overflow or 450 drops. Games that overflow before 300 carry their terminal score into the common-horizon comparison. Latency covers decision computation. Win, tie, and loss counts compare scores on matching seeds.
+
+###  Joint
+
+| Method | Mean at 300 | Extended mean | Δ vs robust | W/T/L | >3,000 | Alive at cap | Median/p95 ms |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| robust | 2,953.4 | 3,224.6 | +0.0 | 0/24/0 | 18/24 | 0 | 11.0/28.2 |
+| current | 2,737.1 | 2,872.2 | -352.5 | 9/0/15 | 13/24 | 0 | 180.5/396.0 |
+| tracking | 2,850.8 | 3,021.8 | -202.8 | 8/0/16 | 14/24 | 0 | 188.4/410.9 |
+| physics | 2,828.8 | 3,042.2 | -182.4 | 9/0/15 | 13/24 | 0 | 180.9/410.5 |
+| both | 2,704.1 | 2,869.5 | -355.2 | 7/0/17 | 10/24 | 0 | 185.6/415.9 |
+| exact | 3,318.5 | 4,428.5 | +1,225.2 | 5/1/0 | 6/6 | 1 | 411.8/618.5 |
+
+###  Clean
+
+| Method | Mean at 300 | Extended mean | Δ vs robust | W/T/L | >3,000 | Alive at cap | Median/p95 ms |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| robust | 3,087.2 | 3,460.2 | +0.0 | 0/12/0 | 10/12 | 0 | 10.0/25.2 |
+| current | 3,104.1 | 3,528.0 | +67.8 | 7/0/5 | 11/12 | 0 | 186.7/422.9 |
+| tracking | 3,224.2 | 3,901.2 | +441.1 | 7/0/5 | 12/12 | 1 | 173.8/387.9 |
+| physics | 3,072.8 | 3,353.2 | -106.9 | 5/0/7 | 9/12 | 0 | 179.4/399.0 |
+| both | 3,107.2 | 3,512.6 | +52.4 | 5/0/7 | 9/12 | 0 | 175.9/358.4 |
+| exact | 3,297.7 | 4,549.0 | +1,188.8 | 6/0/0 | 6/6 | 1 | 175.2/363.2 |
+
+The best joint rollout variant used physics sampling. Its 3,042-point mean was 182 points below robust, so the website selection gate stayed closed and this experiment has no live scores. Center tracking raised the current rollout's extended mean by 150 points on joint boards. Combining the changes gave up those gains. On the six paired joint diagnostic seeds, tracking led the reconstructed runs at 3,034 points. Robust scored 3,203 and exact-state rollout scored 4,429. The exact-state method has access to local simulator information unavailable to the browser.
+
+[Per-episode results](results.json) include paired statistics at both horizons, cap seeds, and the decisions from the preselected replay.
