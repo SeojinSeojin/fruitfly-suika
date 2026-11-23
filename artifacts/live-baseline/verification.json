@@ -1,0 +1,72 @@
+{
+  "checkpoint": "artifacts/transfer/checkpoints/flywire-seed11-final.pt",
+  "sha256": "b2316d67a4538d55f2270633497dfe521a1dfd29dfc3ba0406ab8733380e1e7f",
+  "captures": {
+    "attempt-1": {
+      "folder": "artifacts/live-baseline/attempt-1",
+      "outcome": "game over",
+      "final_score": 1813,
+      "drops": 200,
+      "actions_reproduced": 200,
+      "decisions": 200,
+      "release_interval_median_s": 4.891279482995742,
+      "release_interval_p95_s": 11.689353697992917,
+      "post_release_wait_median_s": 0.7516268785038847,
+      "post_release_wait_max_s": 0.7863643090095138,
+      "readiness_after_wait_median_s": 2.8125807622491266,
+      "recorded_frames": 2067,
+      "frames_by_tag": {
+        "settle": 1387,
+        "aim": 200,
+        "burst": 480
+      },
+      "missing_frame_files": 0
+    },
+    "attempt-2": {
+      "folder": "artifacts/live-baseline/attempt-2",
+      "outcome": "game over",
+      "final_score": 2040,
+      "drops": 222,
+      "actions_reproduced": 222,
+      "decisions": 222,
+      "release_interval_median_s": 4.9810823279985925,
+      "release_interval_p95_s": 17.30790993499977,
+      "post_release_wait_median_s": 0.7515416500027641,
+      "post_release_wait_max_s": 0.7792920420033624,
+      "readiness_after_wait_median_s": 2.8389062089991057,
+      "recorded_frames": 2335,
+      "frames_by_tag": {
+        "settle": 1578,
+        "aim": 222,
+        "burst": 535
+      },
+      "missing_frame_files": 0
+    },
+    "attempt-3": {
+      "folder": "artifacts/live-baseline/attempt-3",
+      "outcome": "fruit centers or ready cue remained uncertain",
+      "final_score": 1953,
+      "drops": 182,
+      "actions_reproduced": 182,
+      "decisions": 182,
+      "release_interval_median_s": 4.748492175000138,
+      "release_interval_p95_s": 11.11941465100972,
+      "post_release_wait_median_s": 0.751499509504356,
+      "post_release_wait_max_s": 0.7759895259951008,
+      "readiness_after_wait_median_s": 2.762983328750124,
+      "recorded_frames": 1946,
+      "frames_by_tag": {
+        "settle": 1294,
+        "aim": 182,
+        "burst": 470
+      },
+      "missing_frame_files": 0
+    },
+    "archived-robust-1673": {
+      "folder": "artifacts/planner/website",
+      "decisions": 174,
+      "release_interval_median_s": 4.80528507794952,
+      "release_interval_p95_s": 13.883871462999378
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "note": "Exploratory: site radii with horizontal drag per tick as a friction proxy; not selected by the holdout rule",
+  "results": {
+    "0.97": {
+      "attempt-1": {
+        "n": 199,
+        "exact": 45,
+        "increase": 110,
+        "sim_only": 85,
+        "site_only": 4,
+        "board_alone": 141,
+        "mae": 37.3
+      },
+      "attempt-2": {
+        "n": 221,
+        "exact": 56,
+        "increase": 128,
+        "sim_only": 92,
+        "site_only": 1,
+        "board_alone": 148,
+        "mae": 39.3
+      },
+      "attempt-3": {
+        "n": 181,
+        "exact": 76,
+        "increase": 118,
+        "sim_only": 62,
+        "site_only": 1,
+        "board_alone": 89,
+        "mae": 27.1
+      }
+    },
+    "0.8": {
+      "attempt-1": {
+        "n": 199,
+        "exact": 51,
+        "increase": 114,
+        "sim_only": 81,
+        "site_only": 4,
+        "board_alone": 135,
+        "mae": 33.0
+      },
+      "attempt-2": {
+        "n": 221,
+        "exact": 62,
+        "increase": 132,
+        "sim_only": 88,
+        "site_only": 1,
+        "board_alone": 147,
+        "mae": 36.3
+      },
+      "attempt-3": {
+        "n": 181,
+        "exact": 81,
+        "increase": 123,
+        "sim_only": 56,
+        "site_only": 2,
+        "board_alone": 89,
+        "mae": 25.3
+      }
+    },
+    "0.5": {
+      "attempt-1": {
+        "n": 199,
+        "exact": 50,
+        "increase": 112,
+        "sim_only": 80,
+        "site_only": 7,
+        "board_alone": 135,
+        "mae": 31.8
+      },
+      "attempt-2": {
+        "n": 221,
+        "exact": 63,
+        "increase": 133,
+        "sim_only": 86,
+        "site_only": 2,
+        "board_alone": 144,
+        "mae": 36.8
+      },
+      "attempt-3": {
+        "n": 181,
+        "exact": 84,
+        "increase": 127,
+        "sim_only": 51,
+        "site_only": 3,
+        "board_alone": 84,
+        "mae": 24.6
+      }
+    }
+  }
+}

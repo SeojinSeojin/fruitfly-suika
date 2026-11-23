@@ -1,0 +1,65 @@
+{
+  "note": "Exploratory: detected board relaxed 80 ticks with merging disabled and velocities zeroed, then the executed drop replayed for 80 ticks. Not selected by the holdout rule.",
+  "results": {
+    "attempt-1": {
+      "nominal radii": {
+        "n": 199,
+        "exact": 40,
+        "increase": 107,
+        "sim_only": 90,
+        "site_only": 2,
+        "board_alone": 148,
+        "mae": 42.8
+      },
+      "site radii": {
+        "n": 199,
+        "exact": 44,
+        "increase": 109,
+        "sim_only": 86,
+        "site_only": 4,
+        "board_alone": 139,
+        "mae": 39.9
+      }
+    },
+    "attempt-2": {
+      "nominal radii": {
+        "n": 221,
+        "exact": 45,
+        "increase": 123,
+        "sim_only": 96,
+        "site_only": 2,
+        "board_alone": 163,
+        "mae": 45.4
+      },
+      "site radii": {
+        "n": 221,
+        "exact": 59,
+        "increase": 127,
+        "sim_only": 91,
+        "site_only": 3,
+        "board_alone": 145,
+        "mae": 41.1
+      }
+    },
+    "attempt-3": {
+      "nominal radii": {
+        "n": 181,
+        "exact": 71,
+        "increase": 112,
+        "sim_only": 68,
+        "site_only": 1,
+        "board_alone": 97,
+        "mae": 30.9
+      },
+      "site radii": {
+        "n": 181,
+        "exact": 74,
+        "increase": 118,
+        "sim_only": 62,
+        "site_only": 1,
+        "board_alone": 91,
+        "mae": 32.3
+      }
+    }
+  }
+}

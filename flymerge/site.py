@@ -17,6 +17,7 @@ from playwright.sync_api import sync_playwright
 
 URL = 'https://playsuikagame.com/ko'
 cv2.setNumThreads(1)
+RECORDER = None
 AD_HOSTS = ('doubleclick.net', 'googlesyndication.com', 'googleadservices.com',
             'adtrafficquality.google', 'adnxs.com', 'adsrvr.org')
 
@@ -144,6 +145,28 @@ class Vision:
         return result, float(covered[changed].mean())
 
 
+class Recorder:
+    """Save frames the adapter already captures; JPEG encoding runs off the control thread."""
+
+    def __init__(self, root, origin):
+        self.root = Path(root)
+        (self.root/'frames').mkdir(parents=True, exist_ok=True)
+        self.origin = origin
+        self.drop = 0
+        self.index = []
+        self.pool = ThreadPoolExecutor(max_workers=1)
+
+    def add(self, tag, captured, image):
+        t = captured-self.origin
+        name = f'frames/{self.drop:03}-{len(self.index):05}-{tag}.jpg'
+        self.index.append(dict(drop=self.drop, t=round(t, 4), tag=tag, image=name))
+        self.pool.submit(lambda: Image.fromarray(image).save(self.root/name, quality=80))
+
+    def close(self, extra):
+        self.pool.shutdown(wait=True)
+        json_file(self.root/'frames.json', dict(**extra, frames=self.index))
+
+
 def screenshot(page):
     return np.asarray(Image.open(io.BytesIO(page.screenshot(timeout=4000))).convert('RGB'))
 
@@ -162,6 +185,8 @@ def hand_pixels(pixels, box):
 def settling_frame(page, window):
     start = time.monotonic()
     image = screenshot(page)
+    if RECORDER is not None:
+        RECORDER.add('settle', (start+time.monotonic())/2, image)
     if window is not None:
         window.append(((start+time.monotonic())/2,image))
         del window[:-3]
@@ -314,6 +339,9 @@ def run(args):
             page = browser.new_page(service_workers='block', viewport={'width':1280,'height':900})
             page.route('**/*', filter_ad_requests)
             started = time.monotonic()
+            global RECORDER
+            if args.record:
+                RECORDER = Recorder(args.record, started)
             deadline = float("inf") if limit is None else started + limit
             page.goto(URL, wait_until='domcontentloaded', timeout=30000)
             board = page.locator('#game-container > canvas')
@@ -389,7 +417,8 @@ def run(args):
                 for attempt in range(4):
                     hand_image, left = hand_pixels(aimed, box)
                     check = vision.match(hand_image, [current], (.64,.68,.72), (0,), .047)
-                    error_px = abs(left+check[1]-target) if check else None
+                    hand_x = left+check[1] if check else None
+                    error_px = abs(hand_x-target) if check else None
                     if error_px is not None and error_px <= 13:
                         break
                     if page.locator('#restart-game').is_visible():
@@ -414,7 +443,12 @@ def run(args):
                                 score_before=integer_text(page, '#currentScore'), score=None,
                                 image=filename, timestamp=time.monotonic()-started)
                 activity_panel(page, graph, decision)
+                captured = time.monotonic()
                 aimed = screenshot(page)
+                decision['hand_x'] = None if hand_x is None else float(hand_x)
+                if RECORDER is not None:
+                    RECORDER.drop = number
+                    RECORDER.add('aim', (captured+time.monotonic())/2, aimed)
                 if time.monotonic() >= deadline:
                     result['outcome'] = 'time cap reached before release'
                     Image.fromarray(aimed).save(args.out/'end.png')
@@ -424,13 +458,31 @@ def run(args):
                     result['outcome'] = 'time cap reached before release'
                     (args.out/filename).rename(args.out/'time-cap.jpg')
                     break
+                clicked = time.monotonic()
                 page.mouse.click(target,y0-39)
+                released = time.monotonic()
+                decision['release_time'] = (clicked+released)/2-started
                 decisions.append(decision)
                 result['completed_drops'] = len(decisions)
-                page.wait_for_timeout(750)
+                if RECORDER is None:
+                    page.wait_for_timeout(750)
+                else:
+                    # Fill the same fixed 750 ms post-release wait with timestamped frames.
+                    RECORDER.drop = number
+                    cost = .05
+                    while time.monotonic()-released+cost < .75:
+                        captured = time.monotonic()
+                        image = screenshot(page)
+                        cost = time.monotonic()-captured
+                        RECORDER.add('burst', captured+cost/2, image)
+                    remaining = .75-(time.monotonic()-released)
+                    if remaining > 0:
+                        page.wait_for_timeout(remaining*1000)
+                    decision['post_release_wait'] = time.monotonic()-released
                 if window is not None:
                     window.clear()
                 pixels, hand, error = ready(page, vision, box, min(deadline, time.monotonic()+18),window)
+                decision['ready_time'] = time.monotonic()-started
                 if args.until_game_over and error in ('board stability timed out', 'visible current fruit timed out'):
                     pixels, hand, error = recover_ready(page, vision, box, background, min(deadline,time.monotonic()+70),window)
                 score = integer_text(page, '#final-score' if error == 'game over' else '#currentScore')
@@ -450,6 +502,8 @@ def run(args):
         result['outcome'] = f'{type(error).__name__}: {error}'
         raise
     finally:
+        if RECORDER is not None:
+            RECORDER.close(dict(board_bounds=result.get('board_bounds'), outcome=result['outcome']))
         for name in ('end.png', 'paused.png', 'time-cap.jpg'):
             if (args.out/name).exists():
                 result['final_capture'] = name
@@ -467,6 +521,7 @@ if __name__ == '__main__':
     parser.add_argument('--cache', type=Path, default=Path('data/site'))
     parser.add_argument('--out', type=Path, default=Path('artifacts/demo'))
     parser.add_argument('--replay-key', default='website')
+    parser.add_argument('--record', type=Path, help='save timestamped frames around each release')
     parser.add_argument('--state-mode',choices=['current','tracking','physics','both'])
     parser.add_argument('--state-config',type=Path,default=Path('artifacts/state-estimation/frozen.json'))
     parser.add_argument('--rollout-mode',choices=['fixed','adaptive'])

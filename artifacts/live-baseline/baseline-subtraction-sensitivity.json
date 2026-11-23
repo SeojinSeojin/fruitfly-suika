@@ -1,0 +1,59 @@
+{
+ "note": "Exploratory: predicted points minus the same board simulated without the drop, clipped at zero. Not selected by the holdout rule.",
+ "results": {
+  "attempt-1": {
+   "nominal minus no-drop": {
+    "n": 199,
+    "exact": 85,
+    "increase": 127,
+    "sim_only": 63,
+    "site_only": 9,
+    "mae": 15.8
+   },
+   "site radii minus no-drop": {
+    "n": 199,
+    "exact": 120,
+    "increase": 145,
+    "sim_only": 36,
+    "site_only": 18,
+    "mae": 11.6
+   }
+  },
+  "attempt-2": {
+   "nominal minus no-drop": {
+    "n": 221,
+    "exact": 101,
+    "increase": 140,
+    "sim_only": 65,
+    "site_only": 16,
+    "mae": 17.8
+   },
+   "site radii minus no-drop": {
+    "n": 221,
+    "exact": 126,
+    "increase": 158,
+    "sim_only": 47,
+    "site_only": 16,
+    "mae": 11.8
+   }
+  },
+  "attempt-3": {
+   "nominal minus no-drop": {
+    "n": 181,
+    "exact": 84,
+    "increase": 116,
+    "sim_only": 55,
+    "site_only": 10,
+    "mae": 16.7
+   },
+   "site radii minus no-drop": {
+    "n": 181,
+    "exact": 112,
+    "increase": 133,
+    "sim_only": 34,
+    "site_only": 14,
+    "mae": 9.3
+   }
+  }
+ }
+}
