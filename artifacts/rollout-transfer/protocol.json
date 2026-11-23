@@ -1,0 +1,14 @@
+{
+  "base": "ffd2d82029008f5ad98be4282d9489aba7321244",
+  "development_seeds_inclusive": [20271301, 20271306],
+  "held_out_seeds_inclusive": [20271401, 20271424],
+  "exact_state_subset_inclusive": [20271401, 20271406],
+  "showcase": 20271401,
+  "showcase_profile": "joint",
+  "development_model_selection": "highest joint extended mean among fixed and adaptive",
+  "live_gate": "selected reconstructed rollout mean exceeds robust mean in the held-out joint 450-drop evaluation",
+  "live_attempts": 3,
+  "live_wall_seconds_each": 1500,
+  "fixed_max_candidate_tails": 18,
+  "adaptive_max_candidate_tails": 48
+}
