@@ -30,11 +30,11 @@ def filter_ad_requests(route):
 
 
 class Vision:
-    def __init__(self, cache):
+    def __init__(self, cache, workers=8):
         cache.mkdir(parents=True, exist_ok=True)
         self.sprites = []
         self.templates = {}
-        self.pool = ThreadPoolExecutor(max_workers=8)
+        self.pool = ThreadPoolExecutor(max_workers=workers)
         for tier in range(11):
             path = cache / f'{tier}.png'
             if not path.exists():
@@ -269,8 +269,14 @@ def run(args):
         from .afterstate_model import restore_scorer
 
         scorer = restore_scorer(args.afterstate_checkpoint,graph)
+    rollout_models = None
+    if args.rollout_mode:
+        from .afterstate_model import restore_scorer
+
+        rollout_models = {k:restore_scorer(Path('artifacts/afterstate')/f'{k}.pt',graph)
+                          for k in ('compact','flywire')}
     limit = args.wall_seconds if args.wall_seconds is not None else (None if args.until_game_over else 600)
-    vision = Vision(args.cache)
+    vision = Vision(args.cache,args.vision_workers)
     rng = np.random.default_rng(args.action_seed)
     args.out.mkdir(parents=True, exist_ok=True)
     images = args.out / 'screens'
@@ -283,6 +289,9 @@ def run(args):
         result.update(strategy=f'afterstate-{scorer.kind}',value_checkpoint=str(args.afterstate_checkpoint),
                       future_weight=args.future_weight,overflow_penalty=args.overflow_penalty,
                       activity_input='selected simulated afterstate' if scorer.kind=='flywire' else 'pre-drop diagnostic')
+    if rollout_models:
+        result.update(strategy=f'rollout-{args.rollout_mode}',rollout_mode=args.rollout_mode,
+                      activity_input='pre-drop observation diagnostic',vision_workers=args.vision_workers)
     decisions = []
     try:
         with sync_playwright() as p:
@@ -326,7 +335,16 @@ def run(args):
                 next_tier = nxt[3] if nxt else -1
                 current = hand[3]
                 observation = observe([d[:3] for d in detected], current, next_tier)
-                if scorer:
+                if rollout_models:
+                    from .rollout_eval import rng_for
+                    from .rollout_transfer import choose
+
+                    drop = len(decisions)+1
+                    action, trace = choose(observation,model,rollout_models,args.action_seed+drop,
+                                           rng_for(args.action_seed,drop),args.rollout_mode)
+                    _, diagnostic = model.decide(observation,None,'greedy')
+                    trace.update(diagnostic)
+                elif scorer:
                     action, trace = scorer.decide(observation,args.future_weight,args.overflow_penalty,trace=True)
                     if 'steps' not in trace:
                         _, diagnostic = model.decide(observation,rng,'greedy')
@@ -418,6 +436,8 @@ if __name__ == '__main__':
     parser.add_argument('--cache', type=Path, default=Path('data/site'))
     parser.add_argument('--out', type=Path, default=Path('artifacts/demo'))
     parser.add_argument('--replay-key', default='website')
+    parser.add_argument('--rollout-mode',choices=['fixed','adaptive'])
+    parser.add_argument('--vision-workers',type=int,default=8)
     parser.add_argument('--wall-seconds',type=int)
     parser.add_argument('--afterstate-checkpoint',type=Path)
     parser.add_argument('--future-weight',type=float,default=1.)
@@ -427,6 +447,10 @@ if __name__ == '__main__':
     parser.add_argument('--strategy', choices=['sample','planning','hybrid','lookahead','robust'], default='sample')
     parser.add_argument('--action-seed', type=int, default=32833)
     args = parser.parse_args()
+    if args.vision_workers < 1:
+        parser.error('--vision-workers must be positive')
+    if args.rollout_mode and args.afterstate_checkpoint:
+        parser.error('Select one action scorer')
     if args.wall_seconds is not None and args.wall_seconds <= 0:
         parser.error('--wall-seconds must be positive')
     run(args)
