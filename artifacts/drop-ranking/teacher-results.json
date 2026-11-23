@@ -1,0 +1,456 @@
+{
+  "audit": {
+    "boards": 184,
+    "repeat_winner": 43,
+    "all_action_boards": 95,
+    "retained_winner": 48,
+    "seconds": 29.023329596035182
+  },
+  "summary": [
+    {
+      "horizon": "at_300",
+      "baseline": 3068.3333333333335,
+      "teacher": 3153.25,
+      "delta": 84.91666666666667,
+      "deltas": [
+        -21,
+        145,
+        289,
+        144,
+        75,
+        186,
+        -81,
+        42,
+        -99,
+        -126,
+        15,
+        450
+      ],
+      "wins": 8,
+      "ties": 0,
+      "losses": 4
+    },
+    {
+      "horizon": "extended",
+      "baseline": 3488.6666666666665,
+      "teacher": 4391.416666666667,
+      "delta": 902.75,
+      "deltas": [
+        -35,
+        1223,
+        1871,
+        9,
+        1437,
+        227,
+        1488,
+        1173,
+        1558,
+        -22,
+        679,
+        1225
+      ],
+      "wins": 10,
+      "ties": 0,
+      "losses": 2
+    }
+  ],
+  "latency_ms": {
+    "robust": [
+      9.109769016504288,
+      26.99614854936953
+    ],
+    "teacher": [
+      185.58448847034015,
+      406.470424408326
+    ]
+  },
+  "trained_ranker_eligible": false,
+  "workers": 12,
+  "seconds": 138.93085932102986,
+  "episodes": [
+    {
+      "method": "robust",
+      "seed": 20270901,
+      "at_300": {
+        "score": 3188,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4067,
+        "highest": 10,
+        "length": 380,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270901,
+      "at_300": {
+        "score": 3167,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4032,
+        "highest": 10,
+        "length": 396,
+        "overflow": true
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270902,
+      "at_300": {
+        "score": 3060,
+        "highest": 10,
+        "length": 297,
+        "overflow": true
+      },
+      "extended": {
+        "score": 3060,
+        "highest": 10,
+        "length": 297,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270902,
+      "at_300": {
+        "score": 3205,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4283,
+        "highest": 10,
+        "length": 415,
+        "overflow": true
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270903,
+      "at_300": {
+        "score": 2765,
+        "highest": 10,
+        "length": 277,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2765,
+        "highest": 10,
+        "length": 277,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270903,
+      "at_300": {
+        "score": 3054,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4636,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270904,
+      "at_300": {
+        "score": 2986,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3911,
+        "highest": 10,
+        "length": 373,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270904,
+      "at_300": {
+        "score": 3130,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3920,
+        "highest": 10,
+        "length": 375,
+        "overflow": true
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270905,
+      "at_300": {
+        "score": 3175,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3485,
+        "highest": 10,
+        "length": 334,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270905,
+      "at_300": {
+        "score": 3250,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4922,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270906,
+      "at_300": {
+        "score": 2994,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3898,
+        "highest": 10,
+        "length": 372,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270906,
+      "at_300": {
+        "score": 3180,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4125,
+        "highest": 10,
+        "length": 412,
+        "overflow": true
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270907,
+      "at_300": {
+        "score": 3216,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3229,
+        "highest": 10,
+        "length": 306,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270907,
+      "at_300": {
+        "score": 3135,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4717,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270908,
+      "at_300": {
+        "score": 3155,
+        "highest": 10,
+        "length": 293,
+        "overflow": true
+      },
+      "extended": {
+        "score": 3155,
+        "highest": 10,
+        "length": 293,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270908,
+      "at_300": {
+        "score": 3197,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4328,
+        "highest": 10,
+        "length": 413,
+        "overflow": true
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270909,
+      "at_300": {
+        "score": 3253,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3326,
+        "highest": 10,
+        "length": 305,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270909,
+      "at_300": {
+        "score": 3154,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4884,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270910,
+      "at_300": {
+        "score": 3119,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4625,
+        "highest": 10,
+        "length": 443,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270910,
+      "at_300": {
+        "score": 2993,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4603,
+        "highest": 10,
+        "length": 450,
+        "overflow": false
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270911,
+      "at_300": {
+        "score": 3131,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 3565,
+        "highest": 10,
+        "length": 352,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270911,
+      "at_300": {
+        "score": 3146,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4244,
+        "highest": 10,
+        "length": 404,
+        "overflow": true
+      }
+    },
+    {
+      "method": "robust",
+      "seed": 20270912,
+      "at_300": {
+        "score": 2778,
+        "highest": 10,
+        "length": 272,
+        "overflow": true
+      },
+      "extended": {
+        "score": 2778,
+        "highest": 10,
+        "length": 272,
+        "overflow": true
+      }
+    },
+    {
+      "method": "teacher",
+      "seed": 20270912,
+      "at_300": {
+        "score": 3228,
+        "highest": 10,
+        "length": 300,
+        "overflow": false
+      },
+      "extended": {
+        "score": 4003,
+        "highest": 10,
+        "length": 377,
+        "overflow": true
+      }
+    }
+  ]
+}

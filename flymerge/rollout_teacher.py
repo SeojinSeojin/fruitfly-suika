@@ -2,6 +2,7 @@
 import argparse
 from concurrent.futures import ProcessPoolExecutor
 import copy
+import gzip
 import json
 from pathlib import Path
 import time
@@ -245,9 +246,10 @@ def main(workers):
     json_file(ROOT/'teacher-results.json',dict(audit=audit,summary=rows,latency_ms=latency,
               trained_ranker_eligible=threshold,workers=workers,seconds=time.perf_counter()-start,
               episodes=[{k:v for k,v in row.items() if k!='decisions'} for pair in games for row in pair]))
-    import gzip
-    with gzip.open(ROOT/'teacher-ledger.json.gz','wt') as f:
+    with gzip.open(Path('runs')/'teacher-ledger.json.gz','wt') as f:
         json.dump(dict(audit=audits,games=games),f,separators=(',',':'))
+    with gzip.open(ROOT/'showcase-ledger.json.gz','wt') as f:
+        json.dump(next(rows for rows in games if rows[0]['seed']==SHOWCASE),f,separators=(',',':'))
     print(audit,rows,latency,threshold,flush=True)
 
 

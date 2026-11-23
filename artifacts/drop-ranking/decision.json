@@ -1,0 +1,12 @@
+{
+  "original_300_drop_gate_met": false,
+  "supervised_stage": "continue",
+  "reason": "The original 300-drop gate remained unmet. The requested criterion of useful gameplay improvement was met on the separately reported extended horizon, with a +902.75 mean gain and 10 wins in 12 paired games.",
+  "rollout_training_seeds_inclusive": [20271001, 20271032],
+  "rollout_development_seeds_inclusive": [20271101, 20271108],
+  "gameplay_and_independent_test_seeds_inclusive": [20271201, 20271224],
+  "learned_showcase_seed": 20271201,
+  "live_selection": "Best learned joint mean at 300 drops must exceed the paired robust mean and win a majority of the 24 pairs.",
+  "live_attempts_if_selected": 3,
+  "live_wall_seconds_each": 1500
+}
