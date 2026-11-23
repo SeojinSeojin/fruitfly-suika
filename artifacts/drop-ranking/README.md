@@ -55,3 +55,9 @@ Generated rollouts and raw arrays remain under `runs/`. The local commands use t
 .venv/bin/python -m flymerge.check_ranking_replay
 .venv/bin/python -m unittest discover -s tests -v
 ```
+
+## Showcase
+
+The predeclared fresh seed was 20271201 under joint perturbations. Robust reached 3,208 in 330 drops and the best learned method, FlyWire, reached 2,919 in 293. The interactive view jumps to drop 6. FlyWire aimed at slot 9 for zero immediate points. A one-drop fork of that same local board awarded 10 points for the robust aim at slot 15. The played FlyWire trajectory then earned 93 points over the following 20 drops. The viewer synchronizes the FlyWire circuit to the selected simulated afterstate for each FlyWire decision.
+
+FFmpeg decoded the 4.0 MB MP4. The verifier reproduced all 623 recorded decisions, immediate and cumulative scores, and circuit traces against the committed checkpoint hashes and per-episode results. Chromium verified playback, the disagreement and 20-drop seek controls, the terminal score, and the recurrent-step selector. All 21 unit tests passed.

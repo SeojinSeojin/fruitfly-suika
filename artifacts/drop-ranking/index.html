@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Counterfactual drop-ranking experiment</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui;background:#102022;color:#e2f0e8}
+main{max-width:1020px;margin:auto;padding:18px}video{width:100%;border-radius:8px}
+.controls,.panels{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.panels section{flex:1 1 300px;background:#172b2d;padding:12px;border-radius:8px;min-width:0}
+canvas{width:100%;height:auto}button,input{accent-color:#f7cc82}
+</style>
+<main>
+<h1>Paired drop-ranking replay</h1>
+<p id="meta">Loading replay</p>
+<video id="game" controls preload="metadata" src="comparison.mp4"></video>
+<div class="controls">
+<button id="back">Previous drop</button><button id="next">Next drop</button>
+<label>Drop <input id="drop" type="range" min="1" value="1"></label>
+<output id="scores"></output></div>
+<p id="illustration" hidden></p>
+<div class="controls">
+<button id="skip" hidden>Jump to the earlier choice</button><button id="later" hidden>Jump 20 drops ahead</button>
+</div>
+<h2>FlyWire ranker circuit inspection</h2>
+<p id="explain">Activity is relative to zero input. The trace uses the selected simulated afterstate and the next fruit visible before release.</p>
+<div class="controls">
+<label>FlyWire drop <input id="flyDrop" type="range" min="1" value="1"></label>
+<label>Recurrent step <input id="step" type="range" min="1" max="6" value="6"></label>
+<output id="flyScore"></output></div>
+<div class="panels">
+<section><h3>Selected simulated board</h3><canvas id="board" width="330" height="354"></canvas></section>
+<section><h3>Simulated circuit activity</h3><canvas id="circuit" width="460" height="300"></canvas></section>
+</div>
+</main>
+<script>window.replays={};</script>
+<script src="comparison.js"></script>
+<script>
+const id = name => document.getElementById(name);
+const game=id('game'), drop=id('drop'), flyDrop=id('flyDrop'), step=id('step');
+const fruits=['#ec786e','#eb9a59','#e5c356','#8dbf77','#61babc','#7b9cdd','#ad8ade','#db88b2','#ef9375','#d7c881','#a9ca71'];
+const radii=[13,16,22,25,33,43,48,58,65,81,94];
+async function start(){
+  const bytes=Uint8Array.from(atob(window.replays.comparison),c=>c.charCodeAt(0));
+  const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+  const data=await new Response(stream).json(), meta=data.meta;
+  const sequences=data.lanes;
+  const fly=sequences.flywire ?? sequences.learned;
+  const seconds=meta.frames_per_drop/meta.fps;
+  id('meta').textContent='Paired fruit seed '+meta.seed+' · joint physics and detector perturbations';
+  if(sequences.flywire) id('explain').textContent+=' The FlyWire scorer follows its own trajectory on the same fruit seed.';
+  drop.max=Math.max(sequences.A.length,sequences.learned.length); flyDrop.max=fly.length;
+  function paint(){
+    const row=fly[Math.min(fly.length,Number(flyDrop.value))-1];
+    const index=Number(step.value)-1;
+    id('flyScore').value='Drop '+row.drop+' · aim '+(row.action+1)+'/15 · score '+row.score+' · recurrent step '+(index+1);
+    const board=id('board').getContext('2d');
+    board.fillStyle='#253e3d'; board.fillRect(0,0,330,354);
+    for(let i=0;i<row.board.length-2;i+=3){
+      const [x,y,t]=row.board.slice(i,i+3);
+      if(x<0) continue;
+      const tier=Math.round(t*10);
+      board.fillStyle=fruits[tier]; board.beginPath();
+      board.arc(x*330,y*354,radii[tier]*.8,0,2*Math.PI); board.fill();
+    }
+    const ctx=id('circuit').getContext('2d');
+    ctx.clearRect(0,0,460,300);
+    for(const [i,[x,y]] of data.points.entries()){
+      const px=20+x*420, py=14+y*269, d=row.steps[index].delta[i];
+      const target=d<0?[84,169,233]:[235,164,97];
+      ctx.fillStyle='rgb('+target.map((n,j)=>Math.round([51,67,69][j]+(n-[51,67,69][j])*Math.abs(d))).join(',')+')';
+      ctx.beginPath(); ctx.arc(px,py,2.8,0,2*Math.PI); ctx.fill();
+      if(Math.abs(row.direct[i])>1e-5){ ctx.strokeStyle='#9ebcb5'; ctx.stroke(); }
+    }
+  }
+  function draw(){
+    id('scores').value=['A','learned'].map((key,i)=>{
+      const rows=sequences[key], r=rows[Math.min(rows.length,Number(drop.value))-1];
+      return (i?meta.model:'robust')+' '+r.score+' points · aim '+(r.action+1)+'/15';
+    }).join('  |  ');
+    flyDrop.value=Math.min(fly.length,Number(drop.value)); paint();
+  }
+  function seek(n){game.pause();drop.value=Math.min(Number(drop.max),Math.max(1,n));
+    game.currentTime=(Number(drop.value)-1)*seconds+.001;draw();}
+  game.ontimeupdate=()=>{drop.value=Math.min(Number(drop.max),Math.floor(game.currentTime/seconds)+1);draw();};
+  drop.oninput=()=>seek(Number(drop.value)); step.oninput=paint; flyDrop.oninput=paint;
+  id('back').onclick=()=>seek(Number(drop.value)-1); id('next').onclick=()=>seek(Number(drop.value)+1);
+  const x=meta.illustration;
+  if(x){
+    id('illustration').hidden=false; id('skip').hidden=false; id('later').hidden=false;
+    id('illustration').textContent='Illustration · At drop '+x.drop+' on the ranker’s board, it aimed '+x.ranker_aim+
+      ' and scored '+x.immediate+' immediately. The robust aim '+x.robust_aim+' would have scored '+x.alternate+
+      ' on that same board. The played trajectory earned '+x.next_20+' across the next 20 drops.';
+    id('skip').onclick=()=>seek(x.drop); id('later').onclick=()=>seek(x.drop+20);
+  }
+  draw();
+}
+start().catch(error=>{id('meta').textContent=error.message;});
+</script>
+</html>

@@ -1,0 +1,45 @@
+{
+  "seed": 20271201,
+  "profile": "joint",
+  "fps": 20,
+  "frames_per_drop": 6,
+  "bytes": 4096910,
+  "model": "flywire",
+  "checkpoint": "artifacts/transfer/checkpoints/flywire-seed11-final.pt",
+  "sha256": "b2316d67a4538d55f2270633497dfe521a1dfd29dfc3ba0406ab8733380e1e7f",
+  "ranker_sha256": {
+    "compact": "3fb1c57571d0c123694ce4f7b818c1b5a0450891192f6f7669faddb579aff1fc",
+    "flywire": "e96b072122dbc25b343e00fc0d2daef76b7cb725b70e496257d50a7cc499c335"
+  },
+  "illustration": {
+    "drop": 6,
+    "ranker_aim": 9,
+    "robust_aim": 15,
+    "immediate": 0.0,
+    "alternate": 10.0,
+    "next_20": 93
+  },
+  "episodes": {
+    "A": {
+      "score": 3208,
+      "highest": 10,
+      "length": 330,
+      "overflow": true,
+      "rightmost": 231
+    },
+    "learned": {
+      "score": 2919,
+      "highest": 9,
+      "length": 293,
+      "overflow": true,
+      "rightmost": 28
+    },
+    "flywire": {
+      "score": 2919,
+      "highest": 9,
+      "length": 293,
+      "overflow": true,
+      "rightmost": 28
+    }
+  }
+}

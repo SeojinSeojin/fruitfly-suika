@@ -70,7 +70,7 @@ class Lane:
         else:
             draw.text((side,156),'Compact value head',fill='#d5e8df')
         if finished:
-            draw.text((side,354),'Overflow' if overflow(env) else '300-drop cap',fill='#f7cc82')
+            draw.text((side,354),'Overflow' if overflow(env) else f'{env.drop_limit}-drop cap',fill='#f7cc82')
 
 
 def main():
