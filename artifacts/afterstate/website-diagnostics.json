@@ -1,0 +1,3306 @@
+{
+  "rows": [
+    {
+      "capture": "demo-game-over",
+      "drop": 1,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 2,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 3,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 4,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 5,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 15,
+      "observed": 15
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 6,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 7,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 36,
+      "observed": 36
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 8,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 9,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 6,
+      "observed": 6
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 10,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 6,
+      "observed": 6
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 11,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 12,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 13,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 15,
+      "observed": 15
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 14,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 15,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 16,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 16,
+      "observed": 16
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 17,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 36,
+      "observed": 64
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 18,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 19,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 15,
+      "observed": 15
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 20,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 21,
+      "action": 5,
+      "edge": false,
+      "tall": false,
+      "predicted": 10,
+      "observed": 10
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 22,
+      "action": 5,
+      "edge": false,
+      "tall": false,
+      "predicted": 15,
+      "observed": 15
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 23,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 24,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 3,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 25,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 3,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 26,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 22,
+      "observed": 22
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 27,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 6,
+      "observed": 6
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 28,
+      "action": 7,
+      "edge": false,
+      "tall": false,
+      "predicted": 1,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 29,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 15,
+      "observed": 15
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 30,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 1,
+      "observed": 1
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 31,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 32,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 33,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 34,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 35,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 16,
+      "observed": 16
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 36,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 37,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 36,
+      "observed": 36
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 38,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 10,
+      "observed": 10
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 39,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 6,
+      "observed": 6
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 40,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 10,
+      "observed": 10
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 41,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 36,
+      "observed": 36
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 42,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 28,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 43,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 28,
+      "observed": 89
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 44,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 45,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 1,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 46,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 1,
+      "observed": 4
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 47,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 36,
+      "observed": 36
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 48,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 56,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 49,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 56,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 50,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 66,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 51,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 10,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 52,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 13,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 53,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 38,
+      "observed": 25
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 54,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 13,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 55,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 56,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 56,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 81,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 57,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 81,
+      "observed": 74
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 58,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 10,
+      "observed": 10
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 59,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 15,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 60,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 51,
+      "observed": 16
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 61,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 71,
+      "observed": 15
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 62,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 63,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 64,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 15,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 65,
+      "action": 6,
+      "edge": false,
+      "tall": false,
+      "predicted": 36,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 66,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 15,
+      "observed": 15
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 67,
+      "action": 6,
+      "edge": false,
+      "tall": false,
+      "predicted": 92,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 68,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 92,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 69,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 31,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 70,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 21,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 71,
+      "action": 10,
+      "edge": false,
+      "tall": false,
+      "predicted": 34,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 72,
+      "action": 6,
+      "edge": false,
+      "tall": false,
+      "predicted": 16,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 73,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 75,
+      "observed": 52
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 74,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 5,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 75,
+      "action": 6,
+      "edge": false,
+      "tall": false,
+      "predicted": 52,
+      "observed": 29
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 76,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 5,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 77,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 5,
+      "observed": 1
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 78,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 5,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 79,
+      "action": 6,
+      "edge": false,
+      "tall": false,
+      "predicted": 54,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 80,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 12,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 81,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 14,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 82,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 21,
+      "observed": 9
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 83,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 5,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 84,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 15,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 85,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 98,
+      "observed": 19
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 86,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 79,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 87,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 80,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 88,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 80,
+      "observed": 1
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 89,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 151,
+      "observed": 15
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 90,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 5,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 91,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 105,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 92,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 140,
+      "observed": 4
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 93,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 79,
+      "observed": 232
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 94,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 16,
+      "observed": 16
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 95,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 96,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 1,
+      "observed": 1
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 97,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 98,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 28,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 99,
+      "action": 10,
+      "edge": false,
+      "tall": false,
+      "predicted": 29,
+      "observed": 29
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 100,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 16,
+      "observed": 31
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 101,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 102,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 6,
+      "observed": 6
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 103,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 104,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 3,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 105,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 19,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 106,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 107,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 25,
+      "observed": 25
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 108,
+      "action": 5,
+      "edge": false,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 109,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 110,
+      "action": 7,
+      "edge": false,
+      "tall": false,
+      "predicted": 6,
+      "observed": 6
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 111,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 36,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 112,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 46,
+      "observed": 46
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 113,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 6,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 114,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 12,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 115,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 12,
+      "observed": 6
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 116,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 6,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 117,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 10,
+      "observed": 10
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 118,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 119,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 120,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 121,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 1,
+      "observed": 1
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 122,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 19,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 123,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 80
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 124,
+      "action": 10,
+      "edge": false,
+      "tall": false,
+      "predicted": 52,
+      "observed": 16
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 125,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 1,
+      "observed": 1
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 126,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 36,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 127,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 46,
+      "observed": 46
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 128,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 129,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 34,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 130,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 34,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 131,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 49,
+      "observed": 18
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 132,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 133,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 19,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 134,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 16,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 135,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 16,
+      "observed": 6
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 136,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 10,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 137,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 3,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 138,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 139,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 1,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 140,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 1,
+      "observed": 10
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 141,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 142,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 25,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 143,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 10,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 144,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 29,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 145,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 29,
+      "observed": 4
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 146,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 41,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 147,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 68,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 148,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 47,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 149,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 68,
+      "observed": 40
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 150,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 37,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 151,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 37,
+      "observed": 10
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 152,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 27,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 153,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 53,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 154,
+      "action": 13,
+      "edge": false,
+      "tall": true,
+      "predicted": 88,
+      "observed": 25
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 155,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 27,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 156,
+      "action": 9,
+      "edge": false,
+      "tall": false,
+      "predicted": 62,
+      "observed": 1
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 157,
+      "action": 12,
+      "edge": false,
+      "tall": true,
+      "predicted": 107,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 158,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 52,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 159,
+      "action": 7,
+      "edge": false,
+      "tall": true,
+      "predicted": 71,
+      "observed": 31
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 160,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 1,
+      "observed": 1
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 161,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 162,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 20,
+      "observed": 20
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 163,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 5,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 164,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 165,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 6,
+      "observed": 6
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 166,
+      "action": 10,
+      "edge": false,
+      "tall": false,
+      "predicted": 1,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 167,
+      "action": 4,
+      "edge": false,
+      "tall": false,
+      "predicted": 7,
+      "observed": 10
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 168,
+      "action": 12,
+      "edge": false,
+      "tall": false,
+      "predicted": 15,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 169,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 36,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 170,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 40,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 171,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 84,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 172,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 99,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 173,
+      "action": 11,
+      "edge": false,
+      "tall": true,
+      "predicted": 114,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 174,
+      "action": 6,
+      "edge": false,
+      "tall": true,
+      "predicted": 117,
+      "observed": 3
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 175,
+      "action": 11,
+      "edge": false,
+      "tall": true,
+      "predicted": 114,
+      "observed": 36
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 176,
+      "action": 11,
+      "edge": false,
+      "tall": true,
+      "predicted": 40,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 177,
+      "action": 9,
+      "edge": false,
+      "tall": true,
+      "predicted": 135,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 178,
+      "action": 2,
+      "edge": false,
+      "tall": true,
+      "predicted": 105,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 179,
+      "action": 13,
+      "edge": false,
+      "tall": true,
+      "predicted": 108,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 180,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 157,
+      "observed": 15
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 181,
+      "action": 11,
+      "edge": false,
+      "tall": true,
+      "predicted": 162,
+      "observed": 10
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 182,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 80,
+      "observed": 6
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 183,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 92,
+      "observed": 77
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 184,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 31,
+      "observed": 31
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 185,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 4,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 186,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 4,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 187,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "demo-game-over",
+      "drop": 188,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 4,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 1,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 2,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 3,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 1,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 4,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 10,
+      "observed": 10
+    },
+    {
+      "capture": "website",
+      "drop": 5,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 6,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 7,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 8,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 9,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 15,
+      "observed": 15
+    },
+    {
+      "capture": "website",
+      "drop": 10,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 6,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 11,
+      "action": 9,
+      "edge": false,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 12,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 13,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 25,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 14,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 25,
+      "observed": 10
+    },
+    {
+      "capture": "website",
+      "drop": 15,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 15,
+      "observed": 15
+    },
+    {
+      "capture": "website",
+      "drop": 16,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 1,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 17,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 18,
+      "action": 6,
+      "edge": false,
+      "tall": false,
+      "predicted": 25,
+      "observed": 25
+    },
+    {
+      "capture": "website",
+      "drop": 19,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 20,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 21,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 1,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 22,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 31,
+      "observed": 10
+    },
+    {
+      "capture": "website",
+      "drop": 23,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 21,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 24,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 30,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 25,
+      "action": 12,
+      "edge": false,
+      "tall": false,
+      "predicted": 40,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 26,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 55,
+      "observed": 25
+    },
+    {
+      "capture": "website",
+      "drop": 27,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 24,
+      "observed": 21
+    },
+    {
+      "capture": "website",
+      "drop": 28,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 3,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 29,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 9,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 30,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 51,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 31,
+      "action": 12,
+      "edge": false,
+      "tall": false,
+      "predicted": 34,
+      "observed": 25
+    },
+    {
+      "capture": "website",
+      "drop": 32,
+      "action": 4,
+      "edge": false,
+      "tall": false,
+      "predicted": 45,
+      "observed": 36
+    },
+    {
+      "capture": "website",
+      "drop": 33,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 9,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 34,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 3,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 35,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 4,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 36,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 4,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 37,
+      "action": 1,
+      "edge": false,
+      "tall": false,
+      "predicted": 84,
+      "observed": 83
+    },
+    {
+      "capture": "website",
+      "drop": 38,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 1,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 39,
+      "action": 0,
+      "edge": true,
+      "tall": false,
+      "predicted": 6,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 40,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 16,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 41,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 10,
+      "observed": 4
+    },
+    {
+      "capture": "website",
+      "drop": 42,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 80,
+      "observed": 80
+    },
+    {
+      "capture": "website",
+      "drop": 43,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 44,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 6,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 45,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 21,
+      "observed": 15
+    },
+    {
+      "capture": "website",
+      "drop": 46,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 42,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 47,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 52,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 48,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 67,
+      "observed": 15
+    },
+    {
+      "capture": "website",
+      "drop": 49,
+      "action": 0,
+      "edge": true,
+      "tall": false,
+      "predicted": 42,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 50,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 42,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 51,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 68,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 52,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 42,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 53,
+      "action": 6,
+      "edge": false,
+      "tall": false,
+      "predicted": 48,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 54,
+      "action": 1,
+      "edge": false,
+      "tall": false,
+      "predicted": 48,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 55,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 46,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 56,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 55,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 57,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 61,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 58,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 19,
+      "observed": 10
+    },
+    {
+      "capture": "website",
+      "drop": 59,
+      "action": 0,
+      "edge": true,
+      "tall": false,
+      "predicted": 19,
+      "observed": 10
+    },
+    {
+      "capture": "website",
+      "drop": 60,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 45,
+      "observed": 45
+    },
+    {
+      "capture": "website",
+      "drop": 61,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 62,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 10,
+      "observed": 10
+    },
+    {
+      "capture": "website",
+      "drop": 63,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 64,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 25,
+      "observed": 25
+    },
+    {
+      "capture": "website",
+      "drop": 65,
+      "action": 6,
+      "edge": false,
+      "tall": false,
+      "predicted": 19,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 66,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 52,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 67,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 36,
+      "observed": 36
+    },
+    {
+      "capture": "website",
+      "drop": 68,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 10,
+      "observed": 10
+    },
+    {
+      "capture": "website",
+      "drop": 69,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 116,
+      "observed": 116
+    },
+    {
+      "capture": "website",
+      "drop": 70,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 15,
+      "observed": 15
+    },
+    {
+      "capture": "website",
+      "drop": 71,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 72,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 73,
+      "action": 0,
+      "edge": true,
+      "tall": false,
+      "predicted": 6,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 74,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 6,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 75,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 56,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 76,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 6,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 77,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 10,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 78,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 35,
+      "observed": 25
+    },
+    {
+      "capture": "website",
+      "drop": 79,
+      "action": 0,
+      "edge": true,
+      "tall": false,
+      "predicted": 82,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 80,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 66,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 81,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 65,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 82,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 65,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 83,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 81,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 84,
+      "action": 0,
+      "edge": true,
+      "tall": false,
+      "predicted": 85,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 85,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 56,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 86,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 145,
+      "observed": 15
+    },
+    {
+      "capture": "website",
+      "drop": 87,
+      "action": 0,
+      "edge": true,
+      "tall": false,
+      "predicted": 170,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 88,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 130,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 89,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 145,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 90,
+      "action": 12,
+      "edge": false,
+      "tall": false,
+      "predicted": 40,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 91,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 27,
+      "observed": 52
+    },
+    {
+      "capture": "website",
+      "drop": 92,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 74,
+      "observed": 36
+    },
+    {
+      "capture": "website",
+      "drop": 93,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 25,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 94,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 0,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 95,
+      "action": 13,
+      "edge": false,
+      "tall": true,
+      "predicted": 160,
+      "observed": 164
+    },
+    {
+      "capture": "website",
+      "drop": 96,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 17,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 97,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 32,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 98,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 35,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 99,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 51,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 100,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 51,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 101,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 57,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 102,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 36,
+      "observed": 4
+    },
+    {
+      "capture": "website",
+      "drop": 103,
+      "action": 10,
+      "edge": false,
+      "tall": false,
+      "predicted": 52,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 104,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 42,
+      "observed": 20
+    },
+    {
+      "capture": "website",
+      "drop": 105,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 33,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 106,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 42,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 107,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 32,
+      "observed": 41
+    },
+    {
+      "capture": "website",
+      "drop": 108,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 16,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 109,
+      "action": 0,
+      "edge": true,
+      "tall": false,
+      "predicted": 27,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 110,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 9,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 111,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 14,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 112,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 49,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 113,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 58,
+      "observed": 9
+    },
+    {
+      "capture": "website",
+      "drop": 114,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 34,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 115,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 37,
+      "observed": 16
+    },
+    {
+      "capture": "website",
+      "drop": 116,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 21,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 117,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 22,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 118,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 24,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 119,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 27,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 120,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 21,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 121,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 26,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 122,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 18,
+      "observed": 10
+    },
+    {
+      "capture": "website",
+      "drop": 123,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 78,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 124,
+      "action": 7,
+      "edge": false,
+      "tall": false,
+      "predicted": 104,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 125,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 78,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 126,
+      "action": 2,
+      "edge": false,
+      "tall": false,
+      "predicted": 101,
+      "observed": 10
+    },
+    {
+      "capture": "website",
+      "drop": 127,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 78,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 128,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 87,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 129,
+      "action": 10,
+      "edge": false,
+      "tall": true,
+      "predicted": 112,
+      "observed": 31
+    },
+    {
+      "capture": "website",
+      "drop": 130,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 83,
+      "observed": 38
+    },
+    {
+      "capture": "website",
+      "drop": 131,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 26,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 132,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 53,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 133,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 18,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 134,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 15,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 135,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 12,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 136,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 14,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 137,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 75,
+      "observed": 46
+    },
+    {
+      "capture": "website",
+      "drop": 138,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 50,
+      "observed": 36
+    },
+    {
+      "capture": "website",
+      "drop": 139,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 21,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 140,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 9,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 141,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 19,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 142,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 134,
+      "observed": 9
+    },
+    {
+      "capture": "website",
+      "drop": 143,
+      "action": 12,
+      "edge": false,
+      "tall": false,
+      "predicted": 134,
+      "observed": 15
+    },
+    {
+      "capture": "website",
+      "drop": 144,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 88,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 145,
+      "action": 8,
+      "edge": false,
+      "tall": false,
+      "predicted": 155,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 146,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 99,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 147,
+      "action": 8,
+      "edge": false,
+      "tall": true,
+      "predicted": 79,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 148,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 42,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 149,
+      "action": 13,
+      "edge": false,
+      "tall": true,
+      "predicted": 164,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 150,
+      "action": 11,
+      "edge": false,
+      "tall": true,
+      "predicted": 184,
+      "observed": 71
+    },
+    {
+      "capture": "website",
+      "drop": 151,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 42,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 152,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 43,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 153,
+      "action": 11,
+      "edge": false,
+      "tall": false,
+      "predicted": 57,
+      "observed": 15
+    },
+    {
+      "capture": "website",
+      "drop": 154,
+      "action": 13,
+      "edge": false,
+      "tall": false,
+      "predicted": 139,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 155,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 147,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 156,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 145,
+      "observed": 3
+    },
+    {
+      "capture": "website",
+      "drop": 157,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 158,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 158,
+      "action": 14,
+      "edge": true,
+      "tall": false,
+      "predicted": 173,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 159,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 166,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 160,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 173,
+      "observed": 15
+    },
+    {
+      "capture": "website",
+      "drop": 161,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 156,
+      "observed": 77
+    },
+    {
+      "capture": "website",
+      "drop": 162,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 89,
+      "observed": 10
+    },
+    {
+      "capture": "website",
+      "drop": 163,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 79,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 164,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 98,
+      "observed": 6
+    },
+    {
+      "capture": "website",
+      "drop": 165,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 92,
+      "observed": 25
+    },
+    {
+      "capture": "website",
+      "drop": 166,
+      "action": 8,
+      "edge": false,
+      "tall": true,
+      "predicted": 39,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 167,
+      "action": 0,
+      "edge": true,
+      "tall": true,
+      "predicted": 141,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 168,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 141,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 169,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 60,
+      "observed": 15
+    },
+    {
+      "capture": "website",
+      "drop": 170,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 67,
+      "observed": 0
+    },
+    {
+      "capture": "website",
+      "drop": 171,
+      "action": 14,
+      "edge": true,
+      "tall": true,
+      "predicted": 68,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 172,
+      "action": 7,
+      "edge": false,
+      "tall": true,
+      "predicted": 141,
+      "observed": 74
+    },
+    {
+      "capture": "website",
+      "drop": 173,
+      "action": 2,
+      "edge": false,
+      "tall": true,
+      "predicted": 71,
+      "observed": 1
+    },
+    {
+      "capture": "website",
+      "drop": 174,
+      "action": 3,
+      "edge": false,
+      "tall": true,
+      "predicted": 39,
+      "observed": 0
+    }
+  ],
+  "groups": {
+    "edge=False": {
+      "n": 131,
+      "counts": {
+        "11": 75,
+        "10": 56
+      },
+      "mean_predicted": 50.00763358778626,
+      "mean_observed": 13.786259541984732
+    },
+    "edge=True": {
+      "n": 231,
+      "counts": {
+        "00": 45,
+        "11": 93,
+        "10": 92,
+        "01": 1
+      },
+      "mean_predicted": 33.67965367965368,
+      "mean_observed": 6.800865800865801
+    },
+    "tall=False": {
+      "n": 315,
+      "counts": {
+        "00": 44,
+        "11": 147,
+        "10": 123,
+        "01": 1
+      },
+      "mean_predicted": 31.56825396825397,
+      "mean_observed": 8.422222222222222
+    },
+    "tall=True": {
+      "n": 47,
+      "counts": {
+        "11": 21,
+        "10": 25,
+        "00": 1
+      },
+      "mean_predicted": 93.34042553191489,
+      "mean_observed": 15.404255319148936
+    }
+  },
+  "confusion_key": "predicted positive bit followed by observed positive bit"
+}

@@ -264,6 +264,12 @@ def run(args):
     model, ckpt = restore(args.checkpoint, graph)
     if ckpt['kind'] != 'flywire' or not ckpt['updates']:
         raise ValueError('A trained FlyWire checkpoint is required')
+    scorer = None
+    if args.afterstate_checkpoint:
+        from .afterstate_model import restore_scorer
+
+        scorer = restore_scorer(args.afterstate_checkpoint,graph)
+    limit = args.wall_seconds if args.wall_seconds is not None else (None if args.until_game_over else 600)
     vision = Vision(args.cache)
     rng = np.random.default_rng(args.action_seed)
     args.out.mkdir(parents=True, exist_ok=True)
@@ -271,8 +277,12 @@ def run(args):
     images.mkdir(exist_ok=True)
     result = dict(url=URL, checkpoint=str(args.checkpoint), training_drops=ckpt['drops'],
                   updates=ckpt['updates'], seed=ckpt['seed'], action_seed=args.action_seed,
-                  rules=ckpt.get('rules', 'original'), drop_cap=None if args.until_game_over else args.max_drops, time_cap_seconds=None if args.until_game_over else 600,
+                  rules=ckpt.get('rules', 'original'), drop_cap=None if args.until_game_over else args.max_drops, time_cap_seconds=limit,
                   final_score=None, completed_drops=0, browser='headed Chromium', ad_filter=True, strategy=args.strategy, outcome='launch interrupted')
+    if scorer:
+        result.update(strategy=f'afterstate-{scorer.kind}',value_checkpoint=str(args.afterstate_checkpoint),
+                      future_weight=args.future_weight,overflow_penalty=args.overflow_penalty,
+                      activity_input='selected simulated afterstate' if scorer.kind=='flywire' else 'pre-drop diagnostic')
     decisions = []
     try:
         with sync_playwright() as p:
@@ -280,7 +290,7 @@ def run(args):
             page = browser.new_page(service_workers='block', viewport={'width':1280,'height':900})
             page.route('**/*', filter_ad_requests)
             started = time.monotonic()
-            deadline = float("inf") if args.until_game_over else started + 600
+            deadline = float("inf") if limit is None else started + limit
             page.goto(URL, wait_until='domcontentloaded', timeout=30000)
             board = page.locator('#game-container > canvas')
             bounds = board.bounding_box(timeout=12000)
@@ -316,7 +326,13 @@ def run(args):
                 next_tier = nxt[3] if nxt else -1
                 current = hand[3]
                 observation = observe([d[:3] for d in detected], current, next_tier)
-                action, trace = model.decide(observation, rng, args.strategy)
+                if scorer:
+                    action, trace = scorer.decide(observation,args.future_weight,args.overflow_penalty,trace=True)
+                    if 'steps' not in trace:
+                        _, diagnostic = model.decide(observation,rng,'greedy')
+                        trace.update(diagnostic)
+                else:
+                    action, trace = model.decide(observation, rng, args.strategy)
                 margin = vision.sprites[current].shape[1]*.34 + 3
                 target = x0+margin+(x1-x0-2*margin)*AIMS[action]
                 page.mouse.move(target,y0-39)
@@ -367,12 +383,14 @@ def run(args):
                 page.wait_for_timeout(750)
                 pixels, hand, error = ready(page, vision, box, min(deadline, time.monotonic()+18))
                 if args.until_game_over and error in ('board stability timed out', 'visible current fruit timed out'):
-                    pixels, hand, error = recover_ready(page, vision, box, background, time.monotonic()+70)
+                    pixels, hand, error = recover_ready(page, vision, box, background, min(deadline,time.monotonic()+70))
                 score = integer_text(page, '#final-score' if error == 'game over' else '#currentScore')
                 decision['score'] = result['final_score'] = score
                 if error:
+                    if error != 'game over' and time.monotonic() >= deadline:
+                        error = 'time cap reached'
                     result['outcome'] = error
-                    page.screenshot(path=str(args.out/('end.png' if error == 'game over' else 'paused.png')))
+                    page.screenshot(path=str(args.out/('end.png' if error in ('game over','time cap reached') else 'paused.png')))
                     break
             else:
                 result['outcome'] = 'drop cap reached' if len(decisions) == args.max_drops else 'time cap reached'
@@ -400,8 +418,15 @@ if __name__ == '__main__':
     parser.add_argument('--cache', type=Path, default=Path('data/site'))
     parser.add_argument('--out', type=Path, default=Path('artifacts/demo'))
     parser.add_argument('--replay-key', default='website')
+    parser.add_argument('--wall-seconds',type=int)
+    parser.add_argument('--afterstate-checkpoint',type=Path)
+    parser.add_argument('--future-weight',type=float,default=1.)
+    parser.add_argument('--overflow-penalty',type=float,default=100.)
     parser.add_argument('--max-drops', type=int, choices=range(1,201), default=200)
     parser.add_argument('--until-game-over', action='store_true')
     parser.add_argument('--strategy', choices=['sample','planning','hybrid','lookahead','robust'], default='sample')
     parser.add_argument('--action-seed', type=int, default=32833)
-    run(parser.parse_args())
+    args = parser.parse_args()
+    if args.wall_seconds is not None and args.wall_seconds <= 0:
+        parser.error('--wall-seconds must be positive')
+    run(args)
