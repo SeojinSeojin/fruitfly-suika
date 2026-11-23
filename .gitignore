@@ -3,3 +3,7 @@ data/
 runs/
 __pycache__/
 .pytest_cache/
+
+# Shared environment and data symlinks in experiment worktrees
+/.venv
+/data
