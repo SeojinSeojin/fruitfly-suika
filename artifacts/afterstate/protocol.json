@@ -1,0 +1,11 @@
+{
+  "base": "bbe9cb85235eb42215a021be20aa195f6bbb6b27",
+  "afterstate_horizon": 20,
+  "training_cap": 500,
+  "evaluation_horizons": [300, 450],
+  "showcase_fruit_seed": 20270701,
+  "showcase_profile": "joint",
+  "website_selection": "Higher held-out joint 300-drop mean than all baseline methods",
+  "website_attempts_if_selected": 3,
+  "website_wall_limit_seconds_each": 1200
+}
