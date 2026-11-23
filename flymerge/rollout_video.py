@@ -45,24 +45,16 @@ def sources():
     return rows,result['selected']
 
 
-def render():
-    rows,variant = sources()
-    a,b = map(Lane,rows)
-    policy,models = load_models()
-    graph = json.loads(open('artifacts/graph.json').read())
-    positions = np.array(graph['positions'],dtype=float)
-    points = np.column_stack((positions[:,0]*.9+positions[:,2]*.35,positions[:,1]))
-    shared.POINTS = (points-points.min(0))/np.ptp(points,axis=0)
+def encode_comparison(path,a,b,step):
     ffmpeg = get_ffmpeg_exe()
-    path = ROOT/'comparison.mp4'
     command = [ffmpeg,'-y','-loglevel','error','-f','rawvideo','-pix_fmt','rgb24','-s','1000x416',
                '-r',str(shared.FPS),'-i','-','-an','-c:v','libx264','-threads','2','-crf','26',
                '-pix_fmt','yuv420p','-movflags','+faststart',str(path)]
     with subprocess.Popen(command,stdin=subprocess.PIPE) as encoder:
         while not (a.ended and b.ended):
             frozen = [a.ended,b.ended]
-            a.step(policy,models)
-            b.step(policy,models)
+            step(a)
+            step(b)
             for frame in range(len(shared.FRAME_IDS)):
                 image = Image.new('RGB',shared.SIZE,'#162628')
                 draw = ImageDraw.Draw(image)
@@ -77,6 +69,18 @@ def render():
         if encoder.wait():
             raise RuntimeError('Video encoding failed')
     subprocess.run([ffmpeg,'-v','error','-i',str(path),'-f','null','-'],check=True)
+
+
+def render():
+    rows,variant = sources()
+    a,b = map(Lane,rows)
+    policy,models = load_models()
+    graph = json.loads(open('artifacts/graph.json').read())
+    positions = np.array(graph['positions'],dtype=float)
+    points = np.column_stack((positions[:,0]*.9+positions[:,2]*.35,positions[:,1]))
+    shared.POINTS = (points-points.min(0))/np.ptp(points,axis=0)
+    path = ROOT/'comparison.mp4'
+    encode_comparison(path,a,b,lambda lane:lane.step(policy,models))
     meta = dict(seed=SHOWCASE,variant=variant,profile='joint',bytes=path.stat().st_size,
                 fps=shared.FPS,frames_per_drop=len(shared.FRAME_IDS),checkpoint=str(CHECKPOINT),
                 sha256=hashlib.sha256(CHECKPOINT.read_bytes()).hexdigest(),
