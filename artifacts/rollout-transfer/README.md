@@ -60,3 +60,9 @@ The live gate required a positive mean change on the **full held-out joint exten
 ```
 
 The browser adapter exposes `--rollout-mode fixed` and `adaptive`. The gated live runner allows natural game over within 1,500 seconds per attempt and uses the existing screenshot and aim checks. The predeclared showcase seed is 20271401 with the joint profile.
+
+## Showcase
+
+On the predeclared joint seed, robust reached 3,599 in 351 drops and reconstructed rollout reached 2,772 in 292. The video shows the same starting fruit sequence side by side and holds the shorter run's board after overflow. The recurrent-step controls show zero-input-relative activity from each pre-drop observation. The rollout lane's circuit is a diagnostic display. [Video manifest and checkpoint hash](comparison.json)
+
+FFmpeg decoded the 3.8 MB H.264 file. The replay verifier reproduced all 643 decisions, scores and recorded FlyWire traces against the held-out episode log. Chromium verified playback, drop seeking and the recurrent-step slider. All 23 tests passed, including the deterministic search and 48-branch cap tests.

@@ -1,3 +1,4 @@
+import json
 import pickle
 import unittest
 
@@ -32,6 +33,7 @@ class TransferTest(unittest.TestCase):
             first = decision(env,obs,policy,models,mode,27,1)
             self.assertEqual(first,decision(env,obs,policy,models,mode,27,1))
             action,trace = first
+            self.assertEqual(trace,json.loads(json.dumps(trace)))
             self.assertEqual(before,pickle.dumps(env))
             self.assertTrue(env.action_space.contains(action))
             self.assertLessEqual(len(trace['actions'])*trace['tails'],limit)

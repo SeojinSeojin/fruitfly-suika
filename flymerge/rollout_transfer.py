@@ -39,7 +39,7 @@ def outcomes(state,actions,tails):
         row = []
         for preview,tail in tails:
             immediate,later,ended,steps = clean_branch(body,count,current,preview,NOMINAL,action,tail)
-            row.append((float(immediate),float(later),bool(ended),int(steps)))
+            row.append([float(immediate),float(later),bool(ended),int(steps)])
         samples.append(row)
     return samples
 
