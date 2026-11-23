@@ -1,0 +1,831 @@
+{
+  "variant": "fixed",
+  "summary": {
+    "clean": {
+      "boards": 23,
+      "changed_using_true_board": 15,
+      "further_changed_using_true_physics": 0,
+      "mean_regret_rebuilt": 26.449275362318836,
+      "mean_regret_true_board": 0.0
+    },
+    "joint": {
+      "boards": 22,
+      "changed_using_true_board": 19,
+      "further_changed_using_true_physics": 18,
+      "mean_regret_rebuilt": 31.439393939393938,
+      "mean_regret_true_board": 26.84848484848485
+    }
+  },
+  "rows": [
+    {
+      "seed": 20271401,
+      "profile": "clean",
+      "drop": 12,
+      "actions": [
+        14,
+        0,
+        12,
+        13,
+        1,
+        2
+      ],
+      "chosen": 2,
+      "true_board_nominal": 2,
+      "true_board_and_physics": 2,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271401,
+      "profile": "clean",
+      "drop": 90,
+      "actions": [
+        14,
+        7,
+        4,
+        3,
+        2,
+        5
+      ],
+      "chosen": 4,
+      "true_board_nominal": 14,
+      "true_board_and_physics": 14,
+      "rebuilt_regret": 41.33333333333337,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271401,
+      "profile": "clean",
+      "drop": 170,
+      "actions": [
+        14,
+        13,
+        7,
+        10,
+        0,
+        1
+      ],
+      "chosen": 7,
+      "true_board_nominal": 13,
+      "true_board_and_physics": 13,
+      "rebuilt_regret": 71.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271401,
+      "profile": "clean",
+      "drop": 260,
+      "actions": [
+        14,
+        9,
+        11,
+        4,
+        2,
+        1
+      ],
+      "chosen": 11,
+      "true_board_nominal": 11,
+      "true_board_and_physics": 11,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271402,
+      "profile": "clean",
+      "drop": 12,
+      "actions": [
+        14,
+        6,
+        0,
+        1,
+        2,
+        11
+      ],
+      "chosen": 11,
+      "true_board_nominal": 6,
+      "true_board_and_physics": 6,
+      "rebuilt_regret": 83.99999999999999,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271402,
+      "profile": "clean",
+      "drop": 90,
+      "actions": [
+        14,
+        13,
+        11,
+        1,
+        3,
+        0
+      ],
+      "chosen": 13,
+      "true_board_nominal": 11,
+      "true_board_and_physics": 11,
+      "rebuilt_regret": 15.666666666666657,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271402,
+      "profile": "clean",
+      "drop": 170,
+      "actions": [
+        14,
+        5,
+        4,
+        9,
+        12,
+        11
+      ],
+      "chosen": 12,
+      "true_board_nominal": 14,
+      "true_board_and_physics": 14,
+      "rebuilt_regret": 13.333333333333343,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271402,
+      "profile": "clean",
+      "drop": 260,
+      "actions": [
+        14,
+        4,
+        8,
+        13,
+        0,
+        1
+      ],
+      "chosen": 8,
+      "true_board_nominal": 13,
+      "true_board_and_physics": 13,
+      "rebuilt_regret": 135.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271403,
+      "profile": "clean",
+      "drop": 12,
+      "actions": [
+        14,
+        9,
+        5,
+        13,
+        0,
+        1
+      ],
+      "chosen": 0,
+      "true_board_nominal": 1,
+      "true_board_and_physics": 1,
+      "rebuilt_regret": 12.333333333333314,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271403,
+      "profile": "clean",
+      "drop": 90,
+      "actions": [
+        14,
+        0,
+        7,
+        1,
+        11,
+        12
+      ],
+      "chosen": 1,
+      "true_board_nominal": 14,
+      "true_board_and_physics": 14,
+      "rebuilt_regret": 49.666666666666686,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271403,
+      "profile": "clean",
+      "drop": 170,
+      "actions": [
+        14,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "chosen": 14,
+      "true_board_nominal": 5,
+      "true_board_and_physics": 5,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271403,
+      "profile": "clean",
+      "drop": 260,
+      "actions": [
+        14,
+        12,
+        0,
+        13,
+        11,
+        4
+      ],
+      "chosen": 4,
+      "true_board_nominal": 4,
+      "true_board_and_physics": 4,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271404,
+      "profile": "clean",
+      "drop": 12,
+      "actions": [
+        14,
+        3,
+        12,
+        0,
+        1,
+        7
+      ],
+      "chosen": 7,
+      "true_board_nominal": 12,
+      "true_board_and_physics": 12,
+      "rebuilt_regret": 5.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271404,
+      "profile": "clean",
+      "drop": 90,
+      "actions": [
+        14,
+        2,
+        11,
+        10,
+        0,
+        12
+      ],
+      "chosen": 11,
+      "true_board_nominal": 12,
+      "true_board_and_physics": 12,
+      "rebuilt_regret": 54.66666666666667,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271404,
+      "profile": "clean",
+      "drop": 170,
+      "actions": [
+        14,
+        2,
+        3,
+        4,
+        11,
+        9
+      ],
+      "chosen": 9,
+      "true_board_nominal": 9,
+      "true_board_and_physics": 9,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271405,
+      "profile": "clean",
+      "drop": 12,
+      "actions": [
+        14,
+        0,
+        9,
+        13,
+        12,
+        1
+      ],
+      "chosen": 9,
+      "true_board_nominal": 9,
+      "true_board_and_physics": 9,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271405,
+      "profile": "clean",
+      "drop": 90,
+      "actions": [
+        14,
+        8,
+        13,
+        12,
+        11,
+        3
+      ],
+      "chosen": 11,
+      "true_board_nominal": 3,
+      "true_board_and_physics": 3,
+      "rebuilt_regret": 54.66666666666666,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271405,
+      "profile": "clean",
+      "drop": 170,
+      "actions": [
+        14,
+        8,
+        6,
+        3,
+        0,
+        2
+      ],
+      "chosen": 8,
+      "true_board_nominal": 8,
+      "true_board_and_physics": 8,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271405,
+      "profile": "clean",
+      "drop": 260,
+      "actions": [
+        9,
+        4,
+        8,
+        10,
+        2,
+        0
+      ],
+      "chosen": 10,
+      "true_board_nominal": 8,
+      "true_board_and_physics": 8,
+      "rebuilt_regret": 11.333333333333343,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271406,
+      "profile": "clean",
+      "drop": 12,
+      "actions": [
+        11,
+        6,
+        3,
+        9,
+        10,
+        5
+      ],
+      "chosen": 3,
+      "true_board_nominal": 3,
+      "true_board_and_physics": 3,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271406,
+      "profile": "clean",
+      "drop": 90,
+      "actions": [
+        14,
+        13,
+        11,
+        10,
+        8,
+        9
+      ],
+      "chosen": 14,
+      "true_board_nominal": 11,
+      "true_board_and_physics": 11,
+      "rebuilt_regret": 60.333333333333314,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271406,
+      "profile": "clean",
+      "drop": 170,
+      "actions": [
+        14,
+        12,
+        4,
+        5,
+        11,
+        13
+      ],
+      "chosen": 13,
+      "true_board_nominal": 11,
+      "true_board_and_physics": 11,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271406,
+      "profile": "clean",
+      "drop": 260,
+      "actions": [
+        14,
+        7,
+        9,
+        6,
+        3,
+        2
+      ],
+      "chosen": 3,
+      "true_board_nominal": 3,
+      "true_board_and_physics": 3,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271401,
+      "profile": "joint",
+      "drop": 12,
+      "actions": [
+        14,
+        0,
+        6,
+        9,
+        10,
+        11
+      ],
+      "chosen": 9,
+      "true_board_nominal": 9,
+      "true_board_and_physics": 0,
+      "rebuilt_regret": 26.66666666666667,
+      "true_board_regret": 26.66666666666667
+    },
+    {
+      "seed": 20271401,
+      "profile": "joint",
+      "drop": 90,
+      "actions": [
+        8,
+        12,
+        9,
+        7,
+        10,
+        11
+      ],
+      "chosen": 8,
+      "true_board_nominal": 9,
+      "true_board_and_physics": 11,
+      "rebuilt_regret": 47.33333333333337,
+      "true_board_regret": 57.0
+    },
+    {
+      "seed": 20271401,
+      "profile": "joint",
+      "drop": 170,
+      "actions": [
+        14,
+        5,
+        12,
+        0,
+        1,
+        2
+      ],
+      "chosen": 12,
+      "true_board_nominal": 1,
+      "true_board_and_physics": 12,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 106.66666666666666
+    },
+    {
+      "seed": 20271401,
+      "profile": "joint",
+      "drop": 260,
+      "actions": [
+        14,
+        13,
+        12,
+        10,
+        7,
+        6
+      ],
+      "chosen": 12,
+      "true_board_nominal": 13,
+      "true_board_and_physics": 6,
+      "rebuilt_regret": 3.333333333333343,
+      "true_board_regret": 7.666666666666671
+    },
+    {
+      "seed": 20271402,
+      "profile": "joint",
+      "drop": 12,
+      "actions": [
+        12,
+        11,
+        3,
+        2,
+        4,
+        5
+      ],
+      "chosen": 4,
+      "true_board_nominal": 12,
+      "true_board_and_physics": 5,
+      "rebuilt_regret": 17.666666666666657,
+      "true_board_regret": 0.3333333333333428
+    },
+    {
+      "seed": 20271402,
+      "profile": "joint",
+      "drop": 90,
+      "actions": [
+        14,
+        10,
+        3,
+        4,
+        2,
+        9
+      ],
+      "chosen": 10,
+      "true_board_nominal": 9,
+      "true_board_and_physics": 2,
+      "rebuilt_regret": 29.0,
+      "true_board_regret": 32.0
+    },
+    {
+      "seed": 20271402,
+      "profile": "joint",
+      "drop": 170,
+      "actions": [
+        14,
+        6,
+        12,
+        11,
+        10,
+        9
+      ],
+      "chosen": 12,
+      "true_board_nominal": 10,
+      "true_board_and_physics": 11,
+      "rebuilt_regret": 28.333333333333343,
+      "true_board_regret": 25.666666666666686
+    },
+    {
+      "seed": 20271402,
+      "profile": "joint",
+      "drop": 260,
+      "actions": [
+        14,
+        0,
+        3,
+        4,
+        5,
+        6
+      ],
+      "chosen": 14,
+      "true_board_nominal": 0,
+      "true_board_and_physics": 14,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 10.666666666666657
+    },
+    {
+      "seed": 20271403,
+      "profile": "joint",
+      "drop": 12,
+      "actions": [
+        14,
+        13,
+        12,
+        0,
+        7,
+        6
+      ],
+      "chosen": 6,
+      "true_board_nominal": 0,
+      "true_board_and_physics": 14,
+      "rebuilt_regret": 10.666666666666657,
+      "true_board_regret": 29.666666666666657
+    },
+    {
+      "seed": 20271403,
+      "profile": "joint",
+      "drop": 90,
+      "actions": [
+        14,
+        12,
+        13,
+        10,
+        11,
+        4
+      ],
+      "chosen": 14,
+      "true_board_nominal": 14,
+      "true_board_and_physics": 12,
+      "rebuilt_regret": 36.66666666666666,
+      "true_board_regret": 36.66666666666666
+    },
+    {
+      "seed": 20271403,
+      "profile": "joint",
+      "drop": 170,
+      "actions": [
+        1,
+        2,
+        0,
+        6,
+        7,
+        5
+      ],
+      "chosen": 0,
+      "true_board_nominal": 0,
+      "true_board_and_physics": 2,
+      "rebuilt_regret": 83.33333333333331,
+      "true_board_regret": 83.33333333333331
+    },
+    {
+      "seed": 20271403,
+      "profile": "joint",
+      "drop": 260,
+      "actions": [
+        14,
+        7,
+        6,
+        8,
+        5,
+        2
+      ],
+      "chosen": 5,
+      "true_board_nominal": 14,
+      "true_board_and_physics": 14,
+      "rebuilt_regret": 110.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271404,
+      "profile": "joint",
+      "drop": 12,
+      "actions": [
+        14,
+        3,
+        12,
+        0,
+        6,
+        7
+      ],
+      "chosen": 7,
+      "true_board_nominal": 3,
+      "true_board_and_physics": 6,
+      "rebuilt_regret": 3.333333333333343,
+      "true_board_regret": 17.0
+    },
+    {
+      "seed": 20271404,
+      "profile": "joint",
+      "drop": 90,
+      "actions": [
+        14,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "chosen": 14,
+      "true_board_nominal": 2,
+      "true_board_and_physics": 14,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 2.333333333333343
+    },
+    {
+      "seed": 20271404,
+      "profile": "joint",
+      "drop": 170,
+      "actions": [
+        14,
+        10,
+        0,
+        3,
+        5,
+        4
+      ],
+      "chosen": 3,
+      "true_board_nominal": 5,
+      "true_board_and_physics": 4,
+      "rebuilt_regret": 0.6666666666666856,
+      "true_board_regret": 60.33333333333334
+    },
+    {
+      "seed": 20271405,
+      "profile": "joint",
+      "drop": 12,
+      "actions": [
+        2,
+        0,
+        3,
+        4,
+        5,
+        1
+      ],
+      "chosen": 5,
+      "true_board_nominal": 4,
+      "true_board_and_physics": 4,
+      "rebuilt_regret": 54.66666666666666,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271405,
+      "profile": "joint",
+      "drop": 90,
+      "actions": [
+        14,
+        12,
+        8,
+        10,
+        11,
+        13
+      ],
+      "chosen": 11,
+      "true_board_nominal": 12,
+      "true_board_and_physics": 8,
+      "rebuilt_regret": 42.33333333333333,
+      "true_board_regret": 42.33333333333333
+    },
+    {
+      "seed": 20271405,
+      "profile": "joint",
+      "drop": 170,
+      "actions": [
+        14,
+        9,
+        7,
+        8,
+        10,
+        11
+      ],
+      "chosen": 14,
+      "true_board_nominal": 11,
+      "true_board_and_physics": 11,
+      "rebuilt_regret": 69.0,
+      "true_board_regret": 0.0
+    },
+    {
+      "seed": 20271406,
+      "profile": "joint",
+      "drop": 12,
+      "actions": [
+        14,
+        13,
+        8,
+        4,
+        3,
+        2
+      ],
+      "chosen": 8,
+      "true_board_nominal": 14,
+      "true_board_and_physics": 2,
+      "rebuilt_regret": 3.333333333333343,
+      "true_board_regret": 4.0
+    },
+    {
+      "seed": 20271406,
+      "profile": "joint",
+      "drop": 90,
+      "actions": [
+        6,
+        7,
+        4,
+        5,
+        2,
+        1
+      ],
+      "chosen": 5,
+      "true_board_nominal": 1,
+      "true_board_and_physics": 7,
+      "rebuilt_regret": 39.666666666666686,
+      "true_board_regret": 23.333333333333343
+    },
+    {
+      "seed": 20271406,
+      "profile": "joint",
+      "drop": 170,
+      "actions": [
+        14,
+        6,
+        7,
+        3,
+        2,
+        1
+      ],
+      "chosen": 1,
+      "true_board_nominal": 7,
+      "true_board_and_physics": 1,
+      "rebuilt_regret": 0.0,
+      "true_board_regret": 25.0
+    },
+    {
+      "seed": 20271406,
+      "profile": "joint",
+      "drop": 260,
+      "actions": [
+        3,
+        7,
+        5,
+        2,
+        12,
+        10
+      ],
+      "chosen": 5,
+      "true_board_nominal": 10,
+      "true_board_and_physics": 10,
+      "rebuilt_regret": 85.66666666666666,
+      "true_board_regret": 0.0
+    }
+  ]
+}
