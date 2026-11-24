@@ -1,0 +1,8 @@
+{
+  "rule": "block the robust choice only when the spawn-contact check labels it fatal and some aim is not fatal",
+  "overrides": {
+    "attempt-1": [],
+    "attempt-2": [],
+    "attempt-3": []
+  }
+}

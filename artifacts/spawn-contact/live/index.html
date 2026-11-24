@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orchard Drop · FlyWire replay</title>
+<link rel="stylesheet" href="../../replays/viewer.css">
+</head>
+<body>
+<main>
+<header><p>ORCHARD DROP / FLYWIRE FAFB v783</p><h1>Spawn-contact live attempts</h1></header>
+<nav id="milestones" aria-label="Replay milestone"></nav>
+<p id="status" role="status"></p>
+<div class="panels">
+<section>
+<h2 id="gameTitle">Gameplay</h2>
+<video id="video" preload="metadata" playsinline></video>
+<img id="capture" hidden alt="Annotated website screenshot for this decision">
+<a id="terminalCapture" hidden href="../../demo/paused.png">View final captured site state</a>
+<div class="control">
+<button id="play">Play</button><button id="back" aria-label="Previous drop">−1</button><button id="next" aria-label="Next drop">+1</button>
+<label>Drop <input id="drop" type="range" min="1" max="1" value="1"></label>
+<output id="decision"></output>
+</div>
+</section>
+<section>
+<h2>Simulated circuit activity</h2>
+<canvas id="circuit" width="584" height="512" aria-label="Projection of retained FlyWire neurons colored by activation change"></canvas>
+<div class="control"><label>Recurrent step <input id="step" type="range" min="1" max="6" value="6"></label><output id="stepValue"></output>
+<label>Rotate <input id="rotate" type="range" min="-180" max="180" value="22"></label></div>
+<div class="legend"><span>−1</span><i></i><span>+1 Δ activation</span><span>◇ Direct drive</span></div>
+<p id="node">Select a neuron to inspect its inputs and activity.</p>
+<h3 id="regionTitle">Neuropil activity by recurrent step</h3>
+<p id="coverage"></p>
+<p id="regionFocus" role="status"></p>
+<ol id="regions"></ol>
+</section>
+</div>
+</main>
+<script>
+window.replays={}; window.localManifest={};
+window.siteCaptures={"spawnLive1": {"label": "Attempt 1 \u00b7 1739 points", "folder": "attempt-1/"}, "spawnLive2": {"label": "Attempt 2 \u00b7 2031 points", "folder": "attempt-2/"}, "spawnLive3": {"label": "Attempt 3 \u00b7 2375 points", "folder": "attempt-3/"}};
+</script>
+<script src="../../replays/graph.js"></script>
+<script src="attempt-1/website.js"></script>
+<script src="attempt-2/website.js"></script>
+<script src="attempt-3/website.js"></script>
+<script src="../../replays/viewer.js"></script>
+</body>
+</html>

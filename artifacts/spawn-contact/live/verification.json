@@ -1,0 +1,159 @@
+{
+  "checkpoint": "artifacts/transfer/checkpoints/flywire-seed11-final.pt",
+  "sha256": "b2316d67a4538d55f2270633497dfe521a1dfd29dfc3ba0406ab8733380e1e7f",
+  "attempts": {
+    "attempt-1": {
+      "outcome": "game over",
+      "final_score": 1739,
+      "drops": 195,
+      "seconds": 1074,
+      "exceeded_3000": false,
+      "blocked_moves": 0,
+      "executed_uncertain": 2,
+      "boards_with_band_fruit": 0,
+      "highest_detected_tier": 10,
+      "actions_reproduced": 195,
+      "band_background_shots": 3,
+      "watermelon_first_detected_at_drop": null,
+      "drops_after_watermelon_detected": null,
+      "executed_uncertain_drops": [
+        192,
+        195
+      ],
+      "final_contact": {
+        "label": "uncertain",
+        "slack": 2.73,
+        "contact": {
+          "center_y": -26.86,
+          "x": 383.5,
+          "y": 24.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "final_predrop_frame": "final-predrop.jpg",
+      "final_release_strip": "final-release-strip.jpg",
+      "final_release_frames": [
+        {
+          "tag": "aim",
+          "t": 1071.706
+        },
+        {
+          "tag": "burst",
+          "t": 1072.0416
+        },
+        {
+          "tag": "burst",
+          "t": 1072.338
+        },
+        {
+          "tag": "settle",
+          "t": 1072.8072
+        }
+      ],
+      "final_drops_video": "attempt-1-final-drops.mp4"
+    },
+    "attempt-2": {
+      "outcome": "game over",
+      "final_score": 2031,
+      "drops": 218,
+      "seconds": 1423,
+      "exceeded_3000": false,
+      "blocked_moves": 0,
+      "executed_uncertain": 2,
+      "boards_with_band_fruit": 0,
+      "highest_detected_tier": 10,
+      "actions_reproduced": 218,
+      "band_background_shots": 3,
+      "watermelon_first_detected_at_drop": null,
+      "drops_after_watermelon_detected": null,
+      "executed_uncertain_drops": [
+        182,
+        199
+      ],
+      "final_contact": {
+        "label": "clear",
+        "slack": 16.3,
+        "contact": {
+          "center_y": -9.64,
+          "x": 358.6,
+          "y": 35.8,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "final_predrop_frame": "final-predrop.jpg",
+      "final_release_strip": "final-release-strip.jpg",
+      "final_release_frames": [
+        {
+          "tag": "aim",
+          "t": 1421.2927
+        },
+        {
+          "tag": "burst",
+          "t": 1421.6104
+        },
+        {
+          "tag": "burst",
+          "t": 1421.8963
+        },
+        {
+          "tag": "settle",
+          "t": 1422.3761
+        }
+      ],
+      "final_drops_video": "attempt-2-final-drops.mp4"
+    },
+    "attempt-3": {
+      "outcome": "game over",
+      "final_score": 2375,
+      "drops": 233,
+      "seconds": 1384,
+      "exceeded_3000": false,
+      "blocked_moves": 0,
+      "executed_uncertain": 2,
+      "boards_with_band_fruit": 0,
+      "highest_detected_tier": 11,
+      "actions_reproduced": 233,
+      "band_background_shots": 3,
+      "watermelon_first_detected_at_drop": 175,
+      "drops_after_watermelon_detected": 58,
+      "executed_uncertain_drops": [
+        231,
+        232
+      ],
+      "final_contact": {
+        "label": "clear",
+        "slack": 33.74,
+        "contact": {
+          "center_y": 4.14,
+          "x": 363.2,
+          "y": 74.8,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "final_predrop_frame": "final-predrop.jpg",
+      "final_release_strip": "final-release-strip.jpg",
+      "final_release_frames": [
+        {
+          "tag": "aim",
+          "t": 1381.7982
+        },
+        {
+          "tag": "burst",
+          "t": 1382.1282
+        },
+        {
+          "tag": "burst",
+          "t": 1382.4054
+        },
+        {
+          "tag": "settle",
+          "t": 1382.902
+        }
+      ],
+      "final_drops_video": "attempt-3-final-drops.mp4"
+    }
+  }
+}

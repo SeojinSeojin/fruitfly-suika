@@ -50,14 +50,15 @@ def final_drops_video(attempt=2, drops=10, fps=6):
     x0, y0, x1, y1 = meta['board_bounds']
     last = max(f['drop'] for f in meta['frames'])
     frames = [f for f in meta['frames'] if f['drop'] > last-drops]
-    end = RUNS/f'attempt-{attempt}'/'end.png'
+    end = next(RUNS/f'attempt-{attempt}'/n for n in ('end.png', 'paused.png', 'time-cap.jpg')
+               if (RUNS/f'attempt-{attempt}'/n).exists())
     crop = (x0-200, y0-120, x1+20, y1+20)
     size = ((crop[2]-crop[0])//2*2, (crop[3]-crop[1])//2*2)
     out = ROOT/f'attempt-{attempt}-final-drops.mp4'
     writer = imageio_ffmpeg.write_frames(str(out), size, fps=fps, macro_block_size=2, quality=6)
     writer.send(None)
     shots = [(f['t'], f"drop {f['drop']} · {f['tag']} · t={f['t']:.2f}s", record/f['image']) for f in frames]
-    shots += [(None, 'game over screen', end)]*fps
+    shots += [(None, f'final capture ({end.name})', end)]*fps
     for _, label, path in shots:
         im = Image.open(path).convert('RGB').crop(crop).resize(size)
         ImageDraw.Draw(im).text((8, 8), label, fill='white', stroke_width=2, stroke_fill='black')
