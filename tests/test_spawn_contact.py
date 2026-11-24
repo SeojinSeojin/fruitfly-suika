@@ -7,7 +7,8 @@ from PIL import Image
 
 from flymerge.game import observe
 from flymerge.robust_planner import choose
-from flymerge.spawn_contact import SITE_RADII, SPAWN_Y, TEST_Y, check, gate, label_actions, target_screen_x
+from flymerge.spawn_contact import (SITE_RADII, SPAWN_OFFSET_PX, SPAWN_Y, TEST_Y, carry_hidden, check, gate,
+                                    label_actions, target_screen_x)
 
 FIXTURES = Path(__file__).parent/'fixtures'/'spawn'
 CACHE = Path('data/site')
@@ -49,6 +50,29 @@ class ContactRule(unittest.TestCase):
         block, allowed = gate(labels, 3)
         self.assertTrue(block)
         self.assertEqual(list(np.flatnonzero(allowed)), [14])
+
+    def test_strict_gate_prefers_clear(self):
+        labels = [dict(label='uncertain')]*3+[dict(label='clear')]*2+[dict(label='fatal')]*10
+        self.assertEqual(gate(labels, 0)[0], False)
+        block, allowed = gate(labels, 0, strict=True)
+        self.assertTrue(block)
+        self.assertEqual(list(np.flatnonzero(allowed)), [3, 4])
+        # Without a clear aim, strict falls back to the non-fatal rule.
+        only = [dict(label='uncertain')]*2+[dict(label='fatal')]*13
+        self.assertEqual(gate(only, 0, strict=True)[0], False)
+        self.assertEqual(gate(only, 5, strict=True)[0], True)
+
+    def test_mask_memory_keeps_hidden_corner_grape(self):
+        # Website attempt 3, drops 232 -> 233: the grape at the right rim vanished under the orange's mask.
+        box = (370, 216, 896, 781)
+        grape = (386.6, 12.5, 2)
+        hand = (827., box[1]+SPAWN_OFFSET_PX, 3)
+        self.assertEqual(carry_hidden([grape], [], hand, box), [grape])
+        # Seen again, or outside the mask column, or low in the pile: not carried.
+        self.assertEqual(carry_hidden([grape], [(388., 14., 2)], hand, box), [])
+        self.assertEqual(carry_hidden([grape], [], (500., hand[1], 3), box), [])
+        self.assertEqual(carry_hidden([(386.6, 300., 2)], [], hand, box), [])
+        self.assertEqual(carry_hidden([grape], [], None, box), [])
 
     def test_target_matches_adapter(self):
         x0, x1 = 370, 896

@@ -1,0 +1,314 @@
+{
+  "note": "labels only: the outcome of any changed aim is unknown",
+  "attempts": {
+    "attempt-1": {
+      "decisions": 195,
+      "boards_with_carried_fruit": 0,
+      "labels_changed_by_memory": [],
+      "strict_would_block": [
+        192,
+        195
+      ],
+      "final": {
+        "drop": 195,
+        "executed_aim": 15,
+        "recorded_label": "uncertain",
+        "memory_label": "uncertain",
+        "carried": [],
+        "strict_blocks": true,
+        "allowed_aims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "last5": [
+        {
+          "drop": 191,
+          "executed_aim": 7,
+          "recorded_label": "clear",
+          "memory_label": "clear",
+          "carried": [],
+          "strict_blocks": false,
+          "allowed_aims": null
+        },
+        {
+          "drop": 192,
+          "executed_aim": 15,
+          "recorded_label": "uncertain",
+          "memory_label": "uncertain",
+          "carried": [],
+          "strict_blocks": true,
+          "allowed_aims": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "drop": 193,
+          "executed_aim": 15,
+          "recorded_label": "clear",
+          "memory_label": "clear",
+          "carried": [],
+          "strict_blocks": false,
+          "allowed_aims": null
+        },
+        {
+          "drop": 194,
+          "executed_aim": 1,
+          "recorded_label": "clear",
+          "memory_label": "clear",
+          "carried": [],
+          "strict_blocks": false,
+          "allowed_aims": null
+        },
+        {
+          "drop": 195,
+          "executed_aim": 15,
+          "recorded_label": "uncertain",
+          "memory_label": "uncertain",
+          "carried": [],
+          "strict_blocks": true,
+          "allowed_aims": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        }
+      ]
+    },
+    "attempt-2": {
+      "decisions": 218,
+      "boards_with_carried_fruit": 0,
+      "labels_changed_by_memory": [],
+      "strict_would_block": [
+        182,
+        199
+      ],
+      "final": {
+        "drop": 218,
+        "executed_aim": 15,
+        "recorded_label": "clear",
+        "memory_label": "clear",
+        "carried": [],
+        "strict_blocks": false,
+        "allowed_aims": null
+      },
+      "last5": [
+        {
+          "drop": 214,
+          "executed_aim": 15,
+          "recorded_label": "clear",
+          "memory_label": "clear",
+          "carried": [],
+          "strict_blocks": false,
+          "allowed_aims": null
+        },
+        {
+          "drop": 215,
+          "executed_aim": 3,
+          "recorded_label": "clear",
+          "memory_label": "clear",
+          "carried": [],
+          "strict_blocks": false,
+          "allowed_aims": null
+        },
+        {
+          "drop": 216,
+          "executed_aim": 3,
+          "recorded_label": "clear",
+          "memory_label": "clear",
+          "carried": [],
+          "strict_blocks": false,
+          "allowed_aims": null
+        },
+        {
+          "drop": 217,
+          "executed_aim": 3,
+          "recorded_label": "clear",
+          "memory_label": "clear",
+          "carried": [],
+          "strict_blocks": false,
+          "allowed_aims": null
+        },
+        {
+          "drop": 218,
+          "executed_aim": 15,
+          "recorded_label": "clear",
+          "memory_label": "clear",
+          "carried": [],
+          "strict_blocks": false,
+          "allowed_aims": null
+        }
+      ]
+    },
+    "attempt-3": {
+      "decisions": 233,
+      "boards_with_carried_fruit": 1,
+      "labels_changed_by_memory": [
+        233
+      ],
+      "strict_would_block": [
+        231,
+        232,
+        233
+      ],
+      "final": {
+        "drop": 233,
+        "executed_aim": 14,
+        "recorded_label": "clear",
+        "memory_label": "uncertain",
+        "carried": [
+          [
+            386.6,
+            12.5,
+            2
+          ]
+        ],
+        "strict_blocks": true,
+        "allowed_aims": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "last5": [
+        {
+          "drop": 229,
+          "executed_aim": 15,
+          "recorded_label": "clear",
+          "memory_label": "clear",
+          "carried": [],
+          "strict_blocks": false,
+          "allowed_aims": null
+        },
+        {
+          "drop": 230,
+          "executed_aim": 14,
+          "recorded_label": "clear",
+          "memory_label": "clear",
+          "carried": [],
+          "strict_blocks": false,
+          "allowed_aims": null
+        },
+        {
+          "drop": 231,
+          "executed_aim": 14,
+          "recorded_label": "uncertain",
+          "memory_label": "uncertain",
+          "carried": [],
+          "strict_blocks": true,
+          "allowed_aims": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "drop": 232,
+          "executed_aim": 14,
+          "recorded_label": "uncertain",
+          "memory_label": "uncertain",
+          "carried": [],
+          "strict_blocks": true,
+          "allowed_aims": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        {
+          "drop": 233,
+          "executed_aim": 14,
+          "recorded_label": "clear",
+          "memory_label": "uncertain",
+          "carried": [
+            [
+              386.6,
+              12.5,
+              2
+            ]
+          ],
+          "strict_blocks": true,
+          "allowed_aims": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -515,7 +515,9 @@ def run(args):
                     if found_hand:
                         shots.append((found_hand[0], image))
                 extended, uncovered = compose_background(pixels, shots, box)
-                result.update(extended_vision=True, band_background_shots=len(shots), band_uncovered_columns=uncovered)
+                result.update(extended_vision=True, band_background_shots=len(shots), band_uncovered_columns=uncovered,
+                              contact_check=args.contact_check, contact_strict=args.contact_strict,
+                              mask_memory=args.mask_memory)
                 if len(shots) < 2 or uncovered:
                     result['outcome'] = 'paused: spawn-band background incomplete'
                     page.screenshot(path=str(args.out/'paused.png'))
@@ -534,6 +536,7 @@ def run(args):
                     return vision.board(image[y0:y1,x0:x1], background, fast=fast)
                 return board_extended(vision, image, box, extended, hand_position(held, box), fast=fast)
 
+            remembered = []
             while (args.until_game_over or len(decisions) < args.max_drops) and time.monotonic() < deadline:
                 found, coverage = detect_board(pixels, hand, fast=True)
                 if coverage < .86:
@@ -593,8 +596,15 @@ def run(args):
                         from .robust_planner import choose as robust_choose
                         from .spawn_contact import gate, label_actions
 
-                        labels = label_actions([(x*410, y*440, t) for x, y, t, _ in found], current, box)
-                        blocked, allowed = gate(labels, action)
+                        seen = [(x*410, y*440, t) for x, y, t, _ in found]
+                        carried = []
+                        if args.mask_memory:
+                            from .spawn_contact import carry_hidden
+                            carried = carry_hidden(remembered, seen, hand_position(hand, box), box)
+                            trace['carried'] = [[round(x, 1), round(y, 1), int(t)] for x, y, t in carried]
+                        remembered = seen+carried
+                        labels = label_actions(remembered, current, box)
+                        blocked, allowed = gate(labels, action, strict=args.contact_strict)
                         trace.update(legacy_action=action, blocked=blocked,
                                      contact_labels=[l['label'] for l in labels], legacy_contact=labels[action])
                         if blocked:
@@ -721,6 +731,10 @@ if __name__ == '__main__':
     parser.add_argument('--record', type=Path, help='save timestamped frames around each release')
     parser.add_argument('--extended-vision', action='store_true', help='detect the spawn band, upper corners and watermelons')
     parser.add_argument('--contact-check', action='store_true', help='block high-confidence spawn-contact game overs')
+    parser.add_argument('--contact-strict', action='store_true',
+                        help='with --contact-check, also refuse uncertain aims when a clear aim exists')
+    parser.add_argument('--mask-memory', action='store_true',
+                        help='with --contact-check, keep previous-board fruit hidden by the held-fruit mask')
     parser.add_argument('--state-mode',choices=['current','tracking','physics','both'])
     parser.add_argument('--state-config',type=Path,default=Path('artifacts/state-estimation/frozen.json'))
     parser.add_argument('--rollout-mode',choices=['fixed','adaptive'])
@@ -736,6 +750,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if args.contact_check and not args.extended_vision:
         parser.error('--contact-check requires --extended-vision')
+    if (args.contact_strict or args.mask_memory) and not args.contact_check:
+        parser.error('--contact-strict and --mask-memory require --contact-check')
     if args.contact_check and args.strategy != 'robust':
         parser.error('--contact-check is implemented for the robust planner')
     if args.vision_workers < 1:

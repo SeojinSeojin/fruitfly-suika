@@ -88,8 +88,49 @@ def label_actions(fruits, held, box):
     return [check(fruits, held, (target_screen_x(a, held, x0, x1)-x0)*LOCAL_W/(x1-x0)) for a in range(15)]
 
 
-def gate(labels, action):
-    """Block `action` only when it is high-confidence fatal and some action is not fatal."""
-    allowed = np.array([l['label'] != 'fatal' for l in labels])
-    block = labels[action]['label'] == 'fatal' and allowed.any()
+def gate(labels, action, strict=False):
+    """Block `action` only when it is high-confidence fatal and some action is not fatal.
+
+    With `strict`, an uncertain action is also blocked when some action is clear (every terminal drop
+    in the first six website games that the check labelled uncertain had clear alternatives)."""
+    names = [l['label'] for l in labels]
+    if strict and 'clear' in names:
+        allowed = np.array([n == 'clear' for n in names])
+    else:
+        allowed = np.array([n != 'fatal' for n in names])
+    block = not allowed[action] and allowed.any()
     return bool(block), allowed
+
+
+def hand_mask(hand, box):
+    """Screen-px zone that `site.board_extended` excludes around the held fruit: (left, right, bottom)."""
+    hx, hy, tier = hand
+    radius = SITE_RADII[tier]*BOX_H/LOCAL_H
+    half = max(58, radius+10)
+    return hx-half, hx+half, hy+radius+4
+
+
+def carry_hidden(previous, current, hand, box, reach=12.):
+    """Fruit from the previous board that the hand mask now hides, to keep in the contact check.
+
+    `previous` and `current` are [(x, y, tier)] in local units; `hand` is the held fruit (screen x, y,
+    tier) at detection time. A previous fruit is carried when its centre column lies under the mask,
+    its top reaches into the masked rows, and no current fruit is within `reach` local units of it.
+    Website attempt 3 (seed 50003) ended when a corner grape seen on drop 232 was hidden this way on
+    drop 233 and the held orange was aimed onto it.
+    """
+    if hand is None:
+        return []
+    x0, y0, x1, y1 = box
+    left, right, bottom = hand_mask(hand, box)
+    sx = lambda x: x0+x*(x1-x0)/LOCAL_W
+    sy = lambda y: y0+y*(y1-y0)/LOCAL_H
+    carried = []
+    for x, y, t in previous:
+        top = sy(y-SITE_RADII[t])
+        if not (left <= sx(x) <= right and top < bottom):
+            continue
+        if any(np.hypot(x-cx, y-cy) < max(reach, .5*SITE_RADII[t]) for cx, cy, _ in current):
+            continue
+        carried.append((x, y, t))
+    return carried
