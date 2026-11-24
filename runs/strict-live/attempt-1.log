@@ -1,0 +1,31 @@
+{
+  "url": "https://playsuikagame.com/ko",
+  "checkpoint": "artifacts/transfer/checkpoints/flywire-seed11-final.pt",
+  "training_drops": 204800,
+  "updates": 200,
+  "seed": 11,
+  "action_seed": 50004,
+  "rules": "transfer",
+  "drop_cap": null,
+  "time_cap_seconds": 1800,
+  "final_score": 1201,
+  "completed_drops": 124,
+  "browser": "headed Chromium",
+  "ad_filter": true,
+  "strategy": "robust",
+  "outcome": "fruit centers or ready cue remained uncertain",
+  "board_bounds": [
+    370,
+    216,
+    896,
+    781
+  ],
+  "extended_vision": true,
+  "band_background_shots": 3,
+  "band_uncovered_columns": 0,
+  "contact_check": true,
+  "contact_strict": true,
+  "mask_memory": true,
+  "seconds": 866.4871369250031,
+  "final_capture": "paused.png"
+}

@@ -1,0 +1,9089 @@
+{
+  "board_bounds": [
+    370,
+    216,
+    896,
+    781
+  ],
+  "outcome": "fruit centers or ready cue remained uncertain",
+  "frames": [
+    {
+      "drop": 0,
+      "t": 1.4224,
+      "tag": "settle",
+      "image": "frames/000-00000-settle.jpg"
+    },
+    {
+      "drop": 0,
+      "t": 1.9672,
+      "tag": "settle",
+      "image": "frames/000-00001-settle.jpg"
+    },
+    {
+      "drop": 0,
+      "t": 2.5048,
+      "tag": "settle",
+      "image": "frames/000-00002-settle.jpg"
+    },
+    {
+      "drop": 1,
+      "t": 6.4911,
+      "tag": "aim",
+      "image": "frames/001-00003-aim.jpg"
+    },
+    {
+      "drop": 1,
+      "t": 6.7233,
+      "tag": "burst",
+      "image": "frames/001-00004-burst.jpg"
+    },
+    {
+      "drop": 1,
+      "t": 6.9098,
+      "tag": "burst",
+      "image": "frames/001-00005-burst.jpg"
+    },
+    {
+      "drop": 1,
+      "t": 7.09,
+      "tag": "burst",
+      "image": "frames/001-00006-burst.jpg"
+    },
+    {
+      "drop": 1,
+      "t": 7.2723,
+      "tag": "burst",
+      "image": "frames/001-00007-burst.jpg"
+    },
+    {
+      "drop": 1,
+      "t": 7.4726,
+      "tag": "settle",
+      "image": "frames/001-00008-settle.jpg"
+    },
+    {
+      "drop": 1,
+      "t": 8.0081,
+      "tag": "settle",
+      "image": "frames/001-00009-settle.jpg"
+    },
+    {
+      "drop": 1,
+      "t": 8.5333,
+      "tag": "settle",
+      "image": "frames/001-00010-settle.jpg"
+    },
+    {
+      "drop": 1,
+      "t": 9.0836,
+      "tag": "settle",
+      "image": "frames/001-00011-settle.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 10.1188,
+      "tag": "aim",
+      "image": "frames/002-00012-aim.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 10.3371,
+      "tag": "burst",
+      "image": "frames/002-00013-burst.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 10.5407,
+      "tag": "burst",
+      "image": "frames/002-00014-burst.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 10.7424,
+      "tag": "burst",
+      "image": "frames/002-00015-burst.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 11.1112,
+      "tag": "settle",
+      "image": "frames/002-00016-settle.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 11.6485,
+      "tag": "settle",
+      "image": "frames/002-00017-settle.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 12.1609,
+      "tag": "settle",
+      "image": "frames/002-00018-settle.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 12.734,
+      "tag": "settle",
+      "image": "frames/002-00019-settle.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 13.2834,
+      "tag": "settle",
+      "image": "frames/002-00020-settle.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 13.827,
+      "tag": "settle",
+      "image": "frames/002-00021-settle.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 14.3715,
+      "tag": "settle",
+      "image": "frames/002-00022-settle.jpg"
+    },
+    {
+      "drop": 2,
+      "t": 14.9001,
+      "tag": "settle",
+      "image": "frames/002-00023-settle.jpg"
+    },
+    {
+      "drop": 3,
+      "t": 15.9183,
+      "tag": "aim",
+      "image": "frames/003-00024-aim.jpg"
+    },
+    {
+      "drop": 3,
+      "t": 16.1348,
+      "tag": "burst",
+      "image": "frames/003-00025-burst.jpg"
+    },
+    {
+      "drop": 3,
+      "t": 16.3326,
+      "tag": "burst",
+      "image": "frames/003-00026-burst.jpg"
+    },
+    {
+      "drop": 3,
+      "t": 16.5366,
+      "tag": "burst",
+      "image": "frames/003-00027-burst.jpg"
+    },
+    {
+      "drop": 3,
+      "t": 16.8927,
+      "tag": "settle",
+      "image": "frames/003-00028-settle.jpg"
+    },
+    {
+      "drop": 3,
+      "t": 17.4051,
+      "tag": "settle",
+      "image": "frames/003-00029-settle.jpg"
+    },
+    {
+      "drop": 3,
+      "t": 17.8972,
+      "tag": "settle",
+      "image": "frames/003-00030-settle.jpg"
+    },
+    {
+      "drop": 3,
+      "t": 18.4221,
+      "tag": "settle",
+      "image": "frames/003-00031-settle.jpg"
+    },
+    {
+      "drop": 4,
+      "t": 19.5085,
+      "tag": "aim",
+      "image": "frames/004-00032-aim.jpg"
+    },
+    {
+      "drop": 4,
+      "t": 19.7583,
+      "tag": "burst",
+      "image": "frames/004-00033-burst.jpg"
+    },
+    {
+      "drop": 4,
+      "t": 19.9591,
+      "tag": "burst",
+      "image": "frames/004-00034-burst.jpg"
+    },
+    {
+      "drop": 4,
+      "t": 20.1514,
+      "tag": "burst",
+      "image": "frames/004-00035-burst.jpg"
+    },
+    {
+      "drop": 4,
+      "t": 20.5136,
+      "tag": "settle",
+      "image": "frames/004-00036-settle.jpg"
+    },
+    {
+      "drop": 4,
+      "t": 21.0574,
+      "tag": "settle",
+      "image": "frames/004-00037-settle.jpg"
+    },
+    {
+      "drop": 4,
+      "t": 21.5996,
+      "tag": "settle",
+      "image": "frames/004-00038-settle.jpg"
+    },
+    {
+      "drop": 4,
+      "t": 22.1426,
+      "tag": "settle",
+      "image": "frames/004-00039-settle.jpg"
+    },
+    {
+      "drop": 5,
+      "t": 23.1694,
+      "tag": "aim",
+      "image": "frames/005-00040-aim.jpg"
+    },
+    {
+      "drop": 5,
+      "t": 23.3849,
+      "tag": "burst",
+      "image": "frames/005-00041-burst.jpg"
+    },
+    {
+      "drop": 5,
+      "t": 23.5885,
+      "tag": "burst",
+      "image": "frames/005-00042-burst.jpg"
+    },
+    {
+      "drop": 5,
+      "t": 23.7944,
+      "tag": "burst",
+      "image": "frames/005-00043-burst.jpg"
+    },
+    {
+      "drop": 5,
+      "t": 24.1436,
+      "tag": "settle",
+      "image": "frames/005-00044-settle.jpg"
+    },
+    {
+      "drop": 5,
+      "t": 24.695,
+      "tag": "settle",
+      "image": "frames/005-00045-settle.jpg"
+    },
+    {
+      "drop": 5,
+      "t": 25.2404,
+      "tag": "settle",
+      "image": "frames/005-00046-settle.jpg"
+    },
+    {
+      "drop": 5,
+      "t": 25.7795,
+      "tag": "settle",
+      "image": "frames/005-00047-settle.jpg"
+    },
+    {
+      "drop": 6,
+      "t": 26.8012,
+      "tag": "aim",
+      "image": "frames/006-00048-aim.jpg"
+    },
+    {
+      "drop": 6,
+      "t": 27.0155,
+      "tag": "burst",
+      "image": "frames/006-00049-burst.jpg"
+    },
+    {
+      "drop": 6,
+      "t": 27.2043,
+      "tag": "burst",
+      "image": "frames/006-00050-burst.jpg"
+    },
+    {
+      "drop": 6,
+      "t": 27.3803,
+      "tag": "burst",
+      "image": "frames/006-00051-burst.jpg"
+    },
+    {
+      "drop": 6,
+      "t": 27.5538,
+      "tag": "burst",
+      "image": "frames/006-00052-burst.jpg"
+    },
+    {
+      "drop": 6,
+      "t": 27.7724,
+      "tag": "settle",
+      "image": "frames/006-00053-settle.jpg"
+    },
+    {
+      "drop": 6,
+      "t": 28.2906,
+      "tag": "settle",
+      "image": "frames/006-00054-settle.jpg"
+    },
+    {
+      "drop": 6,
+      "t": 28.8326,
+      "tag": "settle",
+      "image": "frames/006-00055-settle.jpg"
+    },
+    {
+      "drop": 6,
+      "t": 29.3677,
+      "tag": "settle",
+      "image": "frames/006-00056-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 30.4169,
+      "tag": "aim",
+      "image": "frames/007-00057-aim.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 30.6589,
+      "tag": "burst",
+      "image": "frames/007-00058-burst.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 30.8788,
+      "tag": "burst",
+      "image": "frames/007-00059-burst.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 31.0784,
+      "tag": "burst",
+      "image": "frames/007-00060-burst.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 31.4078,
+      "tag": "settle",
+      "image": "frames/007-00061-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 31.9403,
+      "tag": "settle",
+      "image": "frames/007-00062-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 32.4876,
+      "tag": "settle",
+      "image": "frames/007-00063-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 33.0424,
+      "tag": "settle",
+      "image": "frames/007-00064-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 33.6022,
+      "tag": "settle",
+      "image": "frames/007-00065-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 34.1606,
+      "tag": "settle",
+      "image": "frames/007-00066-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 34.7342,
+      "tag": "settle",
+      "image": "frames/007-00067-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 35.2881,
+      "tag": "settle",
+      "image": "frames/007-00068-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 35.8589,
+      "tag": "settle",
+      "image": "frames/007-00069-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 36.3898,
+      "tag": "settle",
+      "image": "frames/007-00070-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 36.9173,
+      "tag": "settle",
+      "image": "frames/007-00071-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 37.451,
+      "tag": "settle",
+      "image": "frames/007-00072-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 37.9647,
+      "tag": "settle",
+      "image": "frames/007-00073-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 38.4807,
+      "tag": "settle",
+      "image": "frames/007-00074-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 39.004,
+      "tag": "settle",
+      "image": "frames/007-00075-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 39.5578,
+      "tag": "settle",
+      "image": "frames/007-00076-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 40.0893,
+      "tag": "settle",
+      "image": "frames/007-00077-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 40.6156,
+      "tag": "settle",
+      "image": "frames/007-00078-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 41.1654,
+      "tag": "settle",
+      "image": "frames/007-00079-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 41.6995,
+      "tag": "settle",
+      "image": "frames/007-00080-settle.jpg"
+    },
+    {
+      "drop": 7,
+      "t": 42.2552,
+      "tag": "settle",
+      "image": "frames/007-00081-settle.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 43.3749,
+      "tag": "aim",
+      "image": "frames/008-00082-aim.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 43.5908,
+      "tag": "burst",
+      "image": "frames/008-00083-burst.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 43.7906,
+      "tag": "burst",
+      "image": "frames/008-00084-burst.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 43.9919,
+      "tag": "burst",
+      "image": "frames/008-00085-burst.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 44.3601,
+      "tag": "settle",
+      "image": "frames/008-00086-settle.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 44.9351,
+      "tag": "settle",
+      "image": "frames/008-00087-settle.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 45.5058,
+      "tag": "settle",
+      "image": "frames/008-00088-settle.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 46.0444,
+      "tag": "settle",
+      "image": "frames/008-00089-settle.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 46.5996,
+      "tag": "settle",
+      "image": "frames/008-00090-settle.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 47.134,
+      "tag": "settle",
+      "image": "frames/008-00091-settle.jpg"
+    },
+    {
+      "drop": 8,
+      "t": 47.6724,
+      "tag": "settle",
+      "image": "frames/008-00092-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 48.7756,
+      "tag": "aim",
+      "image": "frames/009-00093-aim.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 48.9917,
+      "tag": "burst",
+      "image": "frames/009-00094-burst.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 49.2024,
+      "tag": "burst",
+      "image": "frames/009-00095-burst.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 49.4245,
+      "tag": "burst",
+      "image": "frames/009-00096-burst.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 49.7798,
+      "tag": "settle",
+      "image": "frames/009-00097-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 50.333,
+      "tag": "settle",
+      "image": "frames/009-00098-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 50.8846,
+      "tag": "settle",
+      "image": "frames/009-00099-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 51.4463,
+      "tag": "settle",
+      "image": "frames/009-00100-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 51.9673,
+      "tag": "settle",
+      "image": "frames/009-00101-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 52.5358,
+      "tag": "settle",
+      "image": "frames/009-00102-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 53.1177,
+      "tag": "settle",
+      "image": "frames/009-00103-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 53.6557,
+      "tag": "settle",
+      "image": "frames/009-00104-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 54.1969,
+      "tag": "settle",
+      "image": "frames/009-00105-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 54.7387,
+      "tag": "settle",
+      "image": "frames/009-00106-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 55.2626,
+      "tag": "settle",
+      "image": "frames/009-00107-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 55.7767,
+      "tag": "settle",
+      "image": "frames/009-00108-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 56.3281,
+      "tag": "settle",
+      "image": "frames/009-00109-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 56.9094,
+      "tag": "settle",
+      "image": "frames/009-00110-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 57.4452,
+      "tag": "settle",
+      "image": "frames/009-00111-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 58.0025,
+      "tag": "settle",
+      "image": "frames/009-00112-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 58.565,
+      "tag": "settle",
+      "image": "frames/009-00113-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 59.0787,
+      "tag": "settle",
+      "image": "frames/009-00114-settle.jpg"
+    },
+    {
+      "drop": 9,
+      "t": 59.6102,
+      "tag": "settle",
+      "image": "frames/009-00115-settle.jpg"
+    },
+    {
+      "drop": 10,
+      "t": 60.7074,
+      "tag": "aim",
+      "image": "frames/010-00116-aim.jpg"
+    },
+    {
+      "drop": 10,
+      "t": 60.9405,
+      "tag": "burst",
+      "image": "frames/010-00117-burst.jpg"
+    },
+    {
+      "drop": 10,
+      "t": 61.1383,
+      "tag": "burst",
+      "image": "frames/010-00118-burst.jpg"
+    },
+    {
+      "drop": 10,
+      "t": 61.3263,
+      "tag": "burst",
+      "image": "frames/010-00119-burst.jpg"
+    },
+    {
+      "drop": 10,
+      "t": 61.7076,
+      "tag": "settle",
+      "image": "frames/010-00120-settle.jpg"
+    },
+    {
+      "drop": 10,
+      "t": 62.2477,
+      "tag": "settle",
+      "image": "frames/010-00121-settle.jpg"
+    },
+    {
+      "drop": 10,
+      "t": 62.7806,
+      "tag": "settle",
+      "image": "frames/010-00122-settle.jpg"
+    },
+    {
+      "drop": 10,
+      "t": 63.3313,
+      "tag": "settle",
+      "image": "frames/010-00123-settle.jpg"
+    },
+    {
+      "drop": 11,
+      "t": 64.334,
+      "tag": "aim",
+      "image": "frames/011-00124-aim.jpg"
+    },
+    {
+      "drop": 11,
+      "t": 64.566,
+      "tag": "burst",
+      "image": "frames/011-00125-burst.jpg"
+    },
+    {
+      "drop": 11,
+      "t": 64.7692,
+      "tag": "burst",
+      "image": "frames/011-00126-burst.jpg"
+    },
+    {
+      "drop": 11,
+      "t": 64.9759,
+      "tag": "burst",
+      "image": "frames/011-00127-burst.jpg"
+    },
+    {
+      "drop": 11,
+      "t": 65.3207,
+      "tag": "settle",
+      "image": "frames/011-00128-settle.jpg"
+    },
+    {
+      "drop": 11,
+      "t": 65.8504,
+      "tag": "settle",
+      "image": "frames/011-00129-settle.jpg"
+    },
+    {
+      "drop": 11,
+      "t": 66.3973,
+      "tag": "settle",
+      "image": "frames/011-00130-settle.jpg"
+    },
+    {
+      "drop": 11,
+      "t": 67.1148,
+      "tag": "settle",
+      "image": "frames/011-00131-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 68.3077,
+      "tag": "aim",
+      "image": "frames/012-00132-aim.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 68.5583,
+      "tag": "burst",
+      "image": "frames/012-00133-burst.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 68.7705,
+      "tag": "burst",
+      "image": "frames/012-00134-burst.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 68.9815,
+      "tag": "burst",
+      "image": "frames/012-00135-burst.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 69.3146,
+      "tag": "settle",
+      "image": "frames/012-00136-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 69.849,
+      "tag": "settle",
+      "image": "frames/012-00137-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 70.3999,
+      "tag": "settle",
+      "image": "frames/012-00138-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 70.957,
+      "tag": "settle",
+      "image": "frames/012-00139-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 71.5362,
+      "tag": "settle",
+      "image": "frames/012-00140-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 72.1004,
+      "tag": "settle",
+      "image": "frames/012-00141-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 72.6469,
+      "tag": "settle",
+      "image": "frames/012-00142-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 73.1917,
+      "tag": "settle",
+      "image": "frames/012-00143-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 73.7536,
+      "tag": "settle",
+      "image": "frames/012-00144-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 74.317,
+      "tag": "settle",
+      "image": "frames/012-00145-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 74.8559,
+      "tag": "settle",
+      "image": "frames/012-00146-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 75.4016,
+      "tag": "settle",
+      "image": "frames/012-00147-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 75.9674,
+      "tag": "settle",
+      "image": "frames/012-00148-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 76.5243,
+      "tag": "settle",
+      "image": "frames/012-00149-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 77.1015,
+      "tag": "settle",
+      "image": "frames/012-00150-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 77.6559,
+      "tag": "settle",
+      "image": "frames/012-00151-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 78.1792,
+      "tag": "settle",
+      "image": "frames/012-00152-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 78.73,
+      "tag": "settle",
+      "image": "frames/012-00153-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 79.283,
+      "tag": "settle",
+      "image": "frames/012-00154-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 79.8306,
+      "tag": "settle",
+      "image": "frames/012-00155-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 80.366,
+      "tag": "settle",
+      "image": "frames/012-00156-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 80.9248,
+      "tag": "settle",
+      "image": "frames/012-00157-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 81.4863,
+      "tag": "settle",
+      "image": "frames/012-00158-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 82.0626,
+      "tag": "settle",
+      "image": "frames/012-00159-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 82.6384,
+      "tag": "settle",
+      "image": "frames/012-00160-settle.jpg"
+    },
+    {
+      "drop": 12,
+      "t": 83.2162,
+      "tag": "settle",
+      "image": "frames/012-00161-settle.jpg"
+    },
+    {
+      "drop": 13,
+      "t": 84.3244,
+      "tag": "aim",
+      "image": "frames/013-00162-aim.jpg"
+    },
+    {
+      "drop": 13,
+      "t": 84.5502,
+      "tag": "burst",
+      "image": "frames/013-00163-burst.jpg"
+    },
+    {
+      "drop": 13,
+      "t": 84.7475,
+      "tag": "burst",
+      "image": "frames/013-00164-burst.jpg"
+    },
+    {
+      "drop": 13,
+      "t": 84.9433,
+      "tag": "burst",
+      "image": "frames/013-00165-burst.jpg"
+    },
+    {
+      "drop": 13,
+      "t": 85.3248,
+      "tag": "settle",
+      "image": "frames/013-00166-settle.jpg"
+    },
+    {
+      "drop": 13,
+      "t": 85.8898,
+      "tag": "settle",
+      "image": "frames/013-00167-settle.jpg"
+    },
+    {
+      "drop": 13,
+      "t": 86.4446,
+      "tag": "settle",
+      "image": "frames/013-00168-settle.jpg"
+    },
+    {
+      "drop": 13,
+      "t": 86.9969,
+      "tag": "settle",
+      "image": "frames/013-00169-settle.jpg"
+    },
+    {
+      "drop": 13,
+      "t": 87.5482,
+      "tag": "settle",
+      "image": "frames/013-00170-settle.jpg"
+    },
+    {
+      "drop": 13,
+      "t": 88.1068,
+      "tag": "settle",
+      "image": "frames/013-00171-settle.jpg"
+    },
+    {
+      "drop": 14,
+      "t": 89.2006,
+      "tag": "aim",
+      "image": "frames/014-00172-aim.jpg"
+    },
+    {
+      "drop": 14,
+      "t": 89.4393,
+      "tag": "burst",
+      "image": "frames/014-00173-burst.jpg"
+    },
+    {
+      "drop": 14,
+      "t": 89.6902,
+      "tag": "burst",
+      "image": "frames/014-00174-burst.jpg"
+    },
+    {
+      "drop": 14,
+      "t": 90.2146,
+      "tag": "settle",
+      "image": "frames/014-00175-settle.jpg"
+    },
+    {
+      "drop": 14,
+      "t": 90.8765,
+      "tag": "settle",
+      "image": "frames/014-00176-settle.jpg"
+    },
+    {
+      "drop": 14,
+      "t": 91.5788,
+      "tag": "settle",
+      "image": "frames/014-00177-settle.jpg"
+    },
+    {
+      "drop": 14,
+      "t": 92.2357,
+      "tag": "settle",
+      "image": "frames/014-00178-settle.jpg"
+    },
+    {
+      "drop": 15,
+      "t": 93.3738,
+      "tag": "aim",
+      "image": "frames/015-00179-aim.jpg"
+    },
+    {
+      "drop": 15,
+      "t": 93.5961,
+      "tag": "burst",
+      "image": "frames/015-00180-burst.jpg"
+    },
+    {
+      "drop": 15,
+      "t": 93.8058,
+      "tag": "burst",
+      "image": "frames/015-00181-burst.jpg"
+    },
+    {
+      "drop": 15,
+      "t": 94.0171,
+      "tag": "burst",
+      "image": "frames/015-00182-burst.jpg"
+    },
+    {
+      "drop": 15,
+      "t": 94.3649,
+      "tag": "settle",
+      "image": "frames/015-00183-settle.jpg"
+    },
+    {
+      "drop": 15,
+      "t": 94.9496,
+      "tag": "settle",
+      "image": "frames/015-00184-settle.jpg"
+    },
+    {
+      "drop": 15,
+      "t": 95.4977,
+      "tag": "settle",
+      "image": "frames/015-00185-settle.jpg"
+    },
+    {
+      "drop": 15,
+      "t": 96.032,
+      "tag": "settle",
+      "image": "frames/015-00186-settle.jpg"
+    },
+    {
+      "drop": 15,
+      "t": 96.582,
+      "tag": "settle",
+      "image": "frames/015-00187-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 97.7174,
+      "tag": "aim",
+      "image": "frames/016-00188-aim.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 97.9429,
+      "tag": "burst",
+      "image": "frames/016-00189-burst.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 98.1599,
+      "tag": "burst",
+      "image": "frames/016-00190-burst.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 98.3757,
+      "tag": "burst",
+      "image": "frames/016-00191-burst.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 98.7086,
+      "tag": "settle",
+      "image": "frames/016-00192-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 99.3015,
+      "tag": "settle",
+      "image": "frames/016-00193-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 99.8615,
+      "tag": "settle",
+      "image": "frames/016-00194-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 100.4371,
+      "tag": "settle",
+      "image": "frames/016-00195-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 101.0071,
+      "tag": "settle",
+      "image": "frames/016-00196-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 101.552,
+      "tag": "settle",
+      "image": "frames/016-00197-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 102.1176,
+      "tag": "settle",
+      "image": "frames/016-00198-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 102.6981,
+      "tag": "settle",
+      "image": "frames/016-00199-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 103.2641,
+      "tag": "settle",
+      "image": "frames/016-00200-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 103.8236,
+      "tag": "settle",
+      "image": "frames/016-00201-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 104.4185,
+      "tag": "settle",
+      "image": "frames/016-00202-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 105.0082,
+      "tag": "settle",
+      "image": "frames/016-00203-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 105.566,
+      "tag": "settle",
+      "image": "frames/016-00204-settle.jpg"
+    },
+    {
+      "drop": 16,
+      "t": 106.1153,
+      "tag": "settle",
+      "image": "frames/016-00205-settle.jpg"
+    },
+    {
+      "drop": 17,
+      "t": 107.2555,
+      "tag": "aim",
+      "image": "frames/017-00206-aim.jpg"
+    },
+    {
+      "drop": 17,
+      "t": 107.4916,
+      "tag": "burst",
+      "image": "frames/017-00207-burst.jpg"
+    },
+    {
+      "drop": 17,
+      "t": 107.7194,
+      "tag": "burst",
+      "image": "frames/017-00208-burst.jpg"
+    },
+    {
+      "drop": 17,
+      "t": 107.9258,
+      "tag": "burst",
+      "image": "frames/017-00209-burst.jpg"
+    },
+    {
+      "drop": 17,
+      "t": 108.2507,
+      "tag": "settle",
+      "image": "frames/017-00210-settle.jpg"
+    },
+    {
+      "drop": 17,
+      "t": 108.8178,
+      "tag": "settle",
+      "image": "frames/017-00211-settle.jpg"
+    },
+    {
+      "drop": 17,
+      "t": 109.3898,
+      "tag": "settle",
+      "image": "frames/017-00212-settle.jpg"
+    },
+    {
+      "drop": 17,
+      "t": 109.9554,
+      "tag": "settle",
+      "image": "frames/017-00213-settle.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 111.1377,
+      "tag": "aim",
+      "image": "frames/018-00214-aim.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 111.3698,
+      "tag": "burst",
+      "image": "frames/018-00215-burst.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 111.5623,
+      "tag": "burst",
+      "image": "frames/018-00216-burst.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 111.7715,
+      "tag": "burst",
+      "image": "frames/018-00217-burst.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 112.1465,
+      "tag": "settle",
+      "image": "frames/018-00218-settle.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 112.7132,
+      "tag": "settle",
+      "image": "frames/018-00219-settle.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 113.2572,
+      "tag": "settle",
+      "image": "frames/018-00220-settle.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 113.826,
+      "tag": "settle",
+      "image": "frames/018-00221-settle.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 114.4105,
+      "tag": "settle",
+      "image": "frames/018-00222-settle.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 114.9786,
+      "tag": "settle",
+      "image": "frames/018-00223-settle.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 115.5649,
+      "tag": "settle",
+      "image": "frames/018-00224-settle.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 116.1391,
+      "tag": "settle",
+      "image": "frames/018-00225-settle.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 116.6831,
+      "tag": "settle",
+      "image": "frames/018-00226-settle.jpg"
+    },
+    {
+      "drop": 18,
+      "t": 117.252,
+      "tag": "settle",
+      "image": "frames/018-00227-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 118.3973,
+      "tag": "aim",
+      "image": "frames/019-00228-aim.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 118.6394,
+      "tag": "burst",
+      "image": "frames/019-00229-burst.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 118.8426,
+      "tag": "burst",
+      "image": "frames/019-00230-burst.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 119.0484,
+      "tag": "burst",
+      "image": "frames/019-00231-burst.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 119.41,
+      "tag": "settle",
+      "image": "frames/019-00232-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 119.9798,
+      "tag": "settle",
+      "image": "frames/019-00233-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 120.5409,
+      "tag": "settle",
+      "image": "frames/019-00234-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 121.1182,
+      "tag": "settle",
+      "image": "frames/019-00235-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 121.7612,
+      "tag": "settle",
+      "image": "frames/019-00236-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 122.4178,
+      "tag": "settle",
+      "image": "frames/019-00237-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 123.0891,
+      "tag": "settle",
+      "image": "frames/019-00238-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 123.7429,
+      "tag": "settle",
+      "image": "frames/019-00239-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 124.3201,
+      "tag": "settle",
+      "image": "frames/019-00240-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 124.8944,
+      "tag": "settle",
+      "image": "frames/019-00241-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 125.4684,
+      "tag": "settle",
+      "image": "frames/019-00242-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 126.0313,
+      "tag": "settle",
+      "image": "frames/019-00243-settle.jpg"
+    },
+    {
+      "drop": 19,
+      "t": 126.6272,
+      "tag": "settle",
+      "image": "frames/019-00244-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 127.8549,
+      "tag": "aim",
+      "image": "frames/020-00245-aim.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 128.0924,
+      "tag": "burst",
+      "image": "frames/020-00246-burst.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 128.3177,
+      "tag": "burst",
+      "image": "frames/020-00247-burst.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 128.5282,
+      "tag": "burst",
+      "image": "frames/020-00248-burst.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 128.842,
+      "tag": "settle",
+      "image": "frames/020-00249-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 129.4062,
+      "tag": "settle",
+      "image": "frames/020-00250-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 129.9802,
+      "tag": "settle",
+      "image": "frames/020-00251-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 130.5437,
+      "tag": "settle",
+      "image": "frames/020-00252-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 131.1223,
+      "tag": "settle",
+      "image": "frames/020-00253-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 131.6697,
+      "tag": "settle",
+      "image": "frames/020-00254-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 132.2545,
+      "tag": "settle",
+      "image": "frames/020-00255-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 132.8232,
+      "tag": "settle",
+      "image": "frames/020-00256-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 133.3907,
+      "tag": "settle",
+      "image": "frames/020-00257-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 133.933,
+      "tag": "settle",
+      "image": "frames/020-00258-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 134.4911,
+      "tag": "settle",
+      "image": "frames/020-00259-settle.jpg"
+    },
+    {
+      "drop": 20,
+      "t": 135.0513,
+      "tag": "settle",
+      "image": "frames/020-00260-settle.jpg"
+    },
+    {
+      "drop": 21,
+      "t": 136.2202,
+      "tag": "aim",
+      "image": "frames/021-00261-aim.jpg"
+    },
+    {
+      "drop": 21,
+      "t": 136.4652,
+      "tag": "burst",
+      "image": "frames/021-00262-burst.jpg"
+    },
+    {
+      "drop": 21,
+      "t": 136.6723,
+      "tag": "burst",
+      "image": "frames/021-00263-burst.jpg"
+    },
+    {
+      "drop": 21,
+      "t": 136.8889,
+      "tag": "burst",
+      "image": "frames/021-00264-burst.jpg"
+    },
+    {
+      "drop": 21,
+      "t": 137.2453,
+      "tag": "settle",
+      "image": "frames/021-00265-settle.jpg"
+    },
+    {
+      "drop": 21,
+      "t": 137.8398,
+      "tag": "settle",
+      "image": "frames/021-00266-settle.jpg"
+    },
+    {
+      "drop": 21,
+      "t": 138.4153,
+      "tag": "settle",
+      "image": "frames/021-00267-settle.jpg"
+    },
+    {
+      "drop": 21,
+      "t": 138.9899,
+      "tag": "settle",
+      "image": "frames/021-00268-settle.jpg"
+    },
+    {
+      "drop": 21,
+      "t": 139.5468,
+      "tag": "settle",
+      "image": "frames/021-00269-settle.jpg"
+    },
+    {
+      "drop": 22,
+      "t": 140.7243,
+      "tag": "aim",
+      "image": "frames/022-00270-aim.jpg"
+    },
+    {
+      "drop": 22,
+      "t": 140.9599,
+      "tag": "burst",
+      "image": "frames/022-00271-burst.jpg"
+    },
+    {
+      "drop": 22,
+      "t": 141.1594,
+      "tag": "burst",
+      "image": "frames/022-00272-burst.jpg"
+    },
+    {
+      "drop": 22,
+      "t": 141.3502,
+      "tag": "burst",
+      "image": "frames/022-00273-burst.jpg"
+    },
+    {
+      "drop": 22,
+      "t": 141.7306,
+      "tag": "settle",
+      "image": "frames/022-00274-settle.jpg"
+    },
+    {
+      "drop": 22,
+      "t": 142.27,
+      "tag": "settle",
+      "image": "frames/022-00275-settle.jpg"
+    },
+    {
+      "drop": 22,
+      "t": 142.8071,
+      "tag": "settle",
+      "image": "frames/022-00276-settle.jpg"
+    },
+    {
+      "drop": 22,
+      "t": 143.3364,
+      "tag": "settle",
+      "image": "frames/022-00277-settle.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 144.4831,
+      "tag": "aim",
+      "image": "frames/023-00278-aim.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 144.7258,
+      "tag": "burst",
+      "image": "frames/023-00279-burst.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 144.9562,
+      "tag": "burst",
+      "image": "frames/023-00280-burst.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 145.1646,
+      "tag": "burst",
+      "image": "frames/023-00281-burst.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 145.4737,
+      "tag": "settle",
+      "image": "frames/023-00282-settle.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 146.0339,
+      "tag": "settle",
+      "image": "frames/023-00283-settle.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 146.5959,
+      "tag": "settle",
+      "image": "frames/023-00284-settle.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 147.1483,
+      "tag": "settle",
+      "image": "frames/023-00285-settle.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 147.7165,
+      "tag": "settle",
+      "image": "frames/023-00286-settle.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 148.2954,
+      "tag": "settle",
+      "image": "frames/023-00287-settle.jpg"
+    },
+    {
+      "drop": 23,
+      "t": 148.8351,
+      "tag": "settle",
+      "image": "frames/023-00288-settle.jpg"
+    },
+    {
+      "drop": 24,
+      "t": 149.9483,
+      "tag": "aim",
+      "image": "frames/024-00289-aim.jpg"
+    },
+    {
+      "drop": 24,
+      "t": 150.1802,
+      "tag": "burst",
+      "image": "frames/024-00290-burst.jpg"
+    },
+    {
+      "drop": 24,
+      "t": 150.3829,
+      "tag": "burst",
+      "image": "frames/024-00291-burst.jpg"
+    },
+    {
+      "drop": 24,
+      "t": 150.577,
+      "tag": "burst",
+      "image": "frames/024-00292-burst.jpg"
+    },
+    {
+      "drop": 24,
+      "t": 150.936,
+      "tag": "settle",
+      "image": "frames/024-00293-settle.jpg"
+    },
+    {
+      "drop": 24,
+      "t": 151.4788,
+      "tag": "settle",
+      "image": "frames/024-00294-settle.jpg"
+    },
+    {
+      "drop": 24,
+      "t": 152.036,
+      "tag": "settle",
+      "image": "frames/024-00295-settle.jpg"
+    },
+    {
+      "drop": 24,
+      "t": 152.6004,
+      "tag": "settle",
+      "image": "frames/024-00296-settle.jpg"
+    },
+    {
+      "drop": 24,
+      "t": 153.1475,
+      "tag": "settle",
+      "image": "frames/024-00297-settle.jpg"
+    },
+    {
+      "drop": 25,
+      "t": 154.3127,
+      "tag": "aim",
+      "image": "frames/025-00298-aim.jpg"
+    },
+    {
+      "drop": 25,
+      "t": 154.5581,
+      "tag": "burst",
+      "image": "frames/025-00299-burst.jpg"
+    },
+    {
+      "drop": 25,
+      "t": 154.7698,
+      "tag": "burst",
+      "image": "frames/025-00300-burst.jpg"
+    },
+    {
+      "drop": 25,
+      "t": 154.9725,
+      "tag": "burst",
+      "image": "frames/025-00301-burst.jpg"
+    },
+    {
+      "drop": 25,
+      "t": 155.3275,
+      "tag": "settle",
+      "image": "frames/025-00302-settle.jpg"
+    },
+    {
+      "drop": 25,
+      "t": 155.9114,
+      "tag": "settle",
+      "image": "frames/025-00303-settle.jpg"
+    },
+    {
+      "drop": 25,
+      "t": 156.4701,
+      "tag": "settle",
+      "image": "frames/025-00304-settle.jpg"
+    },
+    {
+      "drop": 25,
+      "t": 156.9832,
+      "tag": "settle",
+      "image": "frames/025-00305-settle.jpg"
+    },
+    {
+      "drop": 26,
+      "t": 158.0987,
+      "tag": "aim",
+      "image": "frames/026-00306-aim.jpg"
+    },
+    {
+      "drop": 26,
+      "t": 158.3495,
+      "tag": "burst",
+      "image": "frames/026-00307-burst.jpg"
+    },
+    {
+      "drop": 26,
+      "t": 158.5711,
+      "tag": "burst",
+      "image": "frames/026-00308-burst.jpg"
+    },
+    {
+      "drop": 26,
+      "t": 158.7916,
+      "tag": "burst",
+      "image": "frames/026-00309-burst.jpg"
+    },
+    {
+      "drop": 26,
+      "t": 159.1188,
+      "tag": "settle",
+      "image": "frames/026-00310-settle.jpg"
+    },
+    {
+      "drop": 26,
+      "t": 159.7115,
+      "tag": "settle",
+      "image": "frames/026-00311-settle.jpg"
+    },
+    {
+      "drop": 26,
+      "t": 160.2969,
+      "tag": "settle",
+      "image": "frames/026-00312-settle.jpg"
+    },
+    {
+      "drop": 26,
+      "t": 160.8644,
+      "tag": "settle",
+      "image": "frames/026-00313-settle.jpg"
+    },
+    {
+      "drop": 27,
+      "t": 162.1033,
+      "tag": "aim",
+      "image": "frames/027-00314-aim.jpg"
+    },
+    {
+      "drop": 27,
+      "t": 162.3241,
+      "tag": "burst",
+      "image": "frames/027-00315-burst.jpg"
+    },
+    {
+      "drop": 27,
+      "t": 162.5188,
+      "tag": "burst",
+      "image": "frames/027-00316-burst.jpg"
+    },
+    {
+      "drop": 27,
+      "t": 162.7236,
+      "tag": "burst",
+      "image": "frames/027-00317-burst.jpg"
+    },
+    {
+      "drop": 27,
+      "t": 163.0872,
+      "tag": "settle",
+      "image": "frames/027-00318-settle.jpg"
+    },
+    {
+      "drop": 27,
+      "t": 163.6554,
+      "tag": "settle",
+      "image": "frames/027-00319-settle.jpg"
+    },
+    {
+      "drop": 27,
+      "t": 164.2102,
+      "tag": "settle",
+      "image": "frames/027-00320-settle.jpg"
+    },
+    {
+      "drop": 27,
+      "t": 164.7716,
+      "tag": "settle",
+      "image": "frames/027-00321-settle.jpg"
+    },
+    {
+      "drop": 28,
+      "t": 165.9996,
+      "tag": "aim",
+      "image": "frames/028-00322-aim.jpg"
+    },
+    {
+      "drop": 28,
+      "t": 166.2508,
+      "tag": "burst",
+      "image": "frames/028-00323-burst.jpg"
+    },
+    {
+      "drop": 28,
+      "t": 166.4664,
+      "tag": "burst",
+      "image": "frames/028-00324-burst.jpg"
+    },
+    {
+      "drop": 28,
+      "t": 166.6765,
+      "tag": "burst",
+      "image": "frames/028-00325-burst.jpg"
+    },
+    {
+      "drop": 28,
+      "t": 167.0103,
+      "tag": "settle",
+      "image": "frames/028-00326-settle.jpg"
+    },
+    {
+      "drop": 28,
+      "t": 167.555,
+      "tag": "settle",
+      "image": "frames/028-00327-settle.jpg"
+    },
+    {
+      "drop": 28,
+      "t": 168.1072,
+      "tag": "settle",
+      "image": "frames/028-00328-settle.jpg"
+    },
+    {
+      "drop": 28,
+      "t": 168.7092,
+      "tag": "settle",
+      "image": "frames/028-00329-settle.jpg"
+    },
+    {
+      "drop": 29,
+      "t": 169.9225,
+      "tag": "aim",
+      "image": "frames/029-00330-aim.jpg"
+    },
+    {
+      "drop": 29,
+      "t": 170.2058,
+      "tag": "burst",
+      "image": "frames/029-00331-burst.jpg"
+    },
+    {
+      "drop": 29,
+      "t": 170.4634,
+      "tag": "burst",
+      "image": "frames/029-00332-burst.jpg"
+    },
+    {
+      "drop": 29,
+      "t": 170.9879,
+      "tag": "settle",
+      "image": "frames/029-00333-settle.jpg"
+    },
+    {
+      "drop": 29,
+      "t": 171.6868,
+      "tag": "settle",
+      "image": "frames/029-00334-settle.jpg"
+    },
+    {
+      "drop": 29,
+      "t": 172.4263,
+      "tag": "settle",
+      "image": "frames/029-00335-settle.jpg"
+    },
+    {
+      "drop": 29,
+      "t": 173.0515,
+      "tag": "settle",
+      "image": "frames/029-00336-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 174.2541,
+      "tag": "aim",
+      "image": "frames/030-00337-aim.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 174.471,
+      "tag": "burst",
+      "image": "frames/030-00338-burst.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 174.6758,
+      "tag": "burst",
+      "image": "frames/030-00339-burst.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 174.8718,
+      "tag": "burst",
+      "image": "frames/030-00340-burst.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 175.2293,
+      "tag": "settle",
+      "image": "frames/030-00341-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 175.7776,
+      "tag": "settle",
+      "image": "frames/030-00342-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 176.3634,
+      "tag": "settle",
+      "image": "frames/030-00343-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 176.956,
+      "tag": "settle",
+      "image": "frames/030-00344-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 177.5242,
+      "tag": "settle",
+      "image": "frames/030-00345-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 178.0997,
+      "tag": "settle",
+      "image": "frames/030-00346-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 178.6645,
+      "tag": "settle",
+      "image": "frames/030-00347-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 179.2313,
+      "tag": "settle",
+      "image": "frames/030-00348-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 179.8158,
+      "tag": "settle",
+      "image": "frames/030-00349-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 180.4133,
+      "tag": "settle",
+      "image": "frames/030-00350-settle.jpg"
+    },
+    {
+      "drop": 30,
+      "t": 180.9666,
+      "tag": "settle",
+      "image": "frames/030-00351-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 182.1321,
+      "tag": "aim",
+      "image": "frames/031-00352-aim.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 182.3638,
+      "tag": "burst",
+      "image": "frames/031-00353-burst.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 182.5605,
+      "tag": "burst",
+      "image": "frames/031-00354-burst.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 182.7604,
+      "tag": "burst",
+      "image": "frames/031-00355-burst.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 183.133,
+      "tag": "settle",
+      "image": "frames/031-00356-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 183.6829,
+      "tag": "settle",
+      "image": "frames/031-00357-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 184.2372,
+      "tag": "settle",
+      "image": "frames/031-00358-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 184.8086,
+      "tag": "settle",
+      "image": "frames/031-00359-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 185.3706,
+      "tag": "settle",
+      "image": "frames/031-00360-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 185.9379,
+      "tag": "settle",
+      "image": "frames/031-00361-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 186.515,
+      "tag": "settle",
+      "image": "frames/031-00362-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 187.0704,
+      "tag": "settle",
+      "image": "frames/031-00363-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 187.6431,
+      "tag": "settle",
+      "image": "frames/031-00364-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 188.1862,
+      "tag": "settle",
+      "image": "frames/031-00365-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 188.7254,
+      "tag": "settle",
+      "image": "frames/031-00366-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 189.2868,
+      "tag": "settle",
+      "image": "frames/031-00367-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 189.8916,
+      "tag": "settle",
+      "image": "frames/031-00368-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 190.4789,
+      "tag": "settle",
+      "image": "frames/031-00369-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 191.0669,
+      "tag": "settle",
+      "image": "frames/031-00370-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 191.63,
+      "tag": "settle",
+      "image": "frames/031-00371-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 192.1948,
+      "tag": "settle",
+      "image": "frames/031-00372-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 192.7561,
+      "tag": "settle",
+      "image": "frames/031-00373-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 193.3533,
+      "tag": "settle",
+      "image": "frames/031-00374-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 193.9136,
+      "tag": "settle",
+      "image": "frames/031-00375-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 194.4678,
+      "tag": "settle",
+      "image": "frames/031-00376-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 195.0464,
+      "tag": "settle",
+      "image": "frames/031-00377-settle.jpg"
+    },
+    {
+      "drop": 31,
+      "t": 195.6199,
+      "tag": "settle",
+      "image": "frames/031-00378-settle.jpg"
+    },
+    {
+      "drop": 32,
+      "t": 196.8606,
+      "tag": "aim",
+      "image": "frames/032-00379-aim.jpg"
+    },
+    {
+      "drop": 32,
+      "t": 197.0957,
+      "tag": "burst",
+      "image": "frames/032-00380-burst.jpg"
+    },
+    {
+      "drop": 32,
+      "t": 197.3137,
+      "tag": "burst",
+      "image": "frames/032-00381-burst.jpg"
+    },
+    {
+      "drop": 32,
+      "t": 197.54,
+      "tag": "burst",
+      "image": "frames/032-00382-burst.jpg"
+    },
+    {
+      "drop": 32,
+      "t": 197.8514,
+      "tag": "settle",
+      "image": "frames/032-00383-settle.jpg"
+    },
+    {
+      "drop": 32,
+      "t": 198.4177,
+      "tag": "settle",
+      "image": "frames/032-00384-settle.jpg"
+    },
+    {
+      "drop": 32,
+      "t": 199.0021,
+      "tag": "settle",
+      "image": "frames/032-00385-settle.jpg"
+    },
+    {
+      "drop": 32,
+      "t": 199.5777,
+      "tag": "settle",
+      "image": "frames/032-00386-settle.jpg"
+    },
+    {
+      "drop": 33,
+      "t": 200.877,
+      "tag": "aim",
+      "image": "frames/033-00387-aim.jpg"
+    },
+    {
+      "drop": 33,
+      "t": 201.1312,
+      "tag": "burst",
+      "image": "frames/033-00388-burst.jpg"
+    },
+    {
+      "drop": 33,
+      "t": 201.3387,
+      "tag": "burst",
+      "image": "frames/033-00389-burst.jpg"
+    },
+    {
+      "drop": 33,
+      "t": 201.5415,
+      "tag": "burst",
+      "image": "frames/033-00390-burst.jpg"
+    },
+    {
+      "drop": 33,
+      "t": 201.8757,
+      "tag": "settle",
+      "image": "frames/033-00391-settle.jpg"
+    },
+    {
+      "drop": 33,
+      "t": 202.4423,
+      "tag": "settle",
+      "image": "frames/033-00392-settle.jpg"
+    },
+    {
+      "drop": 33,
+      "t": 203.031,
+      "tag": "settle",
+      "image": "frames/033-00393-settle.jpg"
+    },
+    {
+      "drop": 33,
+      "t": 203.5962,
+      "tag": "settle",
+      "image": "frames/033-00394-settle.jpg"
+    },
+    {
+      "drop": 33,
+      "t": 204.1437,
+      "tag": "settle",
+      "image": "frames/033-00395-settle.jpg"
+    },
+    {
+      "drop": 33,
+      "t": 204.7178,
+      "tag": "settle",
+      "image": "frames/033-00396-settle.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 205.9698,
+      "tag": "aim",
+      "image": "frames/034-00397-aim.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 206.1843,
+      "tag": "burst",
+      "image": "frames/034-00398-burst.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 206.3854,
+      "tag": "burst",
+      "image": "frames/034-00399-burst.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 206.6063,
+      "tag": "burst",
+      "image": "frames/034-00400-burst.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 206.9695,
+      "tag": "settle",
+      "image": "frames/034-00401-settle.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 207.5401,
+      "tag": "settle",
+      "image": "frames/034-00402-settle.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 208.0957,
+      "tag": "settle",
+      "image": "frames/034-00403-settle.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 208.6584,
+      "tag": "settle",
+      "image": "frames/034-00404-settle.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 209.2359,
+      "tag": "settle",
+      "image": "frames/034-00405-settle.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 209.8059,
+      "tag": "settle",
+      "image": "frames/034-00406-settle.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 210.3873,
+      "tag": "settle",
+      "image": "frames/034-00407-settle.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 210.9651,
+      "tag": "settle",
+      "image": "frames/034-00408-settle.jpg"
+    },
+    {
+      "drop": 34,
+      "t": 211.5516,
+      "tag": "settle",
+      "image": "frames/034-00409-settle.jpg"
+    },
+    {
+      "drop": 35,
+      "t": 212.8573,
+      "tag": "aim",
+      "image": "frames/035-00410-aim.jpg"
+    },
+    {
+      "drop": 35,
+      "t": 213.1333,
+      "tag": "burst",
+      "image": "frames/035-00411-burst.jpg"
+    },
+    {
+      "drop": 35,
+      "t": 213.3782,
+      "tag": "burst",
+      "image": "frames/035-00412-burst.jpg"
+    },
+    {
+      "drop": 35,
+      "t": 213.5966,
+      "tag": "burst",
+      "image": "frames/035-00413-burst.jpg"
+    },
+    {
+      "drop": 35,
+      "t": 213.8715,
+      "tag": "settle",
+      "image": "frames/035-00414-settle.jpg"
+    },
+    {
+      "drop": 35,
+      "t": 214.4356,
+      "tag": "settle",
+      "image": "frames/035-00415-settle.jpg"
+    },
+    {
+      "drop": 35,
+      "t": 215.0235,
+      "tag": "settle",
+      "image": "frames/035-00416-settle.jpg"
+    },
+    {
+      "drop": 35,
+      "t": 215.6199,
+      "tag": "settle",
+      "image": "frames/035-00417-settle.jpg"
+    },
+    {
+      "drop": 36,
+      "t": 216.8705,
+      "tag": "aim",
+      "image": "frames/036-00418-aim.jpg"
+    },
+    {
+      "drop": 36,
+      "t": 217.1025,
+      "tag": "burst",
+      "image": "frames/036-00419-burst.jpg"
+    },
+    {
+      "drop": 36,
+      "t": 217.3137,
+      "tag": "burst",
+      "image": "frames/036-00420-burst.jpg"
+    },
+    {
+      "drop": 36,
+      "t": 217.5292,
+      "tag": "burst",
+      "image": "frames/036-00421-burst.jpg"
+    },
+    {
+      "drop": 36,
+      "t": 217.8767,
+      "tag": "settle",
+      "image": "frames/036-00422-settle.jpg"
+    },
+    {
+      "drop": 36,
+      "t": 218.4351,
+      "tag": "settle",
+      "image": "frames/036-00423-settle.jpg"
+    },
+    {
+      "drop": 36,
+      "t": 218.9775,
+      "tag": "settle",
+      "image": "frames/036-00424-settle.jpg"
+    },
+    {
+      "drop": 36,
+      "t": 219.5481,
+      "tag": "settle",
+      "image": "frames/036-00425-settle.jpg"
+    },
+    {
+      "drop": 36,
+      "t": 220.1493,
+      "tag": "settle",
+      "image": "frames/036-00426-settle.jpg"
+    },
+    {
+      "drop": 36,
+      "t": 220.7297,
+      "tag": "settle",
+      "image": "frames/036-00427-settle.jpg"
+    },
+    {
+      "drop": 37,
+      "t": 222.0041,
+      "tag": "aim",
+      "image": "frames/037-00428-aim.jpg"
+    },
+    {
+      "drop": 37,
+      "t": 222.2371,
+      "tag": "burst",
+      "image": "frames/037-00429-burst.jpg"
+    },
+    {
+      "drop": 37,
+      "t": 222.4433,
+      "tag": "burst",
+      "image": "frames/037-00430-burst.jpg"
+    },
+    {
+      "drop": 37,
+      "t": 222.6618,
+      "tag": "burst",
+      "image": "frames/037-00431-burst.jpg"
+    },
+    {
+      "drop": 37,
+      "t": 223.0197,
+      "tag": "settle",
+      "image": "frames/037-00432-settle.jpg"
+    },
+    {
+      "drop": 37,
+      "t": 223.5894,
+      "tag": "settle",
+      "image": "frames/037-00433-settle.jpg"
+    },
+    {
+      "drop": 37,
+      "t": 224.1691,
+      "tag": "settle",
+      "image": "frames/037-00434-settle.jpg"
+    },
+    {
+      "drop": 37,
+      "t": 224.7398,
+      "tag": "settle",
+      "image": "frames/037-00435-settle.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 226.0876,
+      "tag": "aim",
+      "image": "frames/038-00436-aim.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 226.3439,
+      "tag": "burst",
+      "image": "frames/038-00437-burst.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 226.5443,
+      "tag": "burst",
+      "image": "frames/038-00438-burst.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 226.7592,
+      "tag": "burst",
+      "image": "frames/038-00439-burst.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 227.1206,
+      "tag": "settle",
+      "image": "frames/038-00440-settle.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 227.7247,
+      "tag": "settle",
+      "image": "frames/038-00441-settle.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 228.3036,
+      "tag": "settle",
+      "image": "frames/038-00442-settle.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 228.8828,
+      "tag": "settle",
+      "image": "frames/038-00443-settle.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 229.4533,
+      "tag": "settle",
+      "image": "frames/038-00444-settle.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 230.036,
+      "tag": "settle",
+      "image": "frames/038-00445-settle.jpg"
+    },
+    {
+      "drop": 38,
+      "t": 230.603,
+      "tag": "settle",
+      "image": "frames/038-00446-settle.jpg"
+    },
+    {
+      "drop": 39,
+      "t": 231.9552,
+      "tag": "aim",
+      "image": "frames/039-00447-aim.jpg"
+    },
+    {
+      "drop": 39,
+      "t": 232.2269,
+      "tag": "burst",
+      "image": "frames/039-00448-burst.jpg"
+    },
+    {
+      "drop": 39,
+      "t": 232.4543,
+      "tag": "burst",
+      "image": "frames/039-00449-burst.jpg"
+    },
+    {
+      "drop": 39,
+      "t": 232.6743,
+      "tag": "burst",
+      "image": "frames/039-00450-burst.jpg"
+    },
+    {
+      "drop": 39,
+      "t": 233.007,
+      "tag": "settle",
+      "image": "frames/039-00451-settle.jpg"
+    },
+    {
+      "drop": 39,
+      "t": 233.5975,
+      "tag": "settle",
+      "image": "frames/039-00452-settle.jpg"
+    },
+    {
+      "drop": 39,
+      "t": 234.1768,
+      "tag": "settle",
+      "image": "frames/039-00453-settle.jpg"
+    },
+    {
+      "drop": 39,
+      "t": 234.8086,
+      "tag": "settle",
+      "image": "frames/039-00454-settle.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 236.1327,
+      "tag": "aim",
+      "image": "frames/040-00455-aim.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 236.388,
+      "tag": "burst",
+      "image": "frames/040-00456-burst.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 236.6083,
+      "tag": "burst",
+      "image": "frames/040-00457-burst.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 236.8121,
+      "tag": "burst",
+      "image": "frames/040-00458-burst.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 237.156,
+      "tag": "settle",
+      "image": "frames/040-00459-settle.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 237.7274,
+      "tag": "settle",
+      "image": "frames/040-00460-settle.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 238.3233,
+      "tag": "settle",
+      "image": "frames/040-00461-settle.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 238.9009,
+      "tag": "settle",
+      "image": "frames/040-00462-settle.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 239.4676,
+      "tag": "settle",
+      "image": "frames/040-00463-settle.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 240.0328,
+      "tag": "settle",
+      "image": "frames/040-00464-settle.jpg"
+    },
+    {
+      "drop": 40,
+      "t": 240.6167,
+      "tag": "settle",
+      "image": "frames/040-00465-settle.jpg"
+    },
+    {
+      "drop": 41,
+      "t": 241.9037,
+      "tag": "aim",
+      "image": "frames/041-00466-aim.jpg"
+    },
+    {
+      "drop": 41,
+      "t": 242.1722,
+      "tag": "burst",
+      "image": "frames/041-00467-burst.jpg"
+    },
+    {
+      "drop": 41,
+      "t": 242.3982,
+      "tag": "burst",
+      "image": "frames/041-00468-burst.jpg"
+    },
+    {
+      "drop": 41,
+      "t": 242.6192,
+      "tag": "burst",
+      "image": "frames/041-00469-burst.jpg"
+    },
+    {
+      "drop": 41,
+      "t": 242.9255,
+      "tag": "settle",
+      "image": "frames/041-00470-settle.jpg"
+    },
+    {
+      "drop": 41,
+      "t": 243.5051,
+      "tag": "settle",
+      "image": "frames/041-00471-settle.jpg"
+    },
+    {
+      "drop": 41,
+      "t": 244.1025,
+      "tag": "settle",
+      "image": "frames/041-00472-settle.jpg"
+    },
+    {
+      "drop": 41,
+      "t": 244.7348,
+      "tag": "settle",
+      "image": "frames/041-00473-settle.jpg"
+    },
+    {
+      "drop": 42,
+      "t": 246.0702,
+      "tag": "aim",
+      "image": "frames/042-00474-aim.jpg"
+    },
+    {
+      "drop": 42,
+      "t": 246.3328,
+      "tag": "burst",
+      "image": "frames/042-00475-burst.jpg"
+    },
+    {
+      "drop": 42,
+      "t": 246.5582,
+      "tag": "burst",
+      "image": "frames/042-00476-burst.jpg"
+    },
+    {
+      "drop": 42,
+      "t": 246.7804,
+      "tag": "burst",
+      "image": "frames/042-00477-burst.jpg"
+    },
+    {
+      "drop": 42,
+      "t": 247.0989,
+      "tag": "settle",
+      "image": "frames/042-00478-settle.jpg"
+    },
+    {
+      "drop": 42,
+      "t": 247.6827,
+      "tag": "settle",
+      "image": "frames/042-00479-settle.jpg"
+    },
+    {
+      "drop": 42,
+      "t": 248.2698,
+      "tag": "settle",
+      "image": "frames/042-00480-settle.jpg"
+    },
+    {
+      "drop": 42,
+      "t": 248.8602,
+      "tag": "settle",
+      "image": "frames/042-00481-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 250.1743,
+      "tag": "aim",
+      "image": "frames/043-00482-aim.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 250.443,
+      "tag": "burst",
+      "image": "frames/043-00483-burst.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 250.6912,
+      "tag": "burst",
+      "image": "frames/043-00484-burst.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 250.911,
+      "tag": "burst",
+      "image": "frames/043-00485-burst.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 251.1907,
+      "tag": "settle",
+      "image": "frames/043-00486-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 251.7819,
+      "tag": "settle",
+      "image": "frames/043-00487-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 252.36,
+      "tag": "settle",
+      "image": "frames/043-00488-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 252.9432,
+      "tag": "settle",
+      "image": "frames/043-00489-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 253.5419,
+      "tag": "settle",
+      "image": "frames/043-00490-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 254.1131,
+      "tag": "settle",
+      "image": "frames/043-00491-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 254.7008,
+      "tag": "settle",
+      "image": "frames/043-00492-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 255.2951,
+      "tag": "settle",
+      "image": "frames/043-00493-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 255.8635,
+      "tag": "settle",
+      "image": "frames/043-00494-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 256.4262,
+      "tag": "settle",
+      "image": "frames/043-00495-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 256.9833,
+      "tag": "settle",
+      "image": "frames/043-00496-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 257.5602,
+      "tag": "settle",
+      "image": "frames/043-00497-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 258.14,
+      "tag": "settle",
+      "image": "frames/043-00498-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 258.7096,
+      "tag": "settle",
+      "image": "frames/043-00499-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 259.2989,
+      "tag": "settle",
+      "image": "frames/043-00500-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 259.8719,
+      "tag": "settle",
+      "image": "frames/043-00501-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 260.4419,
+      "tag": "settle",
+      "image": "frames/043-00502-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 261.0415,
+      "tag": "settle",
+      "image": "frames/043-00503-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 261.6307,
+      "tag": "settle",
+      "image": "frames/043-00504-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 262.2421,
+      "tag": "settle",
+      "image": "frames/043-00505-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 262.84,
+      "tag": "settle",
+      "image": "frames/043-00506-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 263.4034,
+      "tag": "settle",
+      "image": "frames/043-00507-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 264.0032,
+      "tag": "settle",
+      "image": "frames/043-00508-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 264.5902,
+      "tag": "settle",
+      "image": "frames/043-00509-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 265.1669,
+      "tag": "settle",
+      "image": "frames/043-00510-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 265.7689,
+      "tag": "settle",
+      "image": "frames/043-00511-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 266.3657,
+      "tag": "settle",
+      "image": "frames/043-00512-settle.jpg"
+    },
+    {
+      "drop": 43,
+      "t": 266.9511,
+      "tag": "settle",
+      "image": "frames/043-00513-settle.jpg"
+    },
+    {
+      "drop": 44,
+      "t": 268.233,
+      "tag": "aim",
+      "image": "frames/044-00514-aim.jpg"
+    },
+    {
+      "drop": 44,
+      "t": 268.5002,
+      "tag": "burst",
+      "image": "frames/044-00515-burst.jpg"
+    },
+    {
+      "drop": 44,
+      "t": 268.727,
+      "tag": "burst",
+      "image": "frames/044-00516-burst.jpg"
+    },
+    {
+      "drop": 44,
+      "t": 268.9538,
+      "tag": "burst",
+      "image": "frames/044-00517-burst.jpg"
+    },
+    {
+      "drop": 44,
+      "t": 269.2676,
+      "tag": "settle",
+      "image": "frames/044-00518-settle.jpg"
+    },
+    {
+      "drop": 44,
+      "t": 269.8621,
+      "tag": "settle",
+      "image": "frames/044-00519-settle.jpg"
+    },
+    {
+      "drop": 44,
+      "t": 270.4762,
+      "tag": "settle",
+      "image": "frames/044-00520-settle.jpg"
+    },
+    {
+      "drop": 44,
+      "t": 271.0875,
+      "tag": "settle",
+      "image": "frames/044-00521-settle.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 272.3371,
+      "tag": "aim",
+      "image": "frames/045-00522-aim.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 272.5913,
+      "tag": "burst",
+      "image": "frames/045-00523-burst.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 272.8105,
+      "tag": "burst",
+      "image": "frames/045-00524-burst.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 273.0206,
+      "tag": "burst",
+      "image": "frames/045-00525-burst.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 273.3488,
+      "tag": "settle",
+      "image": "frames/045-00526-settle.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 273.9166,
+      "tag": "settle",
+      "image": "frames/045-00527-settle.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 274.5159,
+      "tag": "settle",
+      "image": "frames/045-00528-settle.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 275.1141,
+      "tag": "settle",
+      "image": "frames/045-00529-settle.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 275.6953,
+      "tag": "settle",
+      "image": "frames/045-00530-settle.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 276.2657,
+      "tag": "settle",
+      "image": "frames/045-00531-settle.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 276.8395,
+      "tag": "settle",
+      "image": "frames/045-00532-settle.jpg"
+    },
+    {
+      "drop": 45,
+      "t": 277.4074,
+      "tag": "settle",
+      "image": "frames/045-00533-settle.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 278.7238,
+      "tag": "aim",
+      "image": "frames/046-00534-aim.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 278.9902,
+      "tag": "burst",
+      "image": "frames/046-00535-burst.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 279.227,
+      "tag": "burst",
+      "image": "frames/046-00536-burst.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 279.4582,
+      "tag": "burst",
+      "image": "frames/046-00537-burst.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 279.7434,
+      "tag": "settle",
+      "image": "frames/046-00538-settle.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 280.3311,
+      "tag": "settle",
+      "image": "frames/046-00539-settle.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 280.8923,
+      "tag": "settle",
+      "image": "frames/046-00540-settle.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 281.4552,
+      "tag": "settle",
+      "image": "frames/046-00541-settle.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 282.0528,
+      "tag": "settle",
+      "image": "frames/046-00542-settle.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 282.6312,
+      "tag": "settle",
+      "image": "frames/046-00543-settle.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 283.234,
+      "tag": "settle",
+      "image": "frames/046-00544-settle.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 283.8187,
+      "tag": "settle",
+      "image": "frames/046-00545-settle.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 284.425,
+      "tag": "settle",
+      "image": "frames/046-00546-settle.jpg"
+    },
+    {
+      "drop": 46,
+      "t": 285.0345,
+      "tag": "settle",
+      "image": "frames/046-00547-settle.jpg"
+    },
+    {
+      "drop": 47,
+      "t": 286.2733,
+      "tag": "aim",
+      "image": "frames/047-00548-aim.jpg"
+    },
+    {
+      "drop": 47,
+      "t": 286.536,
+      "tag": "burst",
+      "image": "frames/047-00549-burst.jpg"
+    },
+    {
+      "drop": 47,
+      "t": 286.7729,
+      "tag": "burst",
+      "image": "frames/047-00550-burst.jpg"
+    },
+    {
+      "drop": 47,
+      "t": 287.0104,
+      "tag": "burst",
+      "image": "frames/047-00551-burst.jpg"
+    },
+    {
+      "drop": 47,
+      "t": 287.2939,
+      "tag": "settle",
+      "image": "frames/047-00552-settle.jpg"
+    },
+    {
+      "drop": 47,
+      "t": 287.8653,
+      "tag": "settle",
+      "image": "frames/047-00553-settle.jpg"
+    },
+    {
+      "drop": 47,
+      "t": 288.4506,
+      "tag": "settle",
+      "image": "frames/047-00554-settle.jpg"
+    },
+    {
+      "drop": 47,
+      "t": 289.0427,
+      "tag": "settle",
+      "image": "frames/047-00555-settle.jpg"
+    },
+    {
+      "drop": 47,
+      "t": 289.621,
+      "tag": "settle",
+      "image": "frames/047-00556-settle.jpg"
+    },
+    {
+      "drop": 47,
+      "t": 290.2119,
+      "tag": "settle",
+      "image": "frames/047-00557-settle.jpg"
+    },
+    {
+      "drop": 48,
+      "t": 291.4902,
+      "tag": "aim",
+      "image": "frames/048-00558-aim.jpg"
+    },
+    {
+      "drop": 48,
+      "t": 291.7557,
+      "tag": "burst",
+      "image": "frames/048-00559-burst.jpg"
+    },
+    {
+      "drop": 48,
+      "t": 291.9729,
+      "tag": "burst",
+      "image": "frames/048-00560-burst.jpg"
+    },
+    {
+      "drop": 48,
+      "t": 292.176,
+      "tag": "burst",
+      "image": "frames/048-00561-burst.jpg"
+    },
+    {
+      "drop": 48,
+      "t": 292.5231,
+      "tag": "settle",
+      "image": "frames/048-00562-settle.jpg"
+    },
+    {
+      "drop": 48,
+      "t": 293.1122,
+      "tag": "settle",
+      "image": "frames/048-00563-settle.jpg"
+    },
+    {
+      "drop": 48,
+      "t": 293.768,
+      "tag": "settle",
+      "image": "frames/048-00564-settle.jpg"
+    },
+    {
+      "drop": 48,
+      "t": 294.4361,
+      "tag": "settle",
+      "image": "frames/048-00565-settle.jpg"
+    },
+    {
+      "drop": 49,
+      "t": 295.8443,
+      "tag": "aim",
+      "image": "frames/049-00566-aim.jpg"
+    },
+    {
+      "drop": 49,
+      "t": 296.1027,
+      "tag": "burst",
+      "image": "frames/049-00567-burst.jpg"
+    },
+    {
+      "drop": 49,
+      "t": 296.3347,
+      "tag": "burst",
+      "image": "frames/049-00568-burst.jpg"
+    },
+    {
+      "drop": 49,
+      "t": 296.5739,
+      "tag": "burst",
+      "image": "frames/049-00569-burst.jpg"
+    },
+    {
+      "drop": 49,
+      "t": 296.8581,
+      "tag": "settle",
+      "image": "frames/049-00570-settle.jpg"
+    },
+    {
+      "drop": 49,
+      "t": 297.4548,
+      "tag": "settle",
+      "image": "frames/049-00571-settle.jpg"
+    },
+    {
+      "drop": 49,
+      "t": 298.0478,
+      "tag": "settle",
+      "image": "frames/049-00572-settle.jpg"
+    },
+    {
+      "drop": 49,
+      "t": 298.6478,
+      "tag": "settle",
+      "image": "frames/049-00573-settle.jpg"
+    },
+    {
+      "drop": 49,
+      "t": 299.2746,
+      "tag": "settle",
+      "image": "frames/049-00574-settle.jpg"
+    },
+    {
+      "drop": 49,
+      "t": 299.8905,
+      "tag": "settle",
+      "image": "frames/049-00575-settle.jpg"
+    },
+    {
+      "drop": 50,
+      "t": 301.1811,
+      "tag": "aim",
+      "image": "frames/050-00576-aim.jpg"
+    },
+    {
+      "drop": 50,
+      "t": 301.4598,
+      "tag": "burst",
+      "image": "frames/050-00577-burst.jpg"
+    },
+    {
+      "drop": 50,
+      "t": 301.7194,
+      "tag": "burst",
+      "image": "frames/050-00578-burst.jpg"
+    },
+    {
+      "drop": 50,
+      "t": 302.2383,
+      "tag": "settle",
+      "image": "frames/050-00579-settle.jpg"
+    },
+    {
+      "drop": 50,
+      "t": 302.8399,
+      "tag": "settle",
+      "image": "frames/050-00580-settle.jpg"
+    },
+    {
+      "drop": 50,
+      "t": 303.4471,
+      "tag": "settle",
+      "image": "frames/050-00581-settle.jpg"
+    },
+    {
+      "drop": 50,
+      "t": 304.0565,
+      "tag": "settle",
+      "image": "frames/050-00582-settle.jpg"
+    },
+    {
+      "drop": 51,
+      "t": 305.3962,
+      "tag": "aim",
+      "image": "frames/051-00583-aim.jpg"
+    },
+    {
+      "drop": 51,
+      "t": 305.6583,
+      "tag": "burst",
+      "image": "frames/051-00584-burst.jpg"
+    },
+    {
+      "drop": 51,
+      "t": 305.8963,
+      "tag": "burst",
+      "image": "frames/051-00585-burst.jpg"
+    },
+    {
+      "drop": 51,
+      "t": 306.1366,
+      "tag": "burst",
+      "image": "frames/051-00586-burst.jpg"
+    },
+    {
+      "drop": 51,
+      "t": 306.4267,
+      "tag": "settle",
+      "image": "frames/051-00587-settle.jpg"
+    },
+    {
+      "drop": 51,
+      "t": 307.0153,
+      "tag": "settle",
+      "image": "frames/051-00588-settle.jpg"
+    },
+    {
+      "drop": 51,
+      "t": 307.6084,
+      "tag": "settle",
+      "image": "frames/051-00589-settle.jpg"
+    },
+    {
+      "drop": 51,
+      "t": 308.2313,
+      "tag": "settle",
+      "image": "frames/051-00590-settle.jpg"
+    },
+    {
+      "drop": 51,
+      "t": 308.8434,
+      "tag": "settle",
+      "image": "frames/051-00591-settle.jpg"
+    },
+    {
+      "drop": 51,
+      "t": 309.4632,
+      "tag": "settle",
+      "image": "frames/051-00592-settle.jpg"
+    },
+    {
+      "drop": 52,
+      "t": 310.7963,
+      "tag": "aim",
+      "image": "frames/052-00593-aim.jpg"
+    },
+    {
+      "drop": 52,
+      "t": 311.0764,
+      "tag": "burst",
+      "image": "frames/052-00594-burst.jpg"
+    },
+    {
+      "drop": 52,
+      "t": 311.3094,
+      "tag": "burst",
+      "image": "frames/052-00595-burst.jpg"
+    },
+    {
+      "drop": 52,
+      "t": 311.5359,
+      "tag": "burst",
+      "image": "frames/052-00596-burst.jpg"
+    },
+    {
+      "drop": 52,
+      "t": 311.8409,
+      "tag": "settle",
+      "image": "frames/052-00597-settle.jpg"
+    },
+    {
+      "drop": 52,
+      "t": 312.4338,
+      "tag": "settle",
+      "image": "frames/052-00598-settle.jpg"
+    },
+    {
+      "drop": 52,
+      "t": 313.0143,
+      "tag": "settle",
+      "image": "frames/052-00599-settle.jpg"
+    },
+    {
+      "drop": 52,
+      "t": 313.5843,
+      "tag": "settle",
+      "image": "frames/052-00600-settle.jpg"
+    },
+    {
+      "drop": 53,
+      "t": 315.1841,
+      "tag": "aim",
+      "image": "frames/053-00601-aim.jpg"
+    },
+    {
+      "drop": 53,
+      "t": 315.4356,
+      "tag": "burst",
+      "image": "frames/053-00602-burst.jpg"
+    },
+    {
+      "drop": 53,
+      "t": 315.666,
+      "tag": "burst",
+      "image": "frames/053-00603-burst.jpg"
+    },
+    {
+      "drop": 53,
+      "t": 315.8919,
+      "tag": "burst",
+      "image": "frames/053-00604-burst.jpg"
+    },
+    {
+      "drop": 53,
+      "t": 316.1968,
+      "tag": "settle",
+      "image": "frames/053-00605-settle.jpg"
+    },
+    {
+      "drop": 53,
+      "t": 316.7776,
+      "tag": "settle",
+      "image": "frames/053-00606-settle.jpg"
+    },
+    {
+      "drop": 53,
+      "t": 317.3676,
+      "tag": "settle",
+      "image": "frames/053-00607-settle.jpg"
+    },
+    {
+      "drop": 53,
+      "t": 317.9732,
+      "tag": "settle",
+      "image": "frames/053-00608-settle.jpg"
+    },
+    {
+      "drop": 54,
+      "t": 319.348,
+      "tag": "aim",
+      "image": "frames/054-00609-aim.jpg"
+    },
+    {
+      "drop": 54,
+      "t": 319.6316,
+      "tag": "burst",
+      "image": "frames/054-00610-burst.jpg"
+    },
+    {
+      "drop": 54,
+      "t": 319.8808,
+      "tag": "burst",
+      "image": "frames/054-00611-burst.jpg"
+    },
+    {
+      "drop": 54,
+      "t": 320.1176,
+      "tag": "burst",
+      "image": "frames/054-00612-burst.jpg"
+    },
+    {
+      "drop": 54,
+      "t": 320.381,
+      "tag": "settle",
+      "image": "frames/054-00613-settle.jpg"
+    },
+    {
+      "drop": 54,
+      "t": 320.971,
+      "tag": "settle",
+      "image": "frames/054-00614-settle.jpg"
+    },
+    {
+      "drop": 54,
+      "t": 321.5758,
+      "tag": "settle",
+      "image": "frames/054-00615-settle.jpg"
+    },
+    {
+      "drop": 55,
+      "t": 322.9885,
+      "tag": "aim",
+      "image": "frames/055-00616-aim.jpg"
+    },
+    {
+      "drop": 55,
+      "t": 323.262,
+      "tag": "burst",
+      "image": "frames/055-00617-burst.jpg"
+    },
+    {
+      "drop": 55,
+      "t": 323.4978,
+      "tag": "burst",
+      "image": "frames/055-00618-burst.jpg"
+    },
+    {
+      "drop": 55,
+      "t": 323.7307,
+      "tag": "burst",
+      "image": "frames/055-00619-burst.jpg"
+    },
+    {
+      "drop": 55,
+      "t": 324.028,
+      "tag": "settle",
+      "image": "frames/055-00620-settle.jpg"
+    },
+    {
+      "drop": 55,
+      "t": 324.6295,
+      "tag": "settle",
+      "image": "frames/055-00621-settle.jpg"
+    },
+    {
+      "drop": 55,
+      "t": 325.2213,
+      "tag": "settle",
+      "image": "frames/055-00622-settle.jpg"
+    },
+    {
+      "drop": 55,
+      "t": 325.8047,
+      "tag": "settle",
+      "image": "frames/055-00623-settle.jpg"
+    },
+    {
+      "drop": 55,
+      "t": 326.4058,
+      "tag": "settle",
+      "image": "frames/055-00624-settle.jpg"
+    },
+    {
+      "drop": 56,
+      "t": 327.7405,
+      "tag": "aim",
+      "image": "frames/056-00625-aim.jpg"
+    },
+    {
+      "drop": 56,
+      "t": 328.0235,
+      "tag": "burst",
+      "image": "frames/056-00626-burst.jpg"
+    },
+    {
+      "drop": 56,
+      "t": 328.2556,
+      "tag": "burst",
+      "image": "frames/056-00627-burst.jpg"
+    },
+    {
+      "drop": 56,
+      "t": 328.4692,
+      "tag": "burst",
+      "image": "frames/056-00628-burst.jpg"
+    },
+    {
+      "drop": 56,
+      "t": 328.7778,
+      "tag": "settle",
+      "image": "frames/056-00629-settle.jpg"
+    },
+    {
+      "drop": 56,
+      "t": 329.3622,
+      "tag": "settle",
+      "image": "frames/056-00630-settle.jpg"
+    },
+    {
+      "drop": 56,
+      "t": 329.9489,
+      "tag": "settle",
+      "image": "frames/056-00631-settle.jpg"
+    },
+    {
+      "drop": 56,
+      "t": 330.5761,
+      "tag": "settle",
+      "image": "frames/056-00632-settle.jpg"
+    },
+    {
+      "drop": 57,
+      "t": 331.9635,
+      "tag": "aim",
+      "image": "frames/057-00633-aim.jpg"
+    },
+    {
+      "drop": 57,
+      "t": 332.2273,
+      "tag": "burst",
+      "image": "frames/057-00634-burst.jpg"
+    },
+    {
+      "drop": 57,
+      "t": 332.4668,
+      "tag": "burst",
+      "image": "frames/057-00635-burst.jpg"
+    },
+    {
+      "drop": 57,
+      "t": 332.7089,
+      "tag": "burst",
+      "image": "frames/057-00636-burst.jpg"
+    },
+    {
+      "drop": 57,
+      "t": 332.9824,
+      "tag": "settle",
+      "image": "frames/057-00637-settle.jpg"
+    },
+    {
+      "drop": 57,
+      "t": 333.5863,
+      "tag": "settle",
+      "image": "frames/057-00638-settle.jpg"
+    },
+    {
+      "drop": 57,
+      "t": 334.3146,
+      "tag": "settle",
+      "image": "frames/057-00639-settle.jpg"
+    },
+    {
+      "drop": 57,
+      "t": 334.9377,
+      "tag": "settle",
+      "image": "frames/057-00640-settle.jpg"
+    },
+    {
+      "drop": 58,
+      "t": 336.331,
+      "tag": "aim",
+      "image": "frames/058-00641-aim.jpg"
+    },
+    {
+      "drop": 58,
+      "t": 336.5948,
+      "tag": "burst",
+      "image": "frames/058-00642-burst.jpg"
+    },
+    {
+      "drop": 58,
+      "t": 336.842,
+      "tag": "burst",
+      "image": "frames/058-00643-burst.jpg"
+    },
+    {
+      "drop": 58,
+      "t": 337.0719,
+      "tag": "burst",
+      "image": "frames/058-00644-burst.jpg"
+    },
+    {
+      "drop": 58,
+      "t": 337.3668,
+      "tag": "settle",
+      "image": "frames/058-00645-settle.jpg"
+    },
+    {
+      "drop": 58,
+      "t": 337.9683,
+      "tag": "settle",
+      "image": "frames/058-00646-settle.jpg"
+    },
+    {
+      "drop": 58,
+      "t": 338.5539,
+      "tag": "settle",
+      "image": "frames/058-00647-settle.jpg"
+    },
+    {
+      "drop": 58,
+      "t": 339.1366,
+      "tag": "settle",
+      "image": "frames/058-00648-settle.jpg"
+    },
+    {
+      "drop": 59,
+      "t": 340.5335,
+      "tag": "aim",
+      "image": "frames/059-00649-aim.jpg"
+    },
+    {
+      "drop": 59,
+      "t": 340.8202,
+      "tag": "burst",
+      "image": "frames/059-00650-burst.jpg"
+    },
+    {
+      "drop": 59,
+      "t": 341.0641,
+      "tag": "burst",
+      "image": "frames/059-00651-burst.jpg"
+    },
+    {
+      "drop": 59,
+      "t": 341.2909,
+      "tag": "burst",
+      "image": "frames/059-00652-burst.jpg"
+    },
+    {
+      "drop": 59,
+      "t": 341.5717,
+      "tag": "settle",
+      "image": "frames/059-00653-settle.jpg"
+    },
+    {
+      "drop": 59,
+      "t": 342.1984,
+      "tag": "settle",
+      "image": "frames/059-00654-settle.jpg"
+    },
+    {
+      "drop": 59,
+      "t": 342.7999,
+      "tag": "settle",
+      "image": "frames/059-00655-settle.jpg"
+    },
+    {
+      "drop": 59,
+      "t": 343.3646,
+      "tag": "settle",
+      "image": "frames/059-00656-settle.jpg"
+    },
+    {
+      "drop": 59,
+      "t": 343.9836,
+      "tag": "settle",
+      "image": "frames/059-00657-settle.jpg"
+    },
+    {
+      "drop": 59,
+      "t": 344.6022,
+      "tag": "settle",
+      "image": "frames/059-00658-settle.jpg"
+    },
+    {
+      "drop": 60,
+      "t": 346.011,
+      "tag": "aim",
+      "image": "frames/060-00659-aim.jpg"
+    },
+    {
+      "drop": 60,
+      "t": 346.2787,
+      "tag": "burst",
+      "image": "frames/060-00660-burst.jpg"
+    },
+    {
+      "drop": 60,
+      "t": 346.5089,
+      "tag": "burst",
+      "image": "frames/060-00661-burst.jpg"
+    },
+    {
+      "drop": 60,
+      "t": 346.7378,
+      "tag": "burst",
+      "image": "frames/060-00662-burst.jpg"
+    },
+    {
+      "drop": 60,
+      "t": 347.0421,
+      "tag": "settle",
+      "image": "frames/060-00663-settle.jpg"
+    },
+    {
+      "drop": 60,
+      "t": 347.6755,
+      "tag": "settle",
+      "image": "frames/060-00664-settle.jpg"
+    },
+    {
+      "drop": 60,
+      "t": 348.3319,
+      "tag": "settle",
+      "image": "frames/060-00665-settle.jpg"
+    },
+    {
+      "drop": 60,
+      "t": 348.9661,
+      "tag": "settle",
+      "image": "frames/060-00666-settle.jpg"
+    },
+    {
+      "drop": 61,
+      "t": 350.4286,
+      "tag": "aim",
+      "image": "frames/061-00667-aim.jpg"
+    },
+    {
+      "drop": 61,
+      "t": 350.6974,
+      "tag": "burst",
+      "image": "frames/061-00668-burst.jpg"
+    },
+    {
+      "drop": 61,
+      "t": 350.9335,
+      "tag": "burst",
+      "image": "frames/061-00669-burst.jpg"
+    },
+    {
+      "drop": 61,
+      "t": 351.1643,
+      "tag": "burst",
+      "image": "frames/061-00670-burst.jpg"
+    },
+    {
+      "drop": 61,
+      "t": 351.4576,
+      "tag": "settle",
+      "image": "frames/061-00671-settle.jpg"
+    },
+    {
+      "drop": 61,
+      "t": 352.0807,
+      "tag": "settle",
+      "image": "frames/061-00672-settle.jpg"
+    },
+    {
+      "drop": 61,
+      "t": 352.7089,
+      "tag": "settle",
+      "image": "frames/061-00673-settle.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 354.1637,
+      "tag": "aim",
+      "image": "frames/062-00674-aim.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 354.4435,
+      "tag": "burst",
+      "image": "frames/062-00675-burst.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 354.6894,
+      "tag": "burst",
+      "image": "frames/062-00676-burst.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 354.9317,
+      "tag": "burst",
+      "image": "frames/062-00677-burst.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 355.2093,
+      "tag": "settle",
+      "image": "frames/062-00678-settle.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 355.8126,
+      "tag": "settle",
+      "image": "frames/062-00679-settle.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 356.4161,
+      "tag": "settle",
+      "image": "frames/062-00680-settle.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 356.9864,
+      "tag": "settle",
+      "image": "frames/062-00681-settle.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 357.5527,
+      "tag": "settle",
+      "image": "frames/062-00682-settle.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 358.1348,
+      "tag": "settle",
+      "image": "frames/062-00683-settle.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 358.7709,
+      "tag": "settle",
+      "image": "frames/062-00684-settle.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 359.364,
+      "tag": "settle",
+      "image": "frames/062-00685-settle.jpg"
+    },
+    {
+      "drop": 62,
+      "t": 359.9732,
+      "tag": "settle",
+      "image": "frames/062-00686-settle.jpg"
+    },
+    {
+      "drop": 63,
+      "t": 361.359,
+      "tag": "aim",
+      "image": "frames/063-00687-aim.jpg"
+    },
+    {
+      "drop": 63,
+      "t": 361.6442,
+      "tag": "burst",
+      "image": "frames/063-00688-burst.jpg"
+    },
+    {
+      "drop": 63,
+      "t": 361.8881,
+      "tag": "burst",
+      "image": "frames/063-00689-burst.jpg"
+    },
+    {
+      "drop": 63,
+      "t": 362.1388,
+      "tag": "burst",
+      "image": "frames/063-00690-burst.jpg"
+    },
+    {
+      "drop": 63,
+      "t": 362.4071,
+      "tag": "settle",
+      "image": "frames/063-00691-settle.jpg"
+    },
+    {
+      "drop": 63,
+      "t": 362.9956,
+      "tag": "settle",
+      "image": "frames/063-00692-settle.jpg"
+    },
+    {
+      "drop": 63,
+      "t": 363.5772,
+      "tag": "settle",
+      "image": "frames/063-00693-settle.jpg"
+    },
+    {
+      "drop": 63,
+      "t": 364.1704,
+      "tag": "settle",
+      "image": "frames/063-00694-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 365.7994,
+      "tag": "aim",
+      "image": "frames/064-00695-aim.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 366.0814,
+      "tag": "burst",
+      "image": "frames/064-00696-burst.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 366.2999,
+      "tag": "burst",
+      "image": "frames/064-00697-burst.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 366.5275,
+      "tag": "burst",
+      "image": "frames/064-00698-burst.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 366.8744,
+      "tag": "settle",
+      "image": "frames/064-00699-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 367.4879,
+      "tag": "settle",
+      "image": "frames/064-00700-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 368.0956,
+      "tag": "settle",
+      "image": "frames/064-00701-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 368.6829,
+      "tag": "settle",
+      "image": "frames/064-00702-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 369.2737,
+      "tag": "settle",
+      "image": "frames/064-00703-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 369.8609,
+      "tag": "settle",
+      "image": "frames/064-00704-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 370.4827,
+      "tag": "settle",
+      "image": "frames/064-00705-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 371.0936,
+      "tag": "settle",
+      "image": "frames/064-00706-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 371.6765,
+      "tag": "settle",
+      "image": "frames/064-00707-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 372.288,
+      "tag": "settle",
+      "image": "frames/064-00708-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 372.863,
+      "tag": "settle",
+      "image": "frames/064-00709-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 373.4698,
+      "tag": "settle",
+      "image": "frames/064-00710-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 374.0618,
+      "tag": "settle",
+      "image": "frames/064-00711-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 374.6515,
+      "tag": "settle",
+      "image": "frames/064-00712-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 375.2632,
+      "tag": "settle",
+      "image": "frames/064-00713-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 375.8979,
+      "tag": "settle",
+      "image": "frames/064-00714-settle.jpg"
+    },
+    {
+      "drop": 64,
+      "t": 376.4699,
+      "tag": "settle",
+      "image": "frames/064-00715-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 377.8611,
+      "tag": "aim",
+      "image": "frames/065-00716-aim.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 378.134,
+      "tag": "burst",
+      "image": "frames/065-00717-burst.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 378.3719,
+      "tag": "burst",
+      "image": "frames/065-00718-burst.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 378.5913,
+      "tag": "burst",
+      "image": "frames/065-00719-burst.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 378.8903,
+      "tag": "settle",
+      "image": "frames/065-00720-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 379.4992,
+      "tag": "settle",
+      "image": "frames/065-00721-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 380.1275,
+      "tag": "settle",
+      "image": "frames/065-00722-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 380.7272,
+      "tag": "settle",
+      "image": "frames/065-00723-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 381.3476,
+      "tag": "settle",
+      "image": "frames/065-00724-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 381.9877,
+      "tag": "settle",
+      "image": "frames/065-00725-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 382.5714,
+      "tag": "settle",
+      "image": "frames/065-00726-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 383.165,
+      "tag": "settle",
+      "image": "frames/065-00727-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 383.7726,
+      "tag": "settle",
+      "image": "frames/065-00728-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 384.3691,
+      "tag": "settle",
+      "image": "frames/065-00729-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 384.9615,
+      "tag": "settle",
+      "image": "frames/065-00730-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 385.5762,
+      "tag": "settle",
+      "image": "frames/065-00731-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 386.1786,
+      "tag": "settle",
+      "image": "frames/065-00732-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 386.7668,
+      "tag": "settle",
+      "image": "frames/065-00733-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 387.3696,
+      "tag": "settle",
+      "image": "frames/065-00734-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 387.9599,
+      "tag": "settle",
+      "image": "frames/065-00735-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 388.5866,
+      "tag": "settle",
+      "image": "frames/065-00736-settle.jpg"
+    },
+    {
+      "drop": 65,
+      "t": 389.152,
+      "tag": "settle",
+      "image": "frames/065-00737-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 390.5448,
+      "tag": "aim",
+      "image": "frames/066-00738-aim.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 390.8296,
+      "tag": "burst",
+      "image": "frames/066-00739-burst.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 391.0694,
+      "tag": "burst",
+      "image": "frames/066-00740-burst.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 391.3149,
+      "tag": "burst",
+      "image": "frames/066-00741-burst.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 391.5914,
+      "tag": "settle",
+      "image": "frames/066-00742-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 392.1745,
+      "tag": "settle",
+      "image": "frames/066-00743-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 392.7726,
+      "tag": "settle",
+      "image": "frames/066-00744-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 393.3552,
+      "tag": "settle",
+      "image": "frames/066-00745-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 393.9876,
+      "tag": "settle",
+      "image": "frames/066-00746-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 394.6147,
+      "tag": "settle",
+      "image": "frames/066-00747-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 395.2345,
+      "tag": "settle",
+      "image": "frames/066-00748-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 395.839,
+      "tag": "settle",
+      "image": "frames/066-00749-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 396.4286,
+      "tag": "settle",
+      "image": "frames/066-00750-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 397.0488,
+      "tag": "settle",
+      "image": "frames/066-00751-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 397.6495,
+      "tag": "settle",
+      "image": "frames/066-00752-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 398.2563,
+      "tag": "settle",
+      "image": "frames/066-00753-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 398.8152,
+      "tag": "settle",
+      "image": "frames/066-00754-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 399.3872,
+      "tag": "settle",
+      "image": "frames/066-00755-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 399.9959,
+      "tag": "settle",
+      "image": "frames/066-00756-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 400.6023,
+      "tag": "settle",
+      "image": "frames/066-00757-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 401.1869,
+      "tag": "settle",
+      "image": "frames/066-00758-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 401.7491,
+      "tag": "settle",
+      "image": "frames/066-00759-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 402.3387,
+      "tag": "settle",
+      "image": "frames/066-00760-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 402.9516,
+      "tag": "settle",
+      "image": "frames/066-00761-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 403.5842,
+      "tag": "settle",
+      "image": "frames/066-00762-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 404.2051,
+      "tag": "settle",
+      "image": "frames/066-00763-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 404.8477,
+      "tag": "settle",
+      "image": "frames/066-00764-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 405.4473,
+      "tag": "settle",
+      "image": "frames/066-00765-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 406.0253,
+      "tag": "settle",
+      "image": "frames/066-00766-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 406.6188,
+      "tag": "settle",
+      "image": "frames/066-00767-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 407.198,
+      "tag": "settle",
+      "image": "frames/066-00768-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 407.7804,
+      "tag": "settle",
+      "image": "frames/066-00769-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 408.3732,
+      "tag": "settle",
+      "image": "frames/066-00770-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 408.9702,
+      "tag": "settle",
+      "image": "frames/066-00771-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 409.6025,
+      "tag": "settle",
+      "image": "frames/066-00772-settle.jpg"
+    },
+    {
+      "drop": 66,
+      "t": 410.6528,
+      "tag": "settle",
+      "image": "frames/066-00773-settle.jpg"
+    },
+    {
+      "drop": 67,
+      "t": 412.3688,
+      "tag": "aim",
+      "image": "frames/067-00774-aim.jpg"
+    },
+    {
+      "drop": 67,
+      "t": 412.6449,
+      "tag": "burst",
+      "image": "frames/067-00775-burst.jpg"
+    },
+    {
+      "drop": 67,
+      "t": 412.8884,
+      "tag": "burst",
+      "image": "frames/067-00776-burst.jpg"
+    },
+    {
+      "drop": 67,
+      "t": 413.1116,
+      "tag": "burst",
+      "image": "frames/067-00777-burst.jpg"
+    },
+    {
+      "drop": 67,
+      "t": 413.4184,
+      "tag": "settle",
+      "image": "frames/067-00778-settle.jpg"
+    },
+    {
+      "drop": 67,
+      "t": 414.0352,
+      "tag": "settle",
+      "image": "frames/067-00779-settle.jpg"
+    },
+    {
+      "drop": 67,
+      "t": 414.599,
+      "tag": "settle",
+      "image": "frames/067-00780-settle.jpg"
+    },
+    {
+      "drop": 67,
+      "t": 415.2436,
+      "tag": "settle",
+      "image": "frames/067-00781-settle.jpg"
+    },
+    {
+      "drop": 67,
+      "t": 415.9333,
+      "tag": "settle",
+      "image": "frames/067-00782-settle.jpg"
+    },
+    {
+      "drop": 68,
+      "t": 417.3333,
+      "tag": "aim",
+      "image": "frames/068-00783-aim.jpg"
+    },
+    {
+      "drop": 68,
+      "t": 417.5675,
+      "tag": "burst",
+      "image": "frames/068-00784-burst.jpg"
+    },
+    {
+      "drop": 68,
+      "t": 417.7875,
+      "tag": "burst",
+      "image": "frames/068-00785-burst.jpg"
+    },
+    {
+      "drop": 68,
+      "t": 418.0157,
+      "tag": "burst",
+      "image": "frames/068-00786-burst.jpg"
+    },
+    {
+      "drop": 68,
+      "t": 418.3323,
+      "tag": "settle",
+      "image": "frames/068-00787-settle.jpg"
+    },
+    {
+      "drop": 68,
+      "t": 418.91,
+      "tag": "settle",
+      "image": "frames/068-00788-settle.jpg"
+    },
+    {
+      "drop": 68,
+      "t": 419.4953,
+      "tag": "settle",
+      "image": "frames/068-00789-settle.jpg"
+    },
+    {
+      "drop": 68,
+      "t": 420.1105,
+      "tag": "settle",
+      "image": "frames/068-00790-settle.jpg"
+    },
+    {
+      "drop": 69,
+      "t": 421.4629,
+      "tag": "aim",
+      "image": "frames/069-00791-aim.jpg"
+    },
+    {
+      "drop": 69,
+      "t": 421.7466,
+      "tag": "burst",
+      "image": "frames/069-00792-burst.jpg"
+    },
+    {
+      "drop": 69,
+      "t": 421.9818,
+      "tag": "burst",
+      "image": "frames/069-00793-burst.jpg"
+    },
+    {
+      "drop": 69,
+      "t": 422.2005,
+      "tag": "burst",
+      "image": "frames/069-00794-burst.jpg"
+    },
+    {
+      "drop": 69,
+      "t": 422.5119,
+      "tag": "settle",
+      "image": "frames/069-00795-settle.jpg"
+    },
+    {
+      "drop": 69,
+      "t": 423.097,
+      "tag": "settle",
+      "image": "frames/069-00796-settle.jpg"
+    },
+    {
+      "drop": 69,
+      "t": 423.6706,
+      "tag": "settle",
+      "image": "frames/069-00797-settle.jpg"
+    },
+    {
+      "drop": 69,
+      "t": 424.2464,
+      "tag": "settle",
+      "image": "frames/069-00798-settle.jpg"
+    },
+    {
+      "drop": 69,
+      "t": 424.8589,
+      "tag": "settle",
+      "image": "frames/069-00799-settle.jpg"
+    },
+    {
+      "drop": 69,
+      "t": 425.4586,
+      "tag": "settle",
+      "image": "frames/069-00800-settle.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 426.777,
+      "tag": "aim",
+      "image": "frames/070-00801-aim.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 427.0421,
+      "tag": "burst",
+      "image": "frames/070-00802-burst.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 427.2757,
+      "tag": "burst",
+      "image": "frames/070-00803-burst.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 427.4992,
+      "tag": "burst",
+      "image": "frames/070-00804-burst.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 427.788,
+      "tag": "settle",
+      "image": "frames/070-00805-settle.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 428.3525,
+      "tag": "settle",
+      "image": "frames/070-00806-settle.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 428.9332,
+      "tag": "settle",
+      "image": "frames/070-00807-settle.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 429.5633,
+      "tag": "settle",
+      "image": "frames/070-00808-settle.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 430.1784,
+      "tag": "settle",
+      "image": "frames/070-00809-settle.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 430.8054,
+      "tag": "settle",
+      "image": "frames/070-00810-settle.jpg"
+    },
+    {
+      "drop": 70,
+      "t": 431.4123,
+      "tag": "settle",
+      "image": "frames/070-00811-settle.jpg"
+    },
+    {
+      "drop": 71,
+      "t": 432.7298,
+      "tag": "aim",
+      "image": "frames/071-00812-aim.jpg"
+    },
+    {
+      "drop": 71,
+      "t": 432.9851,
+      "tag": "burst",
+      "image": "frames/071-00813-burst.jpg"
+    },
+    {
+      "drop": 71,
+      "t": 433.2235,
+      "tag": "burst",
+      "image": "frames/071-00814-burst.jpg"
+    },
+    {
+      "drop": 71,
+      "t": 433.4604,
+      "tag": "burst",
+      "image": "frames/071-00815-burst.jpg"
+    },
+    {
+      "drop": 71,
+      "t": 433.7564,
+      "tag": "settle",
+      "image": "frames/071-00816-settle.jpg"
+    },
+    {
+      "drop": 71,
+      "t": 434.3759,
+      "tag": "settle",
+      "image": "frames/071-00817-settle.jpg"
+    },
+    {
+      "drop": 71,
+      "t": 434.9746,
+      "tag": "settle",
+      "image": "frames/071-00818-settle.jpg"
+    },
+    {
+      "drop": 71,
+      "t": 435.5744,
+      "tag": "settle",
+      "image": "frames/071-00819-settle.jpg"
+    },
+    {
+      "drop": 72,
+      "t": 436.8982,
+      "tag": "aim",
+      "image": "frames/072-00820-aim.jpg"
+    },
+    {
+      "drop": 72,
+      "t": 437.1587,
+      "tag": "burst",
+      "image": "frames/072-00821-burst.jpg"
+    },
+    {
+      "drop": 72,
+      "t": 437.381,
+      "tag": "burst",
+      "image": "frames/072-00822-burst.jpg"
+    },
+    {
+      "drop": 72,
+      "t": 437.6002,
+      "tag": "burst",
+      "image": "frames/072-00823-burst.jpg"
+    },
+    {
+      "drop": 72,
+      "t": 437.927,
+      "tag": "settle",
+      "image": "frames/072-00824-settle.jpg"
+    },
+    {
+      "drop": 72,
+      "t": 438.533,
+      "tag": "settle",
+      "image": "frames/072-00825-settle.jpg"
+    },
+    {
+      "drop": 72,
+      "t": 439.0935,
+      "tag": "settle",
+      "image": "frames/072-00826-settle.jpg"
+    },
+    {
+      "drop": 72,
+      "t": 439.6611,
+      "tag": "settle",
+      "image": "frames/072-00827-settle.jpg"
+    },
+    {
+      "drop": 72,
+      "t": 440.2912,
+      "tag": "settle",
+      "image": "frames/072-00828-settle.jpg"
+    },
+    {
+      "drop": 73,
+      "t": 441.6347,
+      "tag": "aim",
+      "image": "frames/073-00829-aim.jpg"
+    },
+    {
+      "drop": 73,
+      "t": 441.8996,
+      "tag": "burst",
+      "image": "frames/073-00830-burst.jpg"
+    },
+    {
+      "drop": 73,
+      "t": 442.1235,
+      "tag": "burst",
+      "image": "frames/073-00831-burst.jpg"
+    },
+    {
+      "drop": 73,
+      "t": 442.3511,
+      "tag": "burst",
+      "image": "frames/073-00832-burst.jpg"
+    },
+    {
+      "drop": 73,
+      "t": 442.6571,
+      "tag": "settle",
+      "image": "frames/073-00833-settle.jpg"
+    },
+    {
+      "drop": 73,
+      "t": 443.2418,
+      "tag": "settle",
+      "image": "frames/073-00834-settle.jpg"
+    },
+    {
+      "drop": 73,
+      "t": 443.8221,
+      "tag": "settle",
+      "image": "frames/073-00835-settle.jpg"
+    },
+    {
+      "drop": 73,
+      "t": 444.4302,
+      "tag": "settle",
+      "image": "frames/073-00836-settle.jpg"
+    },
+    {
+      "drop": 74,
+      "t": 445.8209,
+      "tag": "aim",
+      "image": "frames/074-00837-aim.jpg"
+    },
+    {
+      "drop": 74,
+      "t": 446.0812,
+      "tag": "burst",
+      "image": "frames/074-00838-burst.jpg"
+    },
+    {
+      "drop": 74,
+      "t": 446.3229,
+      "tag": "burst",
+      "image": "frames/074-00839-burst.jpg"
+    },
+    {
+      "drop": 74,
+      "t": 446.5611,
+      "tag": "burst",
+      "image": "frames/074-00840-burst.jpg"
+    },
+    {
+      "drop": 74,
+      "t": 446.8316,
+      "tag": "settle",
+      "image": "frames/074-00841-settle.jpg"
+    },
+    {
+      "drop": 74,
+      "t": 447.3973,
+      "tag": "settle",
+      "image": "frames/074-00842-settle.jpg"
+    },
+    {
+      "drop": 74,
+      "t": 447.9735,
+      "tag": "settle",
+      "image": "frames/074-00843-settle.jpg"
+    },
+    {
+      "drop": 74,
+      "t": 448.5536,
+      "tag": "settle",
+      "image": "frames/074-00844-settle.jpg"
+    },
+    {
+      "drop": 75,
+      "t": 449.9143,
+      "tag": "aim",
+      "image": "frames/075-00845-aim.jpg"
+    },
+    {
+      "drop": 75,
+      "t": 450.1703,
+      "tag": "burst",
+      "image": "frames/075-00846-burst.jpg"
+    },
+    {
+      "drop": 75,
+      "t": 450.398,
+      "tag": "burst",
+      "image": "frames/075-00847-burst.jpg"
+    },
+    {
+      "drop": 75,
+      "t": 450.6283,
+      "tag": "burst",
+      "image": "frames/075-00848-burst.jpg"
+    },
+    {
+      "drop": 75,
+      "t": 450.9413,
+      "tag": "settle",
+      "image": "frames/075-00849-settle.jpg"
+    },
+    {
+      "drop": 75,
+      "t": 451.528,
+      "tag": "settle",
+      "image": "frames/075-00850-settle.jpg"
+    },
+    {
+      "drop": 75,
+      "t": 452.1101,
+      "tag": "settle",
+      "image": "frames/075-00851-settle.jpg"
+    },
+    {
+      "drop": 75,
+      "t": 452.7342,
+      "tag": "settle",
+      "image": "frames/075-00852-settle.jpg"
+    },
+    {
+      "drop": 75,
+      "t": 453.3268,
+      "tag": "settle",
+      "image": "frames/075-00853-settle.jpg"
+    },
+    {
+      "drop": 76,
+      "t": 454.6768,
+      "tag": "aim",
+      "image": "frames/076-00854-aim.jpg"
+    },
+    {
+      "drop": 76,
+      "t": 454.931,
+      "tag": "burst",
+      "image": "frames/076-00855-burst.jpg"
+    },
+    {
+      "drop": 76,
+      "t": 455.1903,
+      "tag": "burst",
+      "image": "frames/076-00856-burst.jpg"
+    },
+    {
+      "drop": 76,
+      "t": 455.7138,
+      "tag": "settle",
+      "image": "frames/076-00857-settle.jpg"
+    },
+    {
+      "drop": 76,
+      "t": 456.341,
+      "tag": "settle",
+      "image": "frames/076-00858-settle.jpg"
+    },
+    {
+      "drop": 76,
+      "t": 456.9195,
+      "tag": "settle",
+      "image": "frames/076-00859-settle.jpg"
+    },
+    {
+      "drop": 76,
+      "t": 457.4957,
+      "tag": "settle",
+      "image": "frames/076-00860-settle.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 458.8357,
+      "tag": "aim",
+      "image": "frames/077-00861-aim.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 459.099,
+      "tag": "burst",
+      "image": "frames/077-00862-burst.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 459.3399,
+      "tag": "burst",
+      "image": "frames/077-00863-burst.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 459.5768,
+      "tag": "burst",
+      "image": "frames/077-00864-burst.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 459.8781,
+      "tag": "settle",
+      "image": "frames/077-00865-settle.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 460.4891,
+      "tag": "settle",
+      "image": "frames/077-00866-settle.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 461.0726,
+      "tag": "settle",
+      "image": "frames/077-00867-settle.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 461.6614,
+      "tag": "settle",
+      "image": "frames/077-00868-settle.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 462.242,
+      "tag": "settle",
+      "image": "frames/077-00869-settle.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 462.8293,
+      "tag": "settle",
+      "image": "frames/077-00870-settle.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 463.4126,
+      "tag": "settle",
+      "image": "frames/077-00871-settle.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 464.0054,
+      "tag": "settle",
+      "image": "frames/077-00872-settle.jpg"
+    },
+    {
+      "drop": 77,
+      "t": 464.6286,
+      "tag": "settle",
+      "image": "frames/077-00873-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 466.0217,
+      "tag": "aim",
+      "image": "frames/078-00874-aim.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 466.288,
+      "tag": "burst",
+      "image": "frames/078-00875-burst.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 466.5084,
+      "tag": "burst",
+      "image": "frames/078-00876-burst.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 466.7348,
+      "tag": "burst",
+      "image": "frames/078-00877-burst.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 467.0539,
+      "tag": "settle",
+      "image": "frames/078-00878-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 467.6343,
+      "tag": "settle",
+      "image": "frames/078-00879-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 468.2389,
+      "tag": "settle",
+      "image": "frames/078-00880-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 468.8588,
+      "tag": "settle",
+      "image": "frames/078-00881-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 469.4683,
+      "tag": "settle",
+      "image": "frames/078-00882-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 470.0787,
+      "tag": "settle",
+      "image": "frames/078-00883-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 470.6937,
+      "tag": "settle",
+      "image": "frames/078-00884-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 471.297,
+      "tag": "settle",
+      "image": "frames/078-00885-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 471.9414,
+      "tag": "settle",
+      "image": "frames/078-00886-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 472.5991,
+      "tag": "settle",
+      "image": "frames/078-00887-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 473.2394,
+      "tag": "settle",
+      "image": "frames/078-00888-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 473.8562,
+      "tag": "settle",
+      "image": "frames/078-00889-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 474.5135,
+      "tag": "settle",
+      "image": "frames/078-00890-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 475.154,
+      "tag": "settle",
+      "image": "frames/078-00891-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 475.7391,
+      "tag": "settle",
+      "image": "frames/078-00892-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 476.3383,
+      "tag": "settle",
+      "image": "frames/078-00893-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 476.9511,
+      "tag": "settle",
+      "image": "frames/078-00894-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 477.5512,
+      "tag": "settle",
+      "image": "frames/078-00895-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 478.1378,
+      "tag": "settle",
+      "image": "frames/078-00896-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 478.7305,
+      "tag": "settle",
+      "image": "frames/078-00897-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 479.3244,
+      "tag": "settle",
+      "image": "frames/078-00898-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 479.9042,
+      "tag": "settle",
+      "image": "frames/078-00899-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 480.4851,
+      "tag": "settle",
+      "image": "frames/078-00900-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 481.0686,
+      "tag": "settle",
+      "image": "frames/078-00901-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 481.6769,
+      "tag": "settle",
+      "image": "frames/078-00902-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 482.2878,
+      "tag": "settle",
+      "image": "frames/078-00903-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 482.9296,
+      "tag": "settle",
+      "image": "frames/078-00904-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 483.526,
+      "tag": "settle",
+      "image": "frames/078-00905-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 484.1123,
+      "tag": "settle",
+      "image": "frames/078-00906-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 484.704,
+      "tag": "settle",
+      "image": "frames/078-00907-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 485.309,
+      "tag": "settle",
+      "image": "frames/078-00908-settle.jpg"
+    },
+    {
+      "drop": 78,
+      "t": 486.349,
+      "tag": "settle",
+      "image": "frames/078-00909-settle.jpg"
+    },
+    {
+      "drop": 79,
+      "t": 488.343,
+      "tag": "aim",
+      "image": "frames/079-00910-aim.jpg"
+    },
+    {
+      "drop": 79,
+      "t": 488.6317,
+      "tag": "burst",
+      "image": "frames/079-00911-burst.jpg"
+    },
+    {
+      "drop": 79,
+      "t": 488.8843,
+      "tag": "burst",
+      "image": "frames/079-00912-burst.jpg"
+    },
+    {
+      "drop": 79,
+      "t": 489.1356,
+      "tag": "burst",
+      "image": "frames/079-00913-burst.jpg"
+    },
+    {
+      "drop": 79,
+      "t": 489.4009,
+      "tag": "settle",
+      "image": "frames/079-00914-settle.jpg"
+    },
+    {
+      "drop": 79,
+      "t": 490.006,
+      "tag": "settle",
+      "image": "frames/079-00915-settle.jpg"
+    },
+    {
+      "drop": 79,
+      "t": 490.6049,
+      "tag": "settle",
+      "image": "frames/079-00916-settle.jpg"
+    },
+    {
+      "drop": 79,
+      "t": 491.2027,
+      "tag": "settle",
+      "image": "frames/079-00917-settle.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 492.6475,
+      "tag": "aim",
+      "image": "frames/080-00918-aim.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 492.9278,
+      "tag": "burst",
+      "image": "frames/080-00919-burst.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 493.175,
+      "tag": "burst",
+      "image": "frames/080-00920-burst.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 493.4084,
+      "tag": "burst",
+      "image": "frames/080-00921-burst.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 493.6824,
+      "tag": "settle",
+      "image": "frames/080-00922-settle.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 494.2659,
+      "tag": "settle",
+      "image": "frames/080-00923-settle.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 494.8653,
+      "tag": "settle",
+      "image": "frames/080-00924-settle.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 495.4736,
+      "tag": "settle",
+      "image": "frames/080-00925-settle.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 496.0683,
+      "tag": "settle",
+      "image": "frames/080-00926-settle.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 496.659,
+      "tag": "settle",
+      "image": "frames/080-00927-settle.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 497.3024,
+      "tag": "settle",
+      "image": "frames/080-00928-settle.jpg"
+    },
+    {
+      "drop": 80,
+      "t": 497.9212,
+      "tag": "settle",
+      "image": "frames/080-00929-settle.jpg"
+    },
+    {
+      "drop": 81,
+      "t": 499.3019,
+      "tag": "aim",
+      "image": "frames/081-00930-aim.jpg"
+    },
+    {
+      "drop": 81,
+      "t": 499.574,
+      "tag": "burst",
+      "image": "frames/081-00931-burst.jpg"
+    },
+    {
+      "drop": 81,
+      "t": 499.8011,
+      "tag": "burst",
+      "image": "frames/081-00932-burst.jpg"
+    },
+    {
+      "drop": 81,
+      "t": 500.033,
+      "tag": "burst",
+      "image": "frames/081-00933-burst.jpg"
+    },
+    {
+      "drop": 81,
+      "t": 500.3322,
+      "tag": "settle",
+      "image": "frames/081-00934-settle.jpg"
+    },
+    {
+      "drop": 81,
+      "t": 500.9447,
+      "tag": "settle",
+      "image": "frames/081-00935-settle.jpg"
+    },
+    {
+      "drop": 81,
+      "t": 501.5526,
+      "tag": "settle",
+      "image": "frames/081-00936-settle.jpg"
+    },
+    {
+      "drop": 81,
+      "t": 502.1662,
+      "tag": "settle",
+      "image": "frames/081-00937-settle.jpg"
+    },
+    {
+      "drop": 81,
+      "t": 502.7582,
+      "tag": "settle",
+      "image": "frames/081-00938-settle.jpg"
+    },
+    {
+      "drop": 82,
+      "t": 504.2219,
+      "tag": "aim",
+      "image": "frames/082-00939-aim.jpg"
+    },
+    {
+      "drop": 82,
+      "t": 504.5154,
+      "tag": "burst",
+      "image": "frames/082-00940-burst.jpg"
+    },
+    {
+      "drop": 82,
+      "t": 504.7545,
+      "tag": "burst",
+      "image": "frames/082-00941-burst.jpg"
+    },
+    {
+      "drop": 82,
+      "t": 504.9915,
+      "tag": "burst",
+      "image": "frames/082-00942-burst.jpg"
+    },
+    {
+      "drop": 82,
+      "t": 505.286,
+      "tag": "settle",
+      "image": "frames/082-00943-settle.jpg"
+    },
+    {
+      "drop": 82,
+      "t": 505.9399,
+      "tag": "settle",
+      "image": "frames/082-00944-settle.jpg"
+    },
+    {
+      "drop": 82,
+      "t": 506.58,
+      "tag": "settle",
+      "image": "frames/082-00945-settle.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 508.0343,
+      "tag": "aim",
+      "image": "frames/083-00946-aim.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 508.3281,
+      "tag": "burst",
+      "image": "frames/083-00947-burst.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 508.5771,
+      "tag": "burst",
+      "image": "frames/083-00948-burst.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 509.0768,
+      "tag": "settle",
+      "image": "frames/083-00949-settle.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 509.6638,
+      "tag": "settle",
+      "image": "frames/083-00950-settle.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 510.2739,
+      "tag": "settle",
+      "image": "frames/083-00951-settle.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 510.8788,
+      "tag": "settle",
+      "image": "frames/083-00952-settle.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 511.488,
+      "tag": "settle",
+      "image": "frames/083-00953-settle.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 512.0972,
+      "tag": "settle",
+      "image": "frames/083-00954-settle.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 512.7386,
+      "tag": "settle",
+      "image": "frames/083-00955-settle.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 513.3717,
+      "tag": "settle",
+      "image": "frames/083-00956-settle.jpg"
+    },
+    {
+      "drop": 83,
+      "t": 514.0073,
+      "tag": "settle",
+      "image": "frames/083-00957-settle.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 515.5506,
+      "tag": "aim",
+      "image": "frames/084-00958-aim.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 515.8376,
+      "tag": "burst",
+      "image": "frames/084-00959-burst.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 516.07,
+      "tag": "burst",
+      "image": "frames/084-00960-burst.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 516.2969,
+      "tag": "burst",
+      "image": "frames/084-00961-burst.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 516.5921,
+      "tag": "settle",
+      "image": "frames/084-00962-settle.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 517.216,
+      "tag": "settle",
+      "image": "frames/084-00963-settle.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 517.8541,
+      "tag": "settle",
+      "image": "frames/084-00964-settle.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 518.481,
+      "tag": "settle",
+      "image": "frames/084-00965-settle.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 519.0853,
+      "tag": "settle",
+      "image": "frames/084-00966-settle.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 519.6905,
+      "tag": "settle",
+      "image": "frames/084-00967-settle.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 520.2887,
+      "tag": "settle",
+      "image": "frames/084-00968-settle.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 520.9136,
+      "tag": "settle",
+      "image": "frames/084-00969-settle.jpg"
+    },
+    {
+      "drop": 84,
+      "t": 521.513,
+      "tag": "settle",
+      "image": "frames/084-00970-settle.jpg"
+    },
+    {
+      "drop": 85,
+      "t": 522.9723,
+      "tag": "aim",
+      "image": "frames/085-00971-aim.jpg"
+    },
+    {
+      "drop": 85,
+      "t": 523.2299,
+      "tag": "burst",
+      "image": "frames/085-00972-burst.jpg"
+    },
+    {
+      "drop": 85,
+      "t": 523.4464,
+      "tag": "burst",
+      "image": "frames/085-00973-burst.jpg"
+    },
+    {
+      "drop": 85,
+      "t": 523.6736,
+      "tag": "burst",
+      "image": "frames/085-00974-burst.jpg"
+    },
+    {
+      "drop": 85,
+      "t": 524.0048,
+      "tag": "settle",
+      "image": "frames/085-00975-settle.jpg"
+    },
+    {
+      "drop": 85,
+      "t": 524.6236,
+      "tag": "settle",
+      "image": "frames/085-00976-settle.jpg"
+    },
+    {
+      "drop": 85,
+      "t": 525.2314,
+      "tag": "settle",
+      "image": "frames/085-00977-settle.jpg"
+    },
+    {
+      "drop": 85,
+      "t": 525.839,
+      "tag": "settle",
+      "image": "frames/085-00978-settle.jpg"
+    },
+    {
+      "drop": 85,
+      "t": 526.4526,
+      "tag": "settle",
+      "image": "frames/085-00979-settle.jpg"
+    },
+    {
+      "drop": 86,
+      "t": 527.8835,
+      "tag": "aim",
+      "image": "frames/086-00980-aim.jpg"
+    },
+    {
+      "drop": 86,
+      "t": 528.1547,
+      "tag": "burst",
+      "image": "frames/086-00981-burst.jpg"
+    },
+    {
+      "drop": 86,
+      "t": 528.3976,
+      "tag": "burst",
+      "image": "frames/086-00982-burst.jpg"
+    },
+    {
+      "drop": 86,
+      "t": 528.6313,
+      "tag": "burst",
+      "image": "frames/086-00983-burst.jpg"
+    },
+    {
+      "drop": 86,
+      "t": 528.916,
+      "tag": "settle",
+      "image": "frames/086-00984-settle.jpg"
+    },
+    {
+      "drop": 86,
+      "t": 529.5314,
+      "tag": "settle",
+      "image": "frames/086-00985-settle.jpg"
+    },
+    {
+      "drop": 86,
+      "t": 530.1327,
+      "tag": "settle",
+      "image": "frames/086-00986-settle.jpg"
+    },
+    {
+      "drop": 86,
+      "t": 530.7615,
+      "tag": "settle",
+      "image": "frames/086-00987-settle.jpg"
+    },
+    {
+      "drop": 87,
+      "t": 532.1771,
+      "tag": "aim",
+      "image": "frames/087-00988-aim.jpg"
+    },
+    {
+      "drop": 87,
+      "t": 532.4605,
+      "tag": "burst",
+      "image": "frames/087-00989-burst.jpg"
+    },
+    {
+      "drop": 87,
+      "t": 532.7029,
+      "tag": "burst",
+      "image": "frames/087-00990-burst.jpg"
+    },
+    {
+      "drop": 87,
+      "t": 532.9397,
+      "tag": "burst",
+      "image": "frames/087-00991-burst.jpg"
+    },
+    {
+      "drop": 87,
+      "t": 533.2293,
+      "tag": "settle",
+      "image": "frames/087-00992-settle.jpg"
+    },
+    {
+      "drop": 87,
+      "t": 533.8526,
+      "tag": "settle",
+      "image": "frames/087-00993-settle.jpg"
+    },
+    {
+      "drop": 87,
+      "t": 534.5109,
+      "tag": "settle",
+      "image": "frames/087-00994-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 536.0949,
+      "tag": "aim",
+      "image": "frames/088-00995-aim.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 536.3783,
+      "tag": "burst",
+      "image": "frames/088-00996-burst.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 536.6034,
+      "tag": "burst",
+      "image": "frames/088-00997-burst.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 536.8595,
+      "tag": "burst",
+      "image": "frames/088-00998-burst.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 537.1904,
+      "tag": "settle",
+      "image": "frames/088-00999-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 537.8724,
+      "tag": "settle",
+      "image": "frames/088-01000-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 538.478,
+      "tag": "settle",
+      "image": "frames/088-01001-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 539.0842,
+      "tag": "settle",
+      "image": "frames/088-01002-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 539.7088,
+      "tag": "settle",
+      "image": "frames/088-01003-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 540.3084,
+      "tag": "settle",
+      "image": "frames/088-01004-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 540.9173,
+      "tag": "settle",
+      "image": "frames/088-01005-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 541.56,
+      "tag": "settle",
+      "image": "frames/088-01006-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 542.1868,
+      "tag": "settle",
+      "image": "frames/088-01007-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 542.8122,
+      "tag": "settle",
+      "image": "frames/088-01008-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 543.4193,
+      "tag": "settle",
+      "image": "frames/088-01009-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 544.0147,
+      "tag": "settle",
+      "image": "frames/088-01010-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 544.5969,
+      "tag": "settle",
+      "image": "frames/088-01011-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 545.2317,
+      "tag": "settle",
+      "image": "frames/088-01012-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 545.8611,
+      "tag": "settle",
+      "image": "frames/088-01013-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 546.4934,
+      "tag": "settle",
+      "image": "frames/088-01014-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 547.1123,
+      "tag": "settle",
+      "image": "frames/088-01015-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 547.7534,
+      "tag": "settle",
+      "image": "frames/088-01016-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 548.347,
+      "tag": "settle",
+      "image": "frames/088-01017-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 548.9523,
+      "tag": "settle",
+      "image": "frames/088-01018-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 549.5213,
+      "tag": "settle",
+      "image": "frames/088-01019-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 550.129,
+      "tag": "settle",
+      "image": "frames/088-01020-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 550.7362,
+      "tag": "settle",
+      "image": "frames/088-01021-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 551.3246,
+      "tag": "settle",
+      "image": "frames/088-01022-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 551.9024,
+      "tag": "settle",
+      "image": "frames/088-01023-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 552.5041,
+      "tag": "settle",
+      "image": "frames/088-01024-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 553.0788,
+      "tag": "settle",
+      "image": "frames/088-01025-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 553.6504,
+      "tag": "settle",
+      "image": "frames/088-01026-settle.jpg"
+    },
+    {
+      "drop": 88,
+      "t": 554.2194,
+      "tag": "settle",
+      "image": "frames/088-01027-settle.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 555.6361,
+      "tag": "aim",
+      "image": "frames/089-01028-aim.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 555.8979,
+      "tag": "burst",
+      "image": "frames/089-01029-burst.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 556.128,
+      "tag": "burst",
+      "image": "frames/089-01030-burst.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 556.3687,
+      "tag": "burst",
+      "image": "frames/089-01031-burst.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 556.681,
+      "tag": "settle",
+      "image": "frames/089-01032-settle.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 557.3113,
+      "tag": "settle",
+      "image": "frames/089-01033-settle.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 557.9371,
+      "tag": "settle",
+      "image": "frames/089-01034-settle.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 558.7641,
+      "tag": "settle",
+      "image": "frames/089-01035-settle.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 559.3836,
+      "tag": "settle",
+      "image": "frames/089-01036-settle.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 559.9857,
+      "tag": "settle",
+      "image": "frames/089-01037-settle.jpg"
+    },
+    {
+      "drop": 89,
+      "t": 560.5966,
+      "tag": "settle",
+      "image": "frames/089-01038-settle.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 562.0835,
+      "tag": "aim",
+      "image": "frames/090-01039-aim.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 562.3645,
+      "tag": "burst",
+      "image": "frames/090-01040-burst.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 562.6031,
+      "tag": "burst",
+      "image": "frames/090-01041-burst.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 562.8322,
+      "tag": "burst",
+      "image": "frames/090-01042-burst.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 563.1245,
+      "tag": "settle",
+      "image": "frames/090-01043-settle.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 563.6952,
+      "tag": "settle",
+      "image": "frames/090-01044-settle.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 564.2868,
+      "tag": "settle",
+      "image": "frames/090-01045-settle.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 564.8728,
+      "tag": "settle",
+      "image": "frames/090-01046-settle.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 565.5039,
+      "tag": "settle",
+      "image": "frames/090-01047-settle.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 566.0907,
+      "tag": "settle",
+      "image": "frames/090-01048-settle.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 566.661,
+      "tag": "settle",
+      "image": "frames/090-01049-settle.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 567.2355,
+      "tag": "settle",
+      "image": "frames/090-01050-settle.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 567.8008,
+      "tag": "settle",
+      "image": "frames/090-01051-settle.jpg"
+    },
+    {
+      "drop": 90,
+      "t": 568.3964,
+      "tag": "settle",
+      "image": "frames/090-01052-settle.jpg"
+    },
+    {
+      "drop": 91,
+      "t": 569.7561,
+      "tag": "aim",
+      "image": "frames/091-01053-aim.jpg"
+    },
+    {
+      "drop": 91,
+      "t": 570.0147,
+      "tag": "burst",
+      "image": "frames/091-01054-burst.jpg"
+    },
+    {
+      "drop": 91,
+      "t": 570.2388,
+      "tag": "burst",
+      "image": "frames/091-01055-burst.jpg"
+    },
+    {
+      "drop": 91,
+      "t": 570.4635,
+      "tag": "burst",
+      "image": "frames/091-01056-burst.jpg"
+    },
+    {
+      "drop": 91,
+      "t": 570.7588,
+      "tag": "settle",
+      "image": "frames/091-01057-settle.jpg"
+    },
+    {
+      "drop": 91,
+      "t": 571.3328,
+      "tag": "settle",
+      "image": "frames/091-01058-settle.jpg"
+    },
+    {
+      "drop": 91,
+      "t": 571.949,
+      "tag": "settle",
+      "image": "frames/091-01059-settle.jpg"
+    },
+    {
+      "drop": 91,
+      "t": 572.5679,
+      "tag": "settle",
+      "image": "frames/091-01060-settle.jpg"
+    },
+    {
+      "drop": 92,
+      "t": 573.8821,
+      "tag": "aim",
+      "image": "frames/092-01061-aim.jpg"
+    },
+    {
+      "drop": 92,
+      "t": 574.1255,
+      "tag": "burst",
+      "image": "frames/092-01062-burst.jpg"
+    },
+    {
+      "drop": 92,
+      "t": 574.3301,
+      "tag": "burst",
+      "image": "frames/092-01063-burst.jpg"
+    },
+    {
+      "drop": 92,
+      "t": 574.5426,
+      "tag": "burst",
+      "image": "frames/092-01064-burst.jpg"
+    },
+    {
+      "drop": 92,
+      "t": 574.8958,
+      "tag": "settle",
+      "image": "frames/092-01065-settle.jpg"
+    },
+    {
+      "drop": 92,
+      "t": 575.4948,
+      "tag": "settle",
+      "image": "frames/092-01066-settle.jpg"
+    },
+    {
+      "drop": 92,
+      "t": 576.1045,
+      "tag": "settle",
+      "image": "frames/092-01067-settle.jpg"
+    },
+    {
+      "drop": 92,
+      "t": 576.7669,
+      "tag": "settle",
+      "image": "frames/092-01068-settle.jpg"
+    },
+    {
+      "drop": 93,
+      "t": 578.3052,
+      "tag": "aim",
+      "image": "frames/093-01069-aim.jpg"
+    },
+    {
+      "drop": 93,
+      "t": 578.5845,
+      "tag": "burst",
+      "image": "frames/093-01070-burst.jpg"
+    },
+    {
+      "drop": 93,
+      "t": 578.823,
+      "tag": "burst",
+      "image": "frames/093-01071-burst.jpg"
+    },
+    {
+      "drop": 93,
+      "t": 579.0544,
+      "tag": "burst",
+      "image": "frames/093-01072-burst.jpg"
+    },
+    {
+      "drop": 93,
+      "t": 579.3427,
+      "tag": "settle",
+      "image": "frames/093-01073-settle.jpg"
+    },
+    {
+      "drop": 93,
+      "t": 579.9306,
+      "tag": "settle",
+      "image": "frames/093-01074-settle.jpg"
+    },
+    {
+      "drop": 93,
+      "t": 580.4955,
+      "tag": "settle",
+      "image": "frames/093-01075-settle.jpg"
+    },
+    {
+      "drop": 93,
+      "t": 581.077,
+      "tag": "settle",
+      "image": "frames/093-01076-settle.jpg"
+    },
+    {
+      "drop": 94,
+      "t": 582.5223,
+      "tag": "aim",
+      "image": "frames/094-01077-aim.jpg"
+    },
+    {
+      "drop": 94,
+      "t": 582.7914,
+      "tag": "burst",
+      "image": "frames/094-01078-burst.jpg"
+    },
+    {
+      "drop": 94,
+      "t": 583.0244,
+      "tag": "burst",
+      "image": "frames/094-01079-burst.jpg"
+    },
+    {
+      "drop": 94,
+      "t": 583.2597,
+      "tag": "burst",
+      "image": "frames/094-01080-burst.jpg"
+    },
+    {
+      "drop": 94,
+      "t": 583.5456,
+      "tag": "settle",
+      "image": "frames/094-01081-settle.jpg"
+    },
+    {
+      "drop": 94,
+      "t": 584.1257,
+      "tag": "settle",
+      "image": "frames/094-01082-settle.jpg"
+    },
+    {
+      "drop": 94,
+      "t": 584.7059,
+      "tag": "settle",
+      "image": "frames/094-01083-settle.jpg"
+    },
+    {
+      "drop": 94,
+      "t": 585.2889,
+      "tag": "settle",
+      "image": "frames/094-01084-settle.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 586.7273,
+      "tag": "aim",
+      "image": "frames/095-01085-aim.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 586.9883,
+      "tag": "burst",
+      "image": "frames/095-01086-burst.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 587.2272,
+      "tag": "burst",
+      "image": "frames/095-01087-burst.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 587.4743,
+      "tag": "burst",
+      "image": "frames/095-01088-burst.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 587.7652,
+      "tag": "settle",
+      "image": "frames/095-01089-settle.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 588.3751,
+      "tag": "settle",
+      "image": "frames/095-01090-settle.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 588.9819,
+      "tag": "settle",
+      "image": "frames/095-01091-settle.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 589.5752,
+      "tag": "settle",
+      "image": "frames/095-01092-settle.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 590.1805,
+      "tag": "settle",
+      "image": "frames/095-01093-settle.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 590.8091,
+      "tag": "settle",
+      "image": "frames/095-01094-settle.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 591.3918,
+      "tag": "settle",
+      "image": "frames/095-01095-settle.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 591.9671,
+      "tag": "settle",
+      "image": "frames/095-01096-settle.jpg"
+    },
+    {
+      "drop": 95,
+      "t": 592.5417,
+      "tag": "settle",
+      "image": "frames/095-01097-settle.jpg"
+    },
+    {
+      "drop": 96,
+      "t": 594.0693,
+      "tag": "aim",
+      "image": "frames/096-01098-aim.jpg"
+    },
+    {
+      "drop": 96,
+      "t": 594.3434,
+      "tag": "burst",
+      "image": "frames/096-01099-burst.jpg"
+    },
+    {
+      "drop": 96,
+      "t": 594.5666,
+      "tag": "burst",
+      "image": "frames/096-01100-burst.jpg"
+    },
+    {
+      "drop": 96,
+      "t": 594.8007,
+      "tag": "burst",
+      "image": "frames/096-01101-burst.jpg"
+    },
+    {
+      "drop": 96,
+      "t": 595.1295,
+      "tag": "settle",
+      "image": "frames/096-01102-settle.jpg"
+    },
+    {
+      "drop": 96,
+      "t": 595.7544,
+      "tag": "settle",
+      "image": "frames/096-01103-settle.jpg"
+    },
+    {
+      "drop": 96,
+      "t": 596.3954,
+      "tag": "settle",
+      "image": "frames/096-01104-settle.jpg"
+    },
+    {
+      "drop": 96,
+      "t": 596.9993,
+      "tag": "settle",
+      "image": "frames/096-01105-settle.jpg"
+    },
+    {
+      "drop": 97,
+      "t": 598.4067,
+      "tag": "aim",
+      "image": "frames/097-01106-aim.jpg"
+    },
+    {
+      "drop": 97,
+      "t": 598.6583,
+      "tag": "burst",
+      "image": "frames/097-01107-burst.jpg"
+    },
+    {
+      "drop": 97,
+      "t": 598.8878,
+      "tag": "burst",
+      "image": "frames/097-01108-burst.jpg"
+    },
+    {
+      "drop": 97,
+      "t": 599.11,
+      "tag": "burst",
+      "image": "frames/097-01109-burst.jpg"
+    },
+    {
+      "drop": 97,
+      "t": 599.4144,
+      "tag": "settle",
+      "image": "frames/097-01110-settle.jpg"
+    },
+    {
+      "drop": 97,
+      "t": 599.9863,
+      "tag": "settle",
+      "image": "frames/097-01111-settle.jpg"
+    },
+    {
+      "drop": 97,
+      "t": 600.5942,
+      "tag": "settle",
+      "image": "frames/097-01112-settle.jpg"
+    },
+    {
+      "drop": 97,
+      "t": 601.1951,
+      "tag": "settle",
+      "image": "frames/097-01113-settle.jpg"
+    },
+    {
+      "drop": 97,
+      "t": 601.8183,
+      "tag": "settle",
+      "image": "frames/097-01114-settle.jpg"
+    },
+    {
+      "drop": 97,
+      "t": 602.3944,
+      "tag": "settle",
+      "image": "frames/097-01115-settle.jpg"
+    },
+    {
+      "drop": 98,
+      "t": 603.7408,
+      "tag": "aim",
+      "image": "frames/098-01116-aim.jpg"
+    },
+    {
+      "drop": 98,
+      "t": 603.9912,
+      "tag": "burst",
+      "image": "frames/098-01117-burst.jpg"
+    },
+    {
+      "drop": 98,
+      "t": 604.2113,
+      "tag": "burst",
+      "image": "frames/098-01118-burst.jpg"
+    },
+    {
+      "drop": 98,
+      "t": 604.4387,
+      "tag": "burst",
+      "image": "frames/098-01119-burst.jpg"
+    },
+    {
+      "drop": 98,
+      "t": 604.7589,
+      "tag": "settle",
+      "image": "frames/098-01120-settle.jpg"
+    },
+    {
+      "drop": 98,
+      "t": 605.3537,
+      "tag": "settle",
+      "image": "frames/098-01121-settle.jpg"
+    },
+    {
+      "drop": 98,
+      "t": 605.9678,
+      "tag": "settle",
+      "image": "frames/098-01122-settle.jpg"
+    },
+    {
+      "drop": 98,
+      "t": 606.5944,
+      "tag": "settle",
+      "image": "frames/098-01123-settle.jpg"
+    },
+    {
+      "drop": 99,
+      "t": 608.067,
+      "tag": "aim",
+      "image": "frames/099-01124-aim.jpg"
+    },
+    {
+      "drop": 99,
+      "t": 608.3889,
+      "tag": "burst",
+      "image": "frames/099-01125-burst.jpg"
+    },
+    {
+      "drop": 99,
+      "t": 608.6859,
+      "tag": "burst",
+      "image": "frames/099-01126-burst.jpg"
+    },
+    {
+      "drop": 99,
+      "t": 609.1236,
+      "tag": "settle",
+      "image": "frames/099-01127-settle.jpg"
+    },
+    {
+      "drop": 99,
+      "t": 609.7651,
+      "tag": "settle",
+      "image": "frames/099-01128-settle.jpg"
+    },
+    {
+      "drop": 99,
+      "t": 610.3802,
+      "tag": "settle",
+      "image": "frames/099-01129-settle.jpg"
+    },
+    {
+      "drop": 99,
+      "t": 611.0064,
+      "tag": "settle",
+      "image": "frames/099-01130-settle.jpg"
+    },
+    {
+      "drop": 99,
+      "t": 611.5918,
+      "tag": "settle",
+      "image": "frames/099-01131-settle.jpg"
+    },
+    {
+      "drop": 99,
+      "t": 612.1735,
+      "tag": "settle",
+      "image": "frames/099-01132-settle.jpg"
+    },
+    {
+      "drop": 99,
+      "t": 612.7545,
+      "tag": "settle",
+      "image": "frames/099-01133-settle.jpg"
+    },
+    {
+      "drop": 100,
+      "t": 614.0869,
+      "tag": "aim",
+      "image": "frames/100-01134-aim.jpg"
+    },
+    {
+      "drop": 100,
+      "t": 614.3439,
+      "tag": "burst",
+      "image": "frames/100-01135-burst.jpg"
+    },
+    {
+      "drop": 100,
+      "t": 614.5746,
+      "tag": "burst",
+      "image": "frames/100-01136-burst.jpg"
+    },
+    {
+      "drop": 100,
+      "t": 614.8059,
+      "tag": "burst",
+      "image": "frames/100-01137-burst.jpg"
+    },
+    {
+      "drop": 100,
+      "t": 615.1115,
+      "tag": "settle",
+      "image": "frames/100-01138-settle.jpg"
+    },
+    {
+      "drop": 100,
+      "t": 615.6878,
+      "tag": "settle",
+      "image": "frames/100-01139-settle.jpg"
+    },
+    {
+      "drop": 100,
+      "t": 616.2771,
+      "tag": "settle",
+      "image": "frames/100-01140-settle.jpg"
+    },
+    {
+      "drop": 100,
+      "t": 616.8716,
+      "tag": "settle",
+      "image": "frames/100-01141-settle.jpg"
+    },
+    {
+      "drop": 101,
+      "t": 618.2426,
+      "tag": "aim",
+      "image": "frames/101-01142-aim.jpg"
+    },
+    {
+      "drop": 101,
+      "t": 618.5088,
+      "tag": "burst",
+      "image": "frames/101-01143-burst.jpg"
+    },
+    {
+      "drop": 101,
+      "t": 618.7476,
+      "tag": "burst",
+      "image": "frames/101-01144-burst.jpg"
+    },
+    {
+      "drop": 101,
+      "t": 618.9713,
+      "tag": "burst",
+      "image": "frames/101-01145-burst.jpg"
+    },
+    {
+      "drop": 101,
+      "t": 619.2577,
+      "tag": "settle",
+      "image": "frames/101-01146-settle.jpg"
+    },
+    {
+      "drop": 101,
+      "t": 619.8829,
+      "tag": "settle",
+      "image": "frames/101-01147-settle.jpg"
+    },
+    {
+      "drop": 101,
+      "t": 620.4823,
+      "tag": "settle",
+      "image": "frames/101-01148-settle.jpg"
+    },
+    {
+      "drop": 101,
+      "t": 621.0934,
+      "tag": "settle",
+      "image": "frames/101-01149-settle.jpg"
+    },
+    {
+      "drop": 102,
+      "t": 622.4733,
+      "tag": "aim",
+      "image": "frames/102-01150-aim.jpg"
+    },
+    {
+      "drop": 102,
+      "t": 622.736,
+      "tag": "burst",
+      "image": "frames/102-01151-burst.jpg"
+    },
+    {
+      "drop": 102,
+      "t": 622.9583,
+      "tag": "burst",
+      "image": "frames/102-01152-burst.jpg"
+    },
+    {
+      "drop": 102,
+      "t": 623.1749,
+      "tag": "burst",
+      "image": "frames/102-01153-burst.jpg"
+    },
+    {
+      "drop": 102,
+      "t": 623.4988,
+      "tag": "settle",
+      "image": "frames/102-01154-settle.jpg"
+    },
+    {
+      "drop": 102,
+      "t": 624.0696,
+      "tag": "settle",
+      "image": "frames/102-01155-settle.jpg"
+    },
+    {
+      "drop": 102,
+      "t": 624.6448,
+      "tag": "settle",
+      "image": "frames/102-01156-settle.jpg"
+    },
+    {
+      "drop": 102,
+      "t": 625.271,
+      "tag": "settle",
+      "image": "frames/102-01157-settle.jpg"
+    },
+    {
+      "drop": 103,
+      "t": 626.6793,
+      "tag": "aim",
+      "image": "frames/103-01158-aim.jpg"
+    },
+    {
+      "drop": 103,
+      "t": 626.9405,
+      "tag": "burst",
+      "image": "frames/103-01159-burst.jpg"
+    },
+    {
+      "drop": 103,
+      "t": 627.1735,
+      "tag": "burst",
+      "image": "frames/103-01160-burst.jpg"
+    },
+    {
+      "drop": 103,
+      "t": 627.3955,
+      "tag": "burst",
+      "image": "frames/103-01161-burst.jpg"
+    },
+    {
+      "drop": 103,
+      "t": 627.6971,
+      "tag": "settle",
+      "image": "frames/103-01162-settle.jpg"
+    },
+    {
+      "drop": 103,
+      "t": 628.2994,
+      "tag": "settle",
+      "image": "frames/103-01163-settle.jpg"
+    },
+    {
+      "drop": 103,
+      "t": 628.917,
+      "tag": "settle",
+      "image": "frames/103-01164-settle.jpg"
+    },
+    {
+      "drop": 103,
+      "t": 629.5555,
+      "tag": "settle",
+      "image": "frames/103-01165-settle.jpg"
+    },
+    {
+      "drop": 104,
+      "t": 631.0572,
+      "tag": "aim",
+      "image": "frames/104-01166-aim.jpg"
+    },
+    {
+      "drop": 104,
+      "t": 631.3237,
+      "tag": "burst",
+      "image": "frames/104-01167-burst.jpg"
+    },
+    {
+      "drop": 104,
+      "t": 631.5502,
+      "tag": "burst",
+      "image": "frames/104-01168-burst.jpg"
+    },
+    {
+      "drop": 104,
+      "t": 631.7947,
+      "tag": "burst",
+      "image": "frames/104-01169-burst.jpg"
+    },
+    {
+      "drop": 104,
+      "t": 632.0955,
+      "tag": "settle",
+      "image": "frames/104-01170-settle.jpg"
+    },
+    {
+      "drop": 104,
+      "t": 632.7252,
+      "tag": "settle",
+      "image": "frames/104-01171-settle.jpg"
+    },
+    {
+      "drop": 104,
+      "t": 633.3341,
+      "tag": "settle",
+      "image": "frames/104-01172-settle.jpg"
+    },
+    {
+      "drop": 104,
+      "t": 633.9573,
+      "tag": "settle",
+      "image": "frames/104-01173-settle.jpg"
+    },
+    {
+      "drop": 104,
+      "t": 634.5745,
+      "tag": "settle",
+      "image": "frames/104-01174-settle.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 636.0232,
+      "tag": "aim",
+      "image": "frames/105-01175-aim.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 636.2894,
+      "tag": "burst",
+      "image": "frames/105-01176-burst.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 636.5235,
+      "tag": "burst",
+      "image": "frames/105-01177-burst.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 636.7585,
+      "tag": "burst",
+      "image": "frames/105-01178-burst.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 637.0318,
+      "tag": "settle",
+      "image": "frames/105-01179-settle.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 637.6267,
+      "tag": "settle",
+      "image": "frames/105-01180-settle.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 638.2431,
+      "tag": "settle",
+      "image": "frames/105-01181-settle.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 638.8841,
+      "tag": "settle",
+      "image": "frames/105-01182-settle.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 639.5046,
+      "tag": "settle",
+      "image": "frames/105-01183-settle.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 640.1015,
+      "tag": "settle",
+      "image": "frames/105-01184-settle.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 640.7259,
+      "tag": "settle",
+      "image": "frames/105-01185-settle.jpg"
+    },
+    {
+      "drop": 105,
+      "t": 641.3303,
+      "tag": "settle",
+      "image": "frames/105-01186-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 642.7517,
+      "tag": "aim",
+      "image": "frames/106-01187-aim.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 643.0206,
+      "tag": "burst",
+      "image": "frames/106-01188-burst.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 643.2621,
+      "tag": "burst",
+      "image": "frames/106-01189-burst.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 643.5008,
+      "tag": "burst",
+      "image": "frames/106-01190-burst.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 643.7755,
+      "tag": "settle",
+      "image": "frames/106-01191-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 644.3557,
+      "tag": "settle",
+      "image": "frames/106-01192-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 644.9719,
+      "tag": "settle",
+      "image": "frames/106-01193-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 645.5803,
+      "tag": "settle",
+      "image": "frames/106-01194-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 646.1817,
+      "tag": "settle",
+      "image": "frames/106-01195-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 646.7838,
+      "tag": "settle",
+      "image": "frames/106-01196-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 647.3871,
+      "tag": "settle",
+      "image": "frames/106-01197-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 647.9947,
+      "tag": "settle",
+      "image": "frames/106-01198-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 648.5797,
+      "tag": "settle",
+      "image": "frames/106-01199-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 649.1739,
+      "tag": "settle",
+      "image": "frames/106-01200-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 649.765,
+      "tag": "settle",
+      "image": "frames/106-01201-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 650.3701,
+      "tag": "settle",
+      "image": "frames/106-01202-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 650.9739,
+      "tag": "settle",
+      "image": "frames/106-01203-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 651.5809,
+      "tag": "settle",
+      "image": "frames/106-01204-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 652.1687,
+      "tag": "settle",
+      "image": "frames/106-01205-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 652.7783,
+      "tag": "settle",
+      "image": "frames/106-01206-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 653.4054,
+      "tag": "settle",
+      "image": "frames/106-01207-settle.jpg"
+    },
+    {
+      "drop": 106,
+      "t": 654.0078,
+      "tag": "settle",
+      "image": "frames/106-01208-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 655.3839,
+      "tag": "aim",
+      "image": "frames/107-01209-aim.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 655.6461,
+      "tag": "burst",
+      "image": "frames/107-01210-burst.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 655.8806,
+      "tag": "burst",
+      "image": "frames/107-01211-burst.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 656.1072,
+      "tag": "burst",
+      "image": "frames/107-01212-burst.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 656.4129,
+      "tag": "settle",
+      "image": "frames/107-01213-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 657.0048,
+      "tag": "settle",
+      "image": "frames/107-01214-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 657.5941,
+      "tag": "settle",
+      "image": "frames/107-01215-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 658.2077,
+      "tag": "settle",
+      "image": "frames/107-01216-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 658.9167,
+      "tag": "settle",
+      "image": "frames/107-01217-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 659.6033,
+      "tag": "settle",
+      "image": "frames/107-01218-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 660.2425,
+      "tag": "settle",
+      "image": "frames/107-01219-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 660.8584,
+      "tag": "settle",
+      "image": "frames/107-01220-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 661.47,
+      "tag": "settle",
+      "image": "frames/107-01221-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 662.1181,
+      "tag": "settle",
+      "image": "frames/107-01222-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 662.7547,
+      "tag": "settle",
+      "image": "frames/107-01223-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 663.3818,
+      "tag": "settle",
+      "image": "frames/107-01224-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 664.0043,
+      "tag": "settle",
+      "image": "frames/107-01225-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 664.6205,
+      "tag": "settle",
+      "image": "frames/107-01226-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 665.2197,
+      "tag": "settle",
+      "image": "frames/107-01227-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 665.811,
+      "tag": "settle",
+      "image": "frames/107-01228-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 666.3946,
+      "tag": "settle",
+      "image": "frames/107-01229-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 666.9812,
+      "tag": "settle",
+      "image": "frames/107-01230-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 667.5601,
+      "tag": "settle",
+      "image": "frames/107-01231-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 668.1763,
+      "tag": "settle",
+      "image": "frames/107-01232-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 668.734,
+      "tag": "settle",
+      "image": "frames/107-01233-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 669.3174,
+      "tag": "settle",
+      "image": "frames/107-01234-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 669.9119,
+      "tag": "settle",
+      "image": "frames/107-01235-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 670.5101,
+      "tag": "settle",
+      "image": "frames/107-01236-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 671.1104,
+      "tag": "settle",
+      "image": "frames/107-01237-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 671.7222,
+      "tag": "settle",
+      "image": "frames/107-01238-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 672.3267,
+      "tag": "settle",
+      "image": "frames/107-01239-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 672.8973,
+      "tag": "settle",
+      "image": "frames/107-01240-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 673.4745,
+      "tag": "settle",
+      "image": "frames/107-01241-settle.jpg"
+    },
+    {
+      "drop": 107,
+      "t": 674.058,
+      "tag": "settle",
+      "image": "frames/107-01242-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 675.4706,
+      "tag": "aim",
+      "image": "frames/108-01243-aim.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 675.7384,
+      "tag": "burst",
+      "image": "frames/108-01244-burst.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 675.9755,
+      "tag": "burst",
+      "image": "frames/108-01245-burst.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 676.2028,
+      "tag": "burst",
+      "image": "frames/108-01246-burst.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 676.5054,
+      "tag": "settle",
+      "image": "frames/108-01247-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 677.098,
+      "tag": "settle",
+      "image": "frames/108-01248-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 677.6894,
+      "tag": "settle",
+      "image": "frames/108-01249-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 678.2589,
+      "tag": "settle",
+      "image": "frames/108-01250-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 678.8542,
+      "tag": "settle",
+      "image": "frames/108-01251-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 679.452,
+      "tag": "settle",
+      "image": "frames/108-01252-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 680.045,
+      "tag": "settle",
+      "image": "frames/108-01253-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 680.6201,
+      "tag": "settle",
+      "image": "frames/108-01254-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 681.208,
+      "tag": "settle",
+      "image": "frames/108-01255-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 681.7931,
+      "tag": "settle",
+      "image": "frames/108-01256-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 682.3934,
+      "tag": "settle",
+      "image": "frames/108-01257-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 683.0455,
+      "tag": "settle",
+      "image": "frames/108-01258-settle.jpg"
+    },
+    {
+      "drop": 108,
+      "t": 683.6699,
+      "tag": "settle",
+      "image": "frames/108-01259-settle.jpg"
+    },
+    {
+      "drop": 109,
+      "t": 685.0273,
+      "tag": "aim",
+      "image": "frames/109-01260-aim.jpg"
+    },
+    {
+      "drop": 109,
+      "t": 685.3041,
+      "tag": "burst",
+      "image": "frames/109-01261-burst.jpg"
+    },
+    {
+      "drop": 109,
+      "t": 685.5535,
+      "tag": "burst",
+      "image": "frames/109-01262-burst.jpg"
+    },
+    {
+      "drop": 109,
+      "t": 685.8013,
+      "tag": "burst",
+      "image": "frames/109-01263-burst.jpg"
+    },
+    {
+      "drop": 109,
+      "t": 686.07,
+      "tag": "settle",
+      "image": "frames/109-01264-settle.jpg"
+    },
+    {
+      "drop": 109,
+      "t": 686.6624,
+      "tag": "settle",
+      "image": "frames/109-01265-settle.jpg"
+    },
+    {
+      "drop": 109,
+      "t": 687.2207,
+      "tag": "settle",
+      "image": "frames/109-01266-settle.jpg"
+    },
+    {
+      "drop": 109,
+      "t": 687.8041,
+      "tag": "settle",
+      "image": "frames/109-01267-settle.jpg"
+    },
+    {
+      "drop": 109,
+      "t": 688.4306,
+      "tag": "settle",
+      "image": "frames/109-01268-settle.jpg"
+    },
+    {
+      "drop": 110,
+      "t": 689.8905,
+      "tag": "aim",
+      "image": "frames/110-01269-aim.jpg"
+    },
+    {
+      "drop": 110,
+      "t": 690.1775,
+      "tag": "burst",
+      "image": "frames/110-01270-burst.jpg"
+    },
+    {
+      "drop": 110,
+      "t": 690.4305,
+      "tag": "burst",
+      "image": "frames/110-01271-burst.jpg"
+    },
+    {
+      "drop": 110,
+      "t": 690.9315,
+      "tag": "settle",
+      "image": "frames/110-01272-settle.jpg"
+    },
+    {
+      "drop": 110,
+      "t": 691.5307,
+      "tag": "settle",
+      "image": "frames/110-01273-settle.jpg"
+    },
+    {
+      "drop": 110,
+      "t": 692.1433,
+      "tag": "settle",
+      "image": "frames/110-01274-settle.jpg"
+    },
+    {
+      "drop": 110,
+      "t": 692.7741,
+      "tag": "settle",
+      "image": "frames/110-01275-settle.jpg"
+    },
+    {
+      "drop": 110,
+      "t": 693.3715,
+      "tag": "settle",
+      "image": "frames/110-01276-settle.jpg"
+    },
+    {
+      "drop": 111,
+      "t": 694.8133,
+      "tag": "aim",
+      "image": "frames/111-01277-aim.jpg"
+    },
+    {
+      "drop": 111,
+      "t": 695.0866,
+      "tag": "burst",
+      "image": "frames/111-01278-burst.jpg"
+    },
+    {
+      "drop": 111,
+      "t": 695.321,
+      "tag": "burst",
+      "image": "frames/111-01279-burst.jpg"
+    },
+    {
+      "drop": 111,
+      "t": 695.5634,
+      "tag": "burst",
+      "image": "frames/111-01280-burst.jpg"
+    },
+    {
+      "drop": 111,
+      "t": 695.8612,
+      "tag": "settle",
+      "image": "frames/111-01281-settle.jpg"
+    },
+    {
+      "drop": 111,
+      "t": 696.4946,
+      "tag": "settle",
+      "image": "frames/111-01282-settle.jpg"
+    },
+    {
+      "drop": 111,
+      "t": 697.0952,
+      "tag": "settle",
+      "image": "frames/111-01283-settle.jpg"
+    },
+    {
+      "drop": 111,
+      "t": 697.7188,
+      "tag": "settle",
+      "image": "frames/111-01284-settle.jpg"
+    },
+    {
+      "drop": 111,
+      "t": 698.3396,
+      "tag": "settle",
+      "image": "frames/111-01285-settle.jpg"
+    },
+    {
+      "drop": 111,
+      "t": 699.0387,
+      "tag": "settle",
+      "image": "frames/111-01286-settle.jpg"
+    },
+    {
+      "drop": 112,
+      "t": 700.5922,
+      "tag": "aim",
+      "image": "frames/112-01287-aim.jpg"
+    },
+    {
+      "drop": 112,
+      "t": 700.8597,
+      "tag": "burst",
+      "image": "frames/112-01288-burst.jpg"
+    },
+    {
+      "drop": 112,
+      "t": 701.0955,
+      "tag": "burst",
+      "image": "frames/112-01289-burst.jpg"
+    },
+    {
+      "drop": 112,
+      "t": 701.3258,
+      "tag": "burst",
+      "image": "frames/112-01290-burst.jpg"
+    },
+    {
+      "drop": 112,
+      "t": 701.6259,
+      "tag": "settle",
+      "image": "frames/112-01291-settle.jpg"
+    },
+    {
+      "drop": 112,
+      "t": 702.2051,
+      "tag": "settle",
+      "image": "frames/112-01292-settle.jpg"
+    },
+    {
+      "drop": 112,
+      "t": 702.7912,
+      "tag": "settle",
+      "image": "frames/112-01293-settle.jpg"
+    },
+    {
+      "drop": 112,
+      "t": 703.3837,
+      "tag": "settle",
+      "image": "frames/112-01294-settle.jpg"
+    },
+    {
+      "drop": 112,
+      "t": 703.9775,
+      "tag": "settle",
+      "image": "frames/112-01295-settle.jpg"
+    },
+    {
+      "drop": 112,
+      "t": 704.5854,
+      "tag": "settle",
+      "image": "frames/112-01296-settle.jpg"
+    },
+    {
+      "drop": 113,
+      "t": 706.0014,
+      "tag": "aim",
+      "image": "frames/113-01297-aim.jpg"
+    },
+    {
+      "drop": 113,
+      "t": 706.2704,
+      "tag": "burst",
+      "image": "frames/113-01298-burst.jpg"
+    },
+    {
+      "drop": 113,
+      "t": 706.5048,
+      "tag": "burst",
+      "image": "frames/113-01299-burst.jpg"
+    },
+    {
+      "drop": 113,
+      "t": 706.7361,
+      "tag": "burst",
+      "image": "frames/113-01300-burst.jpg"
+    },
+    {
+      "drop": 113,
+      "t": 707.043,
+      "tag": "settle",
+      "image": "frames/113-01301-settle.jpg"
+    },
+    {
+      "drop": 113,
+      "t": 707.6355,
+      "tag": "settle",
+      "image": "frames/113-01302-settle.jpg"
+    },
+    {
+      "drop": 113,
+      "t": 708.2315,
+      "tag": "settle",
+      "image": "frames/113-01303-settle.jpg"
+    },
+    {
+      "drop": 113,
+      "t": 708.852,
+      "tag": "settle",
+      "image": "frames/113-01304-settle.jpg"
+    },
+    {
+      "drop": 113,
+      "t": 709.4621,
+      "tag": "settle",
+      "image": "frames/113-01305-settle.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 710.8978,
+      "tag": "aim",
+      "image": "frames/114-01306-aim.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 711.1646,
+      "tag": "burst",
+      "image": "frames/114-01307-burst.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 711.402,
+      "tag": "burst",
+      "image": "frames/114-01308-burst.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 711.6273,
+      "tag": "burst",
+      "image": "frames/114-01309-burst.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 711.928,
+      "tag": "settle",
+      "image": "frames/114-01310-settle.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 712.5419,
+      "tag": "settle",
+      "image": "frames/114-01311-settle.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 713.137,
+      "tag": "settle",
+      "image": "frames/114-01312-settle.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 713.7617,
+      "tag": "settle",
+      "image": "frames/114-01313-settle.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 714.324,
+      "tag": "settle",
+      "image": "frames/114-01314-settle.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 714.898,
+      "tag": "settle",
+      "image": "frames/114-01315-settle.jpg"
+    },
+    {
+      "drop": 114,
+      "t": 715.5062,
+      "tag": "settle",
+      "image": "frames/114-01316-settle.jpg"
+    },
+    {
+      "drop": 115,
+      "t": 716.9751,
+      "tag": "aim",
+      "image": "frames/115-01317-aim.jpg"
+    },
+    {
+      "drop": 115,
+      "t": 717.2419,
+      "tag": "burst",
+      "image": "frames/115-01318-burst.jpg"
+    },
+    {
+      "drop": 115,
+      "t": 717.4736,
+      "tag": "burst",
+      "image": "frames/115-01319-burst.jpg"
+    },
+    {
+      "drop": 115,
+      "t": 717.7047,
+      "tag": "burst",
+      "image": "frames/115-01320-burst.jpg"
+    },
+    {
+      "drop": 115,
+      "t": 718.0244,
+      "tag": "settle",
+      "image": "frames/115-01321-settle.jpg"
+    },
+    {
+      "drop": 115,
+      "t": 718.6555,
+      "tag": "settle",
+      "image": "frames/115-01322-settle.jpg"
+    },
+    {
+      "drop": 115,
+      "t": 719.2611,
+      "tag": "settle",
+      "image": "frames/115-01323-settle.jpg"
+    },
+    {
+      "drop": 115,
+      "t": 719.8686,
+      "tag": "settle",
+      "image": "frames/115-01324-settle.jpg"
+    },
+    {
+      "drop": 116,
+      "t": 721.3286,
+      "tag": "aim",
+      "image": "frames/116-01325-aim.jpg"
+    },
+    {
+      "drop": 116,
+      "t": 721.6166,
+      "tag": "burst",
+      "image": "frames/116-01326-burst.jpg"
+    },
+    {
+      "drop": 116,
+      "t": 721.8687,
+      "tag": "burst",
+      "image": "frames/116-01327-burst.jpg"
+    },
+    {
+      "drop": 116,
+      "t": 722.3748,
+      "tag": "settle",
+      "image": "frames/116-01328-settle.jpg"
+    },
+    {
+      "drop": 116,
+      "t": 722.9636,
+      "tag": "settle",
+      "image": "frames/116-01329-settle.jpg"
+    },
+    {
+      "drop": 116,
+      "t": 723.5731,
+      "tag": "settle",
+      "image": "frames/116-01330-settle.jpg"
+    },
+    {
+      "drop": 116,
+      "t": 724.1449,
+      "tag": "settle",
+      "image": "frames/116-01331-settle.jpg"
+    },
+    {
+      "drop": 116,
+      "t": 724.7156,
+      "tag": "settle",
+      "image": "frames/116-01332-settle.jpg"
+    },
+    {
+      "drop": 116,
+      "t": 725.3011,
+      "tag": "settle",
+      "image": "frames/116-01333-settle.jpg"
+    },
+    {
+      "drop": 117,
+      "t": 726.7728,
+      "tag": "aim",
+      "image": "frames/117-01334-aim.jpg"
+    },
+    {
+      "drop": 117,
+      "t": 727.045,
+      "tag": "burst",
+      "image": "frames/117-01335-burst.jpg"
+    },
+    {
+      "drop": 117,
+      "t": 727.2823,
+      "tag": "burst",
+      "image": "frames/117-01336-burst.jpg"
+    },
+    {
+      "drop": 117,
+      "t": 727.5156,
+      "tag": "burst",
+      "image": "frames/117-01337-burst.jpg"
+    },
+    {
+      "drop": 117,
+      "t": 727.7997,
+      "tag": "settle",
+      "image": "frames/117-01338-settle.jpg"
+    },
+    {
+      "drop": 117,
+      "t": 728.391,
+      "tag": "settle",
+      "image": "frames/117-01339-settle.jpg"
+    },
+    {
+      "drop": 117,
+      "t": 728.9765,
+      "tag": "settle",
+      "image": "frames/117-01340-settle.jpg"
+    },
+    {
+      "drop": 117,
+      "t": 729.5914,
+      "tag": "settle",
+      "image": "frames/117-01341-settle.jpg"
+    },
+    {
+      "drop": 118,
+      "t": 731.3959,
+      "tag": "aim",
+      "image": "frames/118-01342-aim.jpg"
+    },
+    {
+      "drop": 118,
+      "t": 731.6725,
+      "tag": "burst",
+      "image": "frames/118-01343-burst.jpg"
+    },
+    {
+      "drop": 118,
+      "t": 731.9187,
+      "tag": "burst",
+      "image": "frames/118-01344-burst.jpg"
+    },
+    {
+      "drop": 118,
+      "t": 732.1604,
+      "tag": "burst",
+      "image": "frames/118-01345-burst.jpg"
+    },
+    {
+      "drop": 118,
+      "t": 732.4239,
+      "tag": "settle",
+      "image": "frames/118-01346-settle.jpg"
+    },
+    {
+      "drop": 118,
+      "t": 733.0392,
+      "tag": "settle",
+      "image": "frames/118-01347-settle.jpg"
+    },
+    {
+      "drop": 118,
+      "t": 733.6502,
+      "tag": "settle",
+      "image": "frames/118-01348-settle.jpg"
+    },
+    {
+      "drop": 118,
+      "t": 734.2691,
+      "tag": "settle",
+      "image": "frames/118-01349-settle.jpg"
+    },
+    {
+      "drop": 119,
+      "t": 735.7123,
+      "tag": "aim",
+      "image": "frames/119-01350-aim.jpg"
+    },
+    {
+      "drop": 119,
+      "t": 736.0058,
+      "tag": "burst",
+      "image": "frames/119-01351-burst.jpg"
+    },
+    {
+      "drop": 119,
+      "t": 736.24,
+      "tag": "burst",
+      "image": "frames/119-01352-burst.jpg"
+    },
+    {
+      "drop": 119,
+      "t": 736.4706,
+      "tag": "burst",
+      "image": "frames/119-01353-burst.jpg"
+    },
+    {
+      "drop": 119,
+      "t": 736.7679,
+      "tag": "settle",
+      "image": "frames/119-01354-settle.jpg"
+    },
+    {
+      "drop": 119,
+      "t": 737.3981,
+      "tag": "settle",
+      "image": "frames/119-01355-settle.jpg"
+    },
+    {
+      "drop": 119,
+      "t": 737.9956,
+      "tag": "settle",
+      "image": "frames/119-01356-settle.jpg"
+    },
+    {
+      "drop": 119,
+      "t": 738.6043,
+      "tag": "settle",
+      "image": "frames/119-01357-settle.jpg"
+    },
+    {
+      "drop": 120,
+      "t": 740.154,
+      "tag": "aim",
+      "image": "frames/120-01358-aim.jpg"
+    },
+    {
+      "drop": 120,
+      "t": 740.4432,
+      "tag": "burst",
+      "image": "frames/120-01359-burst.jpg"
+    },
+    {
+      "drop": 120,
+      "t": 740.6912,
+      "tag": "burst",
+      "image": "frames/120-01360-burst.jpg"
+    },
+    {
+      "drop": 120,
+      "t": 740.9255,
+      "tag": "burst",
+      "image": "frames/120-01361-burst.jpg"
+    },
+    {
+      "drop": 120,
+      "t": 741.1991,
+      "tag": "settle",
+      "image": "frames/120-01362-settle.jpg"
+    },
+    {
+      "drop": 120,
+      "t": 741.8023,
+      "tag": "settle",
+      "image": "frames/120-01363-settle.jpg"
+    },
+    {
+      "drop": 120,
+      "t": 742.3922,
+      "tag": "settle",
+      "image": "frames/120-01364-settle.jpg"
+    },
+    {
+      "drop": 120,
+      "t": 743.0033,
+      "tag": "settle",
+      "image": "frames/120-01365-settle.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 744.4468,
+      "tag": "aim",
+      "image": "frames/121-01366-aim.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 744.7513,
+      "tag": "burst",
+      "image": "frames/121-01367-burst.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 745.0128,
+      "tag": "burst",
+      "image": "frames/121-01368-burst.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 745.5217,
+      "tag": "settle",
+      "image": "frames/121-01369-settle.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 746.1524,
+      "tag": "settle",
+      "image": "frames/121-01370-settle.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 746.7494,
+      "tag": "settle",
+      "image": "frames/121-01371-settle.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 747.3515,
+      "tag": "settle",
+      "image": "frames/121-01372-settle.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 747.9694,
+      "tag": "settle",
+      "image": "frames/121-01373-settle.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 748.6109,
+      "tag": "settle",
+      "image": "frames/121-01374-settle.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 749.2173,
+      "tag": "settle",
+      "image": "frames/121-01375-settle.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 749.8056,
+      "tag": "settle",
+      "image": "frames/121-01376-settle.jpg"
+    },
+    {
+      "drop": 121,
+      "t": 750.3931,
+      "tag": "settle",
+      "image": "frames/121-01377-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 752.0594,
+      "tag": "aim",
+      "image": "frames/122-01378-aim.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 752.3524,
+      "tag": "burst",
+      "image": "frames/122-01379-burst.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 752.604,
+      "tag": "burst",
+      "image": "frames/122-01380-burst.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 752.824,
+      "tag": "burst",
+      "image": "frames/122-01381-burst.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 753.1093,
+      "tag": "settle",
+      "image": "frames/122-01382-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 753.7227,
+      "tag": "settle",
+      "image": "frames/122-01383-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 754.3316,
+      "tag": "settle",
+      "image": "frames/122-01384-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 754.9256,
+      "tag": "settle",
+      "image": "frames/122-01385-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 755.5181,
+      "tag": "settle",
+      "image": "frames/122-01386-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 756.1162,
+      "tag": "settle",
+      "image": "frames/122-01387-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 756.7409,
+      "tag": "settle",
+      "image": "frames/122-01388-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 757.3929,
+      "tag": "settle",
+      "image": "frames/122-01389-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 757.9992,
+      "tag": "settle",
+      "image": "frames/122-01390-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 758.6071,
+      "tag": "settle",
+      "image": "frames/122-01391-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 759.2338,
+      "tag": "settle",
+      "image": "frames/122-01392-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 759.8644,
+      "tag": "settle",
+      "image": "frames/122-01393-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 760.5078,
+      "tag": "settle",
+      "image": "frames/122-01394-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 761.1216,
+      "tag": "settle",
+      "image": "frames/122-01395-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 761.7189,
+      "tag": "settle",
+      "image": "frames/122-01396-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 762.3382,
+      "tag": "settle",
+      "image": "frames/122-01397-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 762.9562,
+      "tag": "settle",
+      "image": "frames/122-01398-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 763.5774,
+      "tag": "settle",
+      "image": "frames/122-01399-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 764.1756,
+      "tag": "settle",
+      "image": "frames/122-01400-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 764.7712,
+      "tag": "settle",
+      "image": "frames/122-01401-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 765.3764,
+      "tag": "settle",
+      "image": "frames/122-01402-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 765.9845,
+      "tag": "settle",
+      "image": "frames/122-01403-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 766.5583,
+      "tag": "settle",
+      "image": "frames/122-01404-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 767.1548,
+      "tag": "settle",
+      "image": "frames/122-01405-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 767.7425,
+      "tag": "settle",
+      "image": "frames/122-01406-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 768.3428,
+      "tag": "settle",
+      "image": "frames/122-01407-settle.jpg"
+    },
+    {
+      "drop": 122,
+      "t": 768.9879,
+      "tag": "settle",
+      "image": "frames/122-01408-settle.jpg"
+    },
+    {
+      "drop": 123,
+      "t": 771.3838,
+      "tag": "aim",
+      "image": "frames/123-01409-aim.jpg"
+    },
+    {
+      "drop": 123,
+      "t": 771.6551,
+      "tag": "burst",
+      "image": "frames/123-01410-burst.jpg"
+    },
+    {
+      "drop": 123,
+      "t": 771.8803,
+      "tag": "burst",
+      "image": "frames/123-01411-burst.jpg"
+    },
+    {
+      "drop": 123,
+      "t": 772.1169,
+      "tag": "burst",
+      "image": "frames/123-01412-burst.jpg"
+    },
+    {
+      "drop": 123,
+      "t": 772.4058,
+      "tag": "settle",
+      "image": "frames/123-01413-settle.jpg"
+    },
+    {
+      "drop": 123,
+      "t": 772.9693,
+      "tag": "settle",
+      "image": "frames/123-01414-settle.jpg"
+    },
+    {
+      "drop": 123,
+      "t": 773.5628,
+      "tag": "settle",
+      "image": "frames/123-01415-settle.jpg"
+    },
+    {
+      "drop": 123,
+      "t": 774.1732,
+      "tag": "settle",
+      "image": "frames/123-01416-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 776.5521,
+      "tag": "aim",
+      "image": "frames/124-01417-aim.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 776.7989,
+      "tag": "burst",
+      "image": "frames/124-01418-burst.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 777.0254,
+      "tag": "burst",
+      "image": "frames/124-01419-burst.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 777.253,
+      "tag": "burst",
+      "image": "frames/124-01420-burst.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 777.5985,
+      "tag": "settle",
+      "image": "frames/124-01421-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 778.236,
+      "tag": "settle",
+      "image": "frames/124-01422-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 778.8402,
+      "tag": "settle",
+      "image": "frames/124-01423-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 779.4812,
+      "tag": "settle",
+      "image": "frames/124-01424-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 780.1034,
+      "tag": "settle",
+      "image": "frames/124-01425-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 780.7604,
+      "tag": "settle",
+      "image": "frames/124-01426-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 781.4597,
+      "tag": "settle",
+      "image": "frames/124-01427-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 782.1182,
+      "tag": "settle",
+      "image": "frames/124-01428-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 782.7564,
+      "tag": "settle",
+      "image": "frames/124-01429-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 783.3948,
+      "tag": "settle",
+      "image": "frames/124-01430-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 783.9977,
+      "tag": "settle",
+      "image": "frames/124-01431-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 784.6356,
+      "tag": "settle",
+      "image": "frames/124-01432-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 785.237,
+      "tag": "settle",
+      "image": "frames/124-01433-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 785.8302,
+      "tag": "settle",
+      "image": "frames/124-01434-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 786.4614,
+      "tag": "settle",
+      "image": "frames/124-01435-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 787.0588,
+      "tag": "settle",
+      "image": "frames/124-01436-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 787.6923,
+      "tag": "settle",
+      "image": "frames/124-01437-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 788.3293,
+      "tag": "settle",
+      "image": "frames/124-01438-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 788.9517,
+      "tag": "settle",
+      "image": "frames/124-01439-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 789.5536,
+      "tag": "settle",
+      "image": "frames/124-01440-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 790.1497,
+      "tag": "settle",
+      "image": "frames/124-01441-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 790.7665,
+      "tag": "settle",
+      "image": "frames/124-01442-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 791.3958,
+      "tag": "settle",
+      "image": "frames/124-01443-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 792.0046,
+      "tag": "settle",
+      "image": "frames/124-01444-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 792.6127,
+      "tag": "settle",
+      "image": "frames/124-01445-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 793.2087,
+      "tag": "settle",
+      "image": "frames/124-01446-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 793.8044,
+      "tag": "settle",
+      "image": "frames/124-01447-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 794.4018,
+      "tag": "settle",
+      "image": "frames/124-01448-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 795.0421,
+      "tag": "settle",
+      "image": "frames/124-01449-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 795.636,
+      "tag": "settle",
+      "image": "frames/124-01450-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 796.7943,
+      "tag": "settle",
+      "image": "frames/124-01451-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 797.8935,
+      "tag": "settle",
+      "image": "frames/124-01452-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 799.0519,
+      "tag": "settle",
+      "image": "frames/124-01453-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 800.2051,
+      "tag": "settle",
+      "image": "frames/124-01454-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 801.3221,
+      "tag": "settle",
+      "image": "frames/124-01455-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 802.436,
+      "tag": "settle",
+      "image": "frames/124-01456-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 803.5515,
+      "tag": "settle",
+      "image": "frames/124-01457-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 804.6662,
+      "tag": "settle",
+      "image": "frames/124-01458-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 805.7689,
+      "tag": "settle",
+      "image": "frames/124-01459-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 806.9236,
+      "tag": "settle",
+      "image": "frames/124-01460-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 808.0916,
+      "tag": "settle",
+      "image": "frames/124-01461-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 809.1527,
+      "tag": "settle",
+      "image": "frames/124-01462-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 810.2734,
+      "tag": "settle",
+      "image": "frames/124-01463-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 811.3183,
+      "tag": "settle",
+      "image": "frames/124-01464-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 812.4658,
+      "tag": "settle",
+      "image": "frames/124-01465-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 813.6085,
+      "tag": "settle",
+      "image": "frames/124-01466-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 814.7234,
+      "tag": "settle",
+      "image": "frames/124-01467-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 815.8247,
+      "tag": "settle",
+      "image": "frames/124-01468-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 816.9135,
+      "tag": "settle",
+      "image": "frames/124-01469-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 818.0148,
+      "tag": "settle",
+      "image": "frames/124-01470-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 819.0915,
+      "tag": "settle",
+      "image": "frames/124-01471-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 820.2456,
+      "tag": "settle",
+      "image": "frames/124-01472-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 821.5459,
+      "tag": "settle",
+      "image": "frames/124-01473-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 822.7277,
+      "tag": "settle",
+      "image": "frames/124-01474-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 823.8293,
+      "tag": "settle",
+      "image": "frames/124-01475-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 824.9276,
+      "tag": "settle",
+      "image": "frames/124-01476-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 826.0925,
+      "tag": "settle",
+      "image": "frames/124-01477-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 827.242,
+      "tag": "settle",
+      "image": "frames/124-01478-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 828.3878,
+      "tag": "settle",
+      "image": "frames/124-01479-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 829.5675,
+      "tag": "settle",
+      "image": "frames/124-01480-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 830.6905,
+      "tag": "settle",
+      "image": "frames/124-01481-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 831.8033,
+      "tag": "settle",
+      "image": "frames/124-01482-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 832.9061,
+      "tag": "settle",
+      "image": "frames/124-01483-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 833.9881,
+      "tag": "settle",
+      "image": "frames/124-01484-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 835.0551,
+      "tag": "settle",
+      "image": "frames/124-01485-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 836.1052,
+      "tag": "settle",
+      "image": "frames/124-01486-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 837.1536,
+      "tag": "settle",
+      "image": "frames/124-01487-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 838.2554,
+      "tag": "settle",
+      "image": "frames/124-01488-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 839.4117,
+      "tag": "settle",
+      "image": "frames/124-01489-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 840.4987,
+      "tag": "settle",
+      "image": "frames/124-01490-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 841.6747,
+      "tag": "settle",
+      "image": "frames/124-01491-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 842.7381,
+      "tag": "settle",
+      "image": "frames/124-01492-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 843.8472,
+      "tag": "settle",
+      "image": "frames/124-01493-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 844.9612,
+      "tag": "settle",
+      "image": "frames/124-01494-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 846.0831,
+      "tag": "settle",
+      "image": "frames/124-01495-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 847.1836,
+      "tag": "settle",
+      "image": "frames/124-01496-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 848.2947,
+      "tag": "settle",
+      "image": "frames/124-01497-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 849.4996,
+      "tag": "settle",
+      "image": "frames/124-01498-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 850.6225,
+      "tag": "settle",
+      "image": "frames/124-01499-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 851.7654,
+      "tag": "settle",
+      "image": "frames/124-01500-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 853.0783,
+      "tag": "settle",
+      "image": "frames/124-01501-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 854.1821,
+      "tag": "settle",
+      "image": "frames/124-01502-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 855.2706,
+      "tag": "settle",
+      "image": "frames/124-01503-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 856.3933,
+      "tag": "settle",
+      "image": "frames/124-01504-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 857.4856,
+      "tag": "settle",
+      "image": "frames/124-01505-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 858.5726,
+      "tag": "settle",
+      "image": "frames/124-01506-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 859.6974,
+      "tag": "settle",
+      "image": "frames/124-01507-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 860.8145,
+      "tag": "settle",
+      "image": "frames/124-01508-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 861.968,
+      "tag": "settle",
+      "image": "frames/124-01509-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 863.0702,
+      "tag": "settle",
+      "image": "frames/124-01510-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 864.2026,
+      "tag": "settle",
+      "image": "frames/124-01511-settle.jpg"
+    },
+    {
+      "drop": 124,
+      "t": 865.2741,
+      "tag": "settle",
+      "image": "frames/124-01512-settle.jpg"
+    }
+  ]
+}

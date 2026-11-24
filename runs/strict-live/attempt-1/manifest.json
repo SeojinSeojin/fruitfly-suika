@@ -1,0 +1,7213 @@
+{
+  "url": "https://playsuikagame.com/ko",
+  "checkpoint": "artifacts/transfer/checkpoints/flywire-seed11-final.pt",
+  "training_drops": 204800,
+  "updates": 200,
+  "seed": 11,
+  "action_seed": 50004,
+  "rules": "transfer",
+  "drop_cap": null,
+  "time_cap_seconds": 1800,
+  "final_score": 1201,
+  "completed_drops": 124,
+  "browser": "headed Chromium",
+  "ad_filter": true,
+  "strategy": "robust",
+  "outcome": "fruit centers or ready cue remained uncertain",
+  "board_bounds": [
+    370,
+    216,
+    896,
+    781
+  ],
+  "extended_vision": true,
+  "band_background_shots": 3,
+  "band_uncovered_columns": 0,
+  "contact_check": true,
+  "contact_strict": true,
+  "mask_memory": true,
+  "seconds": 866.4871369250031,
+  "final_capture": "paused.png",
+  "drops": [
+    {
+      "drop": 1,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": null,
+        "contact": null
+      },
+      "contact": {
+        "label": "clear",
+        "slack": null,
+        "contact": null
+      },
+      "band": [],
+      "score_before": 0,
+      "score": 0,
+      "image": "screens/001.jpg",
+      "timestamp": 6.317137179008569,
+      "hand_x": 876.0,
+      "release_time": 6.614860683999723,
+      "post_release_wait": 0.7518012469954556,
+      "ready_time": 9.360254935003468
+    },
+    {
+      "drop": 2,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 403.14,
+        "contact": {
+          "center_y": 377.2,
+          "x": 377.3,
+          "y": 425.2,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 403.14,
+        "contact": {
+          "center_y": 377.2,
+          "x": 377.3,
+          "y": 425.2,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 0,
+      "score": 0,
+      "image": "screens/002.jpg",
+      "timestamp": 9.966952806003974,
+      "hand_x": 850.0,
+      "release_time": 10.234663315495709,
+      "post_release_wait": 0.7507212829950731,
+      "ready_time": 15.152329069009284
+    },
+    {
+      "drop": 3,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 423.36,
+        "contact": {
+          "center_y": 393.76,
+          "x": 363.2,
+          "y": 429.9,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 423.36,
+        "contact": {
+          "center_y": 393.76,
+          "x": 363.2,
+          "y": 429.9,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 0,
+      "score": 0,
+      "image": "screens/003.jpg",
+      "timestamp": 15.757035394010018,
+      "hand_x": 860.0,
+      "release_time": 16.030310144502437,
+      "post_release_wait": 0.7515671849978389,
+      "ready_time": 18.686992425005883
+    },
+    {
+      "drop": 4,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 390.5,
+        "contact": {
+          "center_y": 360.91,
+          "x": 374.1,
+          "y": 414.3,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 390.5,
+        "contact": {
+          "center_y": 360.91,
+          "x": 374.1,
+          "y": 414.3,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 0,
+      "score": 10,
+      "image": "screens/004.jpg",
+      "timestamp": 19.352294841999537,
+      "hand_x": 860.0,
+      "release_time": 19.648953626005095,
+      "post_release_wait": 0.7510199329990428,
+      "ready_time": 22.402531195009942
+    },
+    {
+      "drop": 5,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 360.76,
+        "contact": {
+          "center_y": 334.81,
+          "x": 375.7,
+          "y": 403.4,
+          "tier": 5,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 360.76,
+        "contact": {
+          "center_y": 334.81,
+          "x": 375.7,
+          "y": 403.4,
+          "tier": 5,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 10,
+      "score": 25,
+      "image": "screens/005.jpg",
+      "timestamp": 23.017181821996928,
+      "hand_x": 850.0,
+      "release_time": 23.28344135300722,
+      "post_release_wait": 0.7511014170013368,
+      "ready_time": 26.054314013003022
+    },
+    {
+      "drop": 6,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 360.44,
+        "contact": {
+          "center_y": 329.75,
+          "x": 364.8,
+          "y": 395.6,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 360.44,
+        "contact": {
+          "center_y": 329.75,
+          "x": 364.8,
+          "y": 395.6,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 25,
+      "score": 25,
+      "image": "screens/006.jpg",
+      "timestamp": 26.649722814006964,
+      "hand_x": 863.0,
+      "release_time": 26.91448364300595,
+      "post_release_wait": 0.7515299289952964,
+      "ready_time": 29.607357804008643
+    },
+    {
+      "drop": 7,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 308.17,
+        "contact": {
+          "center_y": 278.58,
+          "x": 386.6,
+          "y": 330.2,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 308.17,
+        "contact": {
+          "center_y": 278.58,
+          "x": 386.6,
+          "y": 330.2,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 25,
+      "score": 25,
+      "image": "screens/007.jpg",
+      "timestamp": 30.25431011999899,
+      "hand_x": 860.0,
+      "release_time": 30.545008433502517,
+      "post_release_wait": 0.7517053750052582,
+      "ready_time": 42.51957091000804
+    },
+    {
+      "drop": 8,
+      "action": 8,
+      "target_x": 667.7628571428572,
+      "aim_error_px": 0.7628571428572286,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 8,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 406.22,
+        "contact": {
+          "center_y": 370.03,
+          "x": 202.7,
+          "y": 408.1,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 406.22,
+        "contact": {
+          "center_y": 370.03,
+          "x": 202.7,
+          "y": 408.1,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 25,
+      "score": 26,
+      "image": "screens/008.jpg",
+      "timestamp": 43.2192443189997,
+      "hand_x": 667.0,
+      "release_time": 43.49380902701523,
+      "post_release_wait": 0.7518439859995851,
+      "ready_time": 47.91599647401017
+    },
+    {
+      "drop": 9,
+      "action": 8,
+      "target_x": 665.48,
+      "aim_error_px": 0.4800000000000182,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 8,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 390.02,
+        "contact": {
+          "center_y": 360.42,
+          "x": 191.7,
+          "y": 408.1,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 390.02,
+        "contact": {
+          "center_y": 360.42,
+          "x": 191.7,
+          "y": 408.1,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 26,
+      "score": 51,
+      "image": "screens/009.jpg",
+      "timestamp": 48.621144047006965,
+      "hand_x": 665.0,
+      "release_time": 48.89413574000355,
+      "post_release_wait": 0.7515490329969907,
+      "ready_time": 59.880804230997455
+    },
+    {
+      "drop": 10,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 393.65,
+        "contact": {
+          "center_y": 364.06,
+          "x": 381.9,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 393.65,
+        "contact": {
+          "center_y": 364.06,
+          "x": 381.9,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 51,
+      "score": 51,
+      "image": "screens/010.jpg",
+      "timestamp": 60.55252497200854,
+      "hand_x": 860.0,
+      "release_time": 60.829085048491834,
+      "post_release_wait": 0.7526466959971003,
+      "ready_time": 63.580680140003096
+    },
+    {
+      "drop": 11,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 341.61,
+        "contact": {
+          "center_y": 312.02,
+          "x": 381.9,
+          "y": 366.0,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 341.61,
+        "contact": {
+          "center_y": 312.02,
+          "x": 381.9,
+          "y": 366.0,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 51,
+      "score": 61,
+      "image": "screens/011.jpg",
+      "timestamp": 64.18724752600247,
+      "hand_x": 860.0,
+      "release_time": 64.457266567013,
+      "post_release_wait": 0.7523137590033002,
+      "ready_time": 67.37622686300892
+    },
+    {
+      "drop": 12,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 323.94,
+        "contact": {
+          "center_y": 294.35,
+          "x": 374.1,
+          "y": 355.1,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 323.94,
+        "contact": {
+          "center_y": 294.35,
+          "x": 374.1,
+          "y": 355.1,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 61,
+      "score": 61,
+      "image": "screens/012.jpg",
+      "timestamp": 68.12038008600939,
+      "hand_x": 860.0,
+      "release_time": 68.44186613250349,
+      "post_release_wait": 0.7513298020057846,
+      "ready_time": 83.48212041800434
+    },
+    {
+      "drop": 13,
+      "action": 11,
+      "target_x": 757.0914285714287,
+      "aim_error_px": 0.09142857142865068,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 363.41,
+        "contact": {
+          "center_y": 337.47,
+          "x": 249.4,
+          "y": 395.6,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 363.41,
+        "contact": {
+          "center_y": 337.47,
+          "x": 249.4,
+          "y": 395.6,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 61,
+      "score": 97,
+      "image": "screens/013.jpg",
+      "timestamp": 84.16681609100488,
+      "hand_x": 757.0,
+      "release_time": 84.44617979350733,
+      "post_release_wait": 0.7508743700018385,
+      "ready_time": 88.3666401149967
+    },
+    {
+      "drop": 14,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 383.43,
+        "contact": {
+          "center_y": 357.48,
+          "x": 383.5,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 383.43,
+        "contact": {
+          "center_y": 357.48,
+          "x": 383.5,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 97,
+      "score": 97,
+      "image": "screens/014.jpg",
+      "timestamp": 89.03763443000207,
+      "hand_x": 850.0,
+      "release_time": 89.32128016249044,
+      "post_release_wait": 0.7518929680081783,
+      "ready_time": 92.50898558000335
+    },
+    {
+      "drop": 15,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 369.72,
+        "contact": {
+          "center_y": 333.53,
+          "x": 355.4,
+          "y": 361.3,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 369.72,
+        "contact": {
+          "center_y": 333.53,
+          "x": 355.4,
+          "y": 361.3,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 97,
+      "score": 97,
+      "image": "screens/015.jpg",
+      "timestamp": 93.20734505800647,
+      "hand_x": 876.0,
+      "release_time": 93.49142722800025,
+      "post_release_wait": 0.751306520003709,
+      "ready_time": 96.87530888500623
+    },
+    {
+      "drop": 16,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 347.27,
+        "contact": {
+          "center_y": 316.58,
+          "x": 347.6,
+          "y": 362.9,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 347.27,
+        "contact": {
+          "center_y": 316.58,
+          "x": 347.6,
+          "y": 362.9,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 97,
+      "score": 103,
+      "image": "screens/016.jpg",
+      "timestamp": 97.56365881999955,
+      "hand_x": 863.0,
+      "release_time": 97.83181706150935,
+      "post_release_wait": 0.7511148810008308,
+      "ready_time": 106.36903696799709
+    },
+    {
+      "drop": 17,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 401.0,
+        "contact": {
+          "center_y": 370.31,
+          "x": 357.0,
+          "y": 414.3,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 401.0,
+        "contact": {
+          "center_y": 370.31,
+          "x": 357.0,
+          "y": 414.3,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 103,
+      "score": 103,
+      "image": "screens/017.jpg",
+      "timestamp": 107.10035466600675,
+      "hand_x": 863.0,
+      "release_time": 107.37086336300126,
+      "post_release_wait": 0.7505745079979533,
+      "ready_time": 110.20955906200106
+    },
+    {
+      "drop": 18,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 374.61,
+        "contact": {
+          "center_y": 338.42,
+          "x": 383.5,
+          "y": 375.4,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 374.61,
+        "contact": {
+          "center_y": 338.42,
+          "x": 383.5,
+          "y": 375.4,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 103,
+      "score": 129,
+      "image": "screens/018.jpg",
+      "timestamp": 110.983736219001,
+      "hand_x": 876.0,
+      "release_time": 111.26282649100176,
+      "post_release_wait": 0.7514029979938641,
+      "ready_time": 117.49183228099719
+    },
+    {
+      "drop": 19,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 387.58,
+        "contact": {
+          "center_y": 361.64,
+          "x": 350.8,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 387.58,
+        "contact": {
+          "center_y": 361.64,
+          "x": 350.8,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 129,
+      "score": 129,
+      "image": "screens/019.jpg",
+      "timestamp": 118.2241801170021,
+      "hand_x": 850.0,
+      "release_time": 118.53164698350884,
+      "post_release_wait": 0.7514665259950561,
+      "ready_time": 126.89786366799672
+    },
+    {
+      "drop": 20,
+      "action": 11,
+      "target_x": 764.4742857142858,
+      "aim_error_px": 0.47428571428577015,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 372.3,
+        "contact": {
+          "center_y": 341.6,
+          "x": 265.0,
+          "y": 395.6,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 372.3,
+        "contact": {
+          "center_y": 341.6,
+          "x": 265.0,
+          "y": 395.6,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 129,
+      "score": 135,
+      "image": "screens/020.jpg",
+      "timestamp": 127.68996543200046,
+      "hand_x": 764.0,
+      "release_time": 127.96929374050524,
+      "post_release_wait": 0.7509486639901297,
+      "ready_time": 135.34085679700365
+    },
+    {
+      "drop": 21,
+      "action": 11,
+      "target_x": 762.9200000000001,
+      "aim_error_px": 0.9200000000000728,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 377.18,
+        "contact": {
+          "center_y": 347.59,
+          "x": 254.1,
+          "y": 395.6,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 377.18,
+        "contact": {
+          "center_y": 347.59,
+          "x": 254.1,
+          "y": 395.6,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 135,
+      "score": 209,
+      "image": "screens/021.jpg",
+      "timestamp": 136.04455856500135,
+      "hand_x": 762.0,
+      "release_time": 136.35470278401044,
+      "post_release_wait": 0.7506982879858697,
+      "ready_time": 139.80829222500324
+    },
+    {
+      "drop": 22,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 422.49,
+        "contact": {
+          "center_y": 388.25,
+          "x": 391.3,
+          "y": 423.6,
+          "tier": 2,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 422.49,
+        "contact": {
+          "center_y": 388.25,
+          "x": 391.3,
+          "y": 423.6,
+          "tier": 2,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 209,
+      "score": 212,
+      "image": "screens/022.jpg",
+      "timestamp": 140.54971156000101,
+      "hand_x": 871.0,
+      "release_time": 140.8547679024923,
+      "post_release_wait": 0.7509227359987563,
+      "ready_time": 143.58854937800788
+    },
+    {
+      "drop": 23,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 383.43,
+        "contact": {
+          "center_y": 357.48,
+          "x": 383.5,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 383.43,
+        "contact": {
+          "center_y": 357.48,
+          "x": 383.5,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 212,
+      "score": 212,
+      "image": "screens/023.jpg",
+      "timestamp": 144.32806773600169,
+      "hand_x": 850.0,
+      "release_time": 144.59924865950597,
+      "post_release_wait": 0.751058641995769,
+      "ready_time": 149.0774282610073
+    },
+    {
+      "drop": 24,
+      "action": 13,
+      "target_x": 819.1371428571429,
+      "aim_error_px": 0.13714285714286234,
+      "coverage": 0.9997712978845055,
+      "carried": [],
+      "legacy_action": 13,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 388.54,
+        "contact": {
+          "center_y": 362.6,
+          "x": 375.7,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 388.54,
+        "contact": {
+          "center_y": 362.6,
+          "x": 375.7,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 212,
+      "score": 227,
+      "image": "screens/024.jpg",
+      "timestamp": 149.79154868501064,
+      "hand_x": 819.0,
+      "release_time": 150.07355578249553,
+      "post_release_wait": 0.7537977960018907,
+      "ready_time": 153.4206065920007
+    },
+    {
+      "drop": 25,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 421.95,
+        "contact": {
+          "center_y": 385.76,
+          "x": 372.6,
+          "y": 417.4,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 421.95,
+        "contact": {
+          "center_y": 385.76,
+          "x": 372.6,
+          "y": 417.4,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 227,
+      "score": 227,
+      "image": "screens/025.jpg",
+      "timestamp": 154.13115245000517,
+      "hand_x": 876.0,
+      "release_time": 154.44331674350542,
+      "post_release_wait": 0.7518780259997584,
+      "ready_time": 157.21473995799897
+    },
+    {
+      "drop": 26,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.9999001896396846,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 429.15,
+        "contact": {
+          "center_y": 392.96,
+          "x": 396.0,
+          "y": 420.5,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 429.15,
+        "contact": {
+          "center_y": 392.96,
+          "x": 396.0,
+          "y": 420.5,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 227,
+      "score": 228,
+      "image": "screens/026.jpg",
+      "timestamp": 157.92980551499932,
+      "hand_x": 876.0,
+      "release_time": 158.23252265050542,
+      "post_release_wait": 0.7516687640018063,
+      "ready_time": 161.15900660000625
+    },
+    {
+      "drop": 27,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 0.999407231772377,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 411.79,
+        "contact": {
+          "center_y": 381.09,
+          "x": 352.3,
+          "y": 419.0,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 411.79,
+        "contact": {
+          "center_y": 381.09,
+          "x": 352.3,
+          "y": 419.0,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 228,
+      "score": 234,
+      "image": "screens/027.jpg",
+      "timestamp": 161.94860743200115,
+      "hand_x": 863.0,
+      "release_time": 162.21967207999842,
+      "post_release_wait": 0.7512238869967405,
+      "ready_time": 165.06218507200538
+    },
+    {
+      "drop": 28,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 385.81,
+        "contact": {
+          "center_y": 359.87,
+          "x": 346.1,
+          "y": 414.3,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 385.81,
+        "contact": {
+          "center_y": 359.87,
+          "x": 346.1,
+          "y": 414.3,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 234,
+      "score": 234,
+      "image": "screens/028.jpg",
+      "timestamp": 165.82286258600652,
+      "hand_x": 850.0,
+      "release_time": 166.13026799100044,
+      "post_release_wait": 0.7534132840082748,
+      "ready_time": 168.97715787000197
+    },
+    {
+      "drop": 29,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 355.6,
+        "contact": {
+          "center_y": 319.4,
+          "x": 374.1,
+          "y": 362.9,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 355.6,
+        "contact": {
+          "center_y": 319.4,
+          "x": 374.1,
+          "y": 362.9,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 234,
+      "score": 234,
+      "image": "screens/029.jpg",
+      "timestamp": 169.75670192899997,
+      "hand_x": 876.0,
+      "release_time": 170.05796333850594,
+      "post_release_wait": 0.7510486510000192,
+      "ready_time": 173.31091988200205
+    },
+    {
+      "drop": 30,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 302.31,
+        "contact": {
+          "center_y": 276.37,
+          "x": 396.0,
+          "y": 319.3,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 302.31,
+        "contact": {
+          "center_y": 276.37,
+          "x": 396.0,
+          "y": 319.3,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 234,
+      "score": 249,
+      "image": "screens/030.jpg",
+      "timestamp": 174.09896231199673,
+      "hand_x": 850.0,
+      "release_time": 174.37156926700845,
+      "post_release_wait": 0.751125538998167,
+      "ready_time": 181.21972431600443
+    },
+    {
+      "drop": 31,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 329.47,
+        "contact": {
+          "center_y": 293.28,
+          "x": 396.0,
+          "y": 320.8,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 329.47,
+        "contact": {
+          "center_y": 293.28,
+          "x": 396.0,
+          "y": 320.8,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 249,
+      "score": 253,
+      "image": "screens/031.jpg",
+      "timestamp": 181.97689834500488,
+      "hand_x": 876.0,
+      "release_time": 182.2554484160064,
+      "post_release_wait": 0.7514289950049715,
+      "ready_time": 195.8966795209999
+    },
+    {
+      "drop": 32,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 415.1,
+        "contact": {
+          "center_y": 378.91,
+          "x": 383.5,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 415.1,
+        "contact": {
+          "center_y": 378.91,
+          "x": 383.5,
+          "y": 415.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 253,
+      "score": 253,
+      "image": "screens/032.jpg",
+      "timestamp": 196.70322800301074,
+      "hand_x": 876.0,
+      "release_time": 196.9803880965046,
+      "post_release_wait": 0.7515745269920444,
+      "ready_time": 199.83271411999885
+    },
+    {
+      "drop": 33,
+      "action": 8,
+      "target_x": 665.48,
+      "aim_error_px": 0.4800000000000182,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 8,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 377.55,
+        "contact": {
+          "center_y": 347.96,
+          "x": 179.3,
+          "y": 397.2,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 377.55,
+        "contact": {
+          "center_y": 347.96,
+          "x": 179.3,
+          "y": 397.2,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 253,
+      "score": 263,
+      "image": "screens/033.jpg",
+      "timestamp": 200.70247214900155,
+      "hand_x": 665.0,
+      "release_time": 201.01388043550833,
+      "post_release_wait": 0.7512892209924757,
+      "ready_time": 204.98702360600873
+    },
+    {
+      "drop": 34,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 368.79,
+        "contact": {
+          "center_y": 338.1,
+          "x": 394.4,
+          "y": 375.4,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 368.79,
+        "contact": {
+          "center_y": 338.1,
+          "x": 394.4,
+          "y": 375.4,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 263,
+      "score": 263,
+      "image": "screens/034.jpg",
+      "timestamp": 205.81509994600492,
+      "hand_x": 863.0,
+      "release_time": 206.08537983550923,
+      "post_release_wait": 0.752632553994772,
+      "ready_time": 211.818086897998
+    },
+    {
+      "drop": 35,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 343.34,
+        "contact": {
+          "center_y": 312.65,
+          "x": 364.8,
+          "y": 358.2,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 343.34,
+        "contact": {
+          "center_y": 312.65,
+          "x": 364.8,
+          "y": 358.2,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 263,
+      "score": 269,
+      "image": "screens/035.jpg",
+      "timestamp": 212.66735937500198,
+      "hand_x": 863.0,
+      "release_time": 213.0011242729961,
+      "post_release_wait": 0.751626266996027,
+      "ready_time": 215.88602522099973
+    },
+    {
+      "drop": 36,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 0.9992256247800071,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 336.21,
+        "contact": {
+          "center_y": 306.61,
+          "x": 366.3,
+          "y": 358.2,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 336.21,
+        "contact": {
+          "center_y": 306.61,
+          "x": 366.3,
+          "y": 358.2,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 269,
+      "score": 279,
+      "image": "screens/036.jpg",
+      "timestamp": 216.71134522500506,
+      "hand_x": 860.0,
+      "release_time": 216.99147089500912,
+      "post_release_wait": 0.7505545710009756,
+      "ready_time": 221.01243983700988
+    },
+    {
+      "drop": 37,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 342.0,
+        "contact": {
+          "center_y": 305.81,
+          "x": 367.9,
+          "y": 345.8,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 342.0,
+        "contact": {
+          "center_y": 305.81,
+          "x": 367.9,
+          "y": 345.8,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 279,
+      "score": 279,
+      "image": "screens/037.jpg",
+      "timestamp": 221.82128108000325,
+      "hand_x": 876.0,
+      "release_time": 222.13389553550223,
+      "post_release_wait": 0.7514905150019331,
+      "ready_time": 225.0498786780081
+    },
+    {
+      "drop": 38,
+      "action": 13,
+      "target_x": 830.2114285714285,
+      "aim_error_px": 0.21142857142854155,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 13,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 318.08,
+        "contact": {
+          "center_y": 287.39,
+          "x": 367.9,
+          "y": 345.8,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 318.08,
+        "contact": {
+          "center_y": 287.39,
+          "x": 367.9,
+          "y": 345.8,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 279,
+      "score": 279,
+      "image": "screens/038.jpg",
+      "timestamp": 225.89411491299688,
+      "hand_x": 830.0,
+      "release_time": 226.23240174300736,
+      "post_release_wait": 0.7521767479920527,
+      "ready_time": 230.893117479005
+    },
+    {
+      "drop": 39,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.9998733535967579,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 315.43,
+        "contact": {
+          "center_y": 279.23,
+          "x": 394.4,
+          "y": 306.8,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 315.43,
+        "contact": {
+          "center_y": 279.23,
+          "x": 394.4,
+          "y": 306.8,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 279,
+      "score": 280,
+      "image": "screens/039.jpg",
+      "timestamp": 231.77560035900387,
+      "hand_x": 876.0,
+      "release_time": 232.10005780600477,
+      "post_release_wait": 0.7516471980052302,
+      "ready_time": 235.10129263000272
+    },
+    {
+      "drop": 40,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 283.64,
+        "contact": {
+          "center_y": 257.7,
+          "x": 391.3,
+          "y": 306.8,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 283.64,
+        "contact": {
+          "center_y": 257.7,
+          "x": 391.3,
+          "y": 306.8,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 280,
+      "score": 316,
+      "image": "screens/040.jpg",
+      "timestamp": 235.95592976899934,
+      "hand_x": 850.0,
+      "release_time": 236.26998002201435,
+      "post_release_wait": 0.7519095189927612,
+      "ready_time": 240.8848885960033
+    },
+    {
+      "drop": 41,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 0.9574370107229787,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 370.69,
+        "contact": {
+          "center_y": 341.1,
+          "x": 394.4,
+          "y": 380.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 370.69,
+        "contact": {
+          "center_y": 341.1,
+          "x": 394.4,
+          "y": 380.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 316,
+      "score": 316,
+      "image": "screens/041.jpg",
+      "timestamp": 241.7271881540073,
+      "hand_x": 860.0,
+      "release_time": 242.04422792649711,
+      "post_release_wait": 0.7510840460017789,
+      "ready_time": 245.01152477800497
+    },
+    {
+      "drop": 42,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.9601898071116041,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 330.74,
+        "contact": {
+          "center_y": 294.55,
+          "x": 381.9,
+          "y": 333.3,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 330.74,
+        "contact": {
+          "center_y": 294.55,
+          "x": 381.9,
+          "y": 333.3,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 316,
+      "score": 316,
+      "image": "screens/042.jpg",
+      "timestamp": 245.8867940150085,
+      "hand_x": 876.0,
+      "release_time": 246.2131712679984,
+      "post_release_wait": 0.7516144959954545,
+      "ready_time": 249.14224602800095
+    },
+    {
+      "drop": 43,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 0.9936506016810788,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 283.99,
+        "contact": {
+          "center_y": 254.4,
+          "x": 396.0,
+          "y": 292.8,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 283.99,
+        "contact": {
+          "center_y": 254.4,
+          "x": 396.0,
+          "y": 292.8,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 316,
+      "score": 348,
+      "image": "screens/043.jpg",
+      "timestamp": 250.00084947800497,
+      "hand_x": 860.0,
+      "release_time": 250.31068229151424,
+      "post_release_wait": 0.7520209380018059,
+      "ready_time": 267.2186042969988
+    },
+    {
+      "drop": 44,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 0.999471144311496,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 324.69,
+        "contact": {
+          "center_y": 298.75,
+          "x": 343.0,
+          "y": 359.8,
+          "tier": 5,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 324.69,
+        "contact": {
+          "center_y": 298.75,
+          "x": 343.0,
+          "y": 359.8,
+          "tier": 5,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 348,
+      "score": 363,
+      "image": "screens/044.jpg",
+      "timestamp": 268.05999461699685,
+      "hand_x": 850.0,
+      "release_time": 268.37835530700977,
+      "post_release_wait": 0.751001679993351,
+      "ready_time": 271.36979106500803
+    },
+    {
+      "drop": 45,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 357.92,
+        "contact": {
+          "center_y": 321.73,
+          "x": 343.0,
+          "y": 347.3,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 357.92,
+        "contact": {
+          "center_y": 321.73,
+          "x": 343.0,
+          "y": 347.3,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 363,
+      "score": 363,
+      "image": "screens/045.jpg",
+      "timestamp": 272.1554444670037,
+      "hand_x": 876.0,
+      "release_time": 272.4744853385055,
+      "post_release_wait": 0.7517165049939649,
+      "ready_time": 277.68664466000337
+    },
+    {
+      "drop": 46,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.9994492381127226,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 396.42,
+        "contact": {
+          "center_y": 360.22,
+          "x": 394.4,
+          "y": 387.8,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 396.42,
+        "contact": {
+          "center_y": 360.22,
+          "x": 394.4,
+          "y": 387.8,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 363,
+      "score": 373,
+      "image": "screens/046.jpg",
+      "timestamp": 278.5457693290082,
+      "hand_x": 876.0,
+      "release_time": 278.8624919940048,
+      "post_release_wait": 0.751509055000497,
+      "ready_time": 285.3064386000042
+    },
+    {
+      "drop": 47,
+      "action": 11,
+      "target_x": 764.4742857142858,
+      "aim_error_px": 0.47428571428577015,
+      "coverage": 0.9763859073115292,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 340.94,
+        "contact": {
+          "center_y": 310.25,
+          "x": 325.8,
+          "y": 344.2,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 340.94,
+        "contact": {
+          "center_y": 310.25,
+          "x": 325.8,
+          "y": 344.2,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 373,
+      "score": 379,
+      "image": "screens/047.jpg",
+      "timestamp": 286.0975451819977,
+      "hand_x": 764.0,
+      "release_time": 286.4187917855161,
+      "post_release_wait": 0.7559942319930997,
+      "ready_time": 290.47266661199683
+    },
+    {
+      "drop": 48,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 0.9768296480847088,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 326.76,
+        "contact": {
+          "center_y": 292.52,
+          "x": 392.9,
+          "y": 324.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 326.76,
+        "contact": {
+          "center_y": 292.52,
+          "x": 392.9,
+          "y": 324.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 379,
+      "score": 379,
+      "image": "screens/048.jpg",
+      "timestamp": 291.31643896800233,
+      "hand_x": 871.0,
+      "release_time": 291.63256369749433,
+      "post_release_wait": 0.750358994002454,
+      "ready_time": 294.7527747760032
+    },
+    {
+      "drop": 49,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 0.977375015204963,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 281.58,
+        "contact": {
+          "center_y": 250.89,
+          "x": 391.3,
+          "y": 292.8,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 281.58,
+        "contact": {
+          "center_y": 250.89,
+          "x": 391.3,
+          "y": 292.8,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 379,
+      "score": 379,
+      "image": "screens/049.jpg",
+      "timestamp": 295.67400061999797,
+      "hand_x": 863.0,
+      "release_time": 295.98087973499787,
+      "post_release_wait": 0.7512665450049099,
+      "ready_time": 300.19007476299885
+    },
+    {
+      "drop": 50,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 0.9788014675907053,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 291.66,
+        "contact": {
+          "center_y": 257.42,
+          "x": 391.3,
+          "y": 292.8,
+          "tier": 2,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 291.66,
+        "contact": {
+          "center_y": 257.42,
+          "x": 391.3,
+          "y": 292.8,
+          "tier": 2,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 379,
+      "score": 382,
+      "image": "screens/050.jpg",
+      "timestamp": 300.99928382699727,
+      "hand_x": 871.0,
+      "release_time": 301.3282934775052,
+      "post_release_wait": 0.751343784009805,
+      "ready_time": 304.3576155589981
+    },
+    {
+      "drop": 51,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 0.9779770689067999,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 259.72,
+        "contact": {
+          "center_y": 230.13,
+          "x": 383.5,
+          "y": 281.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 259.72,
+        "contact": {
+          "center_y": 230.13,
+          "x": 383.5,
+          "y": 281.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 382,
+      "score": 382,
+      "image": "screens/051.jpg",
+      "timestamp": 305.2179129020078,
+      "hand_x": 860.0,
+      "release_time": 305.5358155200083,
+      "post_release_wait": 0.7509959500021068,
+      "ready_time": 309.73766635000356
+    },
+    {
+      "drop": 52,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 0.9781591263650546,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 274.32,
+        "contact": {
+          "center_y": 240.07,
+          "x": 383.5,
+          "y": 281.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 274.32,
+        "contact": {
+          "center_y": 240.07,
+          "x": 383.5,
+          "y": 281.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 382,
+      "score": 382,
+      "image": "screens/052.jpg",
+      "timestamp": 310.6143045810022,
+      "hand_x": 871.0,
+      "release_time": 310.9468065655092,
+      "post_release_wait": 0.7510043490037788,
+      "ready_time": 313.8846780800086
+    },
+    {
+      "drop": 53,
+      "action": 13,
+      "target_x": 841.5771428571429,
+      "aim_error_px": 0.5771428571429169,
+      "coverage": 0.980714361196238,
+      "carried": [],
+      "legacy_action": 13,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 258.43,
+        "contact": {
+          "center_y": 222.24,
+          "x": 391.3,
+          "y": 243.0,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 258.43,
+        "contact": {
+          "center_y": 222.24,
+          "x": 391.3,
+          "y": 243.0,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 382,
+      "score": 382,
+      "image": "screens/053.jpg",
+      "timestamp": 314.75845704400854,
+      "hand_x": 841.0,
+      "release_time": 315.31920342499507,
+      "post_release_wait": 0.7506029610085534,
+      "ready_time": 318.270485918998
+    },
+    {
+      "drop": 54,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.9824451737250612,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 247.85,
+        "contact": {
+          "center_y": 211.66,
+          "x": 391.3,
+          "y": 243.0,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 247.85,
+        "contact": {
+          "center_y": 211.66,
+          "x": 391.3,
+          "y": 243.0,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 382,
+      "score": 382,
+      "image": "screens/054.jpg",
+      "timestamp": 319.14542089799943,
+      "hand_x": 876.0,
+      "release_time": 319.4946164730063,
+      "post_release_wait": 0.7517083399870899,
+      "ready_time": 321.86940038000466
+    },
+    {
+      "drop": 55,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.9810728796996349,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 217.3,
+        "contact": {
+          "center_y": 181.11,
+          "x": 394.4,
+          "y": 208.7,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 217.3,
+        "contact": {
+          "center_y": 181.11,
+          "x": 394.4,
+          "y": 208.7,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 382,
+      "score": 392,
+      "image": "screens/055.jpg",
+      "timestamp": 322.8055880500033,
+      "hand_x": 876.0,
+      "release_time": 323.1340483630047,
+      "post_release_wait": 0.7524704469979042,
+      "ready_time": 326.6819263439975
+    },
+    {
+      "drop": 56,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 276.23,
+        "contact": {
+          "center_y": 240.04,
+          "x": 381.9,
+          "y": 278.8,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 276.23,
+        "contact": {
+          "center_y": 240.04,
+          "x": 381.9,
+          "y": 278.8,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 392,
+      "score": 392,
+      "image": "screens/056.jpg",
+      "timestamp": 327.5485162870027,
+      "hand_x": 876.0,
+      "release_time": 327.8859262460028,
+      "post_release_wait": 0.7514132729993435,
+      "ready_time": 330.8692367110052
+    },
+    {
+      "drop": 57,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 246.92,
+        "contact": {
+          "center_y": 210.73,
+          "x": 396.0,
+          "y": 238.3,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 246.92,
+        "contact": {
+          "center_y": 210.73,
+          "x": 396.0,
+          "y": 238.3,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 392,
+      "score": 393,
+      "image": "screens/057.jpg",
+      "timestamp": 331.77855208399706,
+      "hand_x": 876.0,
+      "release_time": 332.10540079700877,
+      "post_release_wait": 0.7516232730122283,
+      "ready_time": 335.23547878299723
+    },
+    {
+      "drop": 58,
+      "action": 11,
+      "target_x": 762.9200000000001,
+      "aim_error_px": 0.9200000000000728,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 294.41,
+        "contact": {
+          "center_y": 264.81,
+          "x": 322.7,
+          "y": 302.2,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 294.41,
+        "contact": {
+          "center_y": 264.81,
+          "x": 322.7,
+          "y": 302.2,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 393,
+      "score": 403,
+      "image": "screens/058.jpg",
+      "timestamp": 336.1518709570082,
+      "hand_x": 762.0,
+      "release_time": 336.4680715565046,
+      "post_release_wait": 0.7515622329956386,
+      "ready_time": 339.4121119909978
+    },
+    {
+      "drop": 59,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 224.12,
+        "contact": {
+          "center_y": 194.53,
+          "x": 391.3,
+          "y": 238.3,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 224.12,
+        "contact": {
+          "center_y": 194.53,
+          "x": 391.3,
+          "y": 238.3,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 403,
+      "score": 413,
+      "image": "screens/059.jpg",
+      "timestamp": 340.3474143350031,
+      "hand_x": 860.0,
+      "release_time": 340.68147598500946,
+      "post_release_wait": 0.7518357210065005,
+      "ready_time": 344.9140087440028
+    },
+    {
+      "drop": 60,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 0.9993158717748241,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 221.57,
+        "contact": {
+          "center_y": 187.33,
+          "x": 391.3,
+          "y": 222.7,
+          "tier": 2,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 221.57,
+        "contact": {
+          "center_y": 187.33,
+          "x": 391.3,
+          "y": 222.7,
+          "tier": 2,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 413,
+      "score": 416,
+      "image": "screens/060.jpg",
+      "timestamp": 345.83361228500144,
+      "hand_x": 871.0,
+      "release_time": 346.14979621599196,
+      "post_release_wait": 0.7509522390027996,
+      "ready_time": 349.2922755870095
+    },
+    {
+      "drop": 61,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 0.9992803684513529,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 205.78,
+        "contact": {
+          "center_y": 171.54,
+          "x": 383.5,
+          "y": 213.4,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 205.78,
+        "contact": {
+          "center_y": 171.54,
+          "x": 383.5,
+          "y": 213.4,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 416,
+      "score": 416,
+      "image": "screens/061.jpg",
+      "timestamp": 350.2204003299994,
+      "hand_x": 871.0,
+      "release_time": 350.5747980354936,
+      "post_release_wait": 0.7516546319966437,
+      "ready_time": 353.00115537201054
+    },
+    {
+      "drop": 62,
+      "action": 8,
+      "target_x": 665.8685714285714,
+      "aim_error_px": 0.8685714285713857,
+      "coverage": 0.9991055035073678,
+      "carried": [],
+      "legacy_action": 8,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 305.08,
+        "contact": {
+          "center_y": 274.39,
+          "x": 232.3,
+          "y": 324.0,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 305.08,
+        "contact": {
+          "center_y": 274.39,
+          "x": 232.3,
+          "y": 324.0,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 416,
+      "score": 447,
+      "image": "screens/062.jpg",
+      "timestamp": 353.9715031800006,
+      "hand_x": 665.0,
+      "release_time": 354.31392789150414,
+      "post_release_wait": 0.7519597039936343,
+      "ready_time": 360.2765044819971
+    },
+    {
+      "drop": 63,
+      "action": 8,
+      "target_x": 665.48,
+      "aim_error_px": 0.4800000000000182,
+      "coverage": 0.9983943168548073,
+      "carried": [],
+      "legacy_action": 8,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 299.24,
+        "contact": {
+          "center_y": 269.65,
+          "x": 279.0,
+          "y": 306.8,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 299.24,
+        "contact": {
+          "center_y": 269.65,
+          "x": 279.0,
+          "y": 306.8,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 447,
+      "score": 447,
+      "image": "screens/063.jpg",
+      "timestamp": 361.175353277009,
+      "hand_x": 665.0,
+      "release_time": 361.5083570370043,
+      "post_release_wait": 0.7507124940020731,
+      "ready_time": 364.466657255005
+    },
+    {
+      "drop": 64,
+      "action": 6,
+      "target_x": 600.52,
+      "aim_error_px": 0.5199999999999818,
+      "coverage": 0.9989297347603536,
+      "carried": [],
+      "legacy_action": 6,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 264.41,
+        "contact": {
+          "center_y": 234.82,
+          "x": 116.9,
+          "y": 299.0,
+          "tier": 8,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 264.41,
+        "contact": {
+          "center_y": 234.82,
+          "x": 116.9,
+          "y": 299.0,
+          "tier": 8,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 447,
+      "score": 457,
+      "image": "screens/064.jpg",
+      "timestamp": 365.55608509801095,
+      "hand_x": 600.0,
+      "release_time": 365.9684705985128,
+      "post_release_wait": 0.7526280140009476,
+      "ready_time": 376.74765615300566
+    },
+    {
+      "drop": 65,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 200.59,
+        "contact": {
+          "center_y": 169.9,
+          "x": 391.3,
+          "y": 211.8,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 200.59,
+        "contact": {
+          "center_y": 169.9,
+          "x": 391.3,
+          "y": 211.8,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 457,
+      "score": 472,
+      "image": "screens/065.jpg",
+      "timestamp": 377.67560760000197,
+      "hand_x": 863.0,
+      "release_time": 378.00702692050254,
+      "post_release_wait": 0.7513297180121299,
+      "ready_time": 389.4240435180109
+    },
+    {
+      "drop": 66,
+      "action": 8,
+      "target_x": 667.7628571428572,
+      "aim_error_px": 0.7628571428572286,
+      "coverage": 0.9669860117842847,
+      "carried": [],
+      "legacy_action": 8,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 273.87,
+        "contact": {
+          "center_y": 237.68,
+          "x": 221.4,
+          "y": 294.4,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 273.87,
+        "contact": {
+          "center_y": 237.68,
+          "x": 221.4,
+          "y": 294.4,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 472,
+      "score": 475,
+      "image": "screens/066.jpg",
+      "timestamp": 390.3414363220072,
+      "hand_x": 667.0,
+      "release_time": 390.6977455455053,
+      "post_release_wait": 0.7502342109946767,
+      "ready_time": 409.4688132570009
+    },
+    {
+      "drop": 67,
+      "action": 11,
+      "target_x": 764.4742857142858,
+      "aim_error_px": 0.47428571428577015,
+      "coverage": 0.9995141771928275,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 302.34,
+        "contact": {
+          "center_y": 271.65,
+          "x": 249.4,
+          "y": 308.4,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 302.34,
+        "contact": {
+          "center_y": 271.65,
+          "x": 249.4,
+          "y": 308.4,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 475,
+      "score": 566,
+      "image": "screens/067.jpg",
+      "timestamp": 412.1783217589982,
+      "hand_x": 764.0,
+      "release_time": 412.5192622470058,
+      "post_release_wait": 0.750186635996215,
+      "ready_time": 416.2556806400098
+    },
+    {
+      "drop": 68,
+      "action": 11,
+      "target_x": 762.9200000000001,
+      "aim_error_px": 0.9200000000000728,
+      "coverage": 0.9962950855399368,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 354.27,
+        "contact": {
+          "center_y": 324.68,
+          "x": 358.6,
+          "y": 356.7,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 354.27,
+        "contact": {
+          "center_y": 324.68,
+          "x": 358.6,
+          "y": 356.7,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 566,
+      "score": 576,
+      "image": "screens/068.jpg",
+      "timestamp": 417.17091895300837,
+      "hand_x": 762.0,
+      "release_time": 417.4548690454976,
+      "post_release_wait": 0.7507649280014448,
+      "ready_time": 420.41527000399947
+    },
+    {
+      "drop": 69,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 0.997148590136234,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 287.82,
+        "contact": {
+          "center_y": 258.22,
+          "x": 385.1,
+          "y": 309.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 287.82,
+        "contact": {
+          "center_y": 258.22,
+          "x": 385.1,
+          "y": 309.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 576,
+      "score": 576,
+      "image": "screens/069.jpg",
+      "timestamp": 421.268690005003,
+      "hand_x": 860.0,
+      "release_time": 421.6182469630003,
+      "post_release_wait": 0.7512836070090998,
+      "ready_time": 425.7286408630025
+    },
+    {
+      "drop": 70,
+      "action": 5,
+      "target_x": 564.8342857142857,
+      "aim_error_px": 0.8342857142856701,
+      "coverage": 0.9979902527257197,
+      "carried": [],
+      "legacy_action": 5,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 295.97,
+        "contact": {
+          "center_y": 261.73,
+          "x": 179.3,
+          "y": 345.8,
+          "tier": 9,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 295.97,
+        "contact": {
+          "center_y": 261.73,
+          "x": 179.3,
+          "y": 345.8,
+          "tier": 9,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 576,
+      "score": 576,
+      "image": "screens/070.jpg",
+      "timestamp": 426.5989428059984,
+      "hand_x": 564.0,
+      "release_time": 426.91375014900404,
+      "post_release_wait": 0.7515300950035453,
+      "ready_time": 431.69582274700224
+    },
+    {
+      "drop": 71,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 0.9992101105845181,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 292.6,
+        "contact": {
+          "center_y": 261.91,
+          "x": 385.1,
+          "y": 311.5,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 292.6,
+        "contact": {
+          "center_y": 261.91,
+          "x": 385.1,
+          "y": 311.5,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 576,
+      "score": 582,
+      "image": "screens/071.jpg",
+      "timestamp": 432.5573572680005,
+      "hand_x": 863.0,
+      "release_time": 432.8631702845014,
+      "post_release_wait": 0.7507915860041976,
+      "ready_time": 435.8815924829978
+    },
+    {
+      "drop": 72,
+      "action": 11,
+      "target_x": 762.9200000000001,
+      "aim_error_px": 0.9200000000000728,
+      "coverage": 0.9975091575091575,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 325.44,
+        "contact": {
+          "center_y": 295.85,
+          "x": 290.0,
+          "y": 347.3,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 325.44,
+        "contact": {
+          "center_y": 295.85,
+          "x": 290.0,
+          "y": 347.3,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 582,
+      "score": 607,
+      "image": "screens/072.jpg",
+      "timestamp": 436.7256855020096,
+      "hand_x": 762.0,
+      "release_time": 437.03318031100207,
+      "post_release_wait": 0.7513248150062282,
+      "ready_time": 440.60133597000095
+    },
+    {
+      "drop": 73,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 274.64,
+        "contact": {
+          "center_y": 245.04,
+          "x": 381.9,
+          "y": 299.0,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 274.64,
+        "contact": {
+          "center_y": 245.04,
+          "x": 381.9,
+          "y": 299.0,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 607,
+      "score": 632,
+      "image": "screens/073.jpg",
+      "timestamp": 441.45488975600165,
+      "hand_x": 860.0,
+      "release_time": 441.7806305760023,
+      "post_release_wait": 0.7519004729983862,
+      "ready_time": 444.69658552300825
+    },
+    {
+      "drop": 74,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 290.97,
+        "contact": {
+          "center_y": 265.03,
+          "x": 364.8,
+          "y": 342.7,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 290.97,
+        "contact": {
+          "center_y": 265.03,
+          "x": 364.8,
+          "y": 342.7,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 632,
+      "score": 632,
+      "image": "screens/074.jpg",
+      "timestamp": 445.6465626240097,
+      "hand_x": 850.0,
+      "release_time": 445.953077106009,
+      "post_release_wait": 0.7511018980003428,
+      "ready_time": 448.81942122100736
+    },
+    {
+      "drop": 75,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 223.69,
+        "contact": {
+          "center_y": 197.75,
+          "x": 375.7,
+          "y": 266.3,
+          "tier": 5,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 223.69,
+        "contact": {
+          "center_y": 197.75,
+          "x": 375.7,
+          "y": 266.3,
+          "tier": 5,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 632,
+      "score": 668,
+      "image": "screens/075.jpg",
+      "timestamp": 449.73677197800134,
+      "hand_x": 850.0,
+      "release_time": 450.05371105000086,
+      "post_release_wait": 0.7504012230056105,
+      "ready_time": 453.6167216640024
+    },
+    {
+      "drop": 76,
+      "action": 8,
+      "target_x": 665.48,
+      "aim_error_px": 0.4800000000000182,
+      "coverage": 0.8921775898520085,
+      "carried": [],
+      "legacy_action": 8,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 335.23,
+        "contact": {
+          "center_y": 305.63,
+          "x": 198.0,
+          "y": 348.9,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 335.23,
+        "contact": {
+          "center_y": 305.63,
+          "x": 198.0,
+          "y": 348.9,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 668,
+      "score": 668,
+      "image": "screens/076.jpg",
+      "timestamp": 454.5079325080005,
+      "hand_x": 665.0,
+      "release_time": 454.8071663765004,
+      "post_release_wait": 0.751934854008141,
+      "ready_time": 457.76721201599867
+    },
+    {
+      "drop": 77,
+      "action": 6,
+      "target_x": 601.9771428571429,
+      "aim_error_px": 0.9771428571428942,
+      "coverage": 0.8960204814947897,
+      "carried": [],
+      "legacy_action": 6,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 294.41,
+        "contact": {
+          "center_y": 268.47,
+          "x": 146.5,
+          "y": 319.3,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 294.41,
+        "contact": {
+          "center_y": 268.47,
+          "x": 146.5,
+          "y": 319.3,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 668,
+      "score": 668,
+      "image": "screens/077.jpg",
+      "timestamp": 458.66087982300087,
+      "hand_x": 601.0,
+      "release_time": 458.9723506195005,
+      "post_release_wait": 0.7509691190061858,
+      "ready_time": 464.912151661003
+    },
+    {
+      "drop": 78,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 290.95,
+        "contact": {
+          "center_y": 260.26,
+          "x": 358.6,
+          "y": 331.8,
+          "tier": 7,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 290.95,
+        "contact": {
+          "center_y": 260.26,
+          "x": 358.6,
+          "y": 331.8,
+          "tier": 7,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 668,
+      "score": 668,
+      "image": "screens/078.jpg",
+      "timestamp": 465.8428557070001,
+      "hand_x": 863.0,
+      "release_time": 466.16803062250256,
+      "post_release_wait": 0.7506963750056457,
+      "ready_time": 485.15737955999793
+    },
+    {
+      "drop": 79,
+      "action": 13,
+      "target_x": 819.1371428571429,
+      "aim_error_px": 0.13714285714286234,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 13,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 258.28,
+        "contact": {
+          "center_y": 232.34,
+          "x": 386.6,
+          "y": 278.8,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 258.28,
+        "contact": {
+          "center_y": 232.34,
+          "x": 386.6,
+          "y": 278.8,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 668,
+      "score": 683,
+      "image": "screens/079.jpg",
+      "timestamp": 488.14892640900507,
+      "hand_x": 819.0,
+      "release_time": 488.4939189010038,
+      "post_release_wait": 0.7667762320052134,
+      "ready_time": 491.4694664639974
+    },
+    {
+      "drop": 80,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 258.34,
+        "contact": {
+          "center_y": 227.64,
+          "x": 385.1,
+          "y": 277.2,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 258.34,
+        "contact": {
+          "center_y": 227.64,
+          "x": 385.1,
+          "y": 277.2,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 683,
+      "score": 689,
+      "image": "screens/080.jpg",
+      "timestamp": 492.44866886500677,
+      "hand_x": 863.0,
+      "release_time": 492.7866383774963,
+      "post_release_wait": 0.7512307360011619,
+      "ready_time": 498.2280515599996
+    },
+    {
+      "drop": 81,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 249.96,
+        "contact": {
+          "center_y": 219.26,
+          "x": 381.9,
+          "y": 271.0,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 249.96,
+        "contact": {
+          "center_y": 219.26,
+          "x": 381.9,
+          "y": 271.0,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 689,
+      "score": 689,
+      "image": "screens/081.jpg",
+      "timestamp": 499.1192166740075,
+      "hand_x": 863.0,
+      "release_time": 499.4469538745034,
+      "post_release_wait": 0.75065192799957,
+      "ready_time": 503.07148571700964
+    },
+    {
+      "drop": 82,
+      "action": 11,
+      "target_x": 772.0514285714286,
+      "aim_error_px": 0.05142857142857338,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 245.43,
+        "contact": {
+          "center_y": 209.24,
+          "x": 297.8,
+          "y": 264.8,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 245.43,
+        "contact": {
+          "center_y": 209.24,
+          "x": 297.8,
+          "y": 264.8,
+          "tier": 6,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 689,
+      "score": 689,
+      "image": "screens/082.jpg",
+      "timestamp": 504.0300916880078,
+      "hand_x": 772.0,
+      "release_time": 504.37893256200186,
+      "post_release_wait": 0.7518374930077698,
+      "ready_time": 506.8675716930011
+    },
+    {
+      "drop": 83,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 244.0,
+        "contact": {
+          "center_y": 209.76,
+          "x": 353.9,
+          "y": 230.5,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 244.0,
+        "contact": {
+          "center_y": 209.76,
+          "x": 353.9,
+          "y": 230.5,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 689,
+      "score": 689,
+      "image": "screens/083.jpg",
+      "timestamp": 507.8333344319981,
+      "hand_x": 871.0,
+      "release_time": 508.1955914114951,
+      "post_release_wait": 0.7512807279999834,
+      "ready_time": 514.3156480120088
+    },
+    {
+      "drop": 84,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 230.18,
+        "contact": {
+          "center_y": 199.49,
+          "x": 391.3,
+          "y": 241.4,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 230.18,
+        "contact": {
+          "center_y": 199.49,
+          "x": 391.3,
+          "y": 241.4,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 689,
+      "score": 705,
+      "image": "screens/084.jpg",
+      "timestamp": 515.3633501520089,
+      "hand_x": 863.0,
+      "release_time": 515.7008838019974,
+      "post_release_wait": 0.7511364069941919,
+      "ready_time": 521.7987480419979
+    },
+    {
+      "drop": 85,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 208.55,
+        "contact": {
+          "center_y": 178.96,
+          "x": 391.3,
+          "y": 222.7,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 208.55,
+        "contact": {
+          "center_y": 178.96,
+          "x": 391.3,
+          "y": 222.7,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 705,
+      "score": 705,
+      "image": "screens/085.jpg",
+      "timestamp": 522.7778155210108,
+      "hand_x": 860.0,
+      "release_time": 523.12077804,
+      "post_release_wait": 0.7524798040103633,
+      "ready_time": 526.7275295080035
+    },
+    {
+      "drop": 86,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 0.998997995991984,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 223.13,
+        "contact": {
+          "center_y": 188.88,
+          "x": 391.3,
+          "y": 224.3,
+          "tier": 2,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 223.13,
+        "contact": {
+          "center_y": 188.88,
+          "x": 391.3,
+          "y": 224.3,
+          "tier": 2,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 705,
+      "score": 708,
+      "image": "screens/086.jpg",
+      "timestamp": 527.6943999130017,
+      "hand_x": 871.0,
+      "release_time": 528.0307630960015,
+      "post_release_wait": 0.7517518880049465,
+      "ready_time": 531.0594197449973
+    },
+    {
+      "drop": 87,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.9990121017535194,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 214.18,
+        "contact": {
+          "center_y": 177.99,
+          "x": 383.5,
+          "y": 214.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 214.18,
+        "contact": {
+          "center_y": 177.99,
+          "x": 383.5,
+          "y": 214.9,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 708,
+      "score": 708,
+      "image": "screens/087.jpg",
+      "timestamp": 531.9783315200038,
+      "hand_x": 876.0,
+      "release_time": 532.3333367129962,
+      "post_release_wait": 0.7517203320021508,
+      "ready_time": 534.8344558180106
+    },
+    {
+      "drop": 88,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 0.9991608391608392,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 179.14,
+        "contact": {
+          "center_y": 144.9,
+          "x": 396.0,
+          "y": 176.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 179.14,
+        "contact": {
+          "center_y": 144.9,
+          "x": 396.0,
+          "y": 176.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 708,
+      "score": 777,
+      "image": "screens/088.jpg",
+      "timestamp": 535.8966806300014,
+      "hand_x": 871.0,
+      "release_time": 536.2506666535046,
+      "post_release_wait": 0.7562718510016566,
+      "ready_time": 554.4838503689971
+    },
+    {
+      "drop": 89,
+      "action": 13,
+      "target_x": 827.88,
+      "aim_error_px": 0.8799999999999955,
+      "coverage": 0.9758015200489211,
+      "carried": [],
+      "legacy_action": 13,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 299.96,
+        "contact": {
+          "center_y": 270.37,
+          "x": 363.2,
+          "y": 314.6,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 299.96,
+        "contact": {
+          "center_y": 270.37,
+          "x": 363.2,
+          "y": 314.6,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 777,
+      "score": 777,
+      "image": "screens/089.jpg",
+      "timestamp": 555.4576543250005,
+      "hand_x": 827.0,
+      "release_time": 555.779186192507,
+      "post_release_wait": 0.7514125119923847,
+      "ready_time": 560.8798480060068
+    },
+    {
+      "drop": 90,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 0.9769175987600017,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 327.11,
+        "contact": {
+          "center_y": 292.86,
+          "x": 396.0,
+          "y": 324.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 327.11,
+        "contact": {
+          "center_y": 292.86,
+          "x": 396.0,
+          "y": 324.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 777,
+      "score": 870,
+      "image": "screens/090.jpg",
+      "timestamp": 561.8953574059997,
+      "hand_x": 871.0,
+      "release_time": 562.2321724914946,
+      "post_release_wait": 0.7518737969949143,
+      "ready_time": 568.6735239960108
+    },
+    {
+      "drop": 91,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 0.9998249401878976,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 355.35,
+        "contact": {
+          "center_y": 325.75,
+          "x": 399.1,
+          "y": 362.9,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 355.35,
+        "contact": {
+          "center_y": 325.75,
+          "x": 399.1,
+          "y": 362.9,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 870,
+      "score": 870,
+      "image": "screens/091.jpg",
+      "timestamp": 569.5592899290059,
+      "hand_x": 860.0,
+      "release_time": 569.8958902580052,
+      "post_release_wait": 0.7503065099881496,
+      "ready_time": 572.8451318709995
+    },
+    {
+      "drop": 92,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 370.0,
+        "contact": {
+          "center_y": 333.81,
+          "x": 392.9,
+          "y": 361.3,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 370.0,
+        "contact": {
+          "center_y": 333.81,
+          "x": 392.9,
+          "y": 361.3,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 870,
+      "score": 871,
+      "image": "screens/092.jpg",
+      "timestamp": 573.7161361250037,
+      "hand_x": 876.0,
+      "release_time": 574.0105003369972,
+      "post_release_wait": 0.7516764899919508,
+      "ready_time": 577.1039490609983
+    },
+    {
+      "drop": 93,
+      "action": 11,
+      "target_x": 772.0514285714286,
+      "aim_error_px": 0.05142857142857338,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 352.86,
+        "contact": {
+          "center_y": 316.67,
+          "x": 268.1,
+          "y": 378.5,
+          "tier": 8,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 352.86,
+        "contact": {
+          "center_y": 316.67,
+          "x": 268.1,
+          "y": 378.5,
+          "tier": 8,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 871,
+      "score": 871,
+      "image": "screens/093.jpg",
+      "timestamp": 578.0981571340089,
+      "hand_x": 772.0,
+      "release_time": 578.459222977006,
+      "post_release_wait": 0.751602015006938,
+      "ready_time": 581.3723518379993
+    },
+    {
+      "drop": 94,
+      "action": 11,
+      "target_x": 769.3314285714285,
+      "aim_error_px": 0.3314285714285461,
+      "coverage": 0.9988033723143868,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 322.77,
+        "contact": {
+          "center_y": 288.53,
+          "x": 318.0,
+          "y": 319.3,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 322.77,
+        "contact": {
+          "center_y": 288.53,
+          "x": 318.0,
+          "y": 319.3,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 871,
+      "score": 871,
+      "image": "screens/094.jpg",
+      "timestamp": 582.3405038960045,
+      "hand_x": 769.0,
+      "release_time": 582.6655222320114,
+      "post_release_wait": 0.7507433159917127,
+      "ready_time": 585.5663179039984
+    },
+    {
+      "drop": 95,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 0.988509415895308,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 335.75,
+        "contact": {
+          "center_y": 306.16,
+          "x": 349.2,
+          "y": 348.9,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 335.75,
+        "contact": {
+          "center_y": 306.16,
+          "x": 349.2,
+          "y": 348.9,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 871,
+      "score": 899,
+      "image": "screens/095.jpg",
+      "timestamp": 586.5344208419992,
+      "hand_x": 860.0,
+      "release_time": 586.8663167185005,
+      "post_release_wait": 0.750755785004003,
+      "ready_time": 592.844552281007
+    },
+    {
+      "drop": 96,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 312.85,
+        "contact": {
+          "center_y": 282.16,
+          "x": 383.5,
+          "y": 331.8,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 312.85,
+        "contact": {
+          "center_y": 282.16,
+          "x": 383.5,
+          "y": 331.8,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 899,
+      "score": 905,
+      "image": "screens/096.jpg",
+      "timestamp": 593.8826939980063,
+      "hand_x": 863.0,
+      "release_time": 594.2220472445042,
+      "post_release_wait": 0.7512684520042967,
+      "ready_time": 597.2828865129995
+    },
+    {
+      "drop": 97,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 293.76,
+        "contact": {
+          "center_y": 267.82,
+          "x": 381.9,
+          "y": 328.6,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 293.76,
+        "contact": {
+          "center_y": 267.82,
+          "x": 381.9,
+          "y": 328.6,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 905,
+      "score": 905,
+      "image": "screens/097.jpg",
+      "timestamp": 598.2340772099997,
+      "hand_x": 850.0,
+      "release_time": 598.539749470001,
+      "post_release_wait": 0.7516969080024865,
+      "ready_time": 602.6666355150082
+    },
+    {
+      "drop": 98,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 307.59,
+        "contact": {
+          "center_y": 276.89,
+          "x": 381.9,
+          "y": 328.6,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 307.59,
+        "contact": {
+          "center_y": 276.89,
+          "x": 381.9,
+          "y": 328.6,
+          "tier": 4,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 905,
+      "score": 905,
+      "image": "screens/098.jpg",
+      "timestamp": 603.5683460930013,
+      "hand_x": 863.0,
+      "release_time": 603.8742134624918,
+      "post_release_wait": 0.7521589450043393,
+      "ready_time": 606.9239216420101
+    },
+    {
+      "drop": 99,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 0.9999534255507428,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 256.83,
+        "contact": {
+          "center_y": 226.13,
+          "x": 386.6,
+          "y": 275.7,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 256.83,
+        "contact": {
+          "center_y": 226.13,
+          "x": 386.6,
+          "y": 275.7,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 905,
+      "score": 957,
+      "image": "screens/099.jpg",
+      "timestamp": 607.8624927330093,
+      "hand_x": 863.0,
+      "release_time": 608.2239926530165,
+      "post_release_wait": 0.7529333720012801,
+      "ready_time": 613.0218635990022
+    },
+    {
+      "drop": 100,
+      "action": 11,
+      "target_x": 772.0514285714286,
+      "aim_error_px": 0.05142857142857338,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 352.85,
+        "contact": {
+          "center_y": 316.65,
+          "x": 314.9,
+          "y": 344.2,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 352.85,
+        "contact": {
+          "center_y": 316.65,
+          "x": 314.9,
+          "y": 344.2,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 957,
+      "score": 958,
+      "image": "screens/100.jpg",
+      "timestamp": 613.897425025003,
+      "hand_x": 772.0,
+      "release_time": 614.2229271075048,
+      "post_release_wait": 0.7513674240035471,
+      "ready_time": 617.1881237370108
+    },
+    {
+      "drop": 101,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 347.02,
+        "contact": {
+          "center_y": 316.33,
+          "x": 358.6,
+          "y": 387.8,
+          "tier": 7,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 347.02,
+        "contact": {
+          "center_y": 316.33,
+          "x": 358.6,
+          "y": 387.8,
+          "tier": 7,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 958,
+      "score": 958,
+      "image": "screens/101.jpg",
+      "timestamp": 618.0687411120016,
+      "hand_x": 863.0,
+      "release_time": 618.3793471259996,
+      "post_release_wait": 0.7510659290128388,
+      "ready_time": 621.3718454040063
+    },
+    {
+      "drop": 102,
+      "action": 11,
+      "target_x": 772.0514285714286,
+      "aim_error_px": 0.05142857142857338,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 342.71,
+        "contact": {
+          "center_y": 306.52,
+          "x": 314.9,
+          "y": 338.0,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 342.71,
+        "contact": {
+          "center_y": 306.52,
+          "x": 314.9,
+          "y": 338.0,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 958,
+      "score": 958,
+      "image": "screens/102.jpg",
+      "timestamp": 622.2963634129992,
+      "hand_x": 772.0,
+      "release_time": 622.6110782574979,
+      "post_release_wait": 0.7515536730061285,
+      "ready_time": 625.5543531690055
+    },
+    {
+      "drop": 103,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 314.62,
+        "contact": {
+          "center_y": 278.43,
+          "x": 386.6,
+          "y": 316.2,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 314.62,
+        "contact": {
+          "center_y": 278.43,
+          "x": 386.6,
+          "y": 316.2,
+          "tier": 3,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 958,
+      "score": 958,
+      "image": "screens/103.jpg",
+      "timestamp": 626.5000171810098,
+      "hand_x": 876.0,
+      "release_time": 626.8192381060071,
+      "post_release_wait": 0.7508034829952521,
+      "ready_time": 629.846456187006
+    },
+    {
+      "drop": 104,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 272.23,
+        "contact": {
+          "center_y": 241.53,
+          "x": 394.4,
+          "y": 278.8,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 272.23,
+        "contact": {
+          "center_y": 241.53,
+          "x": 394.4,
+          "y": 278.8,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 958,
+      "score": 964,
+      "image": "screens/104.jpg",
+      "timestamp": 630.8719839380065,
+      "hand_x": 863.0,
+      "release_time": 631.2050971355056,
+      "post_release_wait": 0.7514522520068567,
+      "ready_time": 634.8823431190103
+    },
+    {
+      "drop": 105,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 256.39,
+        "contact": {
+          "center_y": 230.44,
+          "x": 394.4,
+          "y": 274.1,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 256.39,
+        "contact": {
+          "center_y": 230.44,
+          "x": 394.4,
+          "y": 274.1,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 964,
+      "score": 964,
+      "image": "screens/105.jpg",
+      "timestamp": 635.8337334800017,
+      "hand_x": 850.0,
+      "release_time": 636.1654086045019,
+      "post_release_wait": 0.7519652859919006,
+      "ready_time": 641.6064844280045
+    },
+    {
+      "drop": 106,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 258.19,
+        "contact": {
+          "center_y": 232.25,
+          "x": 391.3,
+          "y": 277.2,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 258.19,
+        "contact": {
+          "center_y": 232.25,
+          "x": 391.3,
+          "y": 277.2,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 964,
+      "score": 983,
+      "image": "screens/106.jpg",
+      "timestamp": 642.5750683040096,
+      "hand_x": 850.0,
+      "release_time": 642.8914399259957,
+      "post_release_wait": 0.7515566420042887,
+      "ready_time": 654.2835956250055
+    },
+    {
+      "drop": 107,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 1.0,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 258.82,
+        "contact": {
+          "center_y": 232.87,
+          "x": 392.9,
+          "y": 277.2,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 258.82,
+        "contact": {
+          "center_y": 232.87,
+          "x": 392.9,
+          "y": 277.2,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 983,
+      "score": 1064,
+      "image": "screens/107.jpg",
+      "timestamp": 655.202587894004,
+      "hand_x": 850.0,
+      "release_time": 655.523288903496,
+      "post_release_wait": 0.7512110380048398,
+      "ready_time": 674.3684352249984
+    },
+    {
+      "drop": 108,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.9774661278821013,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 348.23,
+        "contact": {
+          "center_y": 312.04,
+          "x": 367.9,
+          "y": 352.0,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 348.23,
+        "contact": {
+          "center_y": 312.04,
+          "x": 367.9,
+          "y": 352.0,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1064,
+      "score": 1064,
+      "image": "screens/108.jpg",
+      "timestamp": 675.2895224380045,
+      "hand_x": 876.0,
+      "release_time": 675.6109164539957,
+      "post_release_wait": 0.7516528720007045,
+      "ready_time": 683.9478349290002
+    },
+    {
+      "drop": 109,
+      "action": 8,
+      "target_x": 665.8685714285714,
+      "aim_error_px": 0.8685714285713857,
+      "coverage": 0.9575137317496831,
+      "carried": [],
+      "legacy_action": 8,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 327.73,
+        "contact": {
+          "center_y": 297.04,
+          "x": 222.9,
+          "y": 334.9,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 327.73,
+        "contact": {
+          "center_y": 297.04,
+          "x": 222.9,
+          "y": 334.9,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1064,
+      "score": 1064,
+      "image": "screens/109.jpg",
+      "timestamp": 684.8443742180098,
+      "hand_x": 665.0,
+      "release_time": 685.1711237510026,
+      "post_release_wait": 0.753453168013948,
+      "ready_time": 688.722140265003
+    },
+    {
+      "drop": 110,
+      "action": 13,
+      "target_x": 830.2114285714285,
+      "aim_error_px": 0.21142857142854155,
+      "coverage": 0.9435988040228322,
+      "carried": [],
+      "legacy_action": 13,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 323.59,
+        "contact": {
+          "center_y": 292.9,
+          "x": 358.6,
+          "y": 352.0,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 323.59,
+        "contact": {
+          "center_y": 292.9,
+          "x": 358.6,
+          "y": 352.0,
+          "tier": 5,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1064,
+      "score": 1070,
+      "image": "screens/110.jpg",
+      "timestamp": 689.677535513998,
+      "hand_x": 830.0,
+      "release_time": 690.0447774290078,
+      "post_release_wait": 0.7505048680031905,
+      "ready_time": 693.6507161110057
+    },
+    {
+      "drop": 111,
+      "action": 8,
+      "target_x": 665.8685714285714,
+      "aim_error_px": 0.8685714285713857,
+      "coverage": 0.9483260879308026,
+      "carried": [],
+      "legacy_action": 8,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 327.73,
+        "contact": {
+          "center_y": 297.04,
+          "x": 222.9,
+          "y": 334.9,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 327.73,
+        "contact": {
+          "center_y": 297.04,
+          "x": 222.9,
+          "y": 334.9,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1070,
+      "score": 1070,
+      "image": "screens/111.jpg",
+      "timestamp": 694.6201173349982,
+      "hand_x": 665.0,
+      "release_time": 694.9636400875024,
+      "post_release_wait": 0.7510244209988741,
+      "ready_time": 699.3881696309982
+    },
+    {
+      "drop": 112,
+      "action": 2,
+      "target_x": 477.8857142857143,
+      "aim_error_px": 0.8857142857143003,
+      "coverage": 0.9724436741767765,
+      "carried": [],
+      "legacy_action": 2,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 188.21,
+        "contact": {
+          "center_y": 162.26,
+          "x": 88.9,
+          "y": 283.5,
+          "tier": 10,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 188.21,
+        "contact": {
+          "center_y": 162.26,
+          "x": 88.9,
+          "y": 283.5,
+          "tier": 10,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1070,
+      "score": 1070,
+      "image": "screens/112.jpg",
+      "timestamp": 700.4131139930105,
+      "hand_x": 477.0,
+      "release_time": 700.7350130535051,
+      "post_release_wait": 0.7520215319964336,
+      "ready_time": 704.8619794260012
+    },
+    {
+      "drop": 113,
+      "action": 6,
+      "target_x": 600.1314285714286,
+      "aim_error_px": 0.1314285714286143,
+      "coverage": 0.9646862808842653,
+      "carried": [],
+      "legacy_action": 6,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 254.78,
+        "contact": {
+          "center_y": 224.08,
+          "x": 88.9,
+          "y": 289.7,
+          "tier": 10,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 254.78,
+        "contact": {
+          "center_y": 224.08,
+          "x": 88.9,
+          "y": 289.7,
+          "tier": 10,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1070,
+      "score": 1101,
+      "image": "screens/113.jpg",
+      "timestamp": 705.8149225399975,
+      "hand_x": 600.0,
+      "release_time": 706.1470388564921,
+      "post_release_wait": 0.7505884540005354,
+      "ready_time": 709.7529084010021
+    },
+    {
+      "drop": 114,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 0.9559212459594475,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 295.75,
+        "contact": {
+          "center_y": 261.5,
+          "x": 394.4,
+          "y": 292.8,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 295.75,
+        "contact": {
+          "center_y": 261.5,
+          "x": 394.4,
+          "y": 292.8,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1101,
+      "score": 1101,
+      "image": "screens/114.jpg",
+      "timestamp": 710.7142541470093,
+      "hand_x": 871.0,
+      "release_time": 711.0403107255115,
+      "post_release_wait": 0.7513016750017414,
+      "ready_time": 715.7944868780032
+    },
+    {
+      "drop": 115,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.928863551865163,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 301.41,
+        "contact": {
+          "center_y": 265.22,
+          "x": 394.4,
+          "y": 292.8,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 301.41,
+        "contact": {
+          "center_y": 265.22,
+          "x": 394.4,
+          "y": 292.8,
+          "tier": 1,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 1101,
+      "score": 1102,
+      "image": "screens/115.jpg",
+      "timestamp": 716.7965201879997,
+      "hand_x": 876.0,
+      "release_time": 717.1261487675074,
+      "post_release_wait": 0.7521710730070481,
+      "ready_time": 720.1459738039994
+    },
+    {
+      "drop": 116,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 0.9291558735249373,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 278.46,
+        "contact": {
+          "center_y": 247.77,
+          "x": 391.3,
+          "y": 289.7,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 278.46,
+        "contact": {
+          "center_y": 247.77,
+          "x": 391.3,
+          "y": 289.7,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1102,
+      "score": 1102,
+      "image": "screens/116.jpg",
+      "timestamp": 721.1446211099974,
+      "hand_x": 863.0,
+      "release_time": 721.4800924565061,
+      "post_release_wait": 0.7505003030091757,
+      "ready_time": 725.573338836999
+    },
+    {
+      "drop": 117,
+      "action": 11,
+      "target_x": 764.4742857142858,
+      "aim_error_px": 0.47428571428577015,
+      "coverage": 0.9312562412622328,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 300.64,
+        "contact": {
+          "center_y": 269.95,
+          "x": 302.4,
+          "y": 319.3,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 300.64,
+        "contact": {
+          "center_y": 269.95,
+          "x": 302.4,
+          "y": 319.3,
+          "tier": 3,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 1102,
+      "score": 1108,
+      "image": "screens/117.jpg",
+      "timestamp": 726.58364368201,
+      "hand_x": 764.0,
+      "release_time": 726.9191635735042,
+      "post_release_wait": 0.7509906010091072,
+      "ready_time": 729.9402228660038
+    },
+    {
+      "drop": 118,
+      "action": 11,
+      "target_x": 762.9200000000001,
+      "aim_error_px": 0.9200000000000728,
+      "coverage": 0.9321449792038027,
+      "carried": [],
+      "legacy_action": 11,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 290.35,
+        "contact": {
+          "center_y": 260.76,
+          "x": 302.4,
+          "y": 314.6,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 290.35,
+        "contact": {
+          "center_y": 260.76,
+          "x": 302.4,
+          "y": 314.6,
+          "tier": 4,
+          "same_tier": true
+        }
+      },
+      "band": [],
+      "score_before": 1108,
+      "score": 1118,
+      "image": "screens/118.jpg",
+      "timestamp": 731.2092722600064,
+      "hand_x": 762.0,
+      "release_time": 731.5394053950004,
+      "post_release_wait": 0.7513185200077714,
+      "ready_time": 734.5428734890011
+    },
+    {
+      "drop": 119,
+      "action": 14,
+      "target_x": 863.0799999999999,
+      "aim_error_px": 0.07999999999992724,
+      "coverage": 0.9310692018742981,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 280.02,
+        "contact": {
+          "center_y": 249.33,
+          "x": 391.3,
+          "y": 291.3,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 280.02,
+        "contact": {
+          "center_y": 249.33,
+          "x": 391.3,
+          "y": 291.3,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1118,
+      "score": 1118,
+      "image": "screens/119.jpg",
+      "timestamp": 735.5132983049989,
+      "hand_x": 863.0,
+      "release_time": 735.873145983991,
+      "post_release_wait": 0.7516512340080226,
+      "ready_time": 738.9016333760082
+    },
+    {
+      "drop": 120,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.9485456933758679,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 296.13,
+        "contact": {
+          "center_y": 259.94,
+          "x": 391.3,
+          "y": 291.3,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 296.13,
+        "contact": {
+          "center_y": 259.94,
+          "x": 391.3,
+          "y": 291.3,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1118,
+      "score": 1118,
+      "image": "screens/120.jpg",
+      "timestamp": 739.9615583240084,
+      "hand_x": 876.0,
+      "release_time": 740.3013622900035,
+      "post_release_wait": 0.7504335729900049,
+      "ready_time": 743.2923943799979
+    },
+    {
+      "drop": 121,
+      "action": 14,
+      "target_x": 860.36,
+      "aim_error_px": 0.36000000000001364,
+      "coverage": 0.9490787269681742,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 247.65,
+        "contact": {
+          "center_y": 218.06,
+          "x": 394.4,
+          "y": 257.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 247.65,
+        "contact": {
+          "center_y": 218.06,
+          "x": 394.4,
+          "y": 257.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1118,
+      "score": 1118,
+      "image": "screens/121.jpg",
+      "timestamp": 744.2473674490029,
+      "hand_x": 860.0,
+      "release_time": 744.6067699885025,
+      "post_release_wait": 0.751447739006835,
+      "ready_time": 750.6907489500009
+    },
+    {
+      "drop": 122,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 0.9420133649493425,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 259.92,
+        "contact": {
+          "center_y": 225.68,
+          "x": 394.4,
+          "y": 257.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 259.92,
+        "contact": {
+          "center_y": 225.68,
+          "x": 394.4,
+          "y": 257.0,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1118,
+      "score": 1201,
+      "image": "screens/122.jpg",
+      "timestamp": 751.8468548329984,
+      "hand_x": 871.0,
+      "release_time": 752.2153770214936,
+      "post_release_wait": 0.7522019720054232,
+      "ready_time": 769.2932863340102
+    },
+    {
+      "drop": 123,
+      "action": 14,
+      "target_x": 850.1600000000001,
+      "aim_error_px": 0.16000000000008185,
+      "coverage": 0.9991328556432842,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 269.62,
+        "contact": {
+          "center_y": 243.68,
+          "x": 391.3,
+          "y": 292.8,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 269.62,
+        "contact": {
+          "center_y": 243.68,
+          "x": 391.3,
+          "y": 292.8,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1201,
+      "score": 1201,
+      "image": "screens/123.jpg",
+      "timestamp": 771.203199378011,
+      "hand_x": 850.0,
+      "release_time": 771.5330637195002,
+      "post_release_wait": 0.751735350000672,
+      "ready_time": 774.460929081004
+    },
+    {
+      "drop": 124,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 0.999190800681431,
+      "carried": [],
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 297.56,
+        "contact": {
+          "center_y": 261.37,
+          "x": 392.9,
+          "y": 292.8,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 297.56,
+        "contact": {
+          "center_y": 261.37,
+          "x": 392.9,
+          "y": 292.8,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 1201,
+      "score": 1201,
+      "image": "screens/124.jpg",
+      "timestamp": 776.3540509000013,
+      "hand_x": 876.0,
+      "release_time": 776.6938117245008,
+      "post_release_wait": 0.751821605997975,
+      "ready_time": 795.510453652998
+    }
+  ]
+}
