@@ -1,0 +1,322 @@
+{
+ "attempt-1": {
+  "outcome": "game over",
+  "final_score": 1813,
+  "drops": 200,
+  "releases": 200,
+  "compared": 199,
+  "categories": {
+   "agree": 40,
+   "simulator merge, site none": 92,
+   "both merged, different points": 67
+  },
+  "score_event_agreement": 40,
+  "scoring_drops_observed": 93,
+  "scoring_drops_predicted": 185,
+  "perception_consistent": 107,
+  "perception_inconsistent": 92,
+  "categories_when_consistent": {
+   "agree": 33,
+   "simulator merge, site none": 46,
+   "both merged, different points": 28
+  },
+  "categories_when_inconsistent": {
+   "both merged, different points": 39,
+   "simulator merge, site none": 46,
+   "agree": 7
+  },
+  "merge_events_agree": 12,
+  "horizon_300_changes_points": 47,
+  "median_layout_px": 14.641384732515267,
+  "mean_unmatched_predicted": 6.748743718592965,
+  "mean_unmatched_observed": 12.150753768844222,
+  "nonzero_carry_over": 0
+ },
+ "attempt-2": {
+  "outcome": "game over",
+  "final_score": 2040,
+  "drops": 222,
+  "releases": 222,
+  "compared": 221,
+  "categories": {
+   "agree": 39,
+   "both merged, different points": 79,
+   "simulator merge, site none": 103
+  },
+  "score_event_agreement": 39,
+  "scoring_drops_observed": 100,
+  "scoring_drops_predicted": 203,
+  "perception_consistent": 120,
+  "perception_inconsistent": 101,
+  "categories_when_consistent": {
+   "agree": 31,
+   "both merged, different points": 35,
+   "simulator merge, site none": 54
+  },
+  "categories_when_inconsistent": {
+   "both merged, different points": 44,
+   "simulator merge, site none": 49,
+   "agree": 8
+  },
+  "merge_events_agree": 15,
+  "horizon_300_changes_points": 51,
+  "median_layout_px": 13.807563952233103,
+  "mean_unmatched_predicted": 8.013574660633484,
+  "mean_unmatched_observed": 12.425339366515837,
+  "nonzero_carry_over": 2
+ },
+ "attempt-3": {
+  "outcome": "fruit centers or ready cue remained uncertain",
+  "final_score": 1953,
+  "drops": 182,
+  "releases": 182,
+  "compared": 181,
+  "categories": {
+   "agree": 61,
+   "simulator merge, site none": 72,
+   "both merged, different points": 48
+  },
+  "score_event_agreement": 61,
+  "scoring_drops_observed": 83,
+  "scoring_drops_predicted": 155,
+  "perception_consistent": 129,
+  "perception_inconsistent": 52,
+  "categories_when_consistent": {
+   "agree": 56,
+   "both merged, different points": 25,
+   "simulator merge, site none": 48
+  },
+  "categories_when_inconsistent": {
+   "agree": 5,
+   "simulator merge, site none": 24,
+   "both merged, different points": 23
+  },
+  "merge_events_agree": 24,
+  "horizon_300_changes_points": 29,
+  "median_layout_px": 14.906761108349407,
+  "mean_unmatched_predicted": 6.2154696132596685,
+  "mean_unmatched_observed": 9.386740331491712,
+  "nonzero_carry_over": 0
+ },
+ "archived-hybrid-1725": {
+  "outcome": "game over",
+  "final_score": 1725,
+  "drops": 188,
+  "releases": 188,
+  "compared": 187,
+  "categories": {
+   "agree": 75,
+   "both merged, different points": 39,
+   "simulator merge, site none": 72,
+   "site merge, simulator none": 1
+  },
+  "score_event_agreement": 75,
+  "scoring_drops_observed": 84,
+  "scoring_drops_predicted": 155,
+  "perception_consistent": 140,
+  "perception_inconsistent": 47,
+  "categories_when_consistent": {
+   "agree": 68,
+   "both merged, different points": 20,
+   "simulator merge, site none": 51,
+   "site merge, simulator none": 1
+  },
+  "categories_when_inconsistent": {
+   "agree": 7,
+   "both merged, different points": 19,
+   "simulator merge, site none": 21
+  },
+  "merge_events_agree": 28,
+  "horizon_300_changes_points": 17,
+  "median_layout_px": 10.492086449893769,
+  "mean_unmatched_predicted": 4.887700534759358,
+  "mean_unmatched_observed": 6.887700534759358,
+  "nonzero_carry_over": 1
+ },
+ "archived-robust-1673": {
+  "outcome": "game over",
+  "final_score": 1673,
+  "drops": 174,
+  "releases": 174,
+  "compared": 173,
+  "categories": {
+   "agree": 34,
+   "simulator merge, site none": 74,
+   "both merged, different points": 65
+  },
+  "score_event_agreement": 34,
+  "scoring_drops_observed": 85,
+  "scoring_drops_predicted": 159,
+  "perception_consistent": 139,
+  "perception_inconsistent": 34,
+  "categories_when_consistent": {
+   "agree": 30,
+   "both merged, different points": 49,
+   "simulator merge, site none": 60
+  },
+  "categories_when_inconsistent": {
+   "agree": 4,
+   "simulator merge, site none": 14,
+   "both merged, different points": 16
+  },
+  "merge_events_agree": 10,
+  "horizon_300_changes_points": 35,
+  "median_layout_px": 12.994842358074656,
+  "mean_unmatched_predicted": 6.878612716763006,
+  "mean_unmatched_observed": 10.936416184971097,
+  "nonzero_carry_over": 2
+ },
+ "live-total": {
+  "releases": 604,
+  "compared": 601,
+  "categories": {
+   "agree": 140,
+   "simulator merge, site none": 267,
+   "both merged, different points": 194
+  },
+  "score_event_agreement": 140,
+  "scoring_drops_observed": 276,
+  "scoring_drops_predicted": 543,
+  "perception_consistent": 356,
+  "perception_inconsistent": 245,
+  "categories_when_consistent": {
+   "agree": 120,
+   "simulator merge, site none": 148,
+   "both merged, different points": 88
+  },
+  "categories_when_inconsistent": {
+   "both merged, different points": 106,
+   "simulator merge, site none": 119,
+   "agree": 20
+  },
+  "merge_events_agree": 51,
+  "horizon_300_changes_points": 127,
+  "median_layout_px": 14.200236614528553,
+  "mean_unmatched_predicted": 7.05324459234609,
+  "mean_unmatched_observed": 11.419301164725457,
+  "nonzero_carry_over": 2
+ }
+}
+{
+ "rule": "choose the variant with the most score-increase agreements on attempts 1-2; report attempt 3 untouched",
+ "fit": {
+  "nominal": {
+   "compared": 420,
+   "exact_points": 79,
+   "increase_agreement": 225,
+   "simulator_merge_site_none": 195,
+   "site_merge_simulator_none": 0,
+   "board_alone_merges": 323,
+   "mean_abs_points": 55.45
+  },
+  "site radii": {
+   "compared": 420,
+   "exact_points": 101,
+   "increase_agreement": 238,
+   "simulator_merge_site_none": 177,
+   "site_merge_simulator_none": 5,
+   "board_alone_merges": 289,
+   "mean_abs_points": 38.35952380952381
+  },
+  "site radii, no bounce": {
+   "compared": 420,
+   "exact_points": 101,
+   "increase_agreement": 238,
+   "simulator_merge_site_none": 177,
+   "site_merge_simulator_none": 5,
+   "board_alone_merges": 289,
+   "mean_abs_points": 38.71190476190476
+  }
+ },
+ "chosen": "site radii",
+ "holdout": "attempt-3",
+ "holdout_result": {
+  "nominal": {
+   "compared": 181,
+   "exact_points": 61,
+   "increase_agreement": 109,
+   "simulator_merge_site_none": 72,
+   "site_merge_simulator_none": 0,
+   "board_alone_merges": 101,
+   "mean_abs_points": 43.11602209944751
+  },
+  "site radii": {
+   "compared": 181,
+   "exact_points": 76,
+   "increase_agreement": 118,
+   "simulator_merge_site_none": 62,
+   "site_merge_simulator_none": 1,
+   "board_alone_merges": 89,
+   "mean_abs_points": 27.132596685082873
+  },
+  "site radii, no bounce": {
+   "compared": 181,
+   "exact_points": 76,
+   "increase_agreement": 118,
+   "simulator_merge_site_none": 62,
+   "site_merge_simulator_none": 1,
+   "board_alone_merges": 88,
+   "mean_abs_points": 27.027624309392266
+  }
+ },
+ "archived": {
+  "archived-hybrid-1725": {
+   "nominal": {
+    "compared": 187,
+    "exact_points": 75,
+    "increase_agreement": 114,
+    "simulator_merge_site_none": 72,
+    "site_merge_simulator_none": 1,
+    "board_alone_merges": 93,
+    "mean_abs_points": 24.40106951871658
+   },
+   "site radii": {
+    "compared": 187,
+    "exact_points": 73,
+    "increase_agreement": 116,
+    "simulator_merge_site_none": 66,
+    "site_merge_simulator_none": 5,
+    "board_alone_merges": 91,
+    "mean_abs_points": 18.529411764705884
+   },
+   "site radii, no bounce": {
+    "compared": 187,
+    "exact_points": 73,
+    "increase_agreement": 118,
+    "simulator_merge_site_none": 67,
+    "site_merge_simulator_none": 2,
+    "board_alone_merges": 90,
+    "mean_abs_points": 17.475935828877006
+   }
+  },
+  "archived-robust-1673": {
+   "nominal": {
+    "compared": 173,
+    "exact_points": 34,
+    "increase_agreement": 99,
+    "simulator_merge_site_none": 74,
+    "site_merge_simulator_none": 0,
+    "board_alone_merges": 125,
+    "mean_abs_points": 41.202312138728324
+   },
+   "site radii": {
+    "compared": 173,
+    "exact_points": 66,
+    "increase_agreement": 118,
+    "simulator_merge_site_none": 55,
+    "site_merge_simulator_none": 0,
+    "board_alone_merges": 86,
+    "mean_abs_points": 30.647398843930635
+   },
+   "site radii, no bounce": {
+    "compared": 173,
+    "exact_points": 66,
+    "increase_agreement": 119,
+    "simulator_merge_site_none": 54,
+    "site_merge_simulator_none": 0,
+    "board_alone_merges": 87,
+    "mean_abs_points": 30.820809248554912
+   }
+  }
+ }
+}

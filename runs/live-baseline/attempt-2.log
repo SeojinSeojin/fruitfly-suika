@@ -1,0 +1,25 @@
+{
+  "url": "https://playsuikagame.com/ko",
+  "checkpoint": "artifacts/transfer/checkpoints/flywire-seed11-final.pt",
+  "training_drops": 204800,
+  "updates": 200,
+  "seed": 11,
+  "action_seed": 49002,
+  "rules": "transfer",
+  "drop_cap": null,
+  "time_cap_seconds": 1800,
+  "final_score": 2040,
+  "completed_drops": 222,
+  "browser": "headed Chromium",
+  "ad_filter": true,
+  "strategy": "robust",
+  "outcome": "game over",
+  "board_bounds": [
+    370,
+    216,
+    896,
+    781
+  ],
+  "seconds": 1425.7463067289937,
+  "final_capture": "end.png"
+}

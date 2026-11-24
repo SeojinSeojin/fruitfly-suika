@@ -1,0 +1,189 @@
+{
+  "url": "https://playsuikagame.com/ko",
+  "checkpoint": "artifacts/transfer/checkpoints/flywire-seed11-final.pt",
+  "training_drops": 204800,
+  "updates": 200,
+  "seed": 11,
+  "action_seed": 32833,
+  "rules": "transfer",
+  "drop_cap": 3,
+  "time_cap_seconds": 300,
+  "final_score": 4,
+  "completed_drops": 3,
+  "browser": "headed Chromium",
+  "ad_filter": true,
+  "strategy": "robust",
+  "outcome": "drop cap reached",
+  "board_bounds": [
+    370,
+    216,
+    896,
+    781
+  ],
+  "extended_vision": true,
+  "band_background_shots": 3,
+  "band_uncovered_columns": 0,
+  "seconds": 17.247367436997592,
+  "final_capture": "end.png",
+  "drops": [
+    {
+      "drop": 1,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": null,
+        "contact": null
+      },
+      "contact": {
+        "label": "clear",
+        "slack": null,
+        "contact": null
+      },
+      "band": [],
+      "score_before": 0,
+      "score": 0,
+      "image": "screens/001.jpg",
+      "timestamp": 6.8522324209916405,
+      "hand_x": 876.0,
+      "release_time": 7.152310990990372,
+      "post_release_wait": 0.7507129559962777,
+      "ready_time": 9.858863030996872
+    },
+    {
+      "drop": 2,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 1.0,
+      "legacy_action": 14,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 429.53,
+        "contact": {
+          "center_y": 395.28,
+          "x": 377.3,
+          "y": 423.6,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 429.53,
+        "contact": {
+          "center_y": 395.28,
+          "x": 377.3,
+          "y": 423.6,
+          "tier": 1,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 0,
+      "score": 0,
+      "image": "screens/002.jpg",
+      "timestamp": 10.483809270997881,
+      "hand_x": 871.0,
+      "release_time": 10.759892384987324,
+      "post_release_wait": 0.7520073880004929,
+      "ready_time": 13.401333824003814
+    },
+    {
+      "drop": 3,
+      "action": 13,
+      "target_x": 841.5771428571429,
+      "aim_error_px": 0.5771428571429169,
+      "coverage": 1.0,
+      "legacy_action": 13,
+      "blocked": false,
+      "contact_labels": [
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear",
+        "clear"
+      ],
+      "legacy_contact": {
+        "label": "clear",
+        "slack": 426.64,
+        "contact": {
+          "center_y": 390.45,
+          "x": 391.3,
+          "y": 411.2,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "contact": {
+        "label": "clear",
+        "slack": 426.64,
+        "contact": {
+          "center_y": 390.45,
+          "x": 391.3,
+          "y": 411.2,
+          "tier": 2,
+          "same_tier": false
+        }
+      },
+      "band": [],
+      "score_before": 0,
+      "score": 4,
+      "image": "screens/003.jpg",
+      "timestamp": 13.999977710991516,
+      "hand_x": 841.0,
+      "release_time": 14.269978640484624,
+      "post_release_wait": 0.7515509150107391,
+      "ready_time": 17.066952105989913
+    }
+  ]
+}

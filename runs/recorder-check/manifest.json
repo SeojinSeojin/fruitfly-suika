@@ -1,0 +1,57 @@
+{
+  "url": "https://playsuikagame.com/ko",
+  "checkpoint": "artifacts/transfer/checkpoints/flywire-seed11-final.pt",
+  "training_drops": 204800,
+  "updates": 200,
+  "seed": 11,
+  "action_seed": 32833,
+  "rules": "transfer",
+  "drop_cap": 2,
+  "time_cap_seconds": 240,
+  "final_score": 0,
+  "completed_drops": 2,
+  "browser": "headed Chromium",
+  "ad_filter": true,
+  "strategy": "robust",
+  "outcome": "drop cap reached",
+  "board_bounds": [
+    370,
+    216,
+    896,
+    781
+  ],
+  "seconds": 11.294950882998819,
+  "final_capture": "end.png",
+  "drops": [
+    {
+      "drop": 1,
+      "action": 14,
+      "target_x": 876.34,
+      "aim_error_px": 0.34000000000003183,
+      "coverage": 1.0,
+      "score_before": 0,
+      "score": 0,
+      "image": "screens/001.jpg",
+      "timestamp": 4.078392098999757,
+      "hand_x": 876.0,
+      "release_time": 4.381858152497443,
+      "post_release_wait": 0.7516888329992071,
+      "ready_time": 7.29764038099529
+    },
+    {
+      "drop": 2,
+      "action": 14,
+      "target_x": 871.5799999999999,
+      "aim_error_px": 0.5799999999999272,
+      "coverage": 1.0,
+      "score_before": 0,
+      "score": 0,
+      "image": "screens/002.jpg",
+      "timestamp": 7.969591410997964,
+      "hand_x": 871.0,
+      "release_time": 8.254410332992848,
+      "post_release_wait": 0.7515441270006704,
+      "ready_time": 11.10960487799457
+    }
+  ]
+}

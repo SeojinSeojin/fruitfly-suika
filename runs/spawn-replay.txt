@@ -1,0 +1,1590 @@
+{
+ "attempt-1": {
+  "releases": 200,
+  "nonterminal": 199,
+  "nonterminal_executed_would_block": 0,
+  "nonterminal_executed_fatal_improved": 0,
+  "nonterminal_executed_uncertain_improved": 0,
+  "nonterminal_executed_fatal_original": 0,
+  "boards_with_band_detections": 0,
+  "nonterminal_blocked_any": 0,
+  "improved_action_differs": 67,
+  "inbox_added": 75,
+  "inbox_removed": 50,
+  "original_rerun_matches_saved_count": 161,
+  "improved_coverage_below_gate": 0,
+  "original_coverage_below_gate": 0,
+  "terminal": {
+   "drop": 200,
+   "executed": 15,
+   "current": 2,
+   "executed_label_original": "clear",
+   "executed_label_improved": "uncertain",
+   "contact": {
+    "label": "uncertain",
+    "slack": 4.62,
+    "contact": {
+     "center_y": -29.59,
+     "x": 385.1,
+     "y": 12.5,
+     "tier": 3,
+     "same_tier": false
+    }
+   },
+   "blocked": false,
+   "gated_action": 13,
+   "improved_action": 13,
+   "improved_action_label": "clear",
+   "fatal_actions": [],
+   "uncertain_actions": [
+    14,
+    15
+   ],
+   "clear_actions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "band": [],
+   "added_inbox": [
+    [
+     385.1,
+     12.5,
+     3
+    ],
+    [
+     391.3,
+     431.4,
+     1
+    ]
+   ]
+  }
+ },
+ "attempt-2": {
+  "releases": 222,
+  "nonterminal": 221,
+  "nonterminal_executed_would_block": 0,
+  "nonterminal_executed_fatal_improved": 0,
+  "nonterminal_executed_uncertain_improved": 2,
+  "nonterminal_executed_fatal_original": 0,
+  "boards_with_band_detections": 0,
+  "nonterminal_blocked_any": 0,
+  "improved_action_differs": 70,
+  "inbox_added": 33,
+  "inbox_removed": 44,
+  "original_rerun_matches_saved_count": 172,
+  "improved_coverage_below_gate": 0,
+  "original_coverage_below_gate": 0,
+  "terminal": {
+   "drop": 222,
+   "executed": 14,
+   "current": 5,
+   "executed_label_original": "clear",
+   "executed_label_improved": "uncertain",
+   "contact": {
+    "label": "uncertain",
+    "slack": 2.85,
+    "contact": {
+     "center_y": -23.1,
+     "x": 386.6,
+     "y": 23.4,
+     "tier": 3,
+     "same_tier": false
+    }
+   },
+   "blocked": true,
+   "gated_action": 14,
+   "improved_action": 15,
+   "improved_action_label": "fatal",
+   "fatal_actions": [
+    15
+   ],
+   "uncertain_actions": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    14
+   ],
+   "clear_actions": [
+    3,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "band": [],
+   "added_inbox": [
+    [
+     386.6,
+     23.4,
+     3
+    ]
+   ]
+  }
+ },
+ "attempt-3": {
+  "releases": 182,
+  "nonterminal": 182,
+  "nonterminal_executed_would_block": 0,
+  "nonterminal_executed_fatal_improved": 0,
+  "nonterminal_executed_uncertain_improved": 0,
+  "nonterminal_executed_fatal_original": 0,
+  "boards_with_band_detections": 0,
+  "nonterminal_blocked_any": 0,
+  "improved_action_differs": 50,
+  "inbox_added": 7,
+  "inbox_removed": 6,
+  "original_rerun_matches_saved_count": 166,
+  "improved_coverage_below_gate": 0,
+  "original_coverage_below_gate": 0
+ },
+ "archived-robust-1673": {
+  "releases": 174,
+  "nonterminal": 173,
+  "nonterminal_executed_would_block": 0,
+  "nonterminal_executed_fatal_improved": 0,
+  "nonterminal_executed_uncertain_improved": 0,
+  "nonterminal_executed_fatal_original": 0,
+  "boards_with_band_detections": 0,
+  "terminal": {
+   "drop": 174,
+   "executed": 4,
+   "current": 5,
+   "executed_label_original": "uncertain",
+   "executed_label_improved": "uncertain",
+   "contact": {
+    "label": "uncertain",
+    "slack": 1.65,
+    "contact": {
+     "center_y": -24.3,
+     "x": 87.3,
+     "y": 95.2,
+     "tier": 10,
+     "same_tier": false
+    }
+   },
+   "blocked": false,
+   "gated_action": 4,
+   "improved_action": null,
+   "improved_action_label": null,
+   "fatal_actions": [],
+   "uncertain_actions": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "clear_actions": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "band": null,
+   "added_inbox": null
+  }
+ },
+ "archived-hybrid-1725": {
+  "releases": 188,
+  "nonterminal": 187,
+  "nonterminal_executed_would_block": 0,
+  "nonterminal_executed_fatal_improved": 0,
+  "nonterminal_executed_uncertain_improved": 0,
+  "nonterminal_executed_fatal_original": 0,
+  "boards_with_band_detections": 0,
+  "terminal": {
+   "drop": 188,
+   "executed": 15,
+   "current": 5,
+   "executed_label_original": "uncertain",
+   "executed_label_improved": "uncertain",
+   "contact": {
+    "label": "uncertain",
+    "slack": 2.57,
+    "contact": {
+     "center_y": -23.37,
+     "x": 381.9,
+     "y": 37.4,
+     "tier": 4,
+     "same_tier": false
+    }
+   },
+   "blocked": false,
+   "gated_action": 15,
+   "improved_action": null,
+   "improved_action_label": null,
+   "fatal_actions": [],
+   "uncertain_actions": [
+    14,
+    15
+   ],
+   "clear_actions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "band": null,
+   "added_inbox": null
+  }
+ }
+}
+[
+ {
+  "frame": "frames/182-01847-settle.jpg",
+  "t": 1073.5764,
+  "original_coverage": 0.99,
+  "original_watermelon": false,
+  "improved_coverage": 0.99,
+  "improved_watermelon": [],
+  "improved_count": 19
+ },
+ {
+  "frame": "frames/182-01848-settle.jpg",
+  "t": 1074.1957,
+  "original_coverage": 0.958,
+  "original_watermelon": false,
+  "improved_coverage": 0.923,
+  "improved_watermelon": [],
+  "improved_count": 18
+ },
+ {
+  "frame": "frames/182-01849-settle.jpg",
+  "t": 1074.812,
+  "original_coverage": 0.991,
+  "original_watermelon": false,
+  "improved_coverage": 0.991,
+  "improved_watermelon": [],
+  "improved_count": 15
+ },
+ {
+  "frame": "frames/182-01850-settle.jpg",
+  "t": 1075.4445,
+  "original_coverage": 0.991,
+  "original_watermelon": false,
+  "improved_coverage": 0.991,
+  "improved_watermelon": [],
+  "improved_count": 14
+ },
+ {
+  "frame": "frames/182-01851-settle.jpg",
+  "t": 1076.1734,
+  "original_coverage": 0.991,
+  "original_watermelon": false,
+  "improved_coverage": 0.991,
+  "improved_watermelon": [],
+  "improved_count": 14
+ },
+ {
+  "frame": "frames/182-01852-settle.jpg",
+  "t": 1076.9178,
+  "original_coverage": 0.991,
+  "original_watermelon": false,
+  "improved_coverage": 0.991,
+  "improved_watermelon": [],
+  "improved_count": 14
+ },
+ {
+  "frame": "frames/182-01853-settle.jpg",
+  "t": 1077.674,
+  "original_coverage": 0.991,
+  "original_watermelon": false,
+  "improved_coverage": 0.99,
+  "improved_watermelon": [],
+  "improved_count": 14
+ },
+ {
+  "frame": "frames/182-01854-settle.jpg",
+  "t": 1078.4142,
+  "original_coverage": 0.991,
+  "original_watermelon": false,
+  "improved_coverage": 0.99,
+  "improved_watermelon": [],
+  "improved_count": 14
+ },
+ {
+  "frame": "frames/182-01855-settle.jpg",
+  "t": 1079.1592,
+  "original_coverage": 0.408,
+  "original_watermelon": false,
+  "improved_coverage": 0.41,
+  "improved_watermelon": [],
+  "improved_count": 13
+ },
+ {
+  "frame": "frames/182-01856-settle.jpg",
+  "t": 1079.8674,
+  "original_coverage": 0.877,
+  "original_watermelon": true,
+  "improved_coverage": 0.877,
+  "improved_watermelon": [
+   [
+    216.7,
+    316.2
+   ]
+  ],
+  "improved_count": 12
+ },
+ {
+  "frame": "frames/182-01857-settle.jpg",
+  "t": 1080.5012,
+  "original_coverage": 0.982,
+  "original_watermelon": true,
+  "improved_coverage": 0.984,
+  "improved_watermelon": [
+   [
+    218.3,
+    313.1
+   ]
+  ],
+  "improved_count": 14
+ },
+ {
+  "frame": "frames/182-01858-settle.jpg",
+  "t": 1081.1313,
+  "original_coverage": 1.0,
+  "original_watermelon": true,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    218.3,
+    314.6
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01859-settle.jpg",
+  "t": 1081.7256,
+  "original_coverage": 1.0,
+  "original_watermelon": true,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    219.8,
+    313.1
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01860-settle.jpg",
+  "t": 1082.3239,
+  "original_coverage": 1.0,
+  "original_watermelon": true,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    219.8,
+    313.1
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01861-settle.jpg",
+  "t": 1082.9167,
+  "original_coverage": 1.0,
+  "original_watermelon": true,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    219.8,
+    311.5
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01862-settle.jpg",
+  "t": 1083.487,
+  "original_coverage": 0.407,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    219.8,
+    309.9
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01863-settle.jpg",
+  "t": 1084.0534,
+  "original_coverage": 0.406,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    221.4,
+    309.9
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01864-settle.jpg",
+  "t": 1084.6801,
+  "original_coverage": 0.399,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    222.9,
+    306.8
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01865-settle.jpg",
+  "t": 1085.3601,
+  "original_coverage": 0.405,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    222.9,
+    306.8
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01866-settle.jpg",
+  "t": 1086.0731,
+  "original_coverage": 0.405,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    222.9,
+    305.3
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01867-settle.jpg",
+  "t": 1086.7849,
+  "original_coverage": 0.404,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    222.9,
+    302.2
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01868-settle.jpg",
+  "t": 1087.4423,
+  "original_coverage": 0.404,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    224.5,
+    300.6
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01869-settle.jpg",
+  "t": 1088.0423,
+  "original_coverage": 0.404,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    226.0,
+    300.6
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01870-settle.jpg",
+  "t": 1088.6402,
+  "original_coverage": 0.397,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    230.7,
+    303.7
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01871-settle.jpg",
+  "t": 1089.2404,
+  "original_coverage": 0.982,
+  "original_watermelon": true,
+  "improved_coverage": 0.982,
+  "improved_watermelon": [
+   [
+    230.7,
+    303.7
+   ]
+  ],
+  "improved_count": 14
+ },
+ {
+  "frame": "frames/182-01872-settle.jpg",
+  "t": 1089.8542,
+  "original_coverage": 0.395,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    233.8,
+    303.7
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01873-settle.jpg",
+  "t": 1090.4563,
+  "original_coverage": 0.398,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    230.7,
+    300.6
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01874-settle.jpg",
+  "t": 1091.0814,
+  "original_coverage": 0.399,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    300.6
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01875-settle.jpg",
+  "t": 1091.6778,
+  "original_coverage": 0.4,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    230.7,
+    297.5
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01876-settle.jpg",
+  "t": 1092.6425,
+  "original_coverage": 0.398,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    229.2,
+    295.9
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01877-settle.jpg",
+  "t": 1093.6323,
+  "original_coverage": 0.398,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    229.2,
+    295.9
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01878-settle.jpg",
+  "t": 1094.6143,
+  "original_coverage": 0.398,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    229.2,
+    295.9
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01879-settle.jpg",
+  "t": 1095.5738,
+  "original_coverage": 0.398,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    227.6,
+    294.4
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01880-settle.jpg",
+  "t": 1096.5123,
+  "original_coverage": 0.398,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    230.7,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01881-settle.jpg",
+  "t": 1097.4462,
+  "original_coverage": 0.396,
+  "original_watermelon": false,
+  "improved_coverage": 0.399,
+  "improved_watermelon": [],
+  "improved_count": 10
+ },
+ {
+  "frame": "frames/182-01882-settle.jpg",
+  "t": 1098.389,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 0.395,
+  "improved_watermelon": [],
+  "improved_count": 10
+ },
+ {
+  "frame": "frames/182-01883-settle.jpg",
+  "t": 1099.3178,
+  "original_coverage": 0.392,
+  "original_watermelon": false,
+  "improved_coverage": 0.395,
+  "improved_watermelon": [],
+  "improved_count": 10
+ },
+ {
+  "frame": "frames/182-01884-settle.jpg",
+  "t": 1100.2912,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    229.2,
+    297.5
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01885-settle.jpg",
+  "t": 1101.2612,
+  "original_coverage": 0.391,
+  "original_watermelon": false,
+  "improved_coverage": 0.999,
+  "improved_watermelon": [
+   [
+    230.7,
+    300.6
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01886-settle.jpg",
+  "t": 1102.2146,
+  "original_coverage": 0.392,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01887-settle.jpg",
+  "t": 1103.1778,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01888-settle.jpg",
+  "t": 1104.1051,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01889-settle.jpg",
+  "t": 1105.0828,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01890-settle.jpg",
+  "t": 1106.0468,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01891-settle.jpg",
+  "t": 1106.9924,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01892-settle.jpg",
+  "t": 1107.9413,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01893-settle.jpg",
+  "t": 1108.941,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01894-settle.jpg",
+  "t": 1109.9364,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01895-settle.jpg",
+  "t": 1110.9067,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01896-settle.jpg",
+  "t": 1111.8474,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01897-settle.jpg",
+  "t": 1112.8063,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01898-settle.jpg",
+  "t": 1113.8116,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01899-settle.jpg",
+  "t": 1114.7465,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01900-settle.jpg",
+  "t": 1115.7137,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01901-settle.jpg",
+  "t": 1116.6912,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01902-settle.jpg",
+  "t": 1117.6632,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01903-settle.jpg",
+  "t": 1118.6522,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01904-settle.jpg",
+  "t": 1119.6195,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01905-settle.jpg",
+  "t": 1120.6018,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01906-settle.jpg",
+  "t": 1121.5934,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01907-settle.jpg",
+  "t": 1122.5763,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01908-settle.jpg",
+  "t": 1123.5704,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01909-settle.jpg",
+  "t": 1124.6001,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01910-settle.jpg",
+  "t": 1125.6103,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01911-settle.jpg",
+  "t": 1126.6299,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01912-settle.jpg",
+  "t": 1127.8498,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01913-settle.jpg",
+  "t": 1129.027,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01914-settle.jpg",
+  "t": 1130.003,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01915-settle.jpg",
+  "t": 1130.9845,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01916-settle.jpg",
+  "t": 1131.9847,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01917-settle.jpg",
+  "t": 1132.9985,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01918-settle.jpg",
+  "t": 1134.0198,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01919-settle.jpg",
+  "t": 1134.977,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01920-settle.jpg",
+  "t": 1135.9833,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01921-settle.jpg",
+  "t": 1136.9478,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01922-settle.jpg",
+  "t": 1137.9031,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01923-settle.jpg",
+  "t": 1138.92,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01924-settle.jpg",
+  "t": 1139.9133,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01925-settle.jpg",
+  "t": 1140.906,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01926-settle.jpg",
+  "t": 1141.8872,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01927-settle.jpg",
+  "t": 1142.8238,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01928-settle.jpg",
+  "t": 1143.7684,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01929-settle.jpg",
+  "t": 1144.7678,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01930-settle.jpg",
+  "t": 1145.731,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01931-settle.jpg",
+  "t": 1146.692,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01932-settle.jpg",
+  "t": 1147.6454,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01933-settle.jpg",
+  "t": 1148.6122,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01934-settle.jpg",
+  "t": 1149.5886,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01935-settle.jpg",
+  "t": 1150.6247,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01936-settle.jpg",
+  "t": 1151.8578,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01937-settle.jpg",
+  "t": 1153.0107,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01938-settle.jpg",
+  "t": 1154.0427,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01939-settle.jpg",
+  "t": 1155.0453,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01940-settle.jpg",
+  "t": 1155.9879,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01941-settle.jpg",
+  "t": 1156.9116,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01942-settle.jpg",
+  "t": 1157.8812,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01943-settle.jpg",
+  "t": 1158.8565,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01944-settle.jpg",
+  "t": 1159.8245,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ },
+ {
+  "frame": "frames/182-01945-settle.jpg",
+  "t": 1160.7887,
+  "original_coverage": 0.393,
+  "original_watermelon": false,
+  "improved_coverage": 1.0,
+  "improved_watermelon": [
+   [
+    232.3,
+    299.0
+   ]
+  ],
+  "improved_count": 11
+ }
+]
