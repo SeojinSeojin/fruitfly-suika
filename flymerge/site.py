@@ -31,8 +31,10 @@ def filter_ad_requests(route):
 
 
 class Vision:
-    def __init__(self, cache, workers=8):
+    def __init__(self, cache, workers=8, watermelon_inner=False):
         cache.mkdir(parents=True, exist_ok=True)
+        # Tier 11 is matched on its inner 65% disk: its edge is usually covered by neighbours.
+        self.watermelon_inner = watermelon_inner
         self.sprites = []
         self.templates = {}
         self.pool = ThreadPoolExecutor(max_workers=workers)
@@ -56,6 +58,10 @@ class Vision:
             matrix[:, 2] += (side/2-size[0]/2, side/2-size[1]/2)
             rgba = cv2.warpAffine(rgba, matrix, (side, side))
         mask = (rgba[:, :, 3] > 230).astype(np.uint8)
+        if tier == 10 and self.watermelon_inner:
+            h, w = mask.shape
+            yy, xx = np.mgrid[:h, :w]
+            mask &= ((xx-w/2)**2+(yy-h/2)**2 < (.65*radius/.62/2)**2).astype(np.uint8)
         item = np.ascontiguousarray(rgba[:, :, :3]), mask, radius
         self.templates[key] = item
         return item
@@ -167,6 +173,141 @@ class Recorder:
         json_file(self.root/'frames.json', dict(**extra, frames=self.index))
 
 
+EXTENDED_UP, EXTENDED_SIDE = 110, 16
+
+
+def extended_box(box):
+    x0, y0, x1, y1 = box
+    return x0-EXTENDED_SIDE, y0-EXTENDED_UP, x1+EXTENDED_SIDE, y1
+
+
+RIM_ROWS = (4, 18)        # the box's front rim, drawn over fruit: screen rows y0+4 .. y0+18
+RIM_ZONE = 40             # fruit centered up to this far below the box top get rim-aware matching
+
+
+def masked_scores(image, valid, pattern, mask):
+    """TM_SQDIFF_NORMED restricted to pixels where `valid` is 1, plus the visible template fraction."""
+    m = mask.astype(np.float32)
+    t = pattern.astype(np.float32)
+    def corr(src, kernel):
+        out = cv2.filter2D(src, -1, kernel, anchor=(0, 0), borderType=cv2.BORDER_CONSTANT)
+        return out[:src.shape[0]-kernel.shape[0]+1, :src.shape[1]-kernel.shape[1]+1]
+    a = corr(valid, (m[..., None]*t*t).sum(2))
+    b = sum(corr(image[..., c]*valid, m*t[..., c]) for c in range(3))
+    c = corr((image*image).sum(2)*valid, m)
+    seen = corr(valid, m)/max(1., m.sum())
+    with np.errstate(all='ignore'):
+        score = (a-2*b+c)/np.sqrt(a*c)
+    score[~np.isfinite(score)] = 1
+    return score, seen
+
+
+def rim_matches(vision, region, changed, valid, rim_center_rows, tiers, scales, angles, threshold):
+    """Template matches for fruit centered near the box top, ignoring the rim rows."""
+    image = region.astype(np.float32)
+    near = cv2.dilate(changed.astype(np.uint8), np.ones((13, 13), np.uint8)) > 0
+    found = []
+    for tier in tiers:
+        for scale in scales:
+            for angle in angles:
+                pattern, mask, radius = vision.template(tier, scale, angle)
+                h, w = mask.shape
+                rows = min(region.shape[0], rim_center_rows+h-h//2)
+                if rows < h or w > region.shape[1]:
+                    continue
+                score, seen = masked_scores(image[:rows], valid[:rows], pattern, mask)
+                minima = (score < threshold) & (seen >= .6) & (score == cv2.erode(score, None))
+                for y, x in zip(*np.where(minima)):
+                    cx, cy = x+w//2, y+h//2
+                    if cy <= rim_center_rows and near[cy, cx]:
+                        found.append((float(score[y, x]), cx, cy, tier, radius))
+    return found
+
+
+def board_extended(vision, pixels, box, background, hand, fast=False):
+    """Detect fruit in the board, the spawn band above it, and the upper wall corners.
+
+    `pixels` is the full screenshot and `background` the extended region of a fruit-free frame.
+    `hand` is (x, y, tier) of the held fruit in screen px; its column (and the cloud above it) is
+    excluded so the held fruit is never reported as pile. Returns (x, y, tier, quality) normalized to
+    the original board box, so fruit above the box top have y < 0.
+    """
+    from .spawn_contact import SITE_RADII, BOX_H, LOCAL_H
+    x0, y0, x1, y1 = box
+    ex0, ey0, ex1, ey1 = extended_box(box)
+    region = cv2.resize(pixels[ey0:ey1, ex0:ex1], None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA)
+    base = cv2.resize(background, None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA)
+    changed = np.max(cv2.absdiff(region, base), axis=2) > 43
+    masked_rows = mask_left = mask_right = 0
+    if hand is not None:
+        hx, hy, tier = hand
+        radius = SITE_RADII[tier]*BOX_H/LOCAL_H
+        half = max(58, radius+10)
+        mask_left, mask_right = int((hx-half-ex0)/2), int(np.ceil((hx+half-ex0)/2))
+        masked_rows = int(np.ceil((hy+radius+4-ey0)/2))
+        changed[:masked_rows, max(0, mask_left):max(0, mask_right)] = False
+    if not changed.any():
+        return [], 1.
+    ys, xs = np.where(changed)
+    pad = 80
+    bx0, by0 = max(0, xs.min()-92), max(0, ys.min()-92)
+    bx1, by1 = min(region.shape[1], xs.max()+93), min(region.shape[0], ys.max()+93)
+    search = cv2.copyMakeBorder(region, pad, pad, pad, pad, cv2.BORDER_REPLICATE)
+    candidates = np.pad(changed, pad)
+    left, top = bx0+(pad if bx0 else 0), by0+(pad if by0 else 0)
+    right = bx1+(pad if bx1 < region.shape[1] else 2*pad)
+    bottom = by1+(pad if by1 < region.shape[0] else 2*pad)
+    scales = (.35,) if fast else (.337, .365)
+    angles = range(0, 360, 45 if fast else 30)
+    detected = vision.match(search[top:bottom, left:right], range(11), scales, angles, .074, True,
+                            candidates[top:bottom, left:right])
+    detected = [(q, x+left-pad, y+top-pad, t, r) for q, x, y, t, r in detected]
+    valid = np.ones(changed.shape, np.float32)
+    valid[(y0+RIM_ROWS[0]-ey0)//2:(y0+RIM_ROWS[1]-ey0)//2+1] = 0
+    valid[:masked_rows, max(0, mask_left):max(0, mask_right)] = 0
+    rim = rim_matches(vision, region, changed, valid, (y0+RIM_ZONE-ey0)//2, range(11), scales, angles,
+                      .074, ) if changed[:(y0+RIM_ZONE-ey0)//2].any() else []
+    detected = Vision.suppress(sorted(detected+rim))
+    covered = np.zeros(changed.shape, np.uint8)
+    result = []
+    for quality, x, y, tier, radius in detected:
+        x, y = int(x), int(y)
+        cv2.circle(covered, (x, y), round(radius), 1, -1)
+        sx, sy = ex0+2*x, ey0+2*y
+        result.append(((sx-x0)/(x1-x0), (sy-y0)/(y1-y0), tier, quality))
+    return result, float(covered[changed].mean())
+
+
+def compose_background(empty, shots, box, clearance=75):
+    """Extended background: the empty-board frame, with band rows replaced by a per-column median over
+    frames whose held fruit (and cloud) is at least `clearance` px from that column.
+
+    `empty` is a full screenshot of the empty board; `shots` are (hand_x, full screenshot) pairs.
+    """
+    ex0, ey0, ex1, ey1 = extended_box(box)
+    base = empty[ey0:ey1, ex0:ex1].astype(np.float32)
+    rows = box[1]-ey0+12
+    stack = np.full((len(shots), rows, ex1-ex0, 3), np.nan, np.float32)
+    columns = np.arange(ex0, ex1)
+    for k, (hx, image) in enumerate(shots):
+        keep = np.abs(columns-hx) >= clearance
+        stack[k][:, keep] = image[ey0:ey0+rows, ex0:ex1][:, keep]
+    with np.errstate(all='ignore'):
+        band = np.nanmedian(stack, axis=0)
+    missing = np.isnan(band)
+    band[missing] = base[:rows][missing]
+    base[:rows] = band
+    return base.astype(np.uint8), int(missing[..., 0].all(0).sum())
+
+
+def hand_position(hand, box):
+    """Screen (x, y, tier) of a hand match from `ready`."""
+    if not hand:
+        return None
+    x0, y0, _, _ = box
+    return hand[1]+max(0, x0-60), hand[2]+y0-104, hand[3]
+
+
 def screenshot(page):
     return np.asarray(Image.open(io.BytesIO(page.screenshot(timeout=4000))).convert('RGB'))
 
@@ -216,7 +357,7 @@ def ready(page, detect, box, deadline, window=None):
     return None, last_find, ('board stability timed out' if last_find else 'visible current fruit timed out')
 
 
-def recover_ready(page, vision, box, background, limit, window=None):
+def recover_ready(page, vision, box, background, limit, window=None, detect=None):
     """Confirm a ready fruit and stable centers when sprite animation trips pixel gating."""
     x0, y0, x1, y1 = box
     last = None
@@ -227,7 +368,10 @@ def recover_ready(page, vision, box, background, limit, window=None):
         hand_image, _ = hand_pixels(pixels, box)
         hand = vision.match(hand_image, range(5), (.64,.68,.72), (0,), .047)
         if hand:
-            fruits, coverage = vision.board(pixels[y0:y1,x0:x1], background, fast=True)
+            if detect is None:
+                fruits, coverage = vision.board(pixels[y0:y1,x0:x1], background, fast=True)
+            else:
+                fruits, coverage = detect(pixels, hand)
             if coverage >= .86:
                 if last and len(last) == len(fruits) and all(
                     min((np.hypot(a-x, b-y) for x,y,t,_ in last if t == tier), default=1.) < .025
@@ -310,7 +454,7 @@ def run(args):
         rollout_models = {k:restore_scorer(Path('artifacts/afterstate')/f'{k}.pt',graph)
                           for k in ('compact','flywire')}
     limit = args.wall_seconds if args.wall_seconds is not None else (None if args.until_game_over else 600)
-    vision = Vision(args.cache,args.vision_workers)
+    vision = Vision(args.cache,args.vision_workers,watermelon_inner=args.extended_vision)
     rng = np.random.default_rng(args.action_seed)
     args.out.mkdir(parents=True, exist_ok=True)
     images = args.out / 'screens'
@@ -357,16 +501,51 @@ def run(args):
                 return
             background = pixels[y0:y1,x0:x1].copy()
             result['board_bounds'] = box
+            extended = None
+            if args.extended_vision:
+                # Band background: the empty board, with spawn-band columns taken from three frames
+                # whose held fruit sits elsewhere. Only the pointer moves; nothing is released.
+                shots = []
+                for sx in (x0+60, (x0+x1)/2, x1-60):
+                    page.mouse.move(sx, y0-39)
+                    page.wait_for_timeout(350)
+                    image = screenshot(page)
+                    image_hand, _ = hand_pixels(image, box)
+                    found_hand = hand_position(vision.match(image_hand, range(5), (.64,.68,.72), (0,), .047), box)
+                    if found_hand:
+                        shots.append((found_hand[0], image))
+                extended, uncovered = compose_background(pixels, shots, box)
+                result.update(extended_vision=True, band_background_shots=len(shots), band_uncovered_columns=uncovered)
+                if len(shots) < 2 or uncovered:
+                    result['outcome'] = 'paused: spawn-band background incomplete'
+                    page.screenshot(path=str(args.out/'paused.png'))
+                    return
+                # Re-read the board and held fruit together after the pointer moved.
+                pixels = screenshot(page)
+                hand_image, _ = hand_pixels(pixels, box)
+                hand = vision.match(hand_image, range(5), (.64,.68,.72), (0,), .047)
+                if not hand:
+                    result['outcome'] = 'paused: held fruit not found after band background'
+                    page.screenshot(path=str(args.out/'paused.png'))
+                    return
+
+            def detect_board(image, held, fast=False):
+                if extended is None:
+                    return vision.board(image[y0:y1,x0:x1], background, fast=fast)
+                return board_extended(vision, image, box, extended, hand_position(held, box), fast=fast)
+
             while (args.until_game_over or len(decisions) < args.max_drops) and time.monotonic() < deadline:
-                detected, coverage = vision.board(pixels[y0:y1,x0:x1], background, fast=True)
+                found, coverage = detect_board(pixels, hand, fast=True)
                 if coverage < .86:
-                    detected, coverage = vision.board(pixels[y0:y1,x0:x1], background)
+                    found, coverage = detect_board(pixels, hand)
                 for _ in range(3):
                     if coverage >= .86 or time.monotonic() >= deadline:
                         break
                     page.wait_for_timeout(220)
                     pixels = settling_frame(page,window)
-                    detected, coverage = vision.board(pixels[y0:y1,x0:x1], background)
+                    found, coverage = detect_board(pixels, hand)
+                detected = [f for f in found if f[1] >= 0]
+                band = [f for f in found if f[1] < 0]
                 if coverage < .86:
                     result['outcome'] = f'paused on unreliable board detection ({coverage:.1%} explained foreground)'
                     page.screenshot(path=str(args.out/'paused.png'))
@@ -407,7 +586,24 @@ def run(args):
                         _, diagnostic = model.decide(observation,rng,'greedy')
                         trace.update(diagnostic)
                 else:
+                    state = rng.bit_generator.state
                     action, trace = model.decide(observation, rng, args.strategy)
+                    if args.contact_check:
+                        from .planner_experiment import logp
+                        from .robust_planner import choose as robust_choose
+                        from .spawn_contact import gate, label_actions
+
+                        labels = label_actions([(x*410, y*440, t) for x, y, t, _ in found], current, box)
+                        blocked, allowed = gate(labels, action)
+                        trace.update(legacy_action=action, blocked=blocked,
+                                     contact_labels=[l['label'] for l in labels], legacy_contact=labels[action])
+                        if blocked:
+                            # Same random draws as the legacy call, shortlist restricted to non-fatal moves.
+                            rng.bit_generator.state = state
+                            action, _ = robust_choose(observation, logp(model, observation), rng, allowed=allowed)
+                        trace['contact'] = labels[action]
+                if extended is not None:
+                    trace['band'] = [[round(x*410, 1), round(y*440, 1), int(t)] for x, y, t, _ in band]
                 margin = vision.sprites[current].shape[1]*.34 + 3
                 target = x0+margin+(x1-x0-2*margin)*AIMS[action]
                 page.mouse.move(target,y0-39)
@@ -453,7 +649,7 @@ def run(args):
                     result['outcome'] = 'time cap reached before release'
                     Image.fromarray(aimed).save(args.out/'end.png')
                     break
-                annotate(aimed, box, detected, target, current, next_tier, decision, args.out/filename)
+                annotate(aimed, box, found, target, current, next_tier, decision, args.out/filename)
                 if time.monotonic() >= deadline:
                     result['outcome'] = 'time cap reached before release'
                     (args.out/filename).rename(args.out/'time-cap.jpg')
@@ -484,7 +680,8 @@ def run(args):
                 pixels, hand, error = ready(page, vision, box, min(deadline, time.monotonic()+18),window)
                 decision['ready_time'] = time.monotonic()-started
                 if args.until_game_over and error in ('board stability timed out', 'visible current fruit timed out'):
-                    pixels, hand, error = recover_ready(page, vision, box, background, min(deadline,time.monotonic()+70),window)
+                    pixels, hand, error = recover_ready(page, vision, box, background, min(deadline,time.monotonic()+70),window,
+                                                        None if extended is None else (lambda image, held: detect_board(image, held, True)))
                 score = integer_text(page, '#final-score' if error == 'game over' else '#currentScore')
                 decision['score'] = result['final_score'] = score
                 if error:
@@ -522,6 +719,8 @@ if __name__ == '__main__':
     parser.add_argument('--out', type=Path, default=Path('artifacts/demo'))
     parser.add_argument('--replay-key', default='website')
     parser.add_argument('--record', type=Path, help='save timestamped frames around each release')
+    parser.add_argument('--extended-vision', action='store_true', help='detect the spawn band, upper corners and watermelons')
+    parser.add_argument('--contact-check', action='store_true', help='block high-confidence spawn-contact game overs')
     parser.add_argument('--state-mode',choices=['current','tracking','physics','both'])
     parser.add_argument('--state-config',type=Path,default=Path('artifacts/state-estimation/frozen.json'))
     parser.add_argument('--rollout-mode',choices=['fixed','adaptive'])
@@ -535,6 +734,10 @@ if __name__ == '__main__':
     parser.add_argument('--strategy', choices=['sample','planning','hybrid','lookahead','robust'], default='sample')
     parser.add_argument('--action-seed', type=int, default=32833)
     args = parser.parse_args()
+    if args.contact_check and not args.extended_vision:
+        parser.error('--contact-check requires --extended-vision')
+    if args.contact_check and args.strategy != 'robust':
+        parser.error('--contact-check is implemented for the robust planner')
     if args.vision_workers < 1:
         parser.error('--vision-workers must be positive')
     if sum(map(bool,(args.rollout_mode,args.afterstate_checkpoint,args.state_mode))) > 1:

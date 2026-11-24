@@ -44,10 +44,14 @@ def simulate(observation, candidates, offsets, shifts):
     return values, risks
 
 
-def choose(observation, log_probability, random, shortlist=SHORTLIST):
+def choose(observation, log_probability, random, shortlist=SHORTLIST, allowed=None):
     physics = drop_values(observation)
     nominal = physics + WEIGHT*log_probability
-    candidates = np.argsort(-nominal, kind='stable')[:shortlist]
+    order = np.argsort(-nominal, kind='stable')
+    if allowed is not None:
+        # Spawn-contact gate: shortlist only permitted actions; random draws are unchanged.
+        order = order[np.asarray(allowed, bool)[order]]
+    candidates = order[:shortlist]
     offsets = random.uniform(-1, 1, (3, SLOTS, 2))*np.array([4., 5.])
     shifts = random.uniform(-1, 1, (3, 3))*np.array([6., .025, .045])
     offsets = np.concatenate((np.zeros((1,SLOTS,2)), offsets, -offsets))
